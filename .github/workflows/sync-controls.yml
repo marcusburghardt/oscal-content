@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
    inputs:
       cac-reference:
-        description: Compliance as Code git reference
+        description: ComplianceAsCode git reference
         required: true
         default: 'master'
       policy-id:
