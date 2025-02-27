@@ -1,0 +1,64 @@
+name: CaC to OSCAL Control Models
+on:
+  workflow_dispatch:
+   inputs:
+      cac-reference:
+        description: ComplianceAsCode git reference
+        required: true
+        default: 'master'
+      policy-id:
+        required: true
+        description: Name of CaC control policy to process
+      product:
+        required: true
+        description: Name of CaC product to process
+
+permissions: read-all
+
+jobs:
+  update-controls:
+    name: Update control data
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    container:
+      image: quay.io/continuouscompliance/trestle-bot:dev-main-0ceeb01
+    steps:
+      - name: Clone
+        uses: actions/checkout@v4
+        with:
+          path: complytime-content
+      - name: Checkout CaC repo
+        uses: actions/checkout@v4
+        with:
+          repository: ComplianceAsCode/content
+          ref: ${{ github.event.inputs.cac-reference }}
+          path: content
+      - name: Update catalog
+        working-directory: ./complytime-content
+        env:
+          POLICY: ${{ github.event.inputs.policy-id }}
+          ACTOR: ${{ github.actor }}
+        run: |
+          trestlebot sync-cac-content catalog \
+          --cac-content-root "$GITHUB_WORKSPACE/content" \
+          --policy-id "$POLICY" \
+          --oscal-catalog "$POLICY" \
+          --author-name="$ACTOR" \
+          --author-email="$ACTOR@users.noreply.github.com" \
+          --file-patterns="catalogs/*"
+      - name: Update profile
+        working-directory: ./complytime-content
+        env:
+          POLICY: ${{ github.event.inputs.policy-id }}
+          PRODUCT:  ${{ github.event.inputs.product}}
+          ACTOR: ${{ github.actor }}
+        run: |
+          trestlebot sync-cac-content profile \
+          --cac-content-root "$GITHUB_WORKSPACE/content" \
+          --policy-id "$POLICY" \
+          --oscal-catalog "$POLICY" \
+          --product "$PRODUCT" \
+          --author-name="$ACTOR" \
+          --author-email="$ACTOR@users.noreply.github.com" \
+          --file-patterns="profiles/*"

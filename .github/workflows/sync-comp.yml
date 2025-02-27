@@ -1,0 +1,62 @@
+name: CaC to OSCAL Component Definition
+on:
+  workflow_dispatch:
+   inputs:
+      cac-reference:
+        description: 'ComplianceAsCode git reference'
+        required: true
+        default: 'master'
+      oscal-profile:
+        required: true
+        description: Name of profile in trestle workspace to be imported into the component definition
+      product:
+        required: true
+        description: Name of the product in CaC content to process
+      cac-profile-id:
+        required: true
+        description: Profile ID under product in CaC content to process
+      component-type:
+        required: false
+        default: "software"
+        description: Type of component definition (defaults to "software")
+
+permissions: read-all
+
+jobs:
+  update-component:
+    name: Create component definition
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    container:
+      image: quay.io/continuouscompliance/trestle-bot:dev-main-0ceeb01
+    steps:
+      - name: Clone
+        uses: actions/checkout@v4
+        with:
+          path: complytime-content
+      - name: Checkout CaC repo
+        uses: actions/checkout@v4
+        with:
+          repository: ComplianceAsCode/content
+          ref: ${{ github.event.inputs.cac-reference }}
+          path: content
+      - name: Update component definition
+        working-directory: ./complytime-content
+        env: 
+          OSCAL_PROFILE: ${{ github.event.inputs.oscal-profile }}
+          PRODUCT:  ${{ github.event.inputs.product}}
+          CAC_PROFILE: ${{ github.event.inputs.cac-profile-id }}
+          TYPE: ${{ github.event.inputs.component-type }}
+          CAC_CONTENT_ROOT: ${{ github.workspace }}/content
+          ACTOR: ${{ github.actor }}
+        run: |
+          trestlebot sync-cac-content component-definition \
+          --cac-content-root "$CAC_CONTENT_ROOT" \
+          --cac-profile "$CAC_CONTENT_ROOT/products/$PRODUCT/profiles/$CAC_PROFILE.profile" \
+          --oscal-profile $OSCAL_PROFILE \
+          --product "$PRODUCT" \
+          --component-definition-type "$TYPE" \
+          --author-name="$ACTOR" \
+          --author-email="$ACTOR@users.noreply.github.com" \
+          --file-patterns="component-definitions/*"
