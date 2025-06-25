@@ -3,9 +3,16 @@ permissions:
   contents: write
   pull-requests: read
 on:
-  push:
-    branches:
-      - main
+#  push:
+#    branches:
+#      - main
+  # The sync-oscal-content CLI could change the format of controls and profiles.
+  # It's hard to review for CAC reviewers. The story CPLYTM-652 could help to
+  # improve the pain point. To aviod the noise in the early stage, the trigger
+  # event is changed to workflow_dispatch.
+  # trigger.
+  # https://github.com/ComplianceAsCode/content/pull/13617#issuecomment-3000489965
+  workflow_dispatch:
 
 jobs:
   sync-oscal-content-update-to-cac:
@@ -96,7 +103,29 @@ jobs:
           cd complyscribe && python3 -m venv venv && source venv/bin/activate
           python3 -m pip install --no-cache-dir "poetry==1.7.1"
           poetry install
-      # Step 8: Sync OSCAL content to CAC content
+      # Step 8: Check if the CAC content branch exists
+      - name: Check if the CAC content branch exists
+        if: ${{ env.CHANGE_FOUND == 'true' }}
+        run: |
+          pr_number="${{ github.event.pull_request.number }}"
+          BRANCH_NAME="sync_oscal_pr$pr_number"
+          cd cac-content
+          branches=$(git branch -r | grep 'origin/sync_oscal' | sed 's/origin\///')
+          exist="false"
+          for branch in $branches; do
+            echo $branch
+            if [[ "$branch" == "$BRANCH_NAME" ]]; then
+              echo "CAC content branch $BRANCH_NAME exists"
+              git fetch --all
+              git checkout -b "sync_oscal_pr$pr_number" origin/sync_oscal_pr$pr_number
+              exist="true"
+              break
+            fi
+          done
+          if [[ "$exist" == "false" ]]; then
+            echo "CAC content branch $BRANCH_NAME doesn't exist"
+          fi
+      # Step 9: Sync OSCAL content to CAC content
       - name: Sync OSCAL content to CAC content
         if: ${{ env.CHANGE_FOUND == 'true' }}
         run: |
@@ -123,7 +152,7 @@ jobs:
               poetry run complyscribe sync-oscal-content component-definition --repo-path ../oscal-content --committer-email "openscap-ci@gmail.com" --committer-name "openscap-ci" --branch "sync_oscal_pr$pr_number" --cac-content-root "$GITHUB_WORKSPACE/cac-content" --product "$product"  --oscal-profile "$profile"
             fi
           done < ../filenames.txt
-      # Step 9: Create PR to CAC content
+      # Step 10: Create PR to CAC content
       - name: Create a Pull Request to OSCAL content
         if: ${{ env.CHANGE_FOUND == 'true' }}
         run: |
