@@ -107,29 +107,18 @@ jobs:
       - name: Check if the CAC content branch exists
         if: ${{ env.CHANGE_FOUND == 'true' }}
         run: |
-          pr_number="${{ github.event.pull_request.number }}"
-          BRANCH_NAME="sync_oscal_pr$pr_number"
+          BRANCH_NAME="sync_oscal_pr${{ env.PR_NUMBER }}"
           cd cac-content
-          branches=$(git branch -r | grep 'origin/sync_oscal' | sed 's/origin\///')
-          exist="false"
-          for branch in $branches; do
-            echo $branch
-            if [[ "$branch" == "$BRANCH_NAME" ]]; then
-              echo "CAC content branch $BRANCH_NAME exists"
-              git fetch --all
-              git checkout -b "sync_oscal_pr$pr_number" origin/sync_oscal_pr$pr_number
-              exist="true"
-              break
-            fi
-          done
-          if [[ "$exist" == "false" ]]; then
+          git fetch --all
+          if git show-ref --verify --quiet refs/remotes/origin/"$BRANCH_NAME"; then
+            git checkout -b "sync_oscal_pr${{ env.PR_NUMBER }}" origin/sync_oscal_pr${{ env.PR_NUMBER }}
+          else
             echo "CAC content branch $BRANCH_NAME doesn't exist"
           fi
       # Step 9: Sync OSCAL content to CAC content
       - name: Sync OSCAL content to CAC content
         if: ${{ env.CHANGE_FOUND == 'true' }}
         run: |
-          pr_number="${{ github.event.pull_request.number }}"
           cat filenames.txt
           cd complyscribe && source venv/bin/activate
           while IFS= read -r line; do
@@ -137,29 +126,30 @@ jobs:
               echo "sync oscal catalogs according to update of $line ..."
               policy_id=$(echo "$line" | cut -f2 -d"/")
               echo "The policy_id is $policy_id"
-              poetry run complyscribe sync-oscal-content catalog --repo-path ../oscal-content --committer-email "openscap-ci@gmail.com" --committer-name "openscap-ci" --branch "sync_oscal_pr$pr_number" --cac-content-root "$GITHUB_WORKSPACE/cac-content" --cac-policy-id "$policy_id"
+              poetry run complyscribe sync-oscal-content catalog --repo-path ../oscal-content --committer-email "openscap-ci@gmail.com" --committer-name "openscap-ci" --branch "sync_oscal_pr${{ env.PR_NUMBER }}" --cac-content-root "$GITHUB_WORKSPACE/cac-content" --cac-policy-id "$policy_id"
             elif [[ "$line" == "profiles"* ]]; then
               echo "sync oscal profiles according to update of $line ..."
               policy_id=$(echo $line | cut -f2 -d"/" | cut -f2 -d"-")
               product=$(echo "$line" | cut -f2 -d"/" | cut -f1 -d"-")
               echo "The policy_id is $policy_id, the product is $product"
-              poetry run complyscribe sync-oscal-content profile --repo-path ../oscal-content --committer-email "openscap-ci@gmail.com" --committer-name "openscap-ci" --branch "sync_oscal_pr$pr_number" --cac-content-root "$GITHUB_WORKSPACE/cac-content" --cac-policy-id "$policy_id" --product "$product"
+              poetry run complyscribe sync-oscal-content profile --repo-path ../oscal-content --committer-email "openscap-ci@gmail.com" --committer-name "openscap-ci" --branch "sync_oscal_pr${{ env.PR_NUMBER }}" --cac-content-root "$GITHUB_WORKSPACE/cac-content" --cac-policy-id "$policy_id" --product "$product"
             elif [[ "$line" == "component-definitions"* ]]; then
               echo "sync oscal component-definitions according to update of $line ..."
               product=$(echo "$line" | cut -f2 -d"/")
               profile=$(echo "$line" | cut -f3 -d"/")
               echo "The product is $product, the profile is $profile"
-              poetry run complyscribe sync-oscal-content component-definition --repo-path ../oscal-content --committer-email "openscap-ci@gmail.com" --committer-name "openscap-ci" --branch "sync_oscal_pr$pr_number" --cac-content-root "$GITHUB_WORKSPACE/cac-content" --product "$product"  --oscal-profile "$profile"
+              poetry run complyscribe sync-oscal-content component-definition --repo-path ../oscal-content --committer-email "openscap-ci@gmail.com" --committer-name "openscap-ci" --branch "sync_oscal_pr${{ env.PR_NUMBER }}" --cac-content-root "$GITHUB_WORKSPACE/cac-content" --product "$product"  --oscal-profile "$profile"
             fi
           done < ../filenames.txt
-      # Step 10: Create PR to CAC content
-      - name: Create a Pull Request to OSCAL content
+      # Step 10: Create PR in CAC content
+      - name: Create a Pull Request in CAC content
         if: ${{ env.CHANGE_FOUND == 'true' }}
         run: |
           cd cac-content
           BRANCH_NAME="sync_oscal_pr${{ env.PR_NUMBER }}"
           OWNER="ComplianceAsCode" 
           REPO="content"
+          OSCAL_PR_URL="https://github.com/$OWNER/oscal-content/pull/${{ env.PR_NUMBER }}"
           if [[ "$(git branch --show-current)" == "$BRANCH_NAME" ]]; then
             # Check if the PR exists
             PR_EXISTS=$(gh pr list --repo $OWNER/$REPO \
@@ -175,11 +165,12 @@ jobs:
               echo "No commits between main and $BRANCH_NAME. Skipping PR creation."
             else
               echo "Creating PR for new branch: $BRANCH_NAME"
+              PR_BODY="This is an auto-generated PR from OSCAL PR [${{ env.PR_NUMBER }}]("$OSCAL_PR_URL")"
               gh pr create --repo $OWNER/$REPO \
                 --title "Auto-generated PR from OSCAL ${{ env.PR_NUMBER }}" \
                 --head "$BRANCH_NAME" \
                 --base "master" \
-                --body "This is an auto-generated PR from OSCAL ${{ env.PR_NUMBER }} updates"
+                --body "${PR_BODY}"
             fi
           else
             echo "No branch $BRANCH_NAME. Skipping PR creation."
