@@ -141,9 +141,36 @@ jobs:
               poetry run complyscribe sync-oscal-content component-definition --repo-path ../oscal-content --committer-email "openscap-ci@gmail.com" --committer-name "openscap-ci" --branch "sync_oscal_pr${{ env.PR_NUMBER }}" --cac-content-root "$GITHUB_WORKSPACE/cac-content" --product "$product"  --oscal-profile "$profile"
             fi
           done < ../filenames.txt
-      # Step 10: Create PR in CAC content
-      - name: Create a Pull Request in CAC content
+      # Step 10: Squash multiple commits
+      - name: Squash multiple commits
         if: ${{ env.CHANGE_FOUND == 'true' }}
+        run: |
+          cd cac-content
+          BRANCH_NAME="sync_oscal_pr${{ env.PR_NUMBER }}"
+          git config user.name "openscap-ci"
+          git config user.email "openscap-ci@gmail.com"
+          echo "PR_SKIP=false" >> $GITHUB_ENV
+          if [ "$(git branch --show-current)" == "$BRANCH_NAME" ]; then
+            SQUASH_COUNT=$(git rev-list --count master..HEAD)
+            if [[ "$SQUASH_COUNT" -eq 0 ]]; then
+              echo "No commit of the branch."
+              echo "PR_SKIP=true" >> $GITHUB_ENV
+            elif [[ "$SQUASH_COUNT" -eq 1 ]]; then
+              echo "::notice::Branch has 1 commit. No squashing needed."
+            else
+              # Call the squash script using the commit count
+              $GITHUB_WORKSPACE/complyscribe/scripts/squash.sh "$SQUASH_COUNT"
+            fi
+          else
+            echo "PR_SKIP=true" >> $GITHUB_ENV
+            echo "No branch $BRANCH_NAME. Skipping squash and create PR."
+          fi
+        shell: bash
+        env:
+          GH_TOKEN: ${{ env.INSTALLATION_TOKEN }}
+      # Step 11: Create PR in CAC content
+      - name: Create a Pull Request in CAC content
+        if: ${{ env.PR_SKIP == 'false' }}
         run: |
           cd cac-content
           BRANCH_NAME="sync_oscal_pr${{ env.PR_NUMBER }}"
