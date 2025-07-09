@@ -33,7 +33,7 @@ This workflow is triggered upon the merge of a pull request containing OSCAL fil
 
 - **Create Upstream PR:** The workflow automatically creates a new pull request in the ComplianceAsCode/content repository.
 
-As a recent example of a successful [run](https://github.com/ComplianceAsCode/oscal-content/actions/runs/15841883094/job/44656004616), the PR [#33](https://github.com/ComplianceAsCode/oscal-content/pull/33) triggered this workflow, generated a ComplianceAsCode/content PR [#13617](https://github.com/ComplianceAsCode/content/pull/13617) to contribute the changes back to CAC.
+As a recent example of a successful [run](https://github.com/ComplianceAsCode/oscal-content/actions/runs/16161128581/job/45612912892), the PR [#49](https://github.com/ComplianceAsCode/oscal-content/pull/49) triggered this workflow, generated a ComplianceAsCode/content PR [#13680](https://github.com/ComplianceAsCode/content/pull/13680) to contribute the changes back to CAC.
 
 ## Tooling
 We utilize ComplyScribe to help author and manage the OSCAL content, ensuring it adheres to the required standards and formats.
