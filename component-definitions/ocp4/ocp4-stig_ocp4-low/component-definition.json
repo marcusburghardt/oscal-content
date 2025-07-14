@@ -1,15 +1,15 @@
 {
   "component-definition": {
-    "uuid": "665ab49d-fd64-42d9-80c2-ff66695d6fa5",
+    "uuid": "9160c694-b897-4e60-9254-bcdb33dc9dbc",
     "metadata": {
       "title": "Component definition for ocp4",
-      "last-modified": "2025-07-14T12:20:58.793155+08:00",
-      "version": "3.3",
+      "last-modified": "2025-07-14T12:22:10.507654+08:00",
+      "version": "2.1",
       "oscal-version": "1.1.3"
     },
     "components": [
       {
-        "uuid": "3cee3a7b-dbdd-417e-b15b-828dd479f91f",
+        "uuid": "e5d265d5-434e-450c-92ca-ef5a81fe684d",
         "type": "service",
         "title": "ocp4",
         "description": "Red Hat OpenShift Container Platform 4",
@@ -8225,8 +8225,8 @@
         ],
         "control-implementations": [
           {
-            "uuid": "081014c7-b53c-4604-a322-300e10242ec8",
-            "source": "trestle://profiles/ocp4-stig_ocp4-high/profile.json",
+            "uuid": "82fb3088-2898-461b-8fa6-1d92f8df783a",
+            "source": "trestle://profiles/ocp4-stig_ocp4-low/profile.json",
             "description": "REPLACE_ME",
             "props": [
               {
@@ -8251,8 +8251,8 @@
             ],
             "implemented-requirements": [
               {
-                "uuid": "ae1202d2-b7f1-4299-b1d9-3e6e1cd879dd",
-                "control-id": "cntr-os.000090",
+                "uuid": "5070c6e5-6876-413f-a380-1b46d7d71da9",
+                "control-id": "cntr-os.000130",
                 "description": "REPLACE_ME",
                 "props": [
                   {
@@ -8263,13 +8263,28 @@
                   {
                     "name": "Rule_Id",
                     "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
-                    "value": "rbac_least_privilege"
+                    "value": "classification_banner"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "oauth_login_template_set"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "oauth_provider_selection_set"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "openshift_motd_exists"
                   }
                 ]
               },
               {
-                "uuid": "c007591f-c380-4e36-a25c-8bd22d0d3928",
-                "control-id": "cntr-os.000170",
+                "uuid": "8e9091a9-35c8-4e11-9f17-e3f23da2d699",
+                "control-id": "cntr-os.000650",
                 "description": "REPLACE_ME",
                 "props": [
                   {
@@ -8280,28 +8295,13 @@
                   {
                     "name": "Rule_Id",
                     "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
-                    "value": "audit_log_forwarding_enabled"
-                  },
-                  {
-                    "name": "Rule_Id",
-                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
-                    "value": "cluster_logging_operator_exist"
-                  },
-                  {
-                    "name": "Rule_Id",
-                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
-                    "value": "coreos_audit_backlog_limit_kernel_argument"
-                  },
-                  {
-                    "name": "Rule_Id",
-                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
-                    "value": "coreos_audit_option"
+                    "value": "oauth_logout_url_set"
                   }
                 ]
               },
               {
-                "uuid": "ed17f941-5b9f-4efc-bab4-5de0c8f18381",
-                "control-id": "cntr-os.000400",
+                "uuid": "7c1ffaa5-430d-4cbb-b9b8-76be2a852ef3",
+                "control-id": "cntr-os.000670",
                 "description": "REPLACE_ME",
                 "props": [
                   {
@@ -8312,136 +8312,22 @@
                   {
                     "name": "Rule_Id",
                     "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
-                    "value": "oauth_or_oauthclient_inactivity_timeout"
+                    "value": "auditd_data_disk_error_action"
                   },
                   {
                     "name": "Rule_Id",
                     "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
-                    "value": "sshd_disable_root_login"
-                  }
-                ]
-              },
-              {
-                "uuid": "1255fe95-dab5-4421-9b49-0b1df7c6ff59",
-                "control-id": "cntr-os.000460",
-                "description": "REPLACE_ME",
-                "props": [
-                  {
-                    "name": "implementation-status",
-                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
-                    "value": "not-applicable",
-                    "remarks": "Satisfies SRG-APP-000172-CTR-000440, SRG-APP-000024-CTR-000060, SRG-APP-000025-CTR-000065, SRG-APP-000065-CTR-000115, SRG-APP-000151-CTR-000365, SRG-APP-000152-CTR-000370, SRG-APP-000157-CTR-000385, SRG-APP-000163-CTR-000395, SRG-APP-000164-CTR-000400, SRG-APP-000165-CTR-000405, SRG-APP-000166-CTR-000410, SRG-APP-000167-CTR-000415, SRG-APP-000168-CTR-000420, SRG-APP-000169-CTR-000425, SRG-APP-000170-CTR-000430, SRG-APP-000171-CTR-000435, SRG-APP-000173-CTR-000445, SRG-APP-000174-CTR-000450, SRG-APP-000177-CTR-000465, SRG-APP-000317-CTR-000735, SRG-APP-000318-CTR-000740, SRG-APP-000345-CTR-000785, SRG-APP-000391-CTR-000935, SRG-APP-000397-CTR-000955, SRG-APP-000401-CTR-000965, SRG-APP-000402-CTR-000970"
-                  }
-                ]
-              },
-              {
-                "uuid": "904f3214-c17f-47cb-8df4-aced258af7be",
-                "control-id": "cntr-os.000510",
-                "description": "REPLACE_ME",
-                "props": [
-                  {
-                    "name": "implementation-status",
-                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
-                    "value": "implemented"
+                    "value": "auditd_data_retention_max_log_file_action_stig"
                   },
                   {
                     "name": "Rule_Id",
                     "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
-                    "value": "audit_log_forwarding_uses_tls"
+                    "value": "auditd_log_format"
                   },
                   {
                     "name": "Rule_Id",
                     "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
-                    "value": "fips_mode_enabled_on_all_nodes"
-                  }
-                ]
-              },
-              {
-                "uuid": "d4b7f59c-57ad-4846-8f79-8898888667c1",
-                "control-id": "cntr-os.000660",
-                "description": "REPLACE_ME",
-                "props": [
-                  {
-                    "name": "implementation-status",
-                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
-                    "value": "implemented"
-                  },
-                  {
-                    "name": "Rule_Id",
-                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
-                    "value": "scc_limit_host_dir_volume_plugin"
-                  },
-                  {
-                    "name": "Rule_Id",
-                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
-                    "value": "scc_limit_host_ports"
-                  },
-                  {
-                    "name": "Rule_Id",
-                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
-                    "value": "scc_limit_ipc_namespace"
-                  },
-                  {
-                    "name": "Rule_Id",
-                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
-                    "value": "scc_limit_network_namespace"
-                  },
-                  {
-                    "name": "Rule_Id",
-                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
-                    "value": "scc_limit_privileged_containers"
-                  },
-                  {
-                    "name": "Rule_Id",
-                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
-                    "value": "scc_limit_process_id_namespace"
-                  },
-                  {
-                    "name": "Rule_Id",
-                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
-                    "value": "scc_limit_root_containers"
-                  }
-                ]
-              },
-              {
-                "uuid": "e55c290f-37b5-45d0-8e91-f83678ac685b",
-                "control-id": "cntr-os.001010",
-                "description": "REPLACE_ME",
-                "props": [
-                  {
-                    "name": "implementation-status",
-                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
-                    "value": "implemented"
-                  },
-                  {
-                    "name": "Rule_Id",
-                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
-                    "value": "configure_usbguard_auditbackend"
-                  },
-                  {
-                    "name": "Rule_Id",
-                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
-                    "value": "kernel_module_usb-storage_disabled"
-                  },
-                  {
-                    "name": "Rule_Id",
-                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
-                    "value": "package_usbguard_installed"
-                  },
-                  {
-                    "name": "Rule_Id",
-                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
-                    "value": "service_sshd_disabled"
-                  },
-                  {
-                    "name": "Rule_Id",
-                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
-                    "value": "service_usbguard_enabled"
-                  },
-                  {
-                    "name": "Rule_Id",
-                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
-                    "value": "usbguard_allow_hid_and_hub"
+                    "value": "partition_for_var_log_audit"
                   }
                 ]
               }
@@ -8450,7 +8336,7 @@
         ]
       },
       {
-        "uuid": "f9a6f480-b56a-4953-8aa4-75f40637f068",
+        "uuid": "0b5e2364-b520-44e2-a92d-36461afb8462",
         "type": "validation",
         "title": "openscap",
         "description": "openscap",
@@ -18718,8 +18604,8 @@
         ],
         "control-implementations": [
           {
-            "uuid": "100027bf-f0b1-465a-bcbd-0d191095a483",
-            "source": "trestle://profiles/ocp4-stig_ocp4-high/profile.json",
+            "uuid": "ea579042-e176-409b-9e20-517103ac16c3",
+            "source": "trestle://profiles/ocp4-stig_ocp4-low/profile.json",
             "description": "REPLACE_ME",
             "props": [
               {
@@ -18744,8 +18630,8 @@
             ],
             "implemented-requirements": [
               {
-                "uuid": "6b6e4e54-d505-4249-b975-d84113c74cff",
-                "control-id": "cntr-os.000090",
+                "uuid": "880c2b66-cbee-4327-b97b-e1a2407d69fe",
+                "control-id": "cntr-os.000130",
                 "description": "REPLACE_ME",
                 "props": [
                   {
@@ -18756,13 +18642,28 @@
                   {
                     "name": "Rule_Id",
                     "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
-                    "value": "rbac_least_privilege"
+                    "value": "classification_banner"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "oauth_login_template_set"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "oauth_provider_selection_set"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "openshift_motd_exists"
                   }
                 ]
               },
               {
-                "uuid": "3e4cc43e-6fe5-4080-b6d9-08ab62666ed7",
-                "control-id": "cntr-os.000170",
+                "uuid": "78034b92-09b0-401e-a51b-e7c44651e5b5",
+                "control-id": "cntr-os.000650",
                 "description": "REPLACE_ME",
                 "props": [
                   {
@@ -18773,28 +18674,13 @@
                   {
                     "name": "Rule_Id",
                     "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
-                    "value": "audit_log_forwarding_enabled"
-                  },
-                  {
-                    "name": "Rule_Id",
-                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
-                    "value": "cluster_logging_operator_exist"
-                  },
-                  {
-                    "name": "Rule_Id",
-                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
-                    "value": "coreos_audit_backlog_limit_kernel_argument"
-                  },
-                  {
-                    "name": "Rule_Id",
-                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
-                    "value": "coreos_audit_option"
+                    "value": "oauth_logout_url_set"
                   }
                 ]
               },
               {
-                "uuid": "b79645c9-9bcc-4aba-adc5-734f7774f617",
-                "control-id": "cntr-os.000400",
+                "uuid": "2335ffea-f830-4a80-9530-945a214e61a8",
+                "control-id": "cntr-os.000670",
                 "description": "REPLACE_ME",
                 "props": [
                   {
@@ -18805,136 +18691,22 @@
                   {
                     "name": "Rule_Id",
                     "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
-                    "value": "oauth_or_oauthclient_inactivity_timeout"
+                    "value": "auditd_data_disk_error_action"
                   },
                   {
                     "name": "Rule_Id",
                     "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
-                    "value": "sshd_disable_root_login"
-                  }
-                ]
-              },
-              {
-                "uuid": "fcf1e80b-79f1-41b9-8433-ab7099d7c498",
-                "control-id": "cntr-os.000460",
-                "description": "REPLACE_ME",
-                "props": [
-                  {
-                    "name": "implementation-status",
-                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
-                    "value": "not-applicable",
-                    "remarks": "Satisfies SRG-APP-000172-CTR-000440, SRG-APP-000024-CTR-000060, SRG-APP-000025-CTR-000065, SRG-APP-000065-CTR-000115, SRG-APP-000151-CTR-000365, SRG-APP-000152-CTR-000370, SRG-APP-000157-CTR-000385, SRG-APP-000163-CTR-000395, SRG-APP-000164-CTR-000400, SRG-APP-000165-CTR-000405, SRG-APP-000166-CTR-000410, SRG-APP-000167-CTR-000415, SRG-APP-000168-CTR-000420, SRG-APP-000169-CTR-000425, SRG-APP-000170-CTR-000430, SRG-APP-000171-CTR-000435, SRG-APP-000173-CTR-000445, SRG-APP-000174-CTR-000450, SRG-APP-000177-CTR-000465, SRG-APP-000317-CTR-000735, SRG-APP-000318-CTR-000740, SRG-APP-000345-CTR-000785, SRG-APP-000391-CTR-000935, SRG-APP-000397-CTR-000955, SRG-APP-000401-CTR-000965, SRG-APP-000402-CTR-000970"
-                  }
-                ]
-              },
-              {
-                "uuid": "d8fd03f0-fc5b-45b3-bea9-d22322b36216",
-                "control-id": "cntr-os.000510",
-                "description": "REPLACE_ME",
-                "props": [
-                  {
-                    "name": "implementation-status",
-                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
-                    "value": "implemented"
+                    "value": "auditd_data_retention_max_log_file_action_stig"
                   },
                   {
                     "name": "Rule_Id",
                     "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
-                    "value": "audit_log_forwarding_uses_tls"
+                    "value": "auditd_log_format"
                   },
                   {
                     "name": "Rule_Id",
                     "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
-                    "value": "fips_mode_enabled_on_all_nodes"
-                  }
-                ]
-              },
-              {
-                "uuid": "83e68598-4fb3-4344-851c-31938653fe95",
-                "control-id": "cntr-os.000660",
-                "description": "REPLACE_ME",
-                "props": [
-                  {
-                    "name": "implementation-status",
-                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
-                    "value": "implemented"
-                  },
-                  {
-                    "name": "Rule_Id",
-                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
-                    "value": "scc_limit_host_dir_volume_plugin"
-                  },
-                  {
-                    "name": "Rule_Id",
-                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
-                    "value": "scc_limit_host_ports"
-                  },
-                  {
-                    "name": "Rule_Id",
-                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
-                    "value": "scc_limit_ipc_namespace"
-                  },
-                  {
-                    "name": "Rule_Id",
-                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
-                    "value": "scc_limit_network_namespace"
-                  },
-                  {
-                    "name": "Rule_Id",
-                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
-                    "value": "scc_limit_privileged_containers"
-                  },
-                  {
-                    "name": "Rule_Id",
-                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
-                    "value": "scc_limit_process_id_namespace"
-                  },
-                  {
-                    "name": "Rule_Id",
-                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
-                    "value": "scc_limit_root_containers"
-                  }
-                ]
-              },
-              {
-                "uuid": "97976e08-bde2-475c-955f-f00102993c25",
-                "control-id": "cntr-os.001010",
-                "description": "REPLACE_ME",
-                "props": [
-                  {
-                    "name": "implementation-status",
-                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
-                    "value": "implemented"
-                  },
-                  {
-                    "name": "Rule_Id",
-                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
-                    "value": "configure_usbguard_auditbackend"
-                  },
-                  {
-                    "name": "Rule_Id",
-                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
-                    "value": "kernel_module_usb-storage_disabled"
-                  },
-                  {
-                    "name": "Rule_Id",
-                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
-                    "value": "package_usbguard_installed"
-                  },
-                  {
-                    "name": "Rule_Id",
-                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
-                    "value": "service_sshd_disabled"
-                  },
-                  {
-                    "name": "Rule_Id",
-                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
-                    "value": "service_usbguard_enabled"
-                  },
-                  {
-                    "name": "Rule_Id",
-                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
-                    "value": "usbguard_allow_hid_and_hub"
+                    "value": "partition_for_var_log_audit"
                   }
                 ]
               }

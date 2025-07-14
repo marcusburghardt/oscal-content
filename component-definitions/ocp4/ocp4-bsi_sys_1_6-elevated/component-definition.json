@@ -1,15 +1,15 @@
 {
   "component-definition": {
-    "uuid": "36283abc-9db5-47f9-8fb9-ee1ce3896c39",
+    "uuid": "367a18b5-660b-4ce9-a1e8-64abdc647786",
     "metadata": {
       "title": "Component definition for ocp4",
-      "last-modified": "2025-07-14T11:58:52.302144+08:00",
-      "version": "1.7",
+      "last-modified": "2025-07-14T11:59:49.258073+08:00",
+      "version": "1.3",
       "oscal-version": "1.1.3"
     },
     "components": [
       {
-        "uuid": "18693bd2-585c-468c-9beb-8c4425fb2a51",
+        "uuid": "3bde7730-64bd-4360-ba25-c33855be7f1e",
         "type": "service",
         "title": "ocp4",
         "description": "Red Hat OpenShift Container Platform 4",
@@ -1301,8 +1301,8 @@
         ],
         "control-implementations": [
           {
-            "uuid": "c6da42b8-ad9e-48ec-bc8e-2e5359973635",
-            "source": "trestle://profiles/ocp4-bsi_sys_1_6-basic/profile.json",
+            "uuid": "840d529a-934a-4aae-bc4b-35b5bf0f5898",
+            "source": "trestle://profiles/ocp4-bsi_sys_1_6-elevated/profile.json",
             "description": "REPLACE_ME",
             "props": [
               {
@@ -1313,7 +1313,7 @@
             ],
             "implemented-requirements": [
               {
-                "uuid": "6426fa48-4c69-4dcf-943e-46111076313f",
+                "uuid": "80ee5a2d-4b8f-40f4-bc7b-08e89f8922f6",
                 "control-id": "sys-1.6.a1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -1326,7 +1326,7 @@
                 ]
               },
               {
-                "uuid": "c344a0b6-8015-462f-ac90-17cc16f1343b",
+                "uuid": "3159d614-bf7e-4da3-a973-f2c20dd603a3",
                 "control-id": "sys-1.6.a2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -1339,7 +1339,7 @@
                 ]
               },
               {
-                "uuid": "4e8abad7-aba5-4396-851b-0fd931c2c1ba",
+                "uuid": "c72dfe61-800a-47e3-b24d-6ba8e3159225",
                 "control-id": "sys-1.6.a3",
                 "description": "Section 1: This requirement must be implemented organizationally. Note: This requirement is actively supported by OpenShift. For example, OpenShift does not allow applications with fixed UID/GID settings as standard; on the contrary, these IDs are assigned dynamically (security-by-design). The behavior can be adjusted by administrators, for example for system tasks.\nSection 2: This requirement must be implemented organizationally. Note: OpenShift supports the requirements through strict client separation based on a “Project” (an extension to the Kubernetes namespace). The containers are separated from each other and from the host system via cgroups using SELinux. As long as all applications run “restricted” in the Security Context Constraint (SCC), OpenShift maintains strict client separation.\nSection 3: This requirement must be implemented organizationally. OpenShift supports this requirement by leveraging SELinux with its cgroups to create the container sandbox.\nSection 4: This requirement must be implemented organizationally.\nSection 5: This requirement must be implemented organizationally. Note: OpenShift supports different network infrastructures via the CNI plugin interface (e.g. OVN-Kubernetes, OpenShift-SDN, hardware networks etc.) OVN-Kubernetes, hardware networks etc.) The underlying network is abstracted by the network model in Openshift and usage is consistent across containers. This allows OpenShift to uniformly implement network security features such as: Firewall rules over network policies.\nSection 6: This requirement must be implemented organizationally. Note: OpenShift provides fine-grained metrics for external capacity management via monitoring.\nSection 7: OpenShift offers automated checks for the availability and health of an application. If the LivenessProbe (Health) repeatedly receives a negative result or is not reachable, the affected pod with the container is restarted. Using ReadinessProbe, a container can control whether it is ready to accept HTTP(S) based requests or not. Note: Monitoring is considered in APP.4.4.A11.",
                 "props": [
@@ -1386,7 +1386,7 @@
                 ]
               },
               {
-                "uuid": "04c965ef-2988-4838-96d1-e7119f2cb500",
+                "uuid": "25a5180f-9fce-4cee-8247-f970b09f8c7e",
                 "control-id": "sys-1.6.a4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -1399,7 +1399,7 @@
                 ]
               },
               {
-                "uuid": "483e1a48-e3df-4439-9d71-6b580a08ab86",
+                "uuid": "f4ea41e6-b3f8-4681-a136-0288e2ad865e",
                 "control-id": "sys-1.6.a5",
                 "description": "Section 1: Hosts and containers are controlled via the Kubernetes API. This is addressed via api. The load balancer used for this is located in the administration network. The load balancer for *.apps. is set up separately in the active network. This means that the administration is appropriately separated. The Console (the OpenShift web UI) is used by all users. Authorization takes place at the API level and is secured via RBAC. The control plane is to be located in an administration network.\nSection 2: The web UI can be configured on another router that is terminated on the administration load balancer and is therefore only accessible from the administration network. This means that it can no longer be reached from the active network.\nSection 3: This is a standard OpenShift feature. The OpenShift documentation contains the necessary communication paths between control plane, infrastructure and worker nodes, as well as the necessary firewall activations of the underlying network stack at hardware or IaaS level. The communication between containers or pods within a client (“Project”) is not restricted by default, but can be regulated with micro-segmentation if necessary or as a service mesh with mTLS authentication be implemented (see APP.4.4.A18).\nExternally exposed services can receive their own IP and thus data traffic can also be separated outside the platform. Inter-node communication is carried out via suitable tunnel protocols (VXLAN, GENEVE) and can also be encrypted using IPSec.",
                 "props": [
@@ -1431,7 +1431,7 @@
                 ]
               },
               {
-                "uuid": "4ad2ba6a-2869-4e81-a822-7f2d23890963",
+                "uuid": "b89210d4-cfce-4e8f-9b81-e022f09a2e29",
                 "control-id": "sys-1.6.a6",
                 "description": "Section 1: This requirement must be implemented organizationally. Note: OpenShift supports the requirement by allowing only certain sources. This allows the sources from which images come to be restricted and new sources to be added in a controlled process. Quay can also be used to provide your own registry in an open environment as a trustworthy delivery point for external software. Images can also be checked for vulnerabilities here.\nSection 2: This requirement must be implemented organizationally. Note: OpenShift makes it possible to verify the signatures of images before use and thus enforce the identification requirement. Red Hat Advanced Cluster Security for Kubernetes (ACS) can check and optionally enforce signatures as well as certain labels (e.g. MAINTAINER) for images. For images delivered by Red Hat via the official Red Hat Registry, the MAINTAINER label of the container images is always maintained, through which Red Hat can be identified as the creator of the images. Images are also signed with GPG keys.\nSection 3: This requirement must be implemented organizationally. Note: Images from the Red Hat Registry are regularly checked for security vulnerabilities and updated accordingly. The security status of the images is indicated via a health indicator. ACS can perform technical checks through regular scans and report conspicuous containers or containers with identified vulnerabilities, thereby supporting the implementation of the requirement.\nSection 4: This requirement must be implemented organizationally. Note: For discontinued images with appropriate identification (e.g. through labels), policies implemented in ACS can report these violations. ACS also provides policies that report when images have not been scanned for more than 30/60/90 days. However, this means that an image must be built and rolled out at this interval so that the scans during the build process are effective. With a CI/CD pipeline with a high level of automation, this usually does not represent any increased effort.\nSection 5: This requirement must be implemented organizationally. Note: Image-level labels or image tags could be used here.\nSection 6: This requirement must be implemented organizationally for integrated software or self-created software. Note: OpenShift supports Lifecycle Management (OLM) with Operator. Software managed using OLM or Cluster Operator receives updates via the Operator Hub or Cluster Updates. An automated check with automatic or alternatively manual release is possible for this software.",
                 "props": [
@@ -1468,7 +1468,7 @@
                 ]
               },
               {
-                "uuid": "9c25efca-9cc5-4978-8ade-ebd3c3640a1a",
+                "uuid": "a0fe4834-4770-4f92-b88c-4e8e9d67d81d",
                 "control-id": "sys-1.6.a7",
                 "description": "REPLACE_ME",
                 "props": [
@@ -1481,7 +1481,7 @@
                 ]
               },
               {
-                "uuid": "45501e1e-3acc-4ebb-bec5-f27b78997740",
+                "uuid": "da31b5f7-4018-4685-8a5d-040bbe155130",
                 "control-id": "sys-1.6.a8",
                 "description": "Section 1: OpenShift offers secrets that are only available to the containers and the people authorized via RBAC in the tenant or project (client). Section 2: This requirement must be enforced as part of application development. OpenShift offers suitable mechanisms (secrets) with encryption of the etcd store if necessary. Section 3: OpenShift offers corresponding mechanisms (secrets). Unless the secrets are dynamically generated, third-party/community tools such as SealedSecrets or HashiCorp Vault can help securely deploy the secrets. Section 4: This requirement must be implemented organizationally. All of this information can and should be managed in Secrets.",
                 "props": [
@@ -1538,7 +1538,407 @@
                 ]
               },
               {
-                "uuid": "b7615a8d-6581-4127-b922-cc36c6c6896a",
+                "uuid": "c0f48146-7ca6-49bb-9265-ed24f06c2dcb",
+                "control-id": "sys-1.6.a9",
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "alternative",
+                    "remarks": "Section 1: This requirement must be implemented organizationally. Section 2: This requirement must be implemented organizationally and be part of the application development process. Section 3: This requirement must be implemented organizationally and suppliers must be contractually obliged to comply."
+                  }
+                ]
+              },
+              {
+                "uuid": "384c0268-2c0e-45c3-b118-56983f5c5ce8",
+                "control-id": "sys-1.6.a10",
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "alternative",
+                    "remarks": "These requirements must be implemented organizationally."
+                  }
+                ]
+              },
+              {
+                "uuid": "28b32fff-16b0-43be-bd11-d43b8f7b1546",
+                "control-id": "sys-1.6.a11",
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "alternative",
+                    "remarks": "This requirement must be implemented organizationally."
+                  }
+                ]
+              },
+              {
+                "uuid": "025140b8-c764-45c4-8d04-ff3044b2c348",
+                "control-id": "sys-1.6.a12",
+                "description": "Section 1: The source of images can be restricted by configuring the allowed registries. In addition, this requirement must be implemented organizationally. Section 2: This requirement must be implemented organizationally. Section 3: This requirement is solved using image labels. Red Hat Images contain the labels io.k8s.description, summary, vender, version, url, vcs-ref and vcs-type, through which the delivered images are transparent in their function and history. For internal images, the existence of the labels can be ensured during application development. The existence of the corresponding labels can be ensured via ACS. Section 4: OpenShift can be configured to assign a digital signature to each approved registry. OpenShift then only executes images from this registry that are secured using this signature.",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "partial"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "ocp_allowed_registries"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "ocp_allowed_registries_for_import"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "reject_unsigned_images_by_default"
+                  }
+                ]
+              },
+              {
+                "uuid": "bd005cdf-b5ac-47c0-b114-73fa88e80b04",
+                "control-id": "sys-1.6.a13",
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "alternative",
+                    "remarks": "This requirement must be solved organizationally. Note: OpenShift offers various CI/CD solutions that can be used for automation. OpenShift Pipelines (Tekton-based) and traditional Jenkins are available directly in OpenShift. If the user uses gitlab-ci or github Actions, the runners can be executed in OpenShift. If the release process contains specific artifacts such as if you require SBOMs or the ability to statically analyze Dockerfiles, Quay and ACS can provide the necessary functionality."
+                  }
+                ]
+              },
+              {
+                "uuid": "bcd5b2f2-a56e-4083-a085-2499e3a76f93",
+                "control-id": "sys-1.6.a14",
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "alternative",
+                    "remarks": "Section 1: This requirement must be solved organizationally. Best practices use multiple environments (either separate clusters or multiple namespaces on a cluster) to support this process and enable automated testing (e.g. via OpenShift Pipelines or Jenkins ). Section 2: “Persistent” containers contradict the cloud native principle and do not represent “good practice”. There is also a contradiction with APP.4.4.A21 “Regular restart of pods”. Accordingly, OpenShift does not support updates at the container level. Changes to the container image always result in the pod stopping and a new pod being restarted. With the recommended use of GitOps, this is a reprovisioning of the changed elements and also documents the status of the application at a given point in time. Due to the high level of automation, this usually does not represent any increased effort."
+                  }
+                ]
+              },
+              {
+                "uuid": "bafa9713-2ccb-436e-ba66-a5d3d86a627d",
+                "control-id": "sys-1.6.a15",
+                "description": "Section 1: OpenShift supports the configuration of quotas for a project (client). Applications can have their resources appropriately limited using limits/requests. Network bandwidth is limited at the pod level and can be determined separately according to incoming and outgoing network bandwidth. In addition, outgoing traffic (egress) can be marked at the namespace level with differentiated services code point (DSCP) classifications in order to assign quality of service classes to the outgoing packets in the physical network. Section 2: This requirement must be implemented organizationally. Note: The behavior of OpenShift completely replicates the standard behavior of Kubernetes. If CPU limits are exceeded, the process is slowed down. If volatile memory is exceeded, the process is stopped and restarted by the scheduler. The persistent memory management is responsible for exceeding the persistent memory - OpenShift will not enforce or limit anything here. Compliance with the limited network bandwidth is enforced by dropping packets that exceed the limit.",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "implemented"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "project_config_and_template_resource_quota"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "project_template_resource_quota"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "resource_requests_limits_in_daemonset"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "resource_requests_limits_in_deployment"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "resource_requests_limits_in_statefulset"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "resource_requests_quota"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "resource_requests_quota_cluster"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "resource_requests_quota_per_project"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "configure_network_bandwidth"
+                  }
+                ]
+              },
+              {
+                "uuid": "da7a3c57-6cd7-466a-9745-2afff1aa6a1c",
+                "control-id": "sys-1.6.a16",
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "alternative",
+                    "remarks": "Section 1: Application containers can only access administrative services remotely. Privileged containers can gain access to the host, the host's file system, or the host's network. This is necessary, for example, for the infrastructure services of OpenShift (ingress router). Normal applications (application containers) may not receive such permissions.\nSection 2: This requirement must be partially implemented organizationally and should be part of the guideline defined in SYS.1.6.A10. There may be exceptions for applications that should/need to make configurations to Kubernetes resources. This means they have administrative remote access to the corresponding Kubernetes resources. Remote access is controlled by Kubernetes and backup takes place via the Kubernetes functionalities (see module APP.4.4). The operating system including Mandatory Access Control is optimized as a runtime environment for Kubernetes. In general, it is possible to limit the provision/post-installation of remote access programs in the container. Also the container runtime security tools can detect, alert and remediate, if remote access daemon processes such as SSHD are running in a container.\nSection 3: This requirement should also be included in the policy described in SYS.1.6.A10. OpenShift only allows access to the configured ports. A container that provides remote maintenance access to these ports may not be released. Application containers should be administered exclusively via the container runtime. Using a policy, known remote access ports (e.g. 22, RDP, etc.) can be reported via ACS and their use prevented.\nSection 4: This is standard in OpenShift environments. OpenShift offers a terminal login via the oc administration tool. Communication runs via the control plane to the container and is both authenticated and authorized."
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_drop_container_capabilities"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_container_allowed_capabilities"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_host_dir_volume_plugin"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_host_ports"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_ipc_namespace"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_net_raw_capability"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_network_namespace"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_privilege_escalation"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_privileged_containers"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_process_id_namespace"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_root_containers"
+                  }
+                ]
+              },
+              {
+                "uuid": "f09da72b-411f-42d9-9c8e-aa17a43d65fb",
+                "control-id": "sys-1.6.a17",
+                "description": "Section 1: With OpenShift, application containers run in the Security Context Constraint (SCC) “restricted” by default. Section 2: OpenShift supports encapsulation by using SELinux. If necessary, entire nodes can also be encapsulated via underlying virtualization. This is always necessary when application containers require extended security context constraints (SCCs). With the sandbox function based on Kata Containers, OpenShift provides a convenient way to isolate containers using virtualization technology. Section 3: OpenShift offers several SCC to restrict access to the network, file system or the host itself. This should only be allowed for administrative applications such as SIEM scanners or other infrastructure services that require access to the host. These SCCs should never be given to application containers. Section 4: These exceptions must be documented in the operational documentation. A list of pods with the corresponding SCC annotation can serve as the basis for the documentation.",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "partial"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_drop_container_capabilities"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_container_allowed_capabilities"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_host_dir_volume_plugin"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_host_ports"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_ipc_namespace"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_net_raw_capability"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_network_namespace"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_privilege_escalation"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_privileged_containers"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_process_id_namespace"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_root_containers"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "sandboxed_containers_operator_exists"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "sandboxed_containers_operator_configured"
+                  }
+                ]
+              },
+              {
+                "uuid": "264881f9-17b4-4ba6-8ff3-aa26d6f12881",
+                "control-id": "sys-1.6.a18",
+                "description": "Section 1: With OpenShift, accounts within the container are separated from the host system by SELinux. This includes preventing the use of privileged user and group IDs as well as corresponding rights extensions (SET-UID, Set-GID bit). A range of UIDs/GIDs is provided for use in containers.\nSection 2: Security Context Constraints (SCCs) allow accounts in the container to gain controlled access.\nSection 3: The host system Red Hat CoreOS is immutable. The changes to the host operating system should only be made by OpenShift and should be necessary so that hardening by Red Hat is not inadvertently undermined. Since, in contrast to an unprotected container runtime environment, SELinux enforces the separation between the container runtime and the operating system, this mirroring of account names is not necessary.",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "implemented"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "coreos_enable_selinux_kernel_argument"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "selinux_policytype"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "selinux_state"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "general_apply_scc"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_privileged_containers"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_root_containers"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_ipc_namespace"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_process_id_namespace"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_host_dir_volume_plugin"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_net_raw_capability"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_network_namespace"
+                  }
+                ]
+              },
+              {
+                "uuid": "7d69dc9c-5553-41dc-ab2e-7de451a10cae",
+                "control-id": "sys-1.6.a19",
+                "description": "Section 1: Applications can access persistent volumes (PVs) and temporary (ephemeral) storage in OpenShift. Persisted volumes are connected as network storage, ephemeral storage serves primarily as volatile, short-lived mass storage and is allocated within the container file system. This configures which PV can be reached and the use of the ephemeral storage is separated per pod. This means that each pod has its own volatile mass storage. Volumes can be limited in size.\nSection 2: OpenShift implements the principle of least privileges. The definition is made via an explicit configuration at the deployment level.\nSection 3: By default, no local storage is included. For reasons of reliability, this is explicitly not recommended.\nSection 4: The network storage dictates the permissions. OpenShift supports this with the dynamically assigned UID/GID of the projects (clients).",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "implemented"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_host_dir_volume_plugin"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "rbac_least_privilege"
+                  }
+                ]
+              },
+              {
+                "uuid": "c56d9316-bb9d-4204-9806-c2be85b28d35",
+                "control-id": "sys-1.6.a20",
+                "description": "Section 1: OpenShift only maintains the current version of the configuration. It is therefore recommended to use GitOps, in which the configuration is transferred from a git repository to the OpenShift cluster. OpenShift includes OpenShift GitOps (based on the community project ArgoCD), which supports easy implementation of a GitOps-based administration concept.\nSection 2: With a GitOps approach, all changes are documented in git.",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "implemented"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "gitops_operator_exists"
+                  }
+                ]
+              },
+              {
+                "uuid": "4de250d9-d526-44f8-a7f3-4cb24fb71397",
                 "control-id": "sys-1.6.a1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -1551,7 +1951,7 @@
                 ]
               },
               {
-                "uuid": "cf47f6bd-ed42-4c88-8db0-7e88bc43c0db",
+                "uuid": "8806da7c-cd2f-4c31-b6bb-600c6c77141a",
                 "control-id": "sys-1.6.a2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -1564,7 +1964,7 @@
                 ]
               },
               {
-                "uuid": "e78f5cd3-e183-4850-98fd-5a06be85f190",
+                "uuid": "0471a042-19fe-4046-8916-8d24af65e945",
                 "control-id": "sys-1.6.a3",
                 "description": "Section 1: This requirement must be implemented organizationally. Note: This requirement is actively supported by OpenShift. For example, OpenShift does not allow applications with fixed UID/GID settings as standard; on the contrary, these IDs are assigned dynamically (security-by-design). The behavior can be adjusted by administrators, for example for system tasks.\nSection 2: This requirement must be implemented organizationally. Note: OpenShift supports the requirements through strict client separation based on a “Project” (an extension to the Kubernetes namespace). The containers are separated from each other and from the host system via cgroups using SELinux. As long as all applications run “restricted” in the Security Context Constraint (SCC), OpenShift maintains strict client separation.\nSection 3: This requirement must be implemented organizationally. OpenShift supports this requirement by leveraging SELinux with its cgroups to create the container sandbox.\nSection 4: This requirement must be implemented organizationally.\nSection 5: This requirement must be implemented organizationally. Note: OpenShift supports different network infrastructures via the CNI plugin interface (e.g. OVN-Kubernetes, OpenShift-SDN, hardware networks etc.) OVN-Kubernetes, hardware networks etc.) The underlying network is abstracted by the network model in Openshift and usage is consistent across containers. This allows OpenShift to uniformly implement network security features such as: Firewall rules over network policies.\nSection 6: This requirement must be implemented organizationally. Note: OpenShift provides fine-grained metrics for external capacity management via monitoring.\nSection 7: OpenShift offers automated checks for the availability and health of an application. If the LivenessProbe (Health) repeatedly receives a negative result or is not reachable, the affected pod with the container is restarted. Using ReadinessProbe, a container can control whether it is ready to accept HTTP(S) based requests or not. Note: Monitoring is considered in APP.4.4.A11.",
                 "props": [
@@ -1611,7 +2011,7 @@
                 ]
               },
               {
-                "uuid": "9d752bd1-6f6e-4815-8c50-d17084d35ef3",
+                "uuid": "7a3c02a0-73dd-4411-b156-2ed12e24ffff",
                 "control-id": "sys-1.6.a4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -1624,7 +2024,7 @@
                 ]
               },
               {
-                "uuid": "81b287c5-df77-495a-99df-50e786085317",
+                "uuid": "f029378a-39f8-4a91-b495-e1b3f806fcda",
                 "control-id": "sys-1.6.a5",
                 "description": "Section 1: Hosts and containers are controlled via the Kubernetes API. This is addressed via api. The load balancer used for this is located in the administration network. The load balancer for *.apps. is set up separately in the active network. This means that the administration is appropriately separated. The Console (the OpenShift web UI) is used by all users. Authorization takes place at the API level and is secured via RBAC. The control plane is to be located in an administration network.\nSection 2: The web UI can be configured on another router that is terminated on the administration load balancer and is therefore only accessible from the administration network. This means that it can no longer be reached from the active network.\nSection 3: This is a standard OpenShift feature. The OpenShift documentation contains the necessary communication paths between control plane, infrastructure and worker nodes, as well as the necessary firewall activations of the underlying network stack at hardware or IaaS level. The communication between containers or pods within a client (“Project”) is not restricted by default, but can be regulated with micro-segmentation if necessary or as a service mesh with mTLS authentication be implemented (see APP.4.4.A18).\nExternally exposed services can receive their own IP and thus data traffic can also be separated outside the platform. Inter-node communication is carried out via suitable tunnel protocols (VXLAN, GENEVE) and can also be encrypted using IPSec.",
                 "props": [
@@ -1656,7 +2056,7 @@
                 ]
               },
               {
-                "uuid": "e01fb2b5-c3f9-4167-98d2-bc6772235ac3",
+                "uuid": "83717908-0b70-4856-983f-595b4bd71919",
                 "control-id": "sys-1.6.a6",
                 "description": "Section 1: This requirement must be implemented organizationally. Note: OpenShift supports the requirement by allowing only certain sources. This allows the sources from which images come to be restricted and new sources to be added in a controlled process. Quay can also be used to provide your own registry in an open environment as a trustworthy delivery point for external software. Images can also be checked for vulnerabilities here.\nSection 2: This requirement must be implemented organizationally. Note: OpenShift makes it possible to verify the signatures of images before use and thus enforce the identification requirement. Red Hat Advanced Cluster Security for Kubernetes (ACS) can check and optionally enforce signatures as well as certain labels (e.g. MAINTAINER) for images. For images delivered by Red Hat via the official Red Hat Registry, the MAINTAINER label of the container images is always maintained, through which Red Hat can be identified as the creator of the images. Images are also signed with GPG keys.\nSection 3: This requirement must be implemented organizationally. Note: Images from the Red Hat Registry are regularly checked for security vulnerabilities and updated accordingly. The security status of the images is indicated via a health indicator. ACS can perform technical checks through regular scans and report conspicuous containers or containers with identified vulnerabilities, thereby supporting the implementation of the requirement.\nSection 4: This requirement must be implemented organizationally. Note: For discontinued images with appropriate identification (e.g. through labels), policies implemented in ACS can report these violations. ACS also provides policies that report when images have not been scanned for more than 30/60/90 days. However, this means that an image must be built and rolled out at this interval so that the scans during the build process are effective. With a CI/CD pipeline with a high level of automation, this usually does not represent any increased effort.\nSection 5: This requirement must be implemented organizationally. Note: Image-level labels or image tags could be used here.\nSection 6: This requirement must be implemented organizationally for integrated software or self-created software. Note: OpenShift supports Lifecycle Management (OLM) with Operator. Software managed using OLM or Cluster Operator receives updates via the Operator Hub or Cluster Updates. An automated check with automatic or alternatively manual release is possible for this software.",
                 "props": [
@@ -1693,7 +2093,7 @@
                 ]
               },
               {
-                "uuid": "d6feaa74-0e97-454a-b8a5-db925668f75c",
+                "uuid": "9597cd5a-2d4f-4d47-a7c0-ae50508d984b",
                 "control-id": "sys-1.6.a7",
                 "description": "REPLACE_ME",
                 "props": [
@@ -1706,7 +2106,7 @@
                 ]
               },
               {
-                "uuid": "170d3ca0-b731-4a8c-960c-7c005fd2a186",
+                "uuid": "dbf492eb-41d0-4603-8b75-de595864901a",
                 "control-id": "sys-1.6.a8",
                 "description": "Section 1: OpenShift offers secrets that are only available to the containers and the people authorized via RBAC in the tenant or project (client). Section 2: This requirement must be enforced as part of application development. OpenShift offers suitable mechanisms (secrets) with encryption of the etcd store if necessary. Section 3: OpenShift offers corresponding mechanisms (secrets). Unless the secrets are dynamically generated, third-party/community tools such as SealedSecrets or HashiCorp Vault can help securely deploy the secrets. Section 4: This requirement must be implemented organizationally. All of this information can and should be managed in Secrets.",
                 "props": [
@@ -1763,7 +2163,574 @@
                 ]
               },
               {
-                "uuid": "8e3d4944-aff7-42ac-863d-bb3c8017beb2",
+                "uuid": "c173baa6-18d3-4f71-9997-1dac7317d4e4",
+                "control-id": "sys-1.6.a21",
+                "description": "Section 1: By default, OpenShift blocks the containers' permissions (security-by-default).\nSection 2: OpenShift already uses SELinux Mandatory Access Control to restrict permissions by default Using the Security Profiles Operator, workload-dependent SELinux and Seccomp profiles can be created and managed.\nSection 3: These permissions are managed in OpenShift and controlled via Security Context Constraints (SCCs). For tool-based policy management, ACS or Red Hat Advanced Cluster Management (ACM) (with Kyverno or Open Policy Agent) can be used.\nSection 4: OpenShift already meets this requirement as standard (security-by-design).",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "implemented"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "coreos_enable_selinux_kernel_argument"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "selinux_policytype"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "selinux_state"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "general_apply_scc"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_privileged_containers"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_root_containers"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_ipc_namespace"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_process_id_namespace"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_host_dir_volume_plugin"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_net_raw_capability"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_network_namespace"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "configure_network_policies"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "configure_network_policies_namespaces"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "service_firewalld_enabled"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "security_profiles_operator_exists"
+                  }
+                ]
+              },
+              {
+                "uuid": "d563c07f-0067-48cc-bc0a-cc3780383bdd",
+                "control-id": "sys-1.6.a22",
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "alternative",
+                    "remarks": "The OpenShift container runtime environment used does not provide a function for creating a memory image of a running container.\nThe running containers can be listed and different parameters can be queried and saved for them.  Further data (such as running processes) can be queried via the host. Using the operating system,  memory dumps (core dump) or file system data (ephemeral and persistent) can also be backed up.\nTo fully address the requirement and automatically capture an image of a container based on rules, one needs to utilize an additional 3rd Party solution."
+                  }
+                ]
+              },
+              {
+                "uuid": "ed0ff0d7-2056-44e7-a82c-9945da128f56",
+                "control-id": "sys-1.6.a23",
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "alternative",
+                    "remarks": "Section 1: This requirement must be implemented organizationally. Note: By default, Red Hat recommends building containers so that the runtime UID does not have write  permissions in the container. If the file system is changed (e.g. for a file system-based cache), this change will be lost when you restart, as the unchangeable image will be loaded again.\nSection 2: By default, local file systems are not mounted in containers. Containers access PVs that are  integrated via OpenShift. Alternatively, ephemeral volumes can be used as volatile storage. The requirement to mount file systems without write permissions must be implemented organizationally: - The container's root file system can be restricted to ReadOnly via the SecurityContext. - Every container's VolumeMount can be specified as read only."
+                  }
+                ]
+              },
+              {
+                "uuid": "0f196bcf-ecca-4f23-bb7f-c9cc3d5f2a8f",
+                "control-id": "sys-1.6.a24",
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "alternative",
+                    "remarks": "The requirement is not met by OpenShift itself but requires the implementation of additional  container runtime security solutions such as Red Hat Advanced Cluster Security (ACS).\nNote: At the host level, Red Hat CoreOS supports auditd, which is enabled by default.  Policies for auditd can include network connections, created processes, file accesses and syscalls.  Red Hat CoreOS provides many sample policies that cover all of the areas described."
+                  }
+                ]
+              },
+              {
+                "uuid": "0111c834-d039-4a91-b706-7b7f77684536",
+                "control-id": "sys-1.6.a25",
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "alternative",
+                    "remarks": "OpenShift offers multiple technical options by default (replicas, pod anti-affinities, topology spread constraints). The applications needs to support this high availability. Clusters can also be distributed across multiple fire zones (failure zones) within a region/location. Multi-Cluster/Multi-Region distribution can be considered additionally, if required.\nThe decision of the most appropriate level needs to be done organizationally per application. No rules are checked here, as no required level of high availability is stated in the requirement. Note: Technical checks for this can be found at APP.4.4.A19: \"High Availability of Kubernetes\""
+                  }
+                ]
+              },
+              {
+                "uuid": "1e217ca5-4836-404f-b3bf-52e0a04b0525",
+                "control-id": "sys-1.6.a26",
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "alternative",
+                    "remarks": "Section 1,2,4: OpenShift offers the option of binding containers (in pods) to specific nodes using node labels and node selectors in the deployment descriptors. Section 3: These can also be made available as virtual machines via hypervisors (via IaaS or via OpenShift Sandboxes). This implements all three assignments mentioned in the requirement."
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "general_node_separation"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "sandboxed_containers_operator_exists"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "sandboxed_containers_operator_configured"
+                  }
+                ]
+              },
+              {
+                "uuid": "fc96f42c-98ba-4952-8993-8879cd978d16",
+                "control-id": "sys-1.6.a9",
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "alternative",
+                    "remarks": "Section 1: This requirement must be implemented organizationally. Section 2: This requirement must be implemented organizationally and be part of the application development process. Section 3: This requirement must be implemented organizationally and suppliers must be contractually obliged to comply."
+                  }
+                ]
+              },
+              {
+                "uuid": "cbe7b069-f730-4da0-aca1-c2f7a19f855d",
+                "control-id": "sys-1.6.a10",
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "alternative",
+                    "remarks": "These requirements must be implemented organizationally."
+                  }
+                ]
+              },
+              {
+                "uuid": "f2102e2b-5fea-43e7-9223-c74c31177255",
+                "control-id": "sys-1.6.a11",
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "alternative",
+                    "remarks": "This requirement must be implemented organizationally."
+                  }
+                ]
+              },
+              {
+                "uuid": "81038719-62b4-4350-a99f-9123c19cb548",
+                "control-id": "sys-1.6.a12",
+                "description": "Section 1: The source of images can be restricted by configuring the allowed registries. In addition, this requirement must be implemented organizationally. Section 2: This requirement must be implemented organizationally. Section 3: This requirement is solved using image labels. Red Hat Images contain the labels io.k8s.description, summary, vender, version, url, vcs-ref and vcs-type, through which the delivered images are transparent in their function and history. For internal images, the existence of the labels can be ensured during application development. The existence of the corresponding labels can be ensured via ACS. Section 4: OpenShift can be configured to assign a digital signature to each approved registry. OpenShift then only executes images from this registry that are secured using this signature.",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "partial"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "ocp_allowed_registries"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "ocp_allowed_registries_for_import"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "reject_unsigned_images_by_default"
+                  }
+                ]
+              },
+              {
+                "uuid": "ec6f39c1-3428-4e63-b278-9f392146f994",
+                "control-id": "sys-1.6.a13",
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "alternative",
+                    "remarks": "This requirement must be solved organizationally. Note: OpenShift offers various CI/CD solutions that can be used for automation. OpenShift Pipelines (Tekton-based) and traditional Jenkins are available directly in OpenShift. If the user uses gitlab-ci or github Actions, the runners can be executed in OpenShift. If the release process contains specific artifacts such as if you require SBOMs or the ability to statically analyze Dockerfiles, Quay and ACS can provide the necessary functionality."
+                  }
+                ]
+              },
+              {
+                "uuid": "b6f83a0b-30a2-446d-8c28-5b79a7811f73",
+                "control-id": "sys-1.6.a14",
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "alternative",
+                    "remarks": "Section 1: This requirement must be solved organizationally. Best practices use multiple environments (either separate clusters or multiple namespaces on a cluster) to support this process and enable automated testing (e.g. via OpenShift Pipelines or Jenkins ). Section 2: “Persistent” containers contradict the cloud native principle and do not represent “good practice”. There is also a contradiction with APP.4.4.A21 “Regular restart of pods”. Accordingly, OpenShift does not support updates at the container level. Changes to the container image always result in the pod stopping and a new pod being restarted. With the recommended use of GitOps, this is a reprovisioning of the changed elements and also documents the status of the application at a given point in time. Due to the high level of automation, this usually does not represent any increased effort."
+                  }
+                ]
+              },
+              {
+                "uuid": "79b8cae7-fa38-46a7-b5c3-cb98fd5fb5c0",
+                "control-id": "sys-1.6.a15",
+                "description": "Section 1: OpenShift supports the configuration of quotas for a project (client). Applications can have their resources appropriately limited using limits/requests. Network bandwidth is limited at the pod level and can be determined separately according to incoming and outgoing network bandwidth. In addition, outgoing traffic (egress) can be marked at the namespace level with differentiated services code point (DSCP) classifications in order to assign quality of service classes to the outgoing packets in the physical network. Section 2: This requirement must be implemented organizationally. Note: The behavior of OpenShift completely replicates the standard behavior of Kubernetes. If CPU limits are exceeded, the process is slowed down. If volatile memory is exceeded, the process is stopped and restarted by the scheduler. The persistent memory management is responsible for exceeding the persistent memory - OpenShift will not enforce or limit anything here. Compliance with the limited network bandwidth is enforced by dropping packets that exceed the limit.",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "implemented"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "project_config_and_template_resource_quota"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "project_template_resource_quota"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "resource_requests_limits_in_daemonset"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "resource_requests_limits_in_deployment"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "resource_requests_limits_in_statefulset"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "resource_requests_quota"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "resource_requests_quota_cluster"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "resource_requests_quota_per_project"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "configure_network_bandwidth"
+                  }
+                ]
+              },
+              {
+                "uuid": "51859574-1ea9-4073-b4a4-ed0818707e02",
+                "control-id": "sys-1.6.a16",
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "alternative",
+                    "remarks": "Section 1: Application containers can only access administrative services remotely. Privileged containers can gain access to the host, the host's file system, or the host's network. This is necessary, for example, for the infrastructure services of OpenShift (ingress router). Normal applications (application containers) may not receive such permissions.\nSection 2: This requirement must be partially implemented organizationally and should be part of the guideline defined in SYS.1.6.A10. There may be exceptions for applications that should/need to make configurations to Kubernetes resources. This means they have administrative remote access to the corresponding Kubernetes resources. Remote access is controlled by Kubernetes and backup takes place via the Kubernetes functionalities (see module APP.4.4). The operating system including Mandatory Access Control is optimized as a runtime environment for Kubernetes. In general, it is possible to limit the provision/post-installation of remote access programs in the container. Also the container runtime security tools can detect, alert and remediate, if remote access daemon processes such as SSHD are running in a container.\nSection 3: This requirement should also be included in the policy described in SYS.1.6.A10. OpenShift only allows access to the configured ports. A container that provides remote maintenance access to these ports may not be released. Application containers should be administered exclusively via the container runtime. Using a policy, known remote access ports (e.g. 22, RDP, etc.) can be reported via ACS and their use prevented.\nSection 4: This is standard in OpenShift environments. OpenShift offers a terminal login via the oc administration tool. Communication runs via the control plane to the container and is both authenticated and authorized."
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_drop_container_capabilities"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_container_allowed_capabilities"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_host_dir_volume_plugin"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_host_ports"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_ipc_namespace"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_net_raw_capability"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_network_namespace"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_privilege_escalation"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_privileged_containers"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_process_id_namespace"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_root_containers"
+                  }
+                ]
+              },
+              {
+                "uuid": "1ddaf013-696b-4a16-ac99-a0b17e27aedb",
+                "control-id": "sys-1.6.a17",
+                "description": "Section 1: With OpenShift, application containers run in the Security Context Constraint (SCC) “restricted” by default. Section 2: OpenShift supports encapsulation by using SELinux. If necessary, entire nodes can also be encapsulated via underlying virtualization. This is always necessary when application containers require extended security context constraints (SCCs). With the sandbox function based on Kata Containers, OpenShift provides a convenient way to isolate containers using virtualization technology. Section 3: OpenShift offers several SCC to restrict access to the network, file system or the host itself. This should only be allowed for administrative applications such as SIEM scanners or other infrastructure services that require access to the host. These SCCs should never be given to application containers. Section 4: These exceptions must be documented in the operational documentation. A list of pods with the corresponding SCC annotation can serve as the basis for the documentation.",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "partial"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_drop_container_capabilities"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_container_allowed_capabilities"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_host_dir_volume_plugin"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_host_ports"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_ipc_namespace"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_net_raw_capability"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_network_namespace"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_privilege_escalation"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_privileged_containers"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_process_id_namespace"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_root_containers"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "sandboxed_containers_operator_exists"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "sandboxed_containers_operator_configured"
+                  }
+                ]
+              },
+              {
+                "uuid": "16400547-9cf5-4ba5-bd7e-93dcd582fc0f",
+                "control-id": "sys-1.6.a18",
+                "description": "Section 1: With OpenShift, accounts within the container are separated from the host system by SELinux. This includes preventing the use of privileged user and group IDs as well as corresponding rights extensions (SET-UID, Set-GID bit). A range of UIDs/GIDs is provided for use in containers.\nSection 2: Security Context Constraints (SCCs) allow accounts in the container to gain controlled access.\nSection 3: The host system Red Hat CoreOS is immutable. The changes to the host operating system should only be made by OpenShift and should be necessary so that hardening by Red Hat is not inadvertently undermined. Since, in contrast to an unprotected container runtime environment, SELinux enforces the separation between the container runtime and the operating system, this mirroring of account names is not necessary.",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "implemented"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "coreos_enable_selinux_kernel_argument"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "selinux_policytype"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "selinux_state"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "general_apply_scc"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_privileged_containers"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_root_containers"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_ipc_namespace"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_process_id_namespace"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_host_dir_volume_plugin"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_net_raw_capability"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_network_namespace"
+                  }
+                ]
+              },
+              {
+                "uuid": "83231300-680e-48c4-90f3-35b3afaae522",
+                "control-id": "sys-1.6.a19",
+                "description": "Section 1: Applications can access persistent volumes (PVs) and temporary (ephemeral) storage in OpenShift. Persisted volumes are connected as network storage, ephemeral storage serves primarily as volatile, short-lived mass storage and is allocated within the container file system. This configures which PV can be reached and the use of the ephemeral storage is separated per pod. This means that each pod has its own volatile mass storage. Volumes can be limited in size.\nSection 2: OpenShift implements the principle of least privileges. The definition is made via an explicit configuration at the deployment level.\nSection 3: By default, no local storage is included. For reasons of reliability, this is explicitly not recommended.\nSection 4: The network storage dictates the permissions. OpenShift supports this with the dynamically assigned UID/GID of the projects (clients).",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "implemented"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_host_dir_volume_plugin"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "rbac_least_privilege"
+                  }
+                ]
+              },
+              {
+                "uuid": "c439bd55-e63d-4e5a-a844-b4e466d4457a",
+                "control-id": "sys-1.6.a20",
+                "description": "Section 1: OpenShift only maintains the current version of the configuration. It is therefore recommended to use GitOps, in which the configuration is transferred from a git repository to the OpenShift cluster. OpenShift includes OpenShift GitOps (based on the community project ArgoCD), which supports easy implementation of a GitOps-based administration concept.\nSection 2: With a GitOps approach, all changes are documented in git.",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "implemented"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "gitops_operator_exists"
+                  }
+                ]
+              },
+              {
+                "uuid": "b0fcf5d2-f3a4-4dd1-bcfd-69d471ce3faa",
                 "control-id": "sys-1.6.a1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -1776,7 +2743,7 @@
                 ]
               },
               {
-                "uuid": "099c22b8-0a2b-4419-9c92-f847e1c9b5b9",
+                "uuid": "3907999b-fcc8-4ca1-a220-e5381c8502eb",
                 "control-id": "sys-1.6.a2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -1789,7 +2756,7 @@
                 ]
               },
               {
-                "uuid": "66056b98-a236-40a6-8fff-d590e0c2c16f",
+                "uuid": "9c5ab23c-1312-40eb-8711-b7d3d627d4a7",
                 "control-id": "sys-1.6.a3",
                 "description": "Section 1: This requirement must be implemented organizationally. Note: This requirement is actively supported by OpenShift. For example, OpenShift does not allow applications with fixed UID/GID settings as standard; on the contrary, these IDs are assigned dynamically (security-by-design). The behavior can be adjusted by administrators, for example for system tasks.\nSection 2: This requirement must be implemented organizationally. Note: OpenShift supports the requirements through strict client separation based on a “Project” (an extension to the Kubernetes namespace). The containers are separated from each other and from the host system via cgroups using SELinux. As long as all applications run “restricted” in the Security Context Constraint (SCC), OpenShift maintains strict client separation.\nSection 3: This requirement must be implemented organizationally. OpenShift supports this requirement by leveraging SELinux with its cgroups to create the container sandbox.\nSection 4: This requirement must be implemented organizationally.\nSection 5: This requirement must be implemented organizationally. Note: OpenShift supports different network infrastructures via the CNI plugin interface (e.g. OVN-Kubernetes, OpenShift-SDN, hardware networks etc.) OVN-Kubernetes, hardware networks etc.) The underlying network is abstracted by the network model in Openshift and usage is consistent across containers. This allows OpenShift to uniformly implement network security features such as: Firewall rules over network policies.\nSection 6: This requirement must be implemented organizationally. Note: OpenShift provides fine-grained metrics for external capacity management via monitoring.\nSection 7: OpenShift offers automated checks for the availability and health of an application. If the LivenessProbe (Health) repeatedly receives a negative result or is not reachable, the affected pod with the container is restarted. Using ReadinessProbe, a container can control whether it is ready to accept HTTP(S) based requests or not. Note: Monitoring is considered in APP.4.4.A11.",
                 "props": [
@@ -1836,7 +2803,7 @@
                 ]
               },
               {
-                "uuid": "831d6159-b331-43c9-8e3d-3d07b731b727",
+                "uuid": "5ae2caab-f8ef-42dd-9d24-8ed242c59b09",
                 "control-id": "sys-1.6.a4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -1849,7 +2816,7 @@
                 ]
               },
               {
-                "uuid": "afc22821-08eb-4859-8485-e3ed29d22fe3",
+                "uuid": "b9bf59f9-a23b-44a7-a4af-c2b8563347fd",
                 "control-id": "sys-1.6.a5",
                 "description": "Section 1: Hosts and containers are controlled via the Kubernetes API. This is addressed via api. The load balancer used for this is located in the administration network. The load balancer for *.apps. is set up separately in the active network. This means that the administration is appropriately separated. The Console (the OpenShift web UI) is used by all users. Authorization takes place at the API level and is secured via RBAC. The control plane is to be located in an administration network.\nSection 2: The web UI can be configured on another router that is terminated on the administration load balancer and is therefore only accessible from the administration network. This means that it can no longer be reached from the active network.\nSection 3: This is a standard OpenShift feature. The OpenShift documentation contains the necessary communication paths between control plane, infrastructure and worker nodes, as well as the necessary firewall activations of the underlying network stack at hardware or IaaS level. The communication between containers or pods within a client (“Project”) is not restricted by default, but can be regulated with micro-segmentation if necessary or as a service mesh with mTLS authentication be implemented (see APP.4.4.A18).\nExternally exposed services can receive their own IP and thus data traffic can also be separated outside the platform. Inter-node communication is carried out via suitable tunnel protocols (VXLAN, GENEVE) and can also be encrypted using IPSec.",
                 "props": [
@@ -1881,7 +2848,7 @@
                 ]
               },
               {
-                "uuid": "88aa8e90-8f0e-42a7-b0c7-c7fb466a78de",
+                "uuid": "aae1a6b9-3698-4274-ad15-95a1d4bad804",
                 "control-id": "sys-1.6.a6",
                 "description": "Section 1: This requirement must be implemented organizationally. Note: OpenShift supports the requirement by allowing only certain sources. This allows the sources from which images come to be restricted and new sources to be added in a controlled process. Quay can also be used to provide your own registry in an open environment as a trustworthy delivery point for external software. Images can also be checked for vulnerabilities here.\nSection 2: This requirement must be implemented organizationally. Note: OpenShift makes it possible to verify the signatures of images before use and thus enforce the identification requirement. Red Hat Advanced Cluster Security for Kubernetes (ACS) can check and optionally enforce signatures as well as certain labels (e.g. MAINTAINER) for images. For images delivered by Red Hat via the official Red Hat Registry, the MAINTAINER label of the container images is always maintained, through which Red Hat can be identified as the creator of the images. Images are also signed with GPG keys.\nSection 3: This requirement must be implemented organizationally. Note: Images from the Red Hat Registry are regularly checked for security vulnerabilities and updated accordingly. The security status of the images is indicated via a health indicator. ACS can perform technical checks through regular scans and report conspicuous containers or containers with identified vulnerabilities, thereby supporting the implementation of the requirement.\nSection 4: This requirement must be implemented organizationally. Note: For discontinued images with appropriate identification (e.g. through labels), policies implemented in ACS can report these violations. ACS also provides policies that report when images have not been scanned for more than 30/60/90 days. However, this means that an image must be built and rolled out at this interval so that the scans during the build process are effective. With a CI/CD pipeline with a high level of automation, this usually does not represent any increased effort.\nSection 5: This requirement must be implemented organizationally. Note: Image-level labels or image tags could be used here.\nSection 6: This requirement must be implemented organizationally for integrated software or self-created software. Note: OpenShift supports Lifecycle Management (OLM) with Operator. Software managed using OLM or Cluster Operator receives updates via the Operator Hub or Cluster Updates. An automated check with automatic or alternatively manual release is possible for this software.",
                 "props": [
@@ -1918,7 +2885,7 @@
                 ]
               },
               {
-                "uuid": "ca147605-5201-426f-b1a1-531dcc8e5c6c",
+                "uuid": "100a0b1e-e153-48b7-a2e2-c9b6695acdfd",
                 "control-id": "sys-1.6.a7",
                 "description": "REPLACE_ME",
                 "props": [
@@ -1931,7 +2898,7 @@
                 ]
               },
               {
-                "uuid": "b5e6283f-735e-4c8c-8f84-c60890f45d30",
+                "uuid": "8c474355-be33-431b-bd4a-d9c0ff591f21",
                 "control-id": "sys-1.6.a8",
                 "description": "Section 1: OpenShift offers secrets that are only available to the containers and the people authorized via RBAC in the tenant or project (client). Section 2: This requirement must be enforced as part of application development. OpenShift offers suitable mechanisms (secrets) with encryption of the etcd store if necessary. Section 3: OpenShift offers corresponding mechanisms (secrets). Unless the secrets are dynamically generated, third-party/community tools such as SealedSecrets or HashiCorp Vault can help securely deploy the secrets. Section 4: This requirement must be implemented organizationally. All of this information can and should be managed in Secrets.",
                 "props": [
@@ -1992,7 +2959,7 @@
         ]
       },
       {
-        "uuid": "05516dfc-bf70-4352-bb0e-c64233ee6850",
+        "uuid": "efb97200-e005-4fd7-a757-45cef3ce5f7e",
         "type": "validation",
         "title": "openscap",
         "description": "openscap",
@@ -4568,8 +5535,8 @@
         ],
         "control-implementations": [
           {
-            "uuid": "d35a5c82-fd88-4e78-b863-7b8b4490500a",
-            "source": "trestle://profiles/ocp4-bsi_sys_1_6-basic/profile.json",
+            "uuid": "aa42b50c-030b-4698-97b1-dbfa88a4f4fe",
+            "source": "trestle://profiles/ocp4-bsi_sys_1_6-elevated/profile.json",
             "description": "REPLACE_ME",
             "props": [
               {
@@ -4580,7 +5547,7 @@
             ],
             "implemented-requirements": [
               {
-                "uuid": "3f836882-ea25-4122-9164-5ae919c8dc8f",
+                "uuid": "1ac80592-f152-4253-bd24-4bcf38841a9d",
                 "control-id": "sys-1.6.a1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4593,7 +5560,7 @@
                 ]
               },
               {
-                "uuid": "889f78ea-a94d-4554-82c8-601307f5bbdc",
+                "uuid": "008d6af7-a220-480c-9947-829a2698cc4f",
                 "control-id": "sys-1.6.a2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4606,7 +5573,7 @@
                 ]
               },
               {
-                "uuid": "0b5506ff-fbdd-4f29-8822-3e4ac35211d5",
+                "uuid": "ca1a272d-dc76-4ad5-af30-160c258edcf9",
                 "control-id": "sys-1.6.a3",
                 "description": "Section 1: This requirement must be implemented organizationally. Note: This requirement is actively supported by OpenShift. For example, OpenShift does not allow applications with fixed UID/GID settings as standard; on the contrary, these IDs are assigned dynamically (security-by-design). The behavior can be adjusted by administrators, for example for system tasks.\nSection 2: This requirement must be implemented organizationally. Note: OpenShift supports the requirements through strict client separation based on a “Project” (an extension to the Kubernetes namespace). The containers are separated from each other and from the host system via cgroups using SELinux. As long as all applications run “restricted” in the Security Context Constraint (SCC), OpenShift maintains strict client separation.\nSection 3: This requirement must be implemented organizationally. OpenShift supports this requirement by leveraging SELinux with its cgroups to create the container sandbox.\nSection 4: This requirement must be implemented organizationally.\nSection 5: This requirement must be implemented organizationally. Note: OpenShift supports different network infrastructures via the CNI plugin interface (e.g. OVN-Kubernetes, OpenShift-SDN, hardware networks etc.) OVN-Kubernetes, hardware networks etc.) The underlying network is abstracted by the network model in Openshift and usage is consistent across containers. This allows OpenShift to uniformly implement network security features such as: Firewall rules over network policies.\nSection 6: This requirement must be implemented organizationally. Note: OpenShift provides fine-grained metrics for external capacity management via monitoring.\nSection 7: OpenShift offers automated checks for the availability and health of an application. If the LivenessProbe (Health) repeatedly receives a negative result or is not reachable, the affected pod with the container is restarted. Using ReadinessProbe, a container can control whether it is ready to accept HTTP(S) based requests or not. Note: Monitoring is considered in APP.4.4.A11.",
                 "props": [
@@ -4653,7 +5620,7 @@
                 ]
               },
               {
-                "uuid": "de7201fa-9510-44b1-8dbe-97855cc919ae",
+                "uuid": "89f897e6-1e37-4137-a8b8-e1c15c294c25",
                 "control-id": "sys-1.6.a4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4666,7 +5633,7 @@
                 ]
               },
               {
-                "uuid": "1bb07815-0c09-4315-af77-a04a28fb544c",
+                "uuid": "af32a52e-725e-45d9-af99-7a3cdb4dac2b",
                 "control-id": "sys-1.6.a5",
                 "description": "Section 1: Hosts and containers are controlled via the Kubernetes API. This is addressed via api. The load balancer used for this is located in the administration network. The load balancer for *.apps. is set up separately in the active network. This means that the administration is appropriately separated. The Console (the OpenShift web UI) is used by all users. Authorization takes place at the API level and is secured via RBAC. The control plane is to be located in an administration network.\nSection 2: The web UI can be configured on another router that is terminated on the administration load balancer and is therefore only accessible from the administration network. This means that it can no longer be reached from the active network.\nSection 3: This is a standard OpenShift feature. The OpenShift documentation contains the necessary communication paths between control plane, infrastructure and worker nodes, as well as the necessary firewall activations of the underlying network stack at hardware or IaaS level. The communication between containers or pods within a client (“Project”) is not restricted by default, but can be regulated with micro-segmentation if necessary or as a service mesh with mTLS authentication be implemented (see APP.4.4.A18).\nExternally exposed services can receive their own IP and thus data traffic can also be separated outside the platform. Inter-node communication is carried out via suitable tunnel protocols (VXLAN, GENEVE) and can also be encrypted using IPSec.",
                 "props": [
@@ -4698,7 +5665,7 @@
                 ]
               },
               {
-                "uuid": "0fa10532-3bf9-4adf-bd24-c4e8fedd6a09",
+                "uuid": "ef642b59-bdc0-443c-a4e7-3aced7c07fac",
                 "control-id": "sys-1.6.a6",
                 "description": "Section 1: This requirement must be implemented organizationally. Note: OpenShift supports the requirement by allowing only certain sources. This allows the sources from which images come to be restricted and new sources to be added in a controlled process. Quay can also be used to provide your own registry in an open environment as a trustworthy delivery point for external software. Images can also be checked for vulnerabilities here.\nSection 2: This requirement must be implemented organizationally. Note: OpenShift makes it possible to verify the signatures of images before use and thus enforce the identification requirement. Red Hat Advanced Cluster Security for Kubernetes (ACS) can check and optionally enforce signatures as well as certain labels (e.g. MAINTAINER) for images. For images delivered by Red Hat via the official Red Hat Registry, the MAINTAINER label of the container images is always maintained, through which Red Hat can be identified as the creator of the images. Images are also signed with GPG keys.\nSection 3: This requirement must be implemented organizationally. Note: Images from the Red Hat Registry are regularly checked for security vulnerabilities and updated accordingly. The security status of the images is indicated via a health indicator. ACS can perform technical checks through regular scans and report conspicuous containers or containers with identified vulnerabilities, thereby supporting the implementation of the requirement.\nSection 4: This requirement must be implemented organizationally. Note: For discontinued images with appropriate identification (e.g. through labels), policies implemented in ACS can report these violations. ACS also provides policies that report when images have not been scanned for more than 30/60/90 days. However, this means that an image must be built and rolled out at this interval so that the scans during the build process are effective. With a CI/CD pipeline with a high level of automation, this usually does not represent any increased effort.\nSection 5: This requirement must be implemented organizationally. Note: Image-level labels or image tags could be used here.\nSection 6: This requirement must be implemented organizationally for integrated software or self-created software. Note: OpenShift supports Lifecycle Management (OLM) with Operator. Software managed using OLM or Cluster Operator receives updates via the Operator Hub or Cluster Updates. An automated check with automatic or alternatively manual release is possible for this software.",
                 "props": [
@@ -4735,7 +5702,7 @@
                 ]
               },
               {
-                "uuid": "7a76b788-8c18-4741-be80-eef8bcc7963d",
+                "uuid": "a29c213a-f4ee-4ceb-b663-35bdc750304f",
                 "control-id": "sys-1.6.a7",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4748,7 +5715,7 @@
                 ]
               },
               {
-                "uuid": "dbb8516e-c07a-4fa5-a776-f690189464c1",
+                "uuid": "f9884ba5-8901-4285-bc32-b25ef2a70504",
                 "control-id": "sys-1.6.a8",
                 "description": "Section 1: OpenShift offers secrets that are only available to the containers and the people authorized via RBAC in the tenant or project (client). Section 2: This requirement must be enforced as part of application development. OpenShift offers suitable mechanisms (secrets) with encryption of the etcd store if necessary. Section 3: OpenShift offers corresponding mechanisms (secrets). Unless the secrets are dynamically generated, third-party/community tools such as SealedSecrets or HashiCorp Vault can help securely deploy the secrets. Section 4: This requirement must be implemented organizationally. All of this information can and should be managed in Secrets.",
                 "props": [
@@ -4805,7 +5772,407 @@
                 ]
               },
               {
-                "uuid": "0c19bf43-fe6c-42ef-a644-6fa2c2a74815",
+                "uuid": "a3e0a60d-1cdc-41ee-9766-30a168cf393a",
+                "control-id": "sys-1.6.a9",
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "alternative",
+                    "remarks": "Section 1: This requirement must be implemented organizationally. Section 2: This requirement must be implemented organizationally and be part of the application development process. Section 3: This requirement must be implemented organizationally and suppliers must be contractually obliged to comply."
+                  }
+                ]
+              },
+              {
+                "uuid": "3a113b14-09d8-4db9-a859-81fe186ced82",
+                "control-id": "sys-1.6.a10",
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "alternative",
+                    "remarks": "These requirements must be implemented organizationally."
+                  }
+                ]
+              },
+              {
+                "uuid": "2d0b72e1-3787-4dba-bf93-5b415b83b324",
+                "control-id": "sys-1.6.a11",
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "alternative",
+                    "remarks": "This requirement must be implemented organizationally."
+                  }
+                ]
+              },
+              {
+                "uuid": "83e3af11-b3ce-47eb-99b7-7181e61ba342",
+                "control-id": "sys-1.6.a12",
+                "description": "Section 1: The source of images can be restricted by configuring the allowed registries. In addition, this requirement must be implemented organizationally. Section 2: This requirement must be implemented organizationally. Section 3: This requirement is solved using image labels. Red Hat Images contain the labels io.k8s.description, summary, vender, version, url, vcs-ref and vcs-type, through which the delivered images are transparent in their function and history. For internal images, the existence of the labels can be ensured during application development. The existence of the corresponding labels can be ensured via ACS. Section 4: OpenShift can be configured to assign a digital signature to each approved registry. OpenShift then only executes images from this registry that are secured using this signature.",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "partial"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "ocp_allowed_registries"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "ocp_allowed_registries_for_import"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "reject_unsigned_images_by_default"
+                  }
+                ]
+              },
+              {
+                "uuid": "b23e0e02-fb52-4a33-9675-2a8ce3ece823",
+                "control-id": "sys-1.6.a13",
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "alternative",
+                    "remarks": "This requirement must be solved organizationally. Note: OpenShift offers various CI/CD solutions that can be used for automation. OpenShift Pipelines (Tekton-based) and traditional Jenkins are available directly in OpenShift. If the user uses gitlab-ci or github Actions, the runners can be executed in OpenShift. If the release process contains specific artifacts such as if you require SBOMs or the ability to statically analyze Dockerfiles, Quay and ACS can provide the necessary functionality."
+                  }
+                ]
+              },
+              {
+                "uuid": "9168958f-24f4-47f3-b042-366b03d932a9",
+                "control-id": "sys-1.6.a14",
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "alternative",
+                    "remarks": "Section 1: This requirement must be solved organizationally. Best practices use multiple environments (either separate clusters or multiple namespaces on a cluster) to support this process and enable automated testing (e.g. via OpenShift Pipelines or Jenkins ). Section 2: “Persistent” containers contradict the cloud native principle and do not represent “good practice”. There is also a contradiction with APP.4.4.A21 “Regular restart of pods”. Accordingly, OpenShift does not support updates at the container level. Changes to the container image always result in the pod stopping and a new pod being restarted. With the recommended use of GitOps, this is a reprovisioning of the changed elements and also documents the status of the application at a given point in time. Due to the high level of automation, this usually does not represent any increased effort."
+                  }
+                ]
+              },
+              {
+                "uuid": "6b83094e-4f60-4bc2-bae6-70e65175098e",
+                "control-id": "sys-1.6.a15",
+                "description": "Section 1: OpenShift supports the configuration of quotas for a project (client). Applications can have their resources appropriately limited using limits/requests. Network bandwidth is limited at the pod level and can be determined separately according to incoming and outgoing network bandwidth. In addition, outgoing traffic (egress) can be marked at the namespace level with differentiated services code point (DSCP) classifications in order to assign quality of service classes to the outgoing packets in the physical network. Section 2: This requirement must be implemented organizationally. Note: The behavior of OpenShift completely replicates the standard behavior of Kubernetes. If CPU limits are exceeded, the process is slowed down. If volatile memory is exceeded, the process is stopped and restarted by the scheduler. The persistent memory management is responsible for exceeding the persistent memory - OpenShift will not enforce or limit anything here. Compliance with the limited network bandwidth is enforced by dropping packets that exceed the limit.",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "implemented"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "project_config_and_template_resource_quota"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "project_template_resource_quota"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "resource_requests_limits_in_daemonset"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "resource_requests_limits_in_deployment"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "resource_requests_limits_in_statefulset"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "resource_requests_quota"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "resource_requests_quota_cluster"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "resource_requests_quota_per_project"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "configure_network_bandwidth"
+                  }
+                ]
+              },
+              {
+                "uuid": "eb220d1e-0fc0-413e-91d2-9470f9d6fbe9",
+                "control-id": "sys-1.6.a16",
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "alternative",
+                    "remarks": "Section 1: Application containers can only access administrative services remotely. Privileged containers can gain access to the host, the host's file system, or the host's network. This is necessary, for example, for the infrastructure services of OpenShift (ingress router). Normal applications (application containers) may not receive such permissions.\nSection 2: This requirement must be partially implemented organizationally and should be part of the guideline defined in SYS.1.6.A10. There may be exceptions for applications that should/need to make configurations to Kubernetes resources. This means they have administrative remote access to the corresponding Kubernetes resources. Remote access is controlled by Kubernetes and backup takes place via the Kubernetes functionalities (see module APP.4.4). The operating system including Mandatory Access Control is optimized as a runtime environment for Kubernetes. In general, it is possible to limit the provision/post-installation of remote access programs in the container. Also the container runtime security tools can detect, alert and remediate, if remote access daemon processes such as SSHD are running in a container.\nSection 3: This requirement should also be included in the policy described in SYS.1.6.A10. OpenShift only allows access to the configured ports. A container that provides remote maintenance access to these ports may not be released. Application containers should be administered exclusively via the container runtime. Using a policy, known remote access ports (e.g. 22, RDP, etc.) can be reported via ACS and their use prevented.\nSection 4: This is standard in OpenShift environments. OpenShift offers a terminal login via the oc administration tool. Communication runs via the control plane to the container and is both authenticated and authorized."
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_drop_container_capabilities"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_container_allowed_capabilities"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_host_dir_volume_plugin"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_host_ports"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_ipc_namespace"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_net_raw_capability"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_network_namespace"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_privilege_escalation"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_privileged_containers"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_process_id_namespace"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_root_containers"
+                  }
+                ]
+              },
+              {
+                "uuid": "fc484eef-a2ab-42be-9233-4cb2d49fd541",
+                "control-id": "sys-1.6.a17",
+                "description": "Section 1: With OpenShift, application containers run in the Security Context Constraint (SCC) “restricted” by default. Section 2: OpenShift supports encapsulation by using SELinux. If necessary, entire nodes can also be encapsulated via underlying virtualization. This is always necessary when application containers require extended security context constraints (SCCs). With the sandbox function based on Kata Containers, OpenShift provides a convenient way to isolate containers using virtualization technology. Section 3: OpenShift offers several SCC to restrict access to the network, file system or the host itself. This should only be allowed for administrative applications such as SIEM scanners or other infrastructure services that require access to the host. These SCCs should never be given to application containers. Section 4: These exceptions must be documented in the operational documentation. A list of pods with the corresponding SCC annotation can serve as the basis for the documentation.",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "partial"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_drop_container_capabilities"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_container_allowed_capabilities"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_host_dir_volume_plugin"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_host_ports"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_ipc_namespace"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_net_raw_capability"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_network_namespace"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_privilege_escalation"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_privileged_containers"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_process_id_namespace"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_root_containers"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "sandboxed_containers_operator_exists"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "sandboxed_containers_operator_configured"
+                  }
+                ]
+              },
+              {
+                "uuid": "79aca520-bb67-47d1-a0be-425c16e07682",
+                "control-id": "sys-1.6.a18",
+                "description": "Section 1: With OpenShift, accounts within the container are separated from the host system by SELinux. This includes preventing the use of privileged user and group IDs as well as corresponding rights extensions (SET-UID, Set-GID bit). A range of UIDs/GIDs is provided for use in containers.\nSection 2: Security Context Constraints (SCCs) allow accounts in the container to gain controlled access.\nSection 3: The host system Red Hat CoreOS is immutable. The changes to the host operating system should only be made by OpenShift and should be necessary so that hardening by Red Hat is not inadvertently undermined. Since, in contrast to an unprotected container runtime environment, SELinux enforces the separation between the container runtime and the operating system, this mirroring of account names is not necessary.",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "implemented"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "coreos_enable_selinux_kernel_argument"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "selinux_policytype"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "selinux_state"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "general_apply_scc"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_privileged_containers"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_root_containers"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_ipc_namespace"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_process_id_namespace"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_host_dir_volume_plugin"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_net_raw_capability"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_network_namespace"
+                  }
+                ]
+              },
+              {
+                "uuid": "9beee029-3e29-45f2-ac85-5f7a6c3489cc",
+                "control-id": "sys-1.6.a19",
+                "description": "Section 1: Applications can access persistent volumes (PVs) and temporary (ephemeral) storage in OpenShift. Persisted volumes are connected as network storage, ephemeral storage serves primarily as volatile, short-lived mass storage and is allocated within the container file system. This configures which PV can be reached and the use of the ephemeral storage is separated per pod. This means that each pod has its own volatile mass storage. Volumes can be limited in size.\nSection 2: OpenShift implements the principle of least privileges. The definition is made via an explicit configuration at the deployment level.\nSection 3: By default, no local storage is included. For reasons of reliability, this is explicitly not recommended.\nSection 4: The network storage dictates the permissions. OpenShift supports this with the dynamically assigned UID/GID of the projects (clients).",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "implemented"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_host_dir_volume_plugin"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "rbac_least_privilege"
+                  }
+                ]
+              },
+              {
+                "uuid": "62cdc680-e94f-4a26-87e1-c4fc48067aef",
+                "control-id": "sys-1.6.a20",
+                "description": "Section 1: OpenShift only maintains the current version of the configuration. It is therefore recommended to use GitOps, in which the configuration is transferred from a git repository to the OpenShift cluster. OpenShift includes OpenShift GitOps (based on the community project ArgoCD), which supports easy implementation of a GitOps-based administration concept.\nSection 2: With a GitOps approach, all changes are documented in git.",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "implemented"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "gitops_operator_exists"
+                  }
+                ]
+              },
+              {
+                "uuid": "76775eae-efd8-43e0-9189-7b7f820fad73",
                 "control-id": "sys-1.6.a1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4818,7 +6185,7 @@
                 ]
               },
               {
-                "uuid": "fd76634e-8068-48f4-95cc-951aeaf13d2a",
+                "uuid": "2880133f-50d6-42d9-ab3d-133419afc19c",
                 "control-id": "sys-1.6.a2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4831,7 +6198,7 @@
                 ]
               },
               {
-                "uuid": "acafc968-308d-462d-8595-4deea3660a9f",
+                "uuid": "7d89c178-d991-4561-97e7-07193ea380fd",
                 "control-id": "sys-1.6.a3",
                 "description": "Section 1: This requirement must be implemented organizationally. Note: This requirement is actively supported by OpenShift. For example, OpenShift does not allow applications with fixed UID/GID settings as standard; on the contrary, these IDs are assigned dynamically (security-by-design). The behavior can be adjusted by administrators, for example for system tasks.\nSection 2: This requirement must be implemented organizationally. Note: OpenShift supports the requirements through strict client separation based on a “Project” (an extension to the Kubernetes namespace). The containers are separated from each other and from the host system via cgroups using SELinux. As long as all applications run “restricted” in the Security Context Constraint (SCC), OpenShift maintains strict client separation.\nSection 3: This requirement must be implemented organizationally. OpenShift supports this requirement by leveraging SELinux with its cgroups to create the container sandbox.\nSection 4: This requirement must be implemented organizationally.\nSection 5: This requirement must be implemented organizationally. Note: OpenShift supports different network infrastructures via the CNI plugin interface (e.g. OVN-Kubernetes, OpenShift-SDN, hardware networks etc.) OVN-Kubernetes, hardware networks etc.) The underlying network is abstracted by the network model in Openshift and usage is consistent across containers. This allows OpenShift to uniformly implement network security features such as: Firewall rules over network policies.\nSection 6: This requirement must be implemented organizationally. Note: OpenShift provides fine-grained metrics for external capacity management via monitoring.\nSection 7: OpenShift offers automated checks for the availability and health of an application. If the LivenessProbe (Health) repeatedly receives a negative result or is not reachable, the affected pod with the container is restarted. Using ReadinessProbe, a container can control whether it is ready to accept HTTP(S) based requests or not. Note: Monitoring is considered in APP.4.4.A11.",
                 "props": [
@@ -4878,7 +6245,7 @@
                 ]
               },
               {
-                "uuid": "489f5840-bf53-49ad-b6c4-c9335c3d366e",
+                "uuid": "ec38d0ef-bd8f-4d71-94d7-349689b67abe",
                 "control-id": "sys-1.6.a4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4891,7 +6258,7 @@
                 ]
               },
               {
-                "uuid": "c8126543-a93d-45f6-935f-9c77210cd478",
+                "uuid": "cd9c5bc9-c20c-40cb-84a2-e243efa0f281",
                 "control-id": "sys-1.6.a5",
                 "description": "Section 1: Hosts and containers are controlled via the Kubernetes API. This is addressed via api. The load balancer used for this is located in the administration network. The load balancer for *.apps. is set up separately in the active network. This means that the administration is appropriately separated. The Console (the OpenShift web UI) is used by all users. Authorization takes place at the API level and is secured via RBAC. The control plane is to be located in an administration network.\nSection 2: The web UI can be configured on another router that is terminated on the administration load balancer and is therefore only accessible from the administration network. This means that it can no longer be reached from the active network.\nSection 3: This is a standard OpenShift feature. The OpenShift documentation contains the necessary communication paths between control plane, infrastructure and worker nodes, as well as the necessary firewall activations of the underlying network stack at hardware or IaaS level. The communication between containers or pods within a client (“Project”) is not restricted by default, but can be regulated with micro-segmentation if necessary or as a service mesh with mTLS authentication be implemented (see APP.4.4.A18).\nExternally exposed services can receive their own IP and thus data traffic can also be separated outside the platform. Inter-node communication is carried out via suitable tunnel protocols (VXLAN, GENEVE) and can also be encrypted using IPSec.",
                 "props": [
@@ -4923,7 +6290,7 @@
                 ]
               },
               {
-                "uuid": "08d7118f-f168-4a7e-baea-4c9826c9f61d",
+                "uuid": "41d28faf-7551-43ad-aa41-78d3fde86b06",
                 "control-id": "sys-1.6.a6",
                 "description": "Section 1: This requirement must be implemented organizationally. Note: OpenShift supports the requirement by allowing only certain sources. This allows the sources from which images come to be restricted and new sources to be added in a controlled process. Quay can also be used to provide your own registry in an open environment as a trustworthy delivery point for external software. Images can also be checked for vulnerabilities here.\nSection 2: This requirement must be implemented organizationally. Note: OpenShift makes it possible to verify the signatures of images before use and thus enforce the identification requirement. Red Hat Advanced Cluster Security for Kubernetes (ACS) can check and optionally enforce signatures as well as certain labels (e.g. MAINTAINER) for images. For images delivered by Red Hat via the official Red Hat Registry, the MAINTAINER label of the container images is always maintained, through which Red Hat can be identified as the creator of the images. Images are also signed with GPG keys.\nSection 3: This requirement must be implemented organizationally. Note: Images from the Red Hat Registry are regularly checked for security vulnerabilities and updated accordingly. The security status of the images is indicated via a health indicator. ACS can perform technical checks through regular scans and report conspicuous containers or containers with identified vulnerabilities, thereby supporting the implementation of the requirement.\nSection 4: This requirement must be implemented organizationally. Note: For discontinued images with appropriate identification (e.g. through labels), policies implemented in ACS can report these violations. ACS also provides policies that report when images have not been scanned for more than 30/60/90 days. However, this means that an image must be built and rolled out at this interval so that the scans during the build process are effective. With a CI/CD pipeline with a high level of automation, this usually does not represent any increased effort.\nSection 5: This requirement must be implemented organizationally. Note: Image-level labels or image tags could be used here.\nSection 6: This requirement must be implemented organizationally for integrated software or self-created software. Note: OpenShift supports Lifecycle Management (OLM) with Operator. Software managed using OLM or Cluster Operator receives updates via the Operator Hub or Cluster Updates. An automated check with automatic or alternatively manual release is possible for this software.",
                 "props": [
@@ -4960,7 +6327,7 @@
                 ]
               },
               {
-                "uuid": "bbab0b0b-d9d3-450e-9470-5a2e0839e670",
+                "uuid": "ce496944-6bc0-4301-a8d4-bcb5ee8c6e53",
                 "control-id": "sys-1.6.a7",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4973,7 +6340,7 @@
                 ]
               },
               {
-                "uuid": "87850ddc-86e6-43b0-bbf2-6f220112c561",
+                "uuid": "46d61522-8710-47a1-a94f-a94180f6e4d5",
                 "control-id": "sys-1.6.a8",
                 "description": "Section 1: OpenShift offers secrets that are only available to the containers and the people authorized via RBAC in the tenant or project (client). Section 2: This requirement must be enforced as part of application development. OpenShift offers suitable mechanisms (secrets) with encryption of the etcd store if necessary. Section 3: OpenShift offers corresponding mechanisms (secrets). Unless the secrets are dynamically generated, third-party/community tools such as SealedSecrets or HashiCorp Vault can help securely deploy the secrets. Section 4: This requirement must be implemented organizationally. All of this information can and should be managed in Secrets.",
                 "props": [
@@ -5030,7 +6397,574 @@
                 ]
               },
               {
-                "uuid": "9333cfbf-1788-4f3c-a882-57963b098f21",
+                "uuid": "0f6dd443-6b91-40d7-9e19-2c45d7e603ce",
+                "control-id": "sys-1.6.a21",
+                "description": "Section 1: By default, OpenShift blocks the containers' permissions (security-by-default).\nSection 2: OpenShift already uses SELinux Mandatory Access Control to restrict permissions by default Using the Security Profiles Operator, workload-dependent SELinux and Seccomp profiles can be created and managed.\nSection 3: These permissions are managed in OpenShift and controlled via Security Context Constraints (SCCs). For tool-based policy management, ACS or Red Hat Advanced Cluster Management (ACM) (with Kyverno or Open Policy Agent) can be used.\nSection 4: OpenShift already meets this requirement as standard (security-by-design).",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "implemented"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "coreos_enable_selinux_kernel_argument"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "selinux_policytype"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "selinux_state"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "general_apply_scc"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_privileged_containers"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_root_containers"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_ipc_namespace"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_process_id_namespace"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_host_dir_volume_plugin"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_net_raw_capability"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_network_namespace"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "configure_network_policies"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "configure_network_policies_namespaces"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "service_firewalld_enabled"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "security_profiles_operator_exists"
+                  }
+                ]
+              },
+              {
+                "uuid": "c2a369ec-188f-4cb3-a925-a0a131f93bd5",
+                "control-id": "sys-1.6.a22",
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "alternative",
+                    "remarks": "The OpenShift container runtime environment used does not provide a function for creating a memory image of a running container.\nThe running containers can be listed and different parameters can be queried and saved for them.  Further data (such as running processes) can be queried via the host. Using the operating system,  memory dumps (core dump) or file system data (ephemeral and persistent) can also be backed up.\nTo fully address the requirement and automatically capture an image of a container based on rules, one needs to utilize an additional 3rd Party solution."
+                  }
+                ]
+              },
+              {
+                "uuid": "1f2bb095-0fc3-4d87-9856-a9fa92060417",
+                "control-id": "sys-1.6.a23",
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "alternative",
+                    "remarks": "Section 1: This requirement must be implemented organizationally. Note: By default, Red Hat recommends building containers so that the runtime UID does not have write  permissions in the container. If the file system is changed (e.g. for a file system-based cache), this change will be lost when you restart, as the unchangeable image will be loaded again.\nSection 2: By default, local file systems are not mounted in containers. Containers access PVs that are  integrated via OpenShift. Alternatively, ephemeral volumes can be used as volatile storage. The requirement to mount file systems without write permissions must be implemented organizationally: - The container's root file system can be restricted to ReadOnly via the SecurityContext. - Every container's VolumeMount can be specified as read only."
+                  }
+                ]
+              },
+              {
+                "uuid": "5b658736-bad0-4495-9c61-f68f1e0c32b6",
+                "control-id": "sys-1.6.a24",
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "alternative",
+                    "remarks": "The requirement is not met by OpenShift itself but requires the implementation of additional  container runtime security solutions such as Red Hat Advanced Cluster Security (ACS).\nNote: At the host level, Red Hat CoreOS supports auditd, which is enabled by default.  Policies for auditd can include network connections, created processes, file accesses and syscalls.  Red Hat CoreOS provides many sample policies that cover all of the areas described."
+                  }
+                ]
+              },
+              {
+                "uuid": "4f1cf5a9-5f89-4869-84b4-31dd62f58b38",
+                "control-id": "sys-1.6.a25",
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "alternative",
+                    "remarks": "OpenShift offers multiple technical options by default (replicas, pod anti-affinities, topology spread constraints). The applications needs to support this high availability. Clusters can also be distributed across multiple fire zones (failure zones) within a region/location. Multi-Cluster/Multi-Region distribution can be considered additionally, if required.\nThe decision of the most appropriate level needs to be done organizationally per application. No rules are checked here, as no required level of high availability is stated in the requirement. Note: Technical checks for this can be found at APP.4.4.A19: \"High Availability of Kubernetes\""
+                  }
+                ]
+              },
+              {
+                "uuid": "3be71d4b-613f-4646-a394-3bfda21aa59f",
+                "control-id": "sys-1.6.a26",
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "alternative",
+                    "remarks": "Section 1,2,4: OpenShift offers the option of binding containers (in pods) to specific nodes using node labels and node selectors in the deployment descriptors. Section 3: These can also be made available as virtual machines via hypervisors (via IaaS or via OpenShift Sandboxes). This implements all three assignments mentioned in the requirement."
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "general_node_separation"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "sandboxed_containers_operator_exists"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "sandboxed_containers_operator_configured"
+                  }
+                ]
+              },
+              {
+                "uuid": "c449669c-2e8c-43c3-99c7-6b84a95cf4f3",
+                "control-id": "sys-1.6.a9",
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "alternative",
+                    "remarks": "Section 1: This requirement must be implemented organizationally. Section 2: This requirement must be implemented organizationally and be part of the application development process. Section 3: This requirement must be implemented organizationally and suppliers must be contractually obliged to comply."
+                  }
+                ]
+              },
+              {
+                "uuid": "9392c67a-9057-4ec6-957e-1f408ba10659",
+                "control-id": "sys-1.6.a10",
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "alternative",
+                    "remarks": "These requirements must be implemented organizationally."
+                  }
+                ]
+              },
+              {
+                "uuid": "36a14682-f8e4-475f-a05c-e97ad03bfdd7",
+                "control-id": "sys-1.6.a11",
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "alternative",
+                    "remarks": "This requirement must be implemented organizationally."
+                  }
+                ]
+              },
+              {
+                "uuid": "5a61424b-5290-4fdf-a73a-d7ad69cccfa4",
+                "control-id": "sys-1.6.a12",
+                "description": "Section 1: The source of images can be restricted by configuring the allowed registries. In addition, this requirement must be implemented organizationally. Section 2: This requirement must be implemented organizationally. Section 3: This requirement is solved using image labels. Red Hat Images contain the labels io.k8s.description, summary, vender, version, url, vcs-ref and vcs-type, through which the delivered images are transparent in their function and history. For internal images, the existence of the labels can be ensured during application development. The existence of the corresponding labels can be ensured via ACS. Section 4: OpenShift can be configured to assign a digital signature to each approved registry. OpenShift then only executes images from this registry that are secured using this signature.",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "partial"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "ocp_allowed_registries"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "ocp_allowed_registries_for_import"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "reject_unsigned_images_by_default"
+                  }
+                ]
+              },
+              {
+                "uuid": "f76aacc6-1f60-45f0-8d25-032047b25e40",
+                "control-id": "sys-1.6.a13",
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "alternative",
+                    "remarks": "This requirement must be solved organizationally. Note: OpenShift offers various CI/CD solutions that can be used for automation. OpenShift Pipelines (Tekton-based) and traditional Jenkins are available directly in OpenShift. If the user uses gitlab-ci or github Actions, the runners can be executed in OpenShift. If the release process contains specific artifacts such as if you require SBOMs or the ability to statically analyze Dockerfiles, Quay and ACS can provide the necessary functionality."
+                  }
+                ]
+              },
+              {
+                "uuid": "541bc9bc-3715-4780-a506-14e5684dd822",
+                "control-id": "sys-1.6.a14",
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "alternative",
+                    "remarks": "Section 1: This requirement must be solved organizationally. Best practices use multiple environments (either separate clusters or multiple namespaces on a cluster) to support this process and enable automated testing (e.g. via OpenShift Pipelines or Jenkins ). Section 2: “Persistent” containers contradict the cloud native principle and do not represent “good practice”. There is also a contradiction with APP.4.4.A21 “Regular restart of pods”. Accordingly, OpenShift does not support updates at the container level. Changes to the container image always result in the pod stopping and a new pod being restarted. With the recommended use of GitOps, this is a reprovisioning of the changed elements and also documents the status of the application at a given point in time. Due to the high level of automation, this usually does not represent any increased effort."
+                  }
+                ]
+              },
+              {
+                "uuid": "2f7fe6d1-dac4-4491-8f14-d06478b96350",
+                "control-id": "sys-1.6.a15",
+                "description": "Section 1: OpenShift supports the configuration of quotas for a project (client). Applications can have their resources appropriately limited using limits/requests. Network bandwidth is limited at the pod level and can be determined separately according to incoming and outgoing network bandwidth. In addition, outgoing traffic (egress) can be marked at the namespace level with differentiated services code point (DSCP) classifications in order to assign quality of service classes to the outgoing packets in the physical network. Section 2: This requirement must be implemented organizationally. Note: The behavior of OpenShift completely replicates the standard behavior of Kubernetes. If CPU limits are exceeded, the process is slowed down. If volatile memory is exceeded, the process is stopped and restarted by the scheduler. The persistent memory management is responsible for exceeding the persistent memory - OpenShift will not enforce or limit anything here. Compliance with the limited network bandwidth is enforced by dropping packets that exceed the limit.",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "implemented"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "project_config_and_template_resource_quota"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "project_template_resource_quota"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "resource_requests_limits_in_daemonset"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "resource_requests_limits_in_deployment"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "resource_requests_limits_in_statefulset"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "resource_requests_quota"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "resource_requests_quota_cluster"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "resource_requests_quota_per_project"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "configure_network_bandwidth"
+                  }
+                ]
+              },
+              {
+                "uuid": "d5c82c41-d6f2-4d6a-a8b9-bbf8bc1297f8",
+                "control-id": "sys-1.6.a16",
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "alternative",
+                    "remarks": "Section 1: Application containers can only access administrative services remotely. Privileged containers can gain access to the host, the host's file system, or the host's network. This is necessary, for example, for the infrastructure services of OpenShift (ingress router). Normal applications (application containers) may not receive such permissions.\nSection 2: This requirement must be partially implemented organizationally and should be part of the guideline defined in SYS.1.6.A10. There may be exceptions for applications that should/need to make configurations to Kubernetes resources. This means they have administrative remote access to the corresponding Kubernetes resources. Remote access is controlled by Kubernetes and backup takes place via the Kubernetes functionalities (see module APP.4.4). The operating system including Mandatory Access Control is optimized as a runtime environment for Kubernetes. In general, it is possible to limit the provision/post-installation of remote access programs in the container. Also the container runtime security tools can detect, alert and remediate, if remote access daemon processes such as SSHD are running in a container.\nSection 3: This requirement should also be included in the policy described in SYS.1.6.A10. OpenShift only allows access to the configured ports. A container that provides remote maintenance access to these ports may not be released. Application containers should be administered exclusively via the container runtime. Using a policy, known remote access ports (e.g. 22, RDP, etc.) can be reported via ACS and their use prevented.\nSection 4: This is standard in OpenShift environments. OpenShift offers a terminal login via the oc administration tool. Communication runs via the control plane to the container and is both authenticated and authorized."
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_drop_container_capabilities"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_container_allowed_capabilities"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_host_dir_volume_plugin"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_host_ports"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_ipc_namespace"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_net_raw_capability"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_network_namespace"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_privilege_escalation"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_privileged_containers"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_process_id_namespace"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_root_containers"
+                  }
+                ]
+              },
+              {
+                "uuid": "3a384443-f41d-4ef9-a42a-8010b4604af2",
+                "control-id": "sys-1.6.a17",
+                "description": "Section 1: With OpenShift, application containers run in the Security Context Constraint (SCC) “restricted” by default. Section 2: OpenShift supports encapsulation by using SELinux. If necessary, entire nodes can also be encapsulated via underlying virtualization. This is always necessary when application containers require extended security context constraints (SCCs). With the sandbox function based on Kata Containers, OpenShift provides a convenient way to isolate containers using virtualization technology. Section 3: OpenShift offers several SCC to restrict access to the network, file system or the host itself. This should only be allowed for administrative applications such as SIEM scanners or other infrastructure services that require access to the host. These SCCs should never be given to application containers. Section 4: These exceptions must be documented in the operational documentation. A list of pods with the corresponding SCC annotation can serve as the basis for the documentation.",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "partial"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_drop_container_capabilities"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_container_allowed_capabilities"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_host_dir_volume_plugin"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_host_ports"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_ipc_namespace"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_net_raw_capability"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_network_namespace"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_privilege_escalation"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_privileged_containers"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_process_id_namespace"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_root_containers"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "sandboxed_containers_operator_exists"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "sandboxed_containers_operator_configured"
+                  }
+                ]
+              },
+              {
+                "uuid": "5f10e087-9ec5-46bf-aa69-3590a663dc94",
+                "control-id": "sys-1.6.a18",
+                "description": "Section 1: With OpenShift, accounts within the container are separated from the host system by SELinux. This includes preventing the use of privileged user and group IDs as well as corresponding rights extensions (SET-UID, Set-GID bit). A range of UIDs/GIDs is provided for use in containers.\nSection 2: Security Context Constraints (SCCs) allow accounts in the container to gain controlled access.\nSection 3: The host system Red Hat CoreOS is immutable. The changes to the host operating system should only be made by OpenShift and should be necessary so that hardening by Red Hat is not inadvertently undermined. Since, in contrast to an unprotected container runtime environment, SELinux enforces the separation between the container runtime and the operating system, this mirroring of account names is not necessary.",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "implemented"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "coreos_enable_selinux_kernel_argument"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "selinux_policytype"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "selinux_state"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "general_apply_scc"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_privileged_containers"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_root_containers"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_ipc_namespace"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_process_id_namespace"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_host_dir_volume_plugin"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_net_raw_capability"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_network_namespace"
+                  }
+                ]
+              },
+              {
+                "uuid": "b541703d-5dd2-4353-8abd-6daf5c11c93b",
+                "control-id": "sys-1.6.a19",
+                "description": "Section 1: Applications can access persistent volumes (PVs) and temporary (ephemeral) storage in OpenShift. Persisted volumes are connected as network storage, ephemeral storage serves primarily as volatile, short-lived mass storage and is allocated within the container file system. This configures which PV can be reached and the use of the ephemeral storage is separated per pod. This means that each pod has its own volatile mass storage. Volumes can be limited in size.\nSection 2: OpenShift implements the principle of least privileges. The definition is made via an explicit configuration at the deployment level.\nSection 3: By default, no local storage is included. For reasons of reliability, this is explicitly not recommended.\nSection 4: The network storage dictates the permissions. OpenShift supports this with the dynamically assigned UID/GID of the projects (clients).",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "implemented"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_host_dir_volume_plugin"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "rbac_least_privilege"
+                  }
+                ]
+              },
+              {
+                "uuid": "2eb3307a-8c6d-4bc4-9511-716ca3a29122",
+                "control-id": "sys-1.6.a20",
+                "description": "Section 1: OpenShift only maintains the current version of the configuration. It is therefore recommended to use GitOps, in which the configuration is transferred from a git repository to the OpenShift cluster. OpenShift includes OpenShift GitOps (based on the community project ArgoCD), which supports easy implementation of a GitOps-based administration concept.\nSection 2: With a GitOps approach, all changes are documented in git.",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "implemented"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "gitops_operator_exists"
+                  }
+                ]
+              },
+              {
+                "uuid": "7160f503-7319-4ca6-943a-da9c9c54252d",
                 "control-id": "sys-1.6.a1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -5043,7 +6977,7 @@
                 ]
               },
               {
-                "uuid": "c717f33f-ff47-45e2-99d5-e7658b55e03a",
+                "uuid": "a51cb98f-f32a-4fdc-a7ad-a6aad5dcf7fe",
                 "control-id": "sys-1.6.a2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -5056,7 +6990,7 @@
                 ]
               },
               {
-                "uuid": "1772bb01-a308-488b-ac2b-ad0c242e2669",
+                "uuid": "6f46b9a0-fd5f-4a3e-9279-8f4682cc78ed",
                 "control-id": "sys-1.6.a3",
                 "description": "Section 1: This requirement must be implemented organizationally. Note: This requirement is actively supported by OpenShift. For example, OpenShift does not allow applications with fixed UID/GID settings as standard; on the contrary, these IDs are assigned dynamically (security-by-design). The behavior can be adjusted by administrators, for example for system tasks.\nSection 2: This requirement must be implemented organizationally. Note: OpenShift supports the requirements through strict client separation based on a “Project” (an extension to the Kubernetes namespace). The containers are separated from each other and from the host system via cgroups using SELinux. As long as all applications run “restricted” in the Security Context Constraint (SCC), OpenShift maintains strict client separation.\nSection 3: This requirement must be implemented organizationally. OpenShift supports this requirement by leveraging SELinux with its cgroups to create the container sandbox.\nSection 4: This requirement must be implemented organizationally.\nSection 5: This requirement must be implemented organizationally. Note: OpenShift supports different network infrastructures via the CNI plugin interface (e.g. OVN-Kubernetes, OpenShift-SDN, hardware networks etc.) OVN-Kubernetes, hardware networks etc.) The underlying network is abstracted by the network model in Openshift and usage is consistent across containers. This allows OpenShift to uniformly implement network security features such as: Firewall rules over network policies.\nSection 6: This requirement must be implemented organizationally. Note: OpenShift provides fine-grained metrics for external capacity management via monitoring.\nSection 7: OpenShift offers automated checks for the availability and health of an application. If the LivenessProbe (Health) repeatedly receives a negative result or is not reachable, the affected pod with the container is restarted. Using ReadinessProbe, a container can control whether it is ready to accept HTTP(S) based requests or not. Note: Monitoring is considered in APP.4.4.A11.",
                 "props": [
@@ -5103,7 +7037,7 @@
                 ]
               },
               {
-                "uuid": "8b819367-9d01-4dcc-acb1-ad005e222d69",
+                "uuid": "bed811b9-a23d-4147-9b56-a03cea2f1d5b",
                 "control-id": "sys-1.6.a4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -5116,7 +7050,7 @@
                 ]
               },
               {
-                "uuid": "f9a69390-fe85-4d44-a74a-327d07def743",
+                "uuid": "b6f4c2a6-d0eb-4729-834d-9ae294d6900d",
                 "control-id": "sys-1.6.a5",
                 "description": "Section 1: Hosts and containers are controlled via the Kubernetes API. This is addressed via api. The load balancer used for this is located in the administration network. The load balancer for *.apps. is set up separately in the active network. This means that the administration is appropriately separated. The Console (the OpenShift web UI) is used by all users. Authorization takes place at the API level and is secured via RBAC. The control plane is to be located in an administration network.\nSection 2: The web UI can be configured on another router that is terminated on the administration load balancer and is therefore only accessible from the administration network. This means that it can no longer be reached from the active network.\nSection 3: This is a standard OpenShift feature. The OpenShift documentation contains the necessary communication paths between control plane, infrastructure and worker nodes, as well as the necessary firewall activations of the underlying network stack at hardware or IaaS level. The communication between containers or pods within a client (“Project”) is not restricted by default, but can be regulated with micro-segmentation if necessary or as a service mesh with mTLS authentication be implemented (see APP.4.4.A18).\nExternally exposed services can receive their own IP and thus data traffic can also be separated outside the platform. Inter-node communication is carried out via suitable tunnel protocols (VXLAN, GENEVE) and can also be encrypted using IPSec.",
                 "props": [
@@ -5148,7 +7082,7 @@
                 ]
               },
               {
-                "uuid": "4296e4cc-35fe-4a50-8022-6e16a99d8670",
+                "uuid": "f893579f-6a4c-400c-9e82-4a480edba18f",
                 "control-id": "sys-1.6.a6",
                 "description": "Section 1: This requirement must be implemented organizationally. Note: OpenShift supports the requirement by allowing only certain sources. This allows the sources from which images come to be restricted and new sources to be added in a controlled process. Quay can also be used to provide your own registry in an open environment as a trustworthy delivery point for external software. Images can also be checked for vulnerabilities here.\nSection 2: This requirement must be implemented organizationally. Note: OpenShift makes it possible to verify the signatures of images before use and thus enforce the identification requirement. Red Hat Advanced Cluster Security for Kubernetes (ACS) can check and optionally enforce signatures as well as certain labels (e.g. MAINTAINER) for images. For images delivered by Red Hat via the official Red Hat Registry, the MAINTAINER label of the container images is always maintained, through which Red Hat can be identified as the creator of the images. Images are also signed with GPG keys.\nSection 3: This requirement must be implemented organizationally. Note: Images from the Red Hat Registry are regularly checked for security vulnerabilities and updated accordingly. The security status of the images is indicated via a health indicator. ACS can perform technical checks through regular scans and report conspicuous containers or containers with identified vulnerabilities, thereby supporting the implementation of the requirement.\nSection 4: This requirement must be implemented organizationally. Note: For discontinued images with appropriate identification (e.g. through labels), policies implemented in ACS can report these violations. ACS also provides policies that report when images have not been scanned for more than 30/60/90 days. However, this means that an image must be built and rolled out at this interval so that the scans during the build process are effective. With a CI/CD pipeline with a high level of automation, this usually does not represent any increased effort.\nSection 5: This requirement must be implemented organizationally. Note: Image-level labels or image tags could be used here.\nSection 6: This requirement must be implemented organizationally for integrated software or self-created software. Note: OpenShift supports Lifecycle Management (OLM) with Operator. Software managed using OLM or Cluster Operator receives updates via the Operator Hub or Cluster Updates. An automated check with automatic or alternatively manual release is possible for this software.",
                 "props": [
@@ -5185,7 +7119,7 @@
                 ]
               },
               {
-                "uuid": "177f17b0-0fa2-4c5d-b145-f0a34ef5f4cf",
+                "uuid": "2c7e044b-4b9a-4c37-9c30-4dd4243c63d8",
                 "control-id": "sys-1.6.a7",
                 "description": "REPLACE_ME",
                 "props": [
@@ -5198,7 +7132,7 @@
                 ]
               },
               {
-                "uuid": "e4a330a7-fe7d-4399-bc19-283f383be1eb",
+                "uuid": "da5f094f-d8d1-4ba5-9e83-631649250002",
                 "control-id": "sys-1.6.a8",
                 "description": "Section 1: OpenShift offers secrets that are only available to the containers and the people authorized via RBAC in the tenant or project (client). Section 2: This requirement must be enforced as part of application development. OpenShift offers suitable mechanisms (secrets) with encryption of the etcd store if necessary. Section 3: OpenShift offers corresponding mechanisms (secrets). Unless the secrets are dynamically generated, third-party/community tools such as SealedSecrets or HashiCorp Vault can help securely deploy the secrets. Section 4: This requirement must be implemented organizationally. All of this information can and should be managed in Secrets.",
                 "props": [
