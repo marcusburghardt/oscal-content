@@ -1,15 +1,15 @@
 {
   "component-definition": {
-    "uuid": "40f5e1c1-5bc5-4881-aa40-352ea5052480",
+    "uuid": "56f43e94-dd3e-4d3b-b713-348de77efcf0",
     "metadata": {
       "title": "Component definition for ocp4",
-      "last-modified": "2025-07-14T12:06:34.235332+08:00",
-      "version": "5.7",
+      "last-modified": "2025-07-14T12:07:10.230384+08:00",
+      "version": "2.1",
       "oscal-version": "1.1.3"
     },
     "components": [
       {
-        "uuid": "4812bda8-ca68-4bab-8ff3-9b4f9295cf3d",
+        "uuid": "c5613cff-b450-40a7-af0c-45d56c4237dc",
         "type": "service",
         "title": "ocp4",
         "description": "Red Hat OpenShift Container Platform 4",
@@ -5987,8 +5987,8 @@
         ],
         "control-implementations": [
           {
-            "uuid": "9727298f-b553-4e1e-bd7c-63c3d4abef8f",
-            "source": "trestle://profiles/ocp4-cis_ocp_1_4_0-level_1/profile.json",
+            "uuid": "a61af739-90ef-4e49-a2ef-3cf9fc003dcd",
+            "source": "trestle://profiles/ocp4-cis_ocp_1_4_0-level_2/profile.json",
             "description": "REPLACE_ME",
             "props": [
               {
@@ -6007,7 +6007,7 @@
             ],
             "implemented-requirements": [
               {
-                "uuid": "d7f91d94-8871-4082-b43e-05d8a3b56d8a",
+                "uuid": "edce7ac5-ae8d-473e-9b1d-391b9f934274",
                 "control-id": "cis_ocp_1_4_0_1-1.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6024,7 +6024,7 @@
                 ]
               },
               {
-                "uuid": "c110fb54-8cd2-4b51-8cae-8cfffa41ce80",
+                "uuid": "bf4beed3-4d8c-4d44-99bb-d40e085c9d85",
                 "control-id": "cis_ocp_1_4_0_1-1.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6046,7 +6046,7 @@
                 ]
               },
               {
-                "uuid": "cc3741e2-2447-491c-9f15-e7115e6e5ac1",
+                "uuid": "609db5c0-bd9f-4a8d-b4a0-a8f24e5c69b1",
                 "control-id": "cis_ocp_1_4_0_1-1.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6063,7 +6063,7 @@
                 ]
               },
               {
-                "uuid": "96797955-f530-4fc9-ae96-533e912b166a",
+                "uuid": "55b07552-62a2-4f6f-86f4-5de2edf466b8",
                 "control-id": "cis_ocp_1_4_0_1-1.4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6085,7 +6085,7 @@
                 ]
               },
               {
-                "uuid": "e567a67d-f6e5-4320-b5d4-082265d859cb",
+                "uuid": "ad08cc59-3234-484a-8eb9-60b15f6cd661",
                 "control-id": "cis_ocp_1_4_0_1-1.5",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6102,7 +6102,7 @@
                 ]
               },
               {
-                "uuid": "abf97e44-790a-4884-9d7d-9484b77649bc",
+                "uuid": "59d2f4d4-cfb2-4297-ae5e-455d0bc689c8",
                 "control-id": "cis_ocp_1_4_0_1-1.6",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6124,7 +6124,7 @@
                 ]
               },
               {
-                "uuid": "b54bfe3b-4764-44d5-92fa-cb944d4d25cc",
+                "uuid": "e107df72-5687-4227-9706-967fb9426213",
                 "control-id": "cis_ocp_1_4_0_1-1.7",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6141,7 +6141,7 @@
                 ]
               },
               {
-                "uuid": "f8690a1a-732f-450a-95f7-45ffe8729ae4",
+                "uuid": "6454c9e9-ad10-471a-a25f-702371b627ba",
                 "control-id": "cis_ocp_1_4_0_1-1.8",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6163,7 +6163,7 @@
                 ]
               },
               {
-                "uuid": "d92f7f94-07b5-4ee5-9455-0c0dde1785aa",
+                "uuid": "05330e23-f8a1-4565-931d-b914b4886695",
                 "control-id": "cis_ocp_1_4_0_1-1.9",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6235,7 +6235,7 @@
                 ]
               },
               {
-                "uuid": "eb8079de-7d88-4c55-b696-95b3fda1794c",
+                "uuid": "5730e59d-cceb-4c3c-95ac-db690dc6f1b1",
                 "control-id": "cis_ocp_1_4_0_1-1.10",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6382,7 +6382,7 @@
                 ]
               },
               {
-                "uuid": "469a5569-8cb3-4a91-9d0d-fc1914217438",
+                "uuid": "f86ce695-396b-4f20-90f0-cd511760d0d8",
                 "control-id": "cis_ocp_1_4_0_1-1.11",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6404,7 +6404,7 @@
                 ]
               },
               {
-                "uuid": "8389aea7-13bb-43d9-9d8f-709737615704",
+                "uuid": "170d2108-acb5-4a39-ad60-e7fcbdcd5b5b",
                 "control-id": "cis_ocp_1_4_0_1-1.12",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6436,7 +6436,7 @@
                 ]
               },
               {
-                "uuid": "1a9be2aa-b098-4269-a317-cbf68d4e2b0e",
+                "uuid": "52d2dc25-e83d-4a6c-b7dd-0a1f2a7159ef",
                 "control-id": "cis_ocp_1_4_0_1-1.13",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6453,7 +6453,7 @@
                 ]
               },
               {
-                "uuid": "d08b7fb1-4b09-4f5f-b541-0e8ef743e52a",
+                "uuid": "446eb34f-0dd9-420f-ae8e-4e560e203aa0",
                 "control-id": "cis_ocp_1_4_0_1-1.14",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6475,7 +6475,7 @@
                 ]
               },
               {
-                "uuid": "85de121a-379a-4723-ae5f-f93faf8bfea1",
+                "uuid": "a1c544f9-f157-4b87-b06c-0209394f7159",
                 "control-id": "cis_ocp_1_4_0_1-1.15",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6492,7 +6492,7 @@
                 ]
               },
               {
-                "uuid": "d618d34e-c479-4777-87ec-f320d05d6c53",
+                "uuid": "86a56ba0-4567-4b9b-b124-de6f478d005f",
                 "control-id": "cis_ocp_1_4_0_1-1.16",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6514,7 +6514,7 @@
                 ]
               },
               {
-                "uuid": "245e42ed-b1d1-46a7-96c4-59136fadfe45",
+                "uuid": "b1ebf06b-70ed-484b-8821-2da71a84d25e",
                 "control-id": "cis_ocp_1_4_0_1-1.17",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6531,7 +6531,7 @@
                 ]
               },
               {
-                "uuid": "94737abd-3626-47ef-893a-cdc88b603fa4",
+                "uuid": "55178b5a-4c67-44e9-b47b-e1e0507df1e0",
                 "control-id": "cis_ocp_1_4_0_1-1.18",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6553,7 +6553,7 @@
                 ]
               },
               {
-                "uuid": "3dee62fa-920c-4554-af1b-aa1b0309a0ce",
+                "uuid": "09f9ae83-51af-47b6-9bab-44310b22c0e4",
                 "control-id": "cis_ocp_1_4_0_1-1.19",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6595,7 +6595,7 @@
                 ]
               },
               {
-                "uuid": "b91a0dd4-2399-4d28-9677-caa26e78013f",
+                "uuid": "3261f5f1-65f5-4ed6-848b-005f4b8746e6",
                 "control-id": "cis_ocp_1_4_0_1-1.20",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6617,7 +6617,7 @@
                 ]
               },
               {
-                "uuid": "da811083-7aba-4782-8f65-cca47ed08345",
+                "uuid": "54932880-1b05-44d8-9bbb-ce4006e78b6a",
                 "control-id": "cis_ocp_1_4_0_1-1.21",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6634,7 +6634,7 @@
                 ]
               },
               {
-                "uuid": "f54019e0-1239-4b93-974c-bd498ff83ce0",
+                "uuid": "104740de-4a5d-460f-81a4-e953404bf232",
                 "control-id": "cis_ocp_1_4_0_1-2.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6651,7 +6651,7 @@
                 ]
               },
               {
-                "uuid": "18e6be8d-acb8-4172-aa1c-93b689111980",
+                "uuid": "fa9ef878-1b12-496a-ac1b-1a81236f1bc2",
                 "control-id": "cis_ocp_1_4_0_1-2.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6668,7 +6668,7 @@
                 ]
               },
               {
-                "uuid": "6038256d-e2c6-41a7-b359-4eecbe2f0b16",
+                "uuid": "05b405d6-b2ac-41cc-a5b1-ddf97a434024",
                 "control-id": "cis_ocp_1_4_0_1-2.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6685,7 +6685,7 @@
                 ]
               },
               {
-                "uuid": "c8902ad9-827d-4d8e-a95a-618a67750167",
+                "uuid": "ce1a1e6a-4025-44de-a823-d9211ac4879c",
                 "control-id": "cis_ocp_1_4_0_1-2.4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6712,7 +6712,7 @@
                 ]
               },
               {
-                "uuid": "f472b949-d25c-4299-a896-76b206df6aa1",
+                "uuid": "202bb9f2-d34a-473b-9dde-272a895efd81",
                 "control-id": "cis_ocp_1_4_0_1-2.5",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6734,7 +6734,7 @@
                 ]
               },
               {
-                "uuid": "16ce51a0-1cc8-4630-8066-bc9d511c4d69",
+                "uuid": "0ef2b6c0-09de-4bcd-af95-158714ce09fb",
                 "control-id": "cis_ocp_1_4_0_1-2.6",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6751,7 +6751,7 @@
                 ]
               },
               {
-                "uuid": "eaf8dfd1-aa04-45ea-bc4b-553d5231ed2e",
+                "uuid": "a488d00a-be49-4a39-82eb-ae93cd1f6852",
                 "control-id": "cis_ocp_1_4_0_1-2.7",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6768,7 +6768,7 @@
                 ]
               },
               {
-                "uuid": "cfc4e049-e6c8-4bc1-abe0-5b60e8423780",
+                "uuid": "2cad3a31-9548-4ff8-8805-76d2264dfc0a",
                 "control-id": "cis_ocp_1_4_0_1-2.8",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6785,7 +6785,7 @@
                 ]
               },
               {
-                "uuid": "84af250b-ca2b-4531-92a2-96423d5d724f",
+                "uuid": "406611d5-f4a2-4243-a2fb-2852aaec1052",
                 "control-id": "cis_ocp_1_4_0_1-2.9",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6797,7 +6797,7 @@
                 ]
               },
               {
-                "uuid": "69da87e8-aa08-4506-b1dc-d3726c6f8319",
+                "uuid": "d7dd5719-2193-4dd5-864c-1c89153e6450",
                 "control-id": "cis_ocp_1_4_0_1-2.10",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6814,7 +6814,7 @@
                 ]
               },
               {
-                "uuid": "8d303b11-9c6e-427d-9d3d-6f217043c4d4",
+                "uuid": "5a31b514-cedb-44cf-8ca8-de32c81849e1",
                 "control-id": "cis_ocp_1_4_0_1-2.11",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6831,7 +6831,7 @@
                 ]
               },
               {
-                "uuid": "ff7b1f1a-5087-44fb-9e98-b22cad6c8abf",
+                "uuid": "ddf96568-fbaa-4410-8a67-8cef086ec7d1",
                 "control-id": "cis_ocp_1_4_0_1-2.12",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6848,7 +6848,7 @@
                 ]
               },
               {
-                "uuid": "703b96e1-f632-4d2f-9cd9-9cc130a64b8d",
+                "uuid": "fc3062ec-23db-44d7-a6f5-e49423468a3a",
                 "control-id": "cis_ocp_1_4_0_1-2.13",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6865,7 +6865,7 @@
                 ]
               },
               {
-                "uuid": "3cff3869-4af7-4849-8f5b-d965e7d026b2",
+                "uuid": "2752c84c-63c7-4278-8b03-2dc0564a16e7",
                 "control-id": "cis_ocp_1_4_0_1-2.14",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6882,7 +6882,7 @@
                 ]
               },
               {
-                "uuid": "2c49beb3-bd2a-45ea-97b0-6aaf340fd252",
+                "uuid": "465fda2e-d00a-400b-b9e8-f6cbaeee115b",
                 "control-id": "cis_ocp_1_4_0_1-2.15",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6899,7 +6899,7 @@
                 ]
               },
               {
-                "uuid": "65cc3651-2247-4534-acf5-9baeb4ae747c",
+                "uuid": "5945e481-c342-4d10-bf6c-09d1c2818e32",
                 "control-id": "cis_ocp_1_4_0_1-2.16",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6916,7 +6916,7 @@
                 ]
               },
               {
-                "uuid": "45324c61-276e-42e5-b847-ff48edfef3a9",
+                "uuid": "3ca15a03-e223-48e1-9968-06b4ec5cd78e",
                 "control-id": "cis_ocp_1_4_0_1-2.17",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6928,7 +6928,7 @@
                 ]
               },
               {
-                "uuid": "84092489-ed31-40ed-ac6d-72d0b47edd27",
+                "uuid": "54c15b22-396e-4557-b559-4c3b3ff86d59",
                 "control-id": "cis_ocp_1_4_0_1-2.18",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6945,7 +6945,7 @@
                 ]
               },
               {
-                "uuid": "44150440-e21d-4b3e-a544-1c64b3864493",
+                "uuid": "726f2377-e5b2-4cc9-8d0a-f2e1d18039fd",
                 "control-id": "cis_ocp_1_4_0_1-2.19",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6962,7 +6962,7 @@
                 ]
               },
               {
-                "uuid": "68f49b52-0c9c-4b9c-81dc-33fce5a64412",
+                "uuid": "f1446d44-c993-4de6-b1a4-98daa12c8a08",
                 "control-id": "cis_ocp_1_4_0_1-2.20",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6984,7 +6984,7 @@
                 ]
               },
               {
-                "uuid": "07214118-e1a6-450a-9dde-140bb9a4d684",
+                "uuid": "b2d7ccf9-5cb7-4a4c-b592-9d730f60ff42",
                 "control-id": "cis_ocp_1_4_0_1-2.21",
                 "description": "REPLACE_ME",
                 "props": [
@@ -7006,7 +7006,7 @@
                 ]
               },
               {
-                "uuid": "64ae114d-37bf-4611-a64d-8ae10ad66eab",
+                "uuid": "61e15cca-acb7-4489-92bf-ae52305b184e",
                 "control-id": "cis_ocp_1_4_0_1-2.22",
                 "description": "REPLACE_ME",
                 "props": [
@@ -7028,7 +7028,7 @@
                 ]
               },
               {
-                "uuid": "cf41b194-7995-4cdd-aebd-870d8d35bf9e",
+                "uuid": "3165407f-b49e-4f37-b4ed-0b8fa442a8ac",
                 "control-id": "cis_ocp_1_4_0_1-2.23",
                 "description": "REPLACE_ME",
                 "props": [
@@ -7050,7 +7050,7 @@
                 ]
               },
               {
-                "uuid": "316d29f8-44db-4107-ab68-ba189b0e9bec",
+                "uuid": "974c03a3-6d43-477c-b4e8-c706e7054209",
                 "control-id": "cis_ocp_1_4_0_1-2.24",
                 "description": "REPLACE_ME",
                 "props": [
@@ -7067,7 +7067,7 @@
                 ]
               },
               {
-                "uuid": "0a3d843f-132d-4f0b-9eeb-23348497713e",
+                "uuid": "727cf6c4-09ca-4c88-8030-3f59407d9b5f",
                 "control-id": "cis_ocp_1_4_0_1-2.25",
                 "description": "REPLACE_ME",
                 "props": [
@@ -7084,7 +7084,7 @@
                 ]
               },
               {
-                "uuid": "a1805c9b-3b7f-4af8-ae89-ffb84abdc211",
+                "uuid": "55add662-9a57-424e-b4ad-621272ab2f58",
                 "control-id": "cis_ocp_1_4_0_1-2.26",
                 "description": "REPLACE_ME",
                 "props": [
@@ -7101,7 +7101,7 @@
                 ]
               },
               {
-                "uuid": "77996534-71e3-4522-b33f-b2725ba40e6c",
+                "uuid": "25cc9d8a-38de-4a14-baee-78e674723c1b",
                 "control-id": "cis_ocp_1_4_0_1-2.27",
                 "description": "REPLACE_ME",
                 "props": [
@@ -7123,7 +7123,7 @@
                 ]
               },
               {
-                "uuid": "87099b85-06bd-42f0-a546-413f232868c4",
+                "uuid": "b0099dc0-3b3a-4e15-ba0e-1e77bcaaf453",
                 "control-id": "cis_ocp_1_4_0_1-2.28",
                 "description": "REPLACE_ME",
                 "props": [
@@ -7145,7 +7145,7 @@
                 ]
               },
               {
-                "uuid": "62c30bd3-dc2f-499f-8690-3616766301a3",
+                "uuid": "509dabb4-6ff7-4372-9ceb-69ff9bcaa7a1",
                 "control-id": "cis_ocp_1_4_0_1-2.29",
                 "description": "REPLACE_ME",
                 "props": [
@@ -7162,7 +7162,7 @@
                 ]
               },
               {
-                "uuid": "9ed417bc-2b3e-405f-b9ac-9c0cf382f175",
+                "uuid": "49c9065d-500d-42df-ac3b-141e5dfc959a",
                 "control-id": "cis_ocp_1_4_0_1-2.30",
                 "description": "REPLACE_ME",
                 "props": [
@@ -7179,7 +7179,7 @@
                 ]
               },
               {
-                "uuid": "d29a3b23-f3e0-4084-811b-fe3e75e43ec6",
+                "uuid": "ba43d693-4a50-4ae7-8e94-c3daf469c5dc",
                 "control-id": "cis_ocp_1_4_0_1-2.31",
                 "description": "REPLACE_ME",
                 "props": [
@@ -7196,7 +7196,7 @@
                 ]
               },
               {
-                "uuid": "b9ca6679-b87a-4b95-a511-632ab00c55b4",
+                "uuid": "5c05da0a-565d-4bb5-91a2-543aa51c3c79",
                 "control-id": "cis_ocp_1_4_0_1-2.32",
                 "description": "REPLACE_ME",
                 "props": [
@@ -7218,7 +7218,7 @@
                 ]
               },
               {
-                "uuid": "e7590bd1-025f-45cf-b325-3b1c8fb6d2f4",
+                "uuid": "4a516f34-dae3-469e-a9c3-2b7d873ce1ff",
                 "control-id": "cis_ocp_1_4_0_1-2.33",
                 "description": "REPLACE_ME",
                 "props": [
@@ -7231,7 +7231,7 @@
                 ]
               },
               {
-                "uuid": "ed6ac9bc-7a37-4c54-af9d-52fe619125ab",
+                "uuid": "c5f2d060-d262-4a42-af45-b8fc2e7e6380",
                 "control-id": "cis_ocp_1_4_0_1-3.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -7248,7 +7248,7 @@
                 ]
               },
               {
-                "uuid": "304ee6ca-81c7-48b6-bd17-5dd698c0f09d",
+                "uuid": "7b3c6d3d-71f7-4dfe-9b40-25ef8027b91b",
                 "control-id": "cis_ocp_1_4_0_1-3.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -7265,7 +7265,7 @@
                 ]
               },
               {
-                "uuid": "c18f2317-05ca-446e-a6a0-6b844e6d0bfe",
+                "uuid": "9a28cefe-7b16-46f9-8c8a-c7ab4fa5134e",
                 "control-id": "cis_ocp_1_4_0_1-3.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -7282,7 +7282,7 @@
                 ]
               },
               {
-                "uuid": "357cdedd-9a36-41aa-802b-4b55f685b628",
+                "uuid": "e7f7c549-010f-4057-b7e2-6dc6005d1579",
                 "control-id": "cis_ocp_1_4_0_1-3.4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -7299,7 +7299,7 @@
                 ]
               },
               {
-                "uuid": "5e5907c5-b39e-496a-984e-1cd8b800dd95",
+                "uuid": "8b20fea1-4558-4d11-8f72-ad7455c7d05f",
                 "control-id": "cis_ocp_1_4_0_1-3.5",
                 "description": "REPLACE_ME",
                 "props": [
@@ -7321,7 +7321,7 @@
                 ]
               },
               {
-                "uuid": "8d0a5d73-5158-4187-97c9-a138fd733436",
+                "uuid": "ac693742-b432-4ccb-8acb-4f49e6e894a1",
                 "control-id": "cis_ocp_1_4_0_1-4.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -7338,7 +7338,7 @@
                 ]
               },
               {
-                "uuid": "0abc7f77-f2d9-4578-a3fa-f09ff8bcb12e",
+                "uuid": "bd964174-5a8f-4158-9d2e-a6a7b99afcc9",
                 "control-id": "cis_ocp_1_4_0_1-4.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -7355,7 +7355,7 @@
                 ]
               },
               {
-                "uuid": "c76b9c92-b51f-4436-8a36-73d29946dc29",
+                "uuid": "3f7dac80-bbdf-4348-81ad-3baddd658d68",
                 "control-id": "cis_ocp_1_4_0_1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -7368,7 +7368,7 @@
                 ]
               },
               {
-                "uuid": "991abd18-dafb-4e29-a3f4-7cbe9fd35b98",
+                "uuid": "5800357b-4c7e-4ba8-ada2-476d714dd696",
                 "control-id": "cis_ocp_1_4_0_2-1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -7390,7 +7390,7 @@
                 ]
               },
               {
-                "uuid": "4664aa4d-e37e-4ecc-9334-073604013db3",
+                "uuid": "7caac21a-f69b-4ce2-8d2a-fee0fd29258e",
                 "control-id": "cis_ocp_1_4_0_2-2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -7407,7 +7407,7 @@
                 ]
               },
               {
-                "uuid": "7ef5cd8d-0773-4a0a-b72f-7c3699a5777f",
+                "uuid": "a10ba3ca-87b9-45f9-a8e6-76668934a07e",
                 "control-id": "cis_ocp_1_4_0_2-3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -7424,7 +7424,7 @@
                 ]
               },
               {
-                "uuid": "402161c1-f748-4bd6-acb4-60f3d009d5b9",
+                "uuid": "e805361d-20f9-49b2-bd52-14b09da1e72a",
                 "control-id": "cis_ocp_1_4_0_2-4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -7446,7 +7446,7 @@
                 ]
               },
               {
-                "uuid": "b67c6efa-ab28-4843-b485-c92c30063b65",
+                "uuid": "e54fd7ed-a99e-448d-b36a-25b035ce1f05",
                 "control-id": "cis_ocp_1_4_0_2-5",
                 "description": "REPLACE_ME",
                 "props": [
@@ -7463,7 +7463,7 @@
                 ]
               },
               {
-                "uuid": "11c29815-36c2-4e03-8645-15d4dc8b16c7",
+                "uuid": "04f615c2-a48d-4750-a0a0-d4880d3c719d",
                 "control-id": "cis_ocp_1_4_0_2-6",
                 "description": "REPLACE_ME",
                 "props": [
@@ -7480,7 +7480,7 @@
                 ]
               },
               {
-                "uuid": "4c531981-77a0-48dc-8ff6-6572034cecc7",
+                "uuid": "10e478e7-5948-4fc2-bc6c-007b0ba3240b",
                 "control-id": "cis_ocp_1_4_0_2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -7493,7 +7493,7 @@
                 ]
               },
               {
-                "uuid": "29b92567-8a04-44f9-9627-394ac874114b",
+                "uuid": "dd02da22-ed4d-46da-9402-ebbe206b6d63",
                 "control-id": "cis_ocp_1_4_0_3-2.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -7510,7 +7510,7 @@
                 ]
               },
               {
-                "uuid": "e7a0e4f4-4683-4e50-b593-f8dc8baf56ed",
+                "uuid": "569cd89b-a29b-417e-a806-f149c15441a9",
                 "control-id": "cis_ocp_1_4_0_3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -7523,7 +7523,7 @@
                 ]
               },
               {
-                "uuid": "48bca30d-6a03-48b9-a920-a81e90ef0535",
+                "uuid": "9c27757b-da6e-4260-bffc-863664e0c7cb",
                 "control-id": "cis_ocp_1_4_0_4-1.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -7540,7 +7540,7 @@
                 ]
               },
               {
-                "uuid": "e5609f4d-3940-48cc-af7d-da764740030e",
+                "uuid": "ef370841-3712-4ab8-b0bc-25df52fdd41e",
                 "control-id": "cis_ocp_1_4_0_4-1.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -7562,7 +7562,7 @@
                 ]
               },
               {
-                "uuid": "82561c94-484f-4fe4-978e-0cb58388630e",
+                "uuid": "6564e1a0-6d9b-49f4-9ed5-9157b6521498",
                 "control-id": "cis_ocp_1_4_0_4-1.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -7579,7 +7579,7 @@
                 ]
               },
               {
-                "uuid": "935c798c-ec45-4983-a172-24e8ec18394c",
+                "uuid": "2a210c1a-c854-41fd-b46d-02ffda59a3ed",
                 "control-id": "cis_ocp_1_4_0_4-1.4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -7601,7 +7601,7 @@
                 ]
               },
               {
-                "uuid": "dabfd03d-b89e-4262-8547-7e3164aa4b7e",
+                "uuid": "d7b5d738-6cef-4bf5-854b-e5ba9df075b1",
                 "control-id": "cis_ocp_1_4_0_4-1.5",
                 "description": "REPLACE_ME",
                 "props": [
@@ -7618,7 +7618,7 @@
                 ]
               },
               {
-                "uuid": "a6ef4cdf-ad5f-466a-b5a1-11ce2f6637e8",
+                "uuid": "840491ff-f00b-4dd2-9a78-78373efeaa1a",
                 "control-id": "cis_ocp_1_4_0_4-1.6",
                 "description": "REPLACE_ME",
                 "props": [
@@ -7645,7 +7645,7 @@
                 ]
               },
               {
-                "uuid": "f5dca909-b3b2-43fe-a09f-9cbc79227a56",
+                "uuid": "a936e7f4-6955-4fc5-9290-b771cdc92bb3",
                 "control-id": "cis_ocp_1_4_0_4-1.7",
                 "description": "REPLACE_ME",
                 "props": [
@@ -7662,7 +7662,7 @@
                 ]
               },
               {
-                "uuid": "09aee6ec-9ed7-45d5-ba53-543bc52d9acd",
+                "uuid": "362ae235-471f-4800-9d1f-187a50bf3692",
                 "control-id": "cis_ocp_1_4_0_4-1.8",
                 "description": "REPLACE_ME",
                 "props": [
@@ -7684,7 +7684,7 @@
                 ]
               },
               {
-                "uuid": "3db7788c-d78e-4b7d-bada-a2d0aacf3bf2",
+                "uuid": "16d432b6-b6a6-4c7d-be5f-34a14bfae3db",
                 "control-id": "cis_ocp_1_4_0_4-1.9",
                 "description": "REPLACE_ME",
                 "props": [
@@ -7701,7 +7701,7 @@
                 ]
               },
               {
-                "uuid": "b6f79d14-b2be-4e2e-8486-baa76770ed04",
+                "uuid": "3b2e2f02-aec9-4f0d-a88c-ac4ccc7b5ba7",
                 "control-id": "cis_ocp_1_4_0_4-1.10",
                 "description": "REPLACE_ME",
                 "props": [
@@ -7723,7 +7723,7 @@
                 ]
               },
               {
-                "uuid": "de5653db-843a-4857-ba8a-0c85355075d0",
+                "uuid": "dd199beb-d651-4ba7-a85c-847570b63c78",
                 "control-id": "cis_ocp_1_4_0_4-2.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -7755,7 +7755,7 @@
                 ]
               },
               {
-                "uuid": "5f76debe-4995-4769-8003-57a97e998d2b",
+                "uuid": "083d0980-8510-4719-9d8f-5f5cb995b300",
                 "control-id": "cis_ocp_1_4_0_4-2.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -7772,7 +7772,7 @@
                 ]
               },
               {
-                "uuid": "e302abcf-65ac-4bb6-a5cd-506d0e7a6fad",
+                "uuid": "01cb5b8b-ac98-4ccd-b606-a1578c8729d0",
                 "control-id": "cis_ocp_1_4_0_4-2.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -7789,7 +7789,7 @@
                 ]
               },
               {
-                "uuid": "d0af9126-5a5a-4d65-bf8d-317f85fcec12",
+                "uuid": "5eabc15d-562c-43df-9823-a38348422230",
                 "control-id": "cis_ocp_1_4_0_4-2.4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -7806,7 +7806,7 @@
                 ]
               },
               {
-                "uuid": "27acec06-6bd1-410c-bee1-596cea8e21b2",
+                "uuid": "f299fbe7-d837-4daa-8022-e2668b1d3696",
                 "control-id": "cis_ocp_1_4_0_4-2.5",
                 "description": "REPLACE_ME",
                 "props": [
@@ -7823,7 +7823,7 @@
                 ]
               },
               {
-                "uuid": "0b3f05e9-7f9a-4f89-b311-0b3c4ccaad88",
+                "uuid": "e312815b-90a4-4bb3-8533-d31a1626cfb3",
                 "control-id": "cis_ocp_1_4_0_4-2.6",
                 "description": "REPLACE_ME",
                 "props": [
@@ -7840,7 +7840,7 @@
                 ]
               },
               {
-                "uuid": "8ad2d982-b134-4979-9265-bbd811b69f22",
+                "uuid": "03ecb59e-ae87-4fc2-82c3-3451d0f2013d",
                 "control-id": "cis_ocp_1_4_0_4-2.7",
                 "description": "REPLACE_ME",
                 "props": [
@@ -7857,7 +7857,7 @@
                 ]
               },
               {
-                "uuid": "7dd2496a-e0ff-4584-965c-d80b1d05de33",
+                "uuid": "4d3b8bff-4692-442c-a943-b9eab3587242",
                 "control-id": "cis_ocp_1_4_0_4-2.9",
                 "description": "REPLACE_ME",
                 "props": [
@@ -7879,7 +7879,7 @@
                 ]
               },
               {
-                "uuid": "0791e1fd-b0cb-4cab-b5d2-3acf09d598b0",
+                "uuid": "bc680023-8c99-4b05-883e-c37a5789af4f",
                 "control-id": "cis_ocp_1_4_0_4-2.10",
                 "description": "REPLACE_ME",
                 "props": [
@@ -7901,7 +7901,7 @@
                 ]
               },
               {
-                "uuid": "647aed4b-94f5-4303-9afb-1e7d49540d0f",
+                "uuid": "d21cc9ee-cea8-466a-b804-a348d12b918a",
                 "control-id": "cis_ocp_1_4_0_4-2.11",
                 "description": "REPLACE_ME",
                 "props": [
@@ -7918,7 +7918,7 @@
                 ]
               },
               {
-                "uuid": "ce4a3556-da9d-44ec-8a59-9beced557144",
+                "uuid": "f1a49ba3-e2cd-433b-ac24-fff5375a1789",
                 "control-id": "cis_ocp_1_4_0_4-2.12",
                 "description": "REPLACE_ME",
                 "props": [
@@ -7940,7 +7940,7 @@
                 ]
               },
               {
-                "uuid": "a0c1768f-c357-483e-941d-50725086ab66",
+                "uuid": "1f791a8d-7fa7-4c0d-b64d-f0edb836d3db",
                 "control-id": "cis_ocp_1_4_0_4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -7953,7 +7953,7 @@
                 ]
               },
               {
-                "uuid": "d13fb82f-9889-4ad5-a881-aeeaee19223f",
+                "uuid": "23314d29-2ee5-4adb-859f-8757a3b9972c",
                 "control-id": "cis_ocp_1_4_0_5-1.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -7971,7 +7971,7 @@
                 ]
               },
               {
-                "uuid": "ced7c9d8-e2bf-4475-9137-3fdd12f6bdc3",
+                "uuid": "11a0dee0-fe67-42e6-a8b2-b37ee309641b",
                 "control-id": "cis_ocp_1_4_0_5-1.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -7989,7 +7989,7 @@
                 ]
               },
               {
-                "uuid": "a5c98527-5227-45e8-a99b-29d63fcbedcd",
+                "uuid": "ad1246f2-7dd1-4354-862f-bf705203ec69",
                 "control-id": "cis_ocp_1_4_0_5-1.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -8007,7 +8007,7 @@
                 ]
               },
               {
-                "uuid": "6247e487-b0ec-409d-a698-2faf32789c70",
+                "uuid": "22531258-0531-4d44-8a21-95f43656790b",
                 "control-id": "cis_ocp_1_4_0_5-1.4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -8025,7 +8025,7 @@
                 ]
               },
               {
-                "uuid": "c1d7c551-b864-467f-beb5-486fe234e681",
+                "uuid": "b2253248-f78e-4da7-a979-e876aa509872",
                 "control-id": "cis_ocp_1_4_0_5-1.5",
                 "description": "REPLACE_ME",
                 "props": [
@@ -8043,7 +8043,7 @@
                 ]
               },
               {
-                "uuid": "776d5f19-719c-48ed-b44a-e516b2672c6e",
+                "uuid": "3c0afe6c-9bff-495c-8d67-ae71282eb20a",
                 "control-id": "cis_ocp_1_4_0_5-1.6",
                 "description": "REPLACE_ME",
                 "props": [
@@ -8061,7 +8061,7 @@
                 ]
               },
               {
-                "uuid": "0136999c-ef3e-40a5-bcab-b5e6c3507653",
+                "uuid": "e600cfa6-db22-4760-856d-73ef4ea8715f",
                 "control-id": "cis_ocp_1_4_0_5-2.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -8079,7 +8079,7 @@
                 ]
               },
               {
-                "uuid": "dae28eae-ec6a-4d07-98e6-c6649d5a720b",
+                "uuid": "e9dbd299-9b28-44eb-8e1b-dd0da1663aa2",
                 "control-id": "cis_ocp_1_4_0_5-2.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -8097,7 +8097,7 @@
                 ]
               },
               {
-                "uuid": "2de4687c-15e5-4fed-b264-d8c34f9b3a9a",
+                "uuid": "adde0681-74c8-4f56-aefb-da30eb625b48",
                 "control-id": "cis_ocp_1_4_0_5-2.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -8115,7 +8115,7 @@
                 ]
               },
               {
-                "uuid": "7c3af6c4-35e7-42f9-b15e-93245c4c6958",
+                "uuid": "d3d656d6-0de2-48e9-a92d-b6fdb351b4bb",
                 "control-id": "cis_ocp_1_4_0_5-2.4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -8133,7 +8133,7 @@
                 ]
               },
               {
-                "uuid": "16436f1d-d1f6-4e5a-8239-182f11e14c18",
+                "uuid": "b1f6fa54-0513-4ded-b052-9962351f6299",
                 "control-id": "cis_ocp_1_4_0_5-2.5",
                 "description": "REPLACE_ME",
                 "props": [
@@ -8151,7 +8151,7 @@
                 ]
               },
               {
-                "uuid": "9ea838d8-2c5c-4b47-9206-08986473c827",
+                "uuid": "d82e5096-9cd5-42ec-ae61-6239e600e0fb",
                 "control-id": "cis_ocp_1_4_0_5-2.7",
                 "description": "REPLACE_ME",
                 "props": [
@@ -8169,7 +8169,7 @@
                 ]
               },
               {
-                "uuid": "fb715e1a-23d8-470b-bdce-7eae8f977a45",
+                "uuid": "67eb8d8d-b326-44d7-8a7d-7860b6e18765",
                 "control-id": "cis_ocp_1_4_0_5-2.8",
                 "description": "REPLACE_ME",
                 "props": [
@@ -8186,7 +8186,7 @@
                 ]
               },
               {
-                "uuid": "e8bad6f7-94b4-4680-93cc-9ca50936a40a",
+                "uuid": "4f08781e-be8b-4c9f-ba2c-3713c23ebc16",
                 "control-id": "cis_ocp_1_4_0_5-3.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -8203,7 +8203,7 @@
                 ]
               },
               {
-                "uuid": "c1c04604-e191-42f9-b07c-bf4cc362829a",
+                "uuid": "72388a1e-7cbf-471b-8690-77687555cb2c",
                 "control-id": "cis_ocp_1_4_0_5-4.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -8221,7 +8221,7 @@
                 ]
               },
               {
-                "uuid": "209f09f4-eef1-4c93-bfda-39a852383947",
+                "uuid": "1ced289f-c80d-4d18-baa0-408d56f1bb93",
                 "control-id": "cis_ocp_1_4_0_5-7.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -8239,7 +8239,7 @@
                 ]
               },
               {
-                "uuid": "d47c8e45-95c0-403e-879a-ebd4d34efbf4",
+                "uuid": "7eec7dfe-7b4b-4895-8c0e-bdced2f42955",
                 "control-id": "cis_ocp_1_4_0_5",
                 "description": "REPLACE_ME",
                 "props": [
@@ -8252,7 +8252,260 @@
                 ]
               },
               {
-                "uuid": "322637cc-734e-422a-866f-a3e20f72d71f",
+                "uuid": "2b72b71c-5058-4a92-93cf-82bdb6f0962f",
+                "control-id": "cis_ocp_1_4_0_2-7",
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "implemented"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "etcd_unique_ca"
+                  }
+                ]
+              },
+              {
+                "uuid": "0c1280b5-4f36-4a7c-a183-ddf46642cacf",
+                "control-id": "cis_ocp_1_4_0_3-1.1",
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "implemented"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "idp_is_configured"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "kubeadmin_removed"
+                  }
+                ]
+              },
+              {
+                "uuid": "6289f1bc-5658-4291-b114-3dd0b3d7dee0",
+                "control-id": "cis_ocp_1_4_0_3-2.2",
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "implemented"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "audit_profile_set"
+                  }
+                ]
+              },
+              {
+                "uuid": "1ab8db33-c965-43a0-8070-1787060ad031",
+                "control-id": "cis_ocp_1_4_0_4-2.8",
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "implemented"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "kubelet_configure_event_creation"
+                  }
+                ]
+              },
+              {
+                "uuid": "9bf3899c-0ebb-4671-a5cd-5cbd69b0b4a9",
+                "control-id": "cis_ocp_1_4_0_5-2.6",
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "alternative",
+                    "remarks": "REPLACE_ME"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_root_containers"
+                  }
+                ]
+              },
+              {
+                "uuid": "58cb5931-6909-4a68-b2fa-19d8738f0b96",
+                "control-id": "cis_ocp_1_4_0_5-2.9",
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "alternative",
+                    "remarks": "REPLACE_ME"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_drop_container_capabilities"
+                  }
+                ]
+              },
+              {
+                "uuid": "c1250ce1-6f9e-4643-8a0f-ff4ac58e1a2d",
+                "control-id": "cis_ocp_1_4_0_5-2.10",
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "alternative",
+                    "remarks": "REPLACE_ME"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "rbac_least_privilege"
+                  }
+                ]
+              },
+              {
+                "uuid": "ff22c3b6-18a0-41cc-9243-d58b85150ab8",
+                "control-id": "cis_ocp_1_4_0_5-3.2",
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "partial"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "configure_network_policies_namespaces"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "configure_network_policies_hypershift_hosted"
+                  }
+                ]
+              },
+              {
+                "uuid": "ed3dbb34-4306-44e3-8e25-ba71539664be",
+                "control-id": "cis_ocp_1_4_0_5-4.2",
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "alternative",
+                    "remarks": "REPLACE_ME"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "secrets_consider_external_storage"
+                  }
+                ]
+              },
+              {
+                "uuid": "ddec25b5-896c-4e73-8cb6-19478bc9f20b",
+                "control-id": "cis_ocp_1_4_0_5-5.1",
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "implemented"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "ocp_allowed_registries"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "ocp_allowed_registries_for_import"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "ocp_insecure_registries"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "ocp_insecure_allowed_registries_for_import"
+                  }
+                ]
+              },
+              {
+                "uuid": "ead6c775-39e9-4944-96f9-8f1fe0aec8af",
+                "control-id": "cis_ocp_1_4_0_5-7.2",
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "alternative",
+                    "remarks": "REPLACE_ME"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "general_default_seccomp_profile"
+                  }
+                ]
+              },
+              {
+                "uuid": "853af00d-06ef-4ded-9dc3-a187e02b5657",
+                "control-id": "cis_ocp_1_4_0_5-7.3",
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "alternative",
+                    "remarks": "REPLACE_ME"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "general_apply_scc"
+                  }
+                ]
+              },
+              {
+                "uuid": "73fac377-e6b4-4353-a4a2-90f5d76e328c",
+                "control-id": "cis_ocp_1_4_0_5-7.4",
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "alternative",
+                    "remarks": "REPLACE_ME"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "general_default_namespace_use"
+                  }
+                ]
+              },
+              {
+                "uuid": "9c16bb16-a940-4516-b5cc-2b8a63ad4ac2",
                 "control-id": "cis_ocp_1_4_0_1-1.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -8269,7 +8522,7 @@
                 ]
               },
               {
-                "uuid": "3dde5f2e-b941-4159-9166-a856b74c2274",
+                "uuid": "802499fa-36da-4103-8137-b1d93d371ec4",
                 "control-id": "cis_ocp_1_4_0_1-1.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -8291,7 +8544,7 @@
                 ]
               },
               {
-                "uuid": "9a1c826b-71d9-4d1f-8f02-d774c28a4978",
+                "uuid": "3a34772f-2926-4ec8-a71c-8a37540e96ed",
                 "control-id": "cis_ocp_1_4_0_1-1.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -8308,7 +8561,7 @@
                 ]
               },
               {
-                "uuid": "84a5f0ae-410b-47ad-bddc-85bd0ae69186",
+                "uuid": "4d81eddd-6a9e-42a2-9f63-ce9bd9025506",
                 "control-id": "cis_ocp_1_4_0_1-1.4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -8330,7 +8583,7 @@
                 ]
               },
               {
-                "uuid": "0076b1a1-3980-48c5-a6fa-b08039a3e8ed",
+                "uuid": "95fc8f8d-e831-4f86-aa8f-9f2b56e3de73",
                 "control-id": "cis_ocp_1_4_0_1-1.5",
                 "description": "REPLACE_ME",
                 "props": [
@@ -8347,7 +8600,7 @@
                 ]
               },
               {
-                "uuid": "da50701b-a5fd-400f-a602-d4f5e273103b",
+                "uuid": "5d33c0a1-550f-4ebb-bf46-5c9a0c59cb56",
                 "control-id": "cis_ocp_1_4_0_1-1.6",
                 "description": "REPLACE_ME",
                 "props": [
@@ -8369,7 +8622,7 @@
                 ]
               },
               {
-                "uuid": "c4913caa-59f0-42a8-8c3e-7da8c59d8a19",
+                "uuid": "35257af7-0290-4a18-bec7-16ccc489de3b",
                 "control-id": "cis_ocp_1_4_0_1-1.7",
                 "description": "REPLACE_ME",
                 "props": [
@@ -8386,7 +8639,7 @@
                 ]
               },
               {
-                "uuid": "feaaaa78-164c-4fe6-927b-4f5cf58633df",
+                "uuid": "c9e1c98d-2428-474c-ba75-2a0a0397fd56",
                 "control-id": "cis_ocp_1_4_0_1-1.8",
                 "description": "REPLACE_ME",
                 "props": [
@@ -8408,7 +8661,7 @@
                 ]
               },
               {
-                "uuid": "7d08f305-8ae2-4d08-9279-a773a32930ed",
+                "uuid": "d278b912-7ad2-4a05-a989-7e9f8d58fa80",
                 "control-id": "cis_ocp_1_4_0_1-1.9",
                 "description": "REPLACE_ME",
                 "props": [
@@ -8480,7 +8733,7 @@
                 ]
               },
               {
-                "uuid": "cfe8797e-1418-4442-99cd-43029075eea8",
+                "uuid": "5695d04b-aa6f-4c7f-a4d4-f4aab35225d5",
                 "control-id": "cis_ocp_1_4_0_1-1.10",
                 "description": "REPLACE_ME",
                 "props": [
@@ -8627,7 +8880,7 @@
                 ]
               },
               {
-                "uuid": "8816f0f3-e471-41af-bdac-ecf04b97c259",
+                "uuid": "a7fbb55a-c088-49ed-a4aa-aadddeabc1c8",
                 "control-id": "cis_ocp_1_4_0_1-1.11",
                 "description": "REPLACE_ME",
                 "props": [
@@ -8649,7 +8902,7 @@
                 ]
               },
               {
-                "uuid": "359a85f7-4075-4806-91d2-77dab5f2a18b",
+                "uuid": "22260b4e-9048-44be-a5c2-ad14e55b0cfb",
                 "control-id": "cis_ocp_1_4_0_1-1.12",
                 "description": "REPLACE_ME",
                 "props": [
@@ -8681,7 +8934,7 @@
                 ]
               },
               {
-                "uuid": "cf976fcd-b157-47c0-8d67-23442cb562e6",
+                "uuid": "abcb141b-0ff8-439f-ad7a-3112bb2b2545",
                 "control-id": "cis_ocp_1_4_0_1-1.13",
                 "description": "REPLACE_ME",
                 "props": [
@@ -8698,7 +8951,7 @@
                 ]
               },
               {
-                "uuid": "83d903ea-7427-497b-8d7a-5c2e9533c85b",
+                "uuid": "632bc4ec-78d5-4d79-a0c3-e7a3693f50a8",
                 "control-id": "cis_ocp_1_4_0_1-1.14",
                 "description": "REPLACE_ME",
                 "props": [
@@ -8720,7 +8973,7 @@
                 ]
               },
               {
-                "uuid": "97758e21-fb1b-4195-897f-74b1770fcf12",
+                "uuid": "11132744-2b0b-4115-b8b8-badd21d9177c",
                 "control-id": "cis_ocp_1_4_0_1-1.15",
                 "description": "REPLACE_ME",
                 "props": [
@@ -8737,7 +8990,7 @@
                 ]
               },
               {
-                "uuid": "1b4114ce-8eed-41f7-b7f0-6287edcd9518",
+                "uuid": "88e409a4-8ed1-48bd-bf17-c18d39038fbd",
                 "control-id": "cis_ocp_1_4_0_1-1.16",
                 "description": "REPLACE_ME",
                 "props": [
@@ -8759,7 +9012,7 @@
                 ]
               },
               {
-                "uuid": "d59183e4-7c1d-4123-a175-c225f218420a",
+                "uuid": "8bc5a530-57cb-4c40-bba3-076c975fe338",
                 "control-id": "cis_ocp_1_4_0_1-1.17",
                 "description": "REPLACE_ME",
                 "props": [
@@ -8776,7 +9029,7 @@
                 ]
               },
               {
-                "uuid": "902de38e-af49-4a13-9c2b-906ebfb57974",
+                "uuid": "f45674c5-66c0-4c88-a56d-909613932cf1",
                 "control-id": "cis_ocp_1_4_0_1-1.18",
                 "description": "REPLACE_ME",
                 "props": [
@@ -8798,7 +9051,7 @@
                 ]
               },
               {
-                "uuid": "ce198a30-68a9-4951-bf2f-4a2653e58bb2",
+                "uuid": "aaad12f7-a55e-495b-bd92-44fff5097bdd",
                 "control-id": "cis_ocp_1_4_0_1-1.19",
                 "description": "REPLACE_ME",
                 "props": [
@@ -8840,7 +9093,7 @@
                 ]
               },
               {
-                "uuid": "3c423599-aa3f-438d-a452-a627c1ad55b3",
+                "uuid": "9475d77f-6f6a-45c0-83a9-84ea5502b00c",
                 "control-id": "cis_ocp_1_4_0_1-1.20",
                 "description": "REPLACE_ME",
                 "props": [
@@ -8862,7 +9115,7 @@
                 ]
               },
               {
-                "uuid": "22e499ae-5580-4206-b3ed-38c01c7c65f0",
+                "uuid": "faad8aec-7c3c-4745-a3dd-e5685eb5a86c",
                 "control-id": "cis_ocp_1_4_0_1-1.21",
                 "description": "REPLACE_ME",
                 "props": [
@@ -8879,7 +9132,7 @@
                 ]
               },
               {
-                "uuid": "3465ec61-de0b-4eed-adb0-7b2689ad9562",
+                "uuid": "77acd482-ab87-4eae-b50e-e085ea4bce4d",
                 "control-id": "cis_ocp_1_4_0_1-2.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -8896,7 +9149,7 @@
                 ]
               },
               {
-                "uuid": "718635bc-1784-4da2-9163-306e265fa17d",
+                "uuid": "8fce9f5e-a509-4cb4-b506-d033279c7765",
                 "control-id": "cis_ocp_1_4_0_1-2.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -8913,7 +9166,7 @@
                 ]
               },
               {
-                "uuid": "ff4ab5e6-1a0a-4e32-a055-27f1924a9ac7",
+                "uuid": "438a7d2c-6519-446a-8cf5-2c10008f9150",
                 "control-id": "cis_ocp_1_4_0_1-2.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -8930,7 +9183,7 @@
                 ]
               },
               {
-                "uuid": "b32b2d04-b33a-49f9-a406-4316f1a26071",
+                "uuid": "a53ded48-7dc8-4edd-8087-ab19236831e6",
                 "control-id": "cis_ocp_1_4_0_1-2.4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -8957,7 +9210,7 @@
                 ]
               },
               {
-                "uuid": "053357b9-64af-48b3-90d2-f1e31f262cd5",
+                "uuid": "bd0e7ed0-5cc3-48c9-9620-2f759a59260a",
                 "control-id": "cis_ocp_1_4_0_1-2.5",
                 "description": "REPLACE_ME",
                 "props": [
@@ -8979,7 +9232,7 @@
                 ]
               },
               {
-                "uuid": "9326ce67-b6b0-49f0-9cc0-e6f3d6c1903e",
+                "uuid": "ba8bd1bf-99e0-4369-8860-f9410bb122d4",
                 "control-id": "cis_ocp_1_4_0_1-2.6",
                 "description": "REPLACE_ME",
                 "props": [
@@ -8996,7 +9249,7 @@
                 ]
               },
               {
-                "uuid": "3635d4ac-8f85-499e-a965-1e0c9856dbc5",
+                "uuid": "92aeefe4-2ede-4979-824b-27bbff1e6f04",
                 "control-id": "cis_ocp_1_4_0_1-2.7",
                 "description": "REPLACE_ME",
                 "props": [
@@ -9013,7 +9266,7 @@
                 ]
               },
               {
-                "uuid": "f2907b31-f679-4af9-acff-387ac0e5b4ae",
+                "uuid": "f23019a2-fb23-4dd0-a6d7-5c8a0974ba41",
                 "control-id": "cis_ocp_1_4_0_1-2.8",
                 "description": "REPLACE_ME",
                 "props": [
@@ -9030,7 +9283,7 @@
                 ]
               },
               {
-                "uuid": "24caff37-efe3-4400-a851-5fa31384efe9",
+                "uuid": "46993657-85d8-4f48-b7a7-1499eaf7a33d",
                 "control-id": "cis_ocp_1_4_0_1-2.9",
                 "description": "REPLACE_ME",
                 "props": [
@@ -9042,7 +9295,7 @@
                 ]
               },
               {
-                "uuid": "5cc4ccb3-218e-435d-bb3f-ed35873f09aa",
+                "uuid": "7a28f4d0-618e-48de-8332-c2e48ad3c2ed",
                 "control-id": "cis_ocp_1_4_0_1-2.10",
                 "description": "REPLACE_ME",
                 "props": [
@@ -9059,7 +9312,7 @@
                 ]
               },
               {
-                "uuid": "982c7cb6-4093-46b3-bd42-a42db6bf291b",
+                "uuid": "41eb8e9b-5ee6-4183-bf77-eb0c49d7550b",
                 "control-id": "cis_ocp_1_4_0_1-2.11",
                 "description": "REPLACE_ME",
                 "props": [
@@ -9076,7 +9329,7 @@
                 ]
               },
               {
-                "uuid": "fe464f85-2eb9-4972-89fc-675dcae234a3",
+                "uuid": "f2f07e7a-6cde-457e-bf57-809538a8c75a",
                 "control-id": "cis_ocp_1_4_0_1-2.12",
                 "description": "REPLACE_ME",
                 "props": [
@@ -9093,7 +9346,7 @@
                 ]
               },
               {
-                "uuid": "568f5233-0a40-480a-b8cc-b81a6858a2a2",
+                "uuid": "523b5fab-4e8a-4200-9caa-053f01268077",
                 "control-id": "cis_ocp_1_4_0_1-2.13",
                 "description": "REPLACE_ME",
                 "props": [
@@ -9110,7 +9363,7 @@
                 ]
               },
               {
-                "uuid": "821bb517-949a-423a-b2ad-2d44db44cf76",
+                "uuid": "07ce8882-8b08-422e-b2cb-31538706bf75",
                 "control-id": "cis_ocp_1_4_0_1-2.14",
                 "description": "REPLACE_ME",
                 "props": [
@@ -9127,7 +9380,7 @@
                 ]
               },
               {
-                "uuid": "38b50fd5-483e-4a45-a39d-6c43516f297a",
+                "uuid": "b215d8e7-de74-43cc-a7f4-ffcebb7a35e3",
                 "control-id": "cis_ocp_1_4_0_1-2.15",
                 "description": "REPLACE_ME",
                 "props": [
@@ -9144,7 +9397,7 @@
                 ]
               },
               {
-                "uuid": "64343349-d930-4247-8de2-0216e4cb1870",
+                "uuid": "53bcc1e9-409f-40c7-8d81-f4685c0bf303",
                 "control-id": "cis_ocp_1_4_0_1-2.16",
                 "description": "REPLACE_ME",
                 "props": [
@@ -9161,7 +9414,7 @@
                 ]
               },
               {
-                "uuid": "c64383a3-85d0-4471-a236-7164931481a6",
+                "uuid": "56c39ec5-3084-4465-9ae9-6c21a99b5102",
                 "control-id": "cis_ocp_1_4_0_1-2.17",
                 "description": "REPLACE_ME",
                 "props": [
@@ -9173,7 +9426,7 @@
                 ]
               },
               {
-                "uuid": "64586ca3-86b0-4b13-b49c-89bb3796cc1e",
+                "uuid": "5cfb0fe5-1e72-4d32-83e4-bac5753f57fb",
                 "control-id": "cis_ocp_1_4_0_1-2.18",
                 "description": "REPLACE_ME",
                 "props": [
@@ -9190,7 +9443,7 @@
                 ]
               },
               {
-                "uuid": "6dc3e410-4bc5-41f1-8c96-3ee0bec26844",
+                "uuid": "95dd354c-cc97-42b7-b045-1d0efbe08bbe",
                 "control-id": "cis_ocp_1_4_0_1-2.19",
                 "description": "REPLACE_ME",
                 "props": [
@@ -9207,7 +9460,7 @@
                 ]
               },
               {
-                "uuid": "517f70f6-2e54-449b-9b4d-c4421bcb7b4e",
+                "uuid": "dc1e6321-fc42-4886-bf7f-38b27876de50",
                 "control-id": "cis_ocp_1_4_0_1-2.20",
                 "description": "REPLACE_ME",
                 "props": [
@@ -9229,7 +9482,7 @@
                 ]
               },
               {
-                "uuid": "6ff0c32d-a328-47e0-8636-7800c497ab09",
+                "uuid": "f2f92859-aee6-4e87-a4a5-b97e3c2618c4",
                 "control-id": "cis_ocp_1_4_0_1-2.21",
                 "description": "REPLACE_ME",
                 "props": [
@@ -9251,7 +9504,7 @@
                 ]
               },
               {
-                "uuid": "5d7569a6-63ec-42e5-9cec-4806f803f0d3",
+                "uuid": "30f63d43-b3a6-43d2-965d-6202e7b16ff8",
                 "control-id": "cis_ocp_1_4_0_1-2.22",
                 "description": "REPLACE_ME",
                 "props": [
@@ -9273,7 +9526,7 @@
                 ]
               },
               {
-                "uuid": "dcc39e41-d662-430a-a6d0-5a1d6fdc3b0c",
+                "uuid": "ad712aad-9897-4a61-adf4-47cace9677cc",
                 "control-id": "cis_ocp_1_4_0_1-2.23",
                 "description": "REPLACE_ME",
                 "props": [
@@ -9295,7 +9548,7 @@
                 ]
               },
               {
-                "uuid": "cbe23694-b5b4-4f10-aee8-9e5478439c99",
+                "uuid": "2a84f2fc-7ba4-45b9-80cf-2bfa4c3c7c6a",
                 "control-id": "cis_ocp_1_4_0_1-2.24",
                 "description": "REPLACE_ME",
                 "props": [
@@ -9312,7 +9565,7 @@
                 ]
               },
               {
-                "uuid": "292740ae-5b3f-4d72-a6bf-76efab12b462",
+                "uuid": "762e328a-a221-4ccb-9c79-2b2637af6969",
                 "control-id": "cis_ocp_1_4_0_1-2.25",
                 "description": "REPLACE_ME",
                 "props": [
@@ -9329,7 +9582,7 @@
                 ]
               },
               {
-                "uuid": "37f3b4cc-f10b-48f3-b47b-89fc4776b7c7",
+                "uuid": "072e6525-dc61-4d66-85b2-1f2038040c37",
                 "control-id": "cis_ocp_1_4_0_1-2.26",
                 "description": "REPLACE_ME",
                 "props": [
@@ -9346,7 +9599,7 @@
                 ]
               },
               {
-                "uuid": "6f934019-af7a-41cb-9f6b-2e6741656721",
+                "uuid": "20e965f4-880f-422e-b2a7-4321063fca6c",
                 "control-id": "cis_ocp_1_4_0_1-2.27",
                 "description": "REPLACE_ME",
                 "props": [
@@ -9368,7 +9621,7 @@
                 ]
               },
               {
-                "uuid": "286a72a4-a772-4a23-8073-aedf5b7c6973",
+                "uuid": "9792819e-c3f9-4a88-bc1e-f13aca946172",
                 "control-id": "cis_ocp_1_4_0_1-2.28",
                 "description": "REPLACE_ME",
                 "props": [
@@ -9390,7 +9643,7 @@
                 ]
               },
               {
-                "uuid": "29fc2e7c-e5c7-4188-b3fd-a72efb2246d4",
+                "uuid": "1ee331d1-4783-4ab2-9a80-b7abd1bb3cc9",
                 "control-id": "cis_ocp_1_4_0_1-2.29",
                 "description": "REPLACE_ME",
                 "props": [
@@ -9407,7 +9660,7 @@
                 ]
               },
               {
-                "uuid": "c8146db8-f71b-42c8-8441-e2ba95707e97",
+                "uuid": "16fce9ff-2f6a-44c6-a0ff-60204012d59f",
                 "control-id": "cis_ocp_1_4_0_1-2.30",
                 "description": "REPLACE_ME",
                 "props": [
@@ -9424,7 +9677,7 @@
                 ]
               },
               {
-                "uuid": "cb03d007-b270-41d0-847a-d1c072455787",
+                "uuid": "4e90b5cb-e4ae-4fac-8ec7-cb68261ab41c",
                 "control-id": "cis_ocp_1_4_0_1-2.31",
                 "description": "REPLACE_ME",
                 "props": [
@@ -9441,7 +9694,7 @@
                 ]
               },
               {
-                "uuid": "9c61ba41-2ad3-4b54-931f-f7fc5b896e4c",
+                "uuid": "5eb2f913-080e-4cd4-b999-a5c901c60141",
                 "control-id": "cis_ocp_1_4_0_1-2.32",
                 "description": "REPLACE_ME",
                 "props": [
@@ -9463,7 +9716,7 @@
                 ]
               },
               {
-                "uuid": "8595f77f-127c-45a6-86f8-53164f92397d",
+                "uuid": "94b3e367-15d2-4cda-ae27-cb80e10a431a",
                 "control-id": "cis_ocp_1_4_0_1-2.33",
                 "description": "REPLACE_ME",
                 "props": [
@@ -9476,7 +9729,7 @@
                 ]
               },
               {
-                "uuid": "0df94c99-ec92-4e75-8275-d663276ae9f4",
+                "uuid": "a0a972b7-18db-4666-84d9-c34f7b6044af",
                 "control-id": "cis_ocp_1_4_0_1-3.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -9493,7 +9746,7 @@
                 ]
               },
               {
-                "uuid": "a295eb0f-ed2b-4a84-9928-00fc90320b8d",
+                "uuid": "64943b35-15ab-4abe-85db-74cfa4d480c0",
                 "control-id": "cis_ocp_1_4_0_1-3.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -9510,7 +9763,7 @@
                 ]
               },
               {
-                "uuid": "43bb15e6-5a8c-44bc-b9f4-7b3a42b33613",
+                "uuid": "97297338-f95f-4d76-82e7-3a99f766af50",
                 "control-id": "cis_ocp_1_4_0_1-3.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -9527,7 +9780,7 @@
                 ]
               },
               {
-                "uuid": "2afc37b1-7af5-4bd1-9ac1-b287d4650caa",
+                "uuid": "bcce38fa-dee5-4a4a-afba-ba2d7b0ac112",
                 "control-id": "cis_ocp_1_4_0_1-3.4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -9544,7 +9797,7 @@
                 ]
               },
               {
-                "uuid": "5b472a8a-46e9-4110-b4e3-845426f29a41",
+                "uuid": "0edeb9f8-482c-4036-9c3f-0471df1945fa",
                 "control-id": "cis_ocp_1_4_0_1-3.5",
                 "description": "REPLACE_ME",
                 "props": [
@@ -9566,7 +9819,7 @@
                 ]
               },
               {
-                "uuid": "173eb6a1-d06e-4a44-9ca9-480db223091b",
+                "uuid": "9f1fd5fb-261d-4805-8b17-8698b423215a",
                 "control-id": "cis_ocp_1_4_0_1-4.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -9583,7 +9836,7 @@
                 ]
               },
               {
-                "uuid": "ea3723be-c31e-411f-bd97-7ad2768a4beb",
+                "uuid": "903b731b-cfd0-4192-a750-ee51cb55bdac",
                 "control-id": "cis_ocp_1_4_0_1-4.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -9600,7 +9853,7 @@
                 ]
               },
               {
-                "uuid": "b70bf8a0-674e-4a90-8df7-54da6ef46ddf",
+                "uuid": "c2746eaf-02ce-400c-877a-dee44c0b60ad",
                 "control-id": "cis_ocp_1_4_0_1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -9613,7 +9866,7 @@
                 ]
               },
               {
-                "uuid": "766ed5dc-58c3-4ae5-b04c-df99d502a092",
+                "uuid": "cb06531e-5f35-459d-b27d-f93ebdf3acae",
                 "control-id": "cis_ocp_1_4_0_2-1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -9635,7 +9888,7 @@
                 ]
               },
               {
-                "uuid": "342506f2-ddfa-4a32-8c0c-0275b60fa21e",
+                "uuid": "6cdfacec-40d2-4813-839d-982d9fd1b398",
                 "control-id": "cis_ocp_1_4_0_2-2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -9652,7 +9905,7 @@
                 ]
               },
               {
-                "uuid": "12607ad3-3a47-43a0-8001-59d734708874",
+                "uuid": "e9f576d3-4190-41d0-a81f-7654da36023b",
                 "control-id": "cis_ocp_1_4_0_2-3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -9669,7 +9922,7 @@
                 ]
               },
               {
-                "uuid": "093d56c0-e010-4060-802a-e31bd4339af5",
+                "uuid": "19c0e62b-df6b-4330-9463-579152a8ec4e",
                 "control-id": "cis_ocp_1_4_0_2-4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -9691,7 +9944,7 @@
                 ]
               },
               {
-                "uuid": "df782b45-6124-46a1-97a5-a3dd5b59e7b9",
+                "uuid": "4972583a-9963-4941-845f-e4cc512a77a8",
                 "control-id": "cis_ocp_1_4_0_2-5",
                 "description": "REPLACE_ME",
                 "props": [
@@ -9708,7 +9961,7 @@
                 ]
               },
               {
-                "uuid": "e0840ec2-8873-4645-b3c8-f1fd55ab54a9",
+                "uuid": "6df7dbe3-01a8-4a47-b1ab-3d4e8f575f32",
                 "control-id": "cis_ocp_1_4_0_2-6",
                 "description": "REPLACE_ME",
                 "props": [
@@ -9725,7 +9978,7 @@
                 ]
               },
               {
-                "uuid": "232f0950-d1f5-4487-a7d2-a043bfb3c086",
+                "uuid": "c822b3fd-cb67-46b1-8cab-23c6475a8957",
                 "control-id": "cis_ocp_1_4_0_2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -9738,7 +9991,7 @@
                 ]
               },
               {
-                "uuid": "f6611984-71c5-415c-b42e-31e052e3af2e",
+                "uuid": "f5ad06f4-94e1-467b-b8aa-f5b89ada8df7",
                 "control-id": "cis_ocp_1_4_0_3-2.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -9755,7 +10008,7 @@
                 ]
               },
               {
-                "uuid": "f00acc10-47fe-4fd2-b072-3cdc5f9313a4",
+                "uuid": "dfe9e4a9-5565-4f88-b296-7136ee1786a6",
                 "control-id": "cis_ocp_1_4_0_3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -9768,7 +10021,7 @@
                 ]
               },
               {
-                "uuid": "73749ded-7d05-499b-a359-c0d41bfdc304",
+                "uuid": "b748efd5-ac11-4b29-8d80-00690183f2cd",
                 "control-id": "cis_ocp_1_4_0_4-1.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -9785,7 +10038,7 @@
                 ]
               },
               {
-                "uuid": "bc6bb882-8058-4248-9570-9bd7c10233c7",
+                "uuid": "2d6ece03-208b-4b78-a693-098575b827a8",
                 "control-id": "cis_ocp_1_4_0_4-1.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -9807,7 +10060,7 @@
                 ]
               },
               {
-                "uuid": "c3971d6a-afb0-464f-a4fd-f8e4ae096dc4",
+                "uuid": "539ab57f-d374-4e44-9651-cc9292072ae7",
                 "control-id": "cis_ocp_1_4_0_4-1.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -9824,7 +10077,7 @@
                 ]
               },
               {
-                "uuid": "52c97aa0-cbce-41ca-ac41-01494881a59a",
+                "uuid": "38ee708e-8f17-4378-a62d-6766e3d9d06e",
                 "control-id": "cis_ocp_1_4_0_4-1.4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -9846,7 +10099,7 @@
                 ]
               },
               {
-                "uuid": "7fe98170-8ae0-44da-b035-0e11aa2781c9",
+                "uuid": "40495754-6e82-4df3-bad1-8322b8168431",
                 "control-id": "cis_ocp_1_4_0_4-1.5",
                 "description": "REPLACE_ME",
                 "props": [
@@ -9863,7 +10116,7 @@
                 ]
               },
               {
-                "uuid": "64c17c27-2fb9-472c-93cd-5f83b99cd4b3",
+                "uuid": "c17b527c-078d-46b0-937c-53ac0d90786b",
                 "control-id": "cis_ocp_1_4_0_4-1.6",
                 "description": "REPLACE_ME",
                 "props": [
@@ -9890,7 +10143,7 @@
                 ]
               },
               {
-                "uuid": "2cb1be1c-bf67-45a7-a33b-5a9d61a3f52a",
+                "uuid": "d56407f5-7406-408d-a5e5-a6f1899553c1",
                 "control-id": "cis_ocp_1_4_0_4-1.7",
                 "description": "REPLACE_ME",
                 "props": [
@@ -9907,7 +10160,7 @@
                 ]
               },
               {
-                "uuid": "19ee67da-3f13-40bd-b931-5569797ac99a",
+                "uuid": "dba3d7ba-867a-4b03-8313-543de97ef79c",
                 "control-id": "cis_ocp_1_4_0_4-1.8",
                 "description": "REPLACE_ME",
                 "props": [
@@ -9929,7 +10182,7 @@
                 ]
               },
               {
-                "uuid": "0425f8ba-a997-4c69-afba-76b22437c398",
+                "uuid": "28e22adf-0528-4942-b5a2-210cdba9b465",
                 "control-id": "cis_ocp_1_4_0_4-1.9",
                 "description": "REPLACE_ME",
                 "props": [
@@ -9946,7 +10199,7 @@
                 ]
               },
               {
-                "uuid": "d1513e37-a709-4608-aecf-db6df5843ae5",
+                "uuid": "5f26061a-9dd7-49c8-bb76-855918d2bc0c",
                 "control-id": "cis_ocp_1_4_0_4-1.10",
                 "description": "REPLACE_ME",
                 "props": [
@@ -9968,7 +10221,7 @@
                 ]
               },
               {
-                "uuid": "69dddb57-4d74-4467-b595-7035f951b372",
+                "uuid": "4c27f956-7c77-4e08-a302-c9196a5ffd80",
                 "control-id": "cis_ocp_1_4_0_4-2.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -10000,7 +10253,7 @@
                 ]
               },
               {
-                "uuid": "df720077-a022-4002-84a8-156a8502d848",
+                "uuid": "4ddbabff-61a6-48c1-8d1f-e2e651779b04",
                 "control-id": "cis_ocp_1_4_0_4-2.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -10017,7 +10270,7 @@
                 ]
               },
               {
-                "uuid": "68a026e5-4bb6-457c-a569-a2a92bd088eb",
+                "uuid": "d6da1bf3-0cf2-445b-a917-048de444a18f",
                 "control-id": "cis_ocp_1_4_0_4-2.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -10034,7 +10287,7 @@
                 ]
               },
               {
-                "uuid": "52b947c2-8dfe-4ada-b81f-d55b336fa014",
+                "uuid": "1081202f-5a94-4358-aebc-93e2382b1cda",
                 "control-id": "cis_ocp_1_4_0_4-2.4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -10051,7 +10304,7 @@
                 ]
               },
               {
-                "uuid": "b52e63b9-7641-43e5-9e99-8974dfe4d7a6",
+                "uuid": "7c71307e-c4e2-4c1b-81f9-547c9eb418a8",
                 "control-id": "cis_ocp_1_4_0_4-2.5",
                 "description": "REPLACE_ME",
                 "props": [
@@ -10068,7 +10321,7 @@
                 ]
               },
               {
-                "uuid": "5584cd44-d0f5-4cc2-acf4-acae3bded4db",
+                "uuid": "f093c87e-69ea-4db9-93f3-0c92fe178ba1",
                 "control-id": "cis_ocp_1_4_0_4-2.6",
                 "description": "REPLACE_ME",
                 "props": [
@@ -10085,7 +10338,7 @@
                 ]
               },
               {
-                "uuid": "4ec3c08a-70d6-434c-afa8-99d043c559ee",
+                "uuid": "0e380cfb-8e08-443c-9b9e-7edfca9c6c8f",
                 "control-id": "cis_ocp_1_4_0_4-2.7",
                 "description": "REPLACE_ME",
                 "props": [
@@ -10102,7 +10355,7 @@
                 ]
               },
               {
-                "uuid": "7086ad02-ebe9-49b3-88b4-7770ad9013ec",
+                "uuid": "06c88480-e84a-4b58-aaef-a9edc245d942",
                 "control-id": "cis_ocp_1_4_0_4-2.9",
                 "description": "REPLACE_ME",
                 "props": [
@@ -10124,7 +10377,7 @@
                 ]
               },
               {
-                "uuid": "693f061a-6c69-4e0e-86e2-3d021abc7090",
+                "uuid": "f60ad465-cf85-491d-a4a9-86007e57014d",
                 "control-id": "cis_ocp_1_4_0_4-2.10",
                 "description": "REPLACE_ME",
                 "props": [
@@ -10146,7 +10399,7 @@
                 ]
               },
               {
-                "uuid": "0715a3a0-f8c1-4e6f-81ca-3be6d7b0f7e9",
+                "uuid": "ea4cb3ab-66ec-48ed-82c1-89e976e86232",
                 "control-id": "cis_ocp_1_4_0_4-2.11",
                 "description": "REPLACE_ME",
                 "props": [
@@ -10163,7 +10416,7 @@
                 ]
               },
               {
-                "uuid": "e1c43afb-4f4e-409f-8b0c-3a5a70ae335d",
+                "uuid": "050648eb-a223-48a1-a9c7-1bdb3d1cc119",
                 "control-id": "cis_ocp_1_4_0_4-2.12",
                 "description": "REPLACE_ME",
                 "props": [
@@ -10185,7 +10438,7 @@
                 ]
               },
               {
-                "uuid": "cb88dd68-64bb-4402-86ca-6e382b3e6581",
+                "uuid": "caf4b4dc-3bdc-4442-a755-9dc251b6137d",
                 "control-id": "cis_ocp_1_4_0_4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -10198,7 +10451,7 @@
                 ]
               },
               {
-                "uuid": "85e3f013-03ef-4989-af28-81857d596ea9",
+                "uuid": "368b4126-9a64-4354-ac6f-f830d220481e",
                 "control-id": "cis_ocp_1_4_0_5-1.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -10216,7 +10469,7 @@
                 ]
               },
               {
-                "uuid": "eeaf6acd-5c25-4ecc-888a-ab36272c7ba8",
+                "uuid": "4e665daa-de2d-4d14-8cb5-815ee8a8e9da",
                 "control-id": "cis_ocp_1_4_0_5-1.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -10234,7 +10487,7 @@
                 ]
               },
               {
-                "uuid": "c6eff1b7-7877-4bad-8d34-104f638d3fc6",
+                "uuid": "0c765a87-f714-4a06-8f3c-dd32003cc666",
                 "control-id": "cis_ocp_1_4_0_5-1.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -10252,7 +10505,7 @@
                 ]
               },
               {
-                "uuid": "843a1ee6-867c-4f37-b504-5aa8c8ba6666",
+                "uuid": "b1fff3c6-7b4f-4829-9c41-5d70561a48e2",
                 "control-id": "cis_ocp_1_4_0_5-1.4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -10270,7 +10523,7 @@
                 ]
               },
               {
-                "uuid": "a378b008-56b4-4cf6-b967-8cf9b086be86",
+                "uuid": "9e488683-aacd-4dd5-b137-e7af1bfd3830",
                 "control-id": "cis_ocp_1_4_0_5-1.5",
                 "description": "REPLACE_ME",
                 "props": [
@@ -10288,7 +10541,7 @@
                 ]
               },
               {
-                "uuid": "f13e6d7f-c0f8-4c7c-bd78-6433d116e676",
+                "uuid": "3b49c4a5-db0a-44d9-add7-9226c60ddd4f",
                 "control-id": "cis_ocp_1_4_0_5-1.6",
                 "description": "REPLACE_ME",
                 "props": [
@@ -10306,7 +10559,7 @@
                 ]
               },
               {
-                "uuid": "daad2001-ae78-447f-9bc7-741fc495c43b",
+                "uuid": "d64d82d3-a366-4a60-a1d4-3556a77f6d5f",
                 "control-id": "cis_ocp_1_4_0_5-2.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -10324,7 +10577,7 @@
                 ]
               },
               {
-                "uuid": "66d15959-7a91-4a0f-be49-32648625ee01",
+                "uuid": "5a59cd68-2f56-4361-8c66-64fd2d70025b",
                 "control-id": "cis_ocp_1_4_0_5-2.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -10342,7 +10595,7 @@
                 ]
               },
               {
-                "uuid": "324a71ae-5c8f-4c32-93f6-e90c62a94dcf",
+                "uuid": "b06442d8-bdd1-4f2c-a660-9bc7c7cf4b39",
                 "control-id": "cis_ocp_1_4_0_5-2.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -10360,7 +10613,7 @@
                 ]
               },
               {
-                "uuid": "1ca434a1-52c2-4859-b3f9-937af419eadd",
+                "uuid": "c3adab20-242d-4e82-8954-ca987dd18c10",
                 "control-id": "cis_ocp_1_4_0_5-2.4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -10378,7 +10631,7 @@
                 ]
               },
               {
-                "uuid": "3cb3b035-2201-4d9a-9ca9-25035e1cc77f",
+                "uuid": "030b909f-54be-4d75-813e-544e9225a135",
                 "control-id": "cis_ocp_1_4_0_5-2.5",
                 "description": "REPLACE_ME",
                 "props": [
@@ -10396,7 +10649,7 @@
                 ]
               },
               {
-                "uuid": "13c07cb0-3412-441e-8aa2-123c97ddda9b",
+                "uuid": "a3c01085-9d5f-495c-af97-69aee2b1f3ad",
                 "control-id": "cis_ocp_1_4_0_5-2.7",
                 "description": "REPLACE_ME",
                 "props": [
@@ -10414,7 +10667,7 @@
                 ]
               },
               {
-                "uuid": "624c882d-7af3-4be2-948f-fa52b585d39f",
+                "uuid": "bb6cf1d7-d7f5-424f-91ad-261899fbe45f",
                 "control-id": "cis_ocp_1_4_0_5-2.8",
                 "description": "REPLACE_ME",
                 "props": [
@@ -10431,7 +10684,7 @@
                 ]
               },
               {
-                "uuid": "2eb20453-f36a-4e06-a72a-0daa186fca62",
+                "uuid": "46d91ac3-c5f7-40c8-8fb6-92c8a1416478",
                 "control-id": "cis_ocp_1_4_0_5-3.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -10448,7 +10701,7 @@
                 ]
               },
               {
-                "uuid": "8064ac92-4f4d-45d1-956b-907444b1194f",
+                "uuid": "62c64af8-f5cf-4aaa-9de6-45c17454844b",
                 "control-id": "cis_ocp_1_4_0_5-4.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -10466,7 +10719,7 @@
                 ]
               },
               {
-                "uuid": "0464a4df-8007-4c72-97a1-3edaf4a4d162",
+                "uuid": "958a7830-c24e-44ac-b0b2-e98d76e8c422",
                 "control-id": "cis_ocp_1_4_0_5-7.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -10484,7 +10737,7 @@
                 ]
               },
               {
-                "uuid": "65504024-2df0-4a7d-9e2e-f5cbbea5f829",
+                "uuid": "da26e38c-a60d-4132-acf4-38a909ad43bd",
                 "control-id": "cis_ocp_1_4_0_5",
                 "description": "REPLACE_ME",
                 "props": [
@@ -10501,7 +10754,7 @@
         ]
       },
       {
-        "uuid": "d33883f0-fe4b-4ce5-8a0c-0341b8ecea19",
+        "uuid": "71c58f78-8ec4-4ccb-b90a-a26001202423",
         "type": "validation",
         "title": "openscap",
         "description": "openscap",
@@ -18867,8 +19120,8 @@
         ],
         "control-implementations": [
           {
-            "uuid": "90a39f4f-a555-4d21-a01f-5efda45f360b",
-            "source": "trestle://profiles/ocp4-cis_ocp_1_4_0-level_1/profile.json",
+            "uuid": "92ef3bce-0d50-49a0-a10a-c8a77a22049a",
+            "source": "trestle://profiles/ocp4-cis_ocp_1_4_0-level_2/profile.json",
             "description": "REPLACE_ME",
             "props": [
               {
@@ -18887,7 +19140,7 @@
             ],
             "implemented-requirements": [
               {
-                "uuid": "874b114f-8d38-4b7c-8089-f4da1f9aafb2",
+                "uuid": "cf3df4a3-9107-4bb6-86a5-1d7ad4fc4f98",
                 "control-id": "cis_ocp_1_4_0_1-1.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -18904,7 +19157,7 @@
                 ]
               },
               {
-                "uuid": "e915e40e-39a0-437d-b1cf-51fe9153edf1",
+                "uuid": "b2f864fb-cab4-425b-ab88-6f69671565ec",
                 "control-id": "cis_ocp_1_4_0_1-1.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -18926,7 +19179,7 @@
                 ]
               },
               {
-                "uuid": "495f921b-862c-46e4-884c-0824fae1ea1c",
+                "uuid": "9669a37b-e63a-4a8a-8329-de204ad1be1f",
                 "control-id": "cis_ocp_1_4_0_1-1.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -18943,7 +19196,7 @@
                 ]
               },
               {
-                "uuid": "24cd17f3-7230-4e0c-87b7-c64ad9f855b5",
+                "uuid": "10931633-120d-44c1-a813-1721e7785b47",
                 "control-id": "cis_ocp_1_4_0_1-1.4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -18965,7 +19218,7 @@
                 ]
               },
               {
-                "uuid": "b98bfeda-ed49-4531-bcb9-0476a6cfa376",
+                "uuid": "3edd4c99-13db-4409-8fe1-173a59f273c3",
                 "control-id": "cis_ocp_1_4_0_1-1.5",
                 "description": "REPLACE_ME",
                 "props": [
@@ -18982,7 +19235,7 @@
                 ]
               },
               {
-                "uuid": "6a8dec08-1ed3-4970-a3ef-c541b1f0ce20",
+                "uuid": "98110acb-2cd8-4549-92c4-de4441e41fa6",
                 "control-id": "cis_ocp_1_4_0_1-1.6",
                 "description": "REPLACE_ME",
                 "props": [
@@ -19004,7 +19257,7 @@
                 ]
               },
               {
-                "uuid": "e0c260fa-8613-43b2-91e2-ef4a64e55559",
+                "uuid": "e335f89f-7d22-472b-96f3-bf518c166e19",
                 "control-id": "cis_ocp_1_4_0_1-1.7",
                 "description": "REPLACE_ME",
                 "props": [
@@ -19021,7 +19274,7 @@
                 ]
               },
               {
-                "uuid": "c3205fc5-ef28-42aa-a903-b925dd4c5083",
+                "uuid": "7fefe4d4-1b03-4068-ad27-834251fbd5ff",
                 "control-id": "cis_ocp_1_4_0_1-1.8",
                 "description": "REPLACE_ME",
                 "props": [
@@ -19043,7 +19296,7 @@
                 ]
               },
               {
-                "uuid": "6f5df01f-b805-4384-b07d-c3476fdfd608",
+                "uuid": "508b53a3-1e35-4206-8e2e-df29e3885742",
                 "control-id": "cis_ocp_1_4_0_1-1.9",
                 "description": "REPLACE_ME",
                 "props": [
@@ -19115,7 +19368,7 @@
                 ]
               },
               {
-                "uuid": "88144e1d-daa1-4926-ac5f-695489b00b76",
+                "uuid": "9eb5565a-8f9f-4791-a75e-30691a5e912b",
                 "control-id": "cis_ocp_1_4_0_1-1.10",
                 "description": "REPLACE_ME",
                 "props": [
@@ -19262,7 +19515,7 @@
                 ]
               },
               {
-                "uuid": "2715d7ce-e4d6-4d2a-bdda-142499aa7e5c",
+                "uuid": "c315b66b-c52c-4239-8044-ac9fb21d4cce",
                 "control-id": "cis_ocp_1_4_0_1-1.11",
                 "description": "REPLACE_ME",
                 "props": [
@@ -19284,7 +19537,7 @@
                 ]
               },
               {
-                "uuid": "e4824a7d-994c-431e-b0ce-10d116d26239",
+                "uuid": "bc24778e-cbbf-413c-8d78-eb1cfbd164aa",
                 "control-id": "cis_ocp_1_4_0_1-1.12",
                 "description": "REPLACE_ME",
                 "props": [
@@ -19316,7 +19569,7 @@
                 ]
               },
               {
-                "uuid": "6eb2a8ec-1e07-4776-8093-5b372a5e8444",
+                "uuid": "6dda832d-e37e-4f97-8937-4bc1df87c952",
                 "control-id": "cis_ocp_1_4_0_1-1.13",
                 "description": "REPLACE_ME",
                 "props": [
@@ -19333,7 +19586,7 @@
                 ]
               },
               {
-                "uuid": "e731ed00-2e8f-4014-b760-40db4dfa0b33",
+                "uuid": "0de25e3a-bd9d-457d-a0ef-d55722094342",
                 "control-id": "cis_ocp_1_4_0_1-1.14",
                 "description": "REPLACE_ME",
                 "props": [
@@ -19355,7 +19608,7 @@
                 ]
               },
               {
-                "uuid": "b48a231f-3966-4ce2-be96-3432aa4110e3",
+                "uuid": "f79aeedf-bf4d-464e-8f0d-4bf3800bae6b",
                 "control-id": "cis_ocp_1_4_0_1-1.15",
                 "description": "REPLACE_ME",
                 "props": [
@@ -19372,7 +19625,7 @@
                 ]
               },
               {
-                "uuid": "2bd17805-257e-4980-8b95-7c78fa7d7d3f",
+                "uuid": "7d771c0e-c43f-4b9f-8af8-7bf9042b6f5b",
                 "control-id": "cis_ocp_1_4_0_1-1.16",
                 "description": "REPLACE_ME",
                 "props": [
@@ -19394,7 +19647,7 @@
                 ]
               },
               {
-                "uuid": "3bbb677f-7aff-4acf-a062-72747bdb441b",
+                "uuid": "ae526560-0333-40a7-a8c6-07293a2b3cd9",
                 "control-id": "cis_ocp_1_4_0_1-1.17",
                 "description": "REPLACE_ME",
                 "props": [
@@ -19411,7 +19664,7 @@
                 ]
               },
               {
-                "uuid": "5eb3cf87-d4b7-48e7-bf92-13a0339993fe",
+                "uuid": "ddff4077-8eb7-402b-bb5e-e732759e5efa",
                 "control-id": "cis_ocp_1_4_0_1-1.18",
                 "description": "REPLACE_ME",
                 "props": [
@@ -19433,7 +19686,7 @@
                 ]
               },
               {
-                "uuid": "d62abfb0-e5fa-4ed4-984e-8415f3fdbb71",
+                "uuid": "5b357134-5ab4-4dd7-b406-06d6e0316fa0",
                 "control-id": "cis_ocp_1_4_0_1-1.19",
                 "description": "REPLACE_ME",
                 "props": [
@@ -19475,7 +19728,7 @@
                 ]
               },
               {
-                "uuid": "5a09661f-54ae-4c08-9c63-01a4093fcbce",
+                "uuid": "7498a0dd-d92f-496c-986f-0ad7682a670f",
                 "control-id": "cis_ocp_1_4_0_1-1.20",
                 "description": "REPLACE_ME",
                 "props": [
@@ -19497,7 +19750,7 @@
                 ]
               },
               {
-                "uuid": "8d76a647-4941-47f1-9b36-fc50ad4acfcf",
+                "uuid": "6bc3b36d-ab51-475a-b226-472246806bf9",
                 "control-id": "cis_ocp_1_4_0_1-1.21",
                 "description": "REPLACE_ME",
                 "props": [
@@ -19514,7 +19767,7 @@
                 ]
               },
               {
-                "uuid": "20334ae2-a287-46b2-9830-1be1d3e1b559",
+                "uuid": "519a4472-982b-4024-ad5f-de87275cdc87",
                 "control-id": "cis_ocp_1_4_0_1-2.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -19531,7 +19784,7 @@
                 ]
               },
               {
-                "uuid": "b13171c4-e527-48e5-b417-2af6bf26e44a",
+                "uuid": "8c63fc85-4521-4126-8640-8e28d38de399",
                 "control-id": "cis_ocp_1_4_0_1-2.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -19548,7 +19801,7 @@
                 ]
               },
               {
-                "uuid": "efa1cfad-0388-4f3b-bab2-cac00bb96170",
+                "uuid": "dab316f4-8e7f-4f09-8d61-d5818f8716b6",
                 "control-id": "cis_ocp_1_4_0_1-2.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -19565,7 +19818,7 @@
                 ]
               },
               {
-                "uuid": "5b287f23-6ad6-44c1-a202-228a9680d3f2",
+                "uuid": "731edc7c-a150-4a49-a1ed-49de918289c6",
                 "control-id": "cis_ocp_1_4_0_1-2.4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -19592,7 +19845,7 @@
                 ]
               },
               {
-                "uuid": "73e9b5ad-cdbf-4ca5-8d29-ed2c3fe9ebbf",
+                "uuid": "c8a8615b-6ef6-4502-8da3-b338e283e9db",
                 "control-id": "cis_ocp_1_4_0_1-2.5",
                 "description": "REPLACE_ME",
                 "props": [
@@ -19614,7 +19867,7 @@
                 ]
               },
               {
-                "uuid": "b4207999-b857-46e2-aa0a-7ee3e9d074ba",
+                "uuid": "7b2ac7e2-654d-4b74-b767-1b80f8bbcb71",
                 "control-id": "cis_ocp_1_4_0_1-2.6",
                 "description": "REPLACE_ME",
                 "props": [
@@ -19631,7 +19884,7 @@
                 ]
               },
               {
-                "uuid": "266ffe52-8beb-4a55-b7e2-260f792070fe",
+                "uuid": "c9c8cc13-eca3-4176-9c6a-6599a8a92420",
                 "control-id": "cis_ocp_1_4_0_1-2.7",
                 "description": "REPLACE_ME",
                 "props": [
@@ -19648,7 +19901,7 @@
                 ]
               },
               {
-                "uuid": "f73e2c27-17c5-45db-bc0b-29d940fdef3f",
+                "uuid": "8946d8ec-2426-47bd-83c4-0b40feb50ca8",
                 "control-id": "cis_ocp_1_4_0_1-2.8",
                 "description": "REPLACE_ME",
                 "props": [
@@ -19665,7 +19918,7 @@
                 ]
               },
               {
-                "uuid": "39d4e20e-89d6-4c1a-90bd-655312e7a14b",
+                "uuid": "5f17a1db-7a15-4d8f-8d95-cda321410ad8",
                 "control-id": "cis_ocp_1_4_0_1-2.9",
                 "description": "REPLACE_ME",
                 "props": [
@@ -19677,7 +19930,7 @@
                 ]
               },
               {
-                "uuid": "6836a284-43d4-46d3-8c65-7bcceeef6509",
+                "uuid": "8672daf2-62cf-4108-b044-18d8b1cae32c",
                 "control-id": "cis_ocp_1_4_0_1-2.10",
                 "description": "REPLACE_ME",
                 "props": [
@@ -19694,7 +19947,7 @@
                 ]
               },
               {
-                "uuid": "643e6b37-2654-4400-90e5-958276c9288d",
+                "uuid": "f88ca21d-fedc-427b-bd09-85ddfb6b6b51",
                 "control-id": "cis_ocp_1_4_0_1-2.11",
                 "description": "REPLACE_ME",
                 "props": [
@@ -19711,7 +19964,7 @@
                 ]
               },
               {
-                "uuid": "8c0e81dd-c36d-4df9-8032-9b5b2c0a227f",
+                "uuid": "12b4feeb-4a82-461e-ba60-e0de4adbf166",
                 "control-id": "cis_ocp_1_4_0_1-2.12",
                 "description": "REPLACE_ME",
                 "props": [
@@ -19728,7 +19981,7 @@
                 ]
               },
               {
-                "uuid": "851781f7-7659-474c-bc13-3529f2e78604",
+                "uuid": "3c45866b-8d75-4b7c-8506-6015e9967645",
                 "control-id": "cis_ocp_1_4_0_1-2.13",
                 "description": "REPLACE_ME",
                 "props": [
@@ -19745,7 +19998,7 @@
                 ]
               },
               {
-                "uuid": "6c97cff0-2612-4ec6-bfdf-2b2438e5566f",
+                "uuid": "99436c42-5d84-4ed3-bc27-f9d3570ab23b",
                 "control-id": "cis_ocp_1_4_0_1-2.14",
                 "description": "REPLACE_ME",
                 "props": [
@@ -19762,7 +20015,7 @@
                 ]
               },
               {
-                "uuid": "54d4c740-4801-4892-b84f-c6a5e7728b44",
+                "uuid": "d4736bc0-c748-46cd-aeb7-26ab932596aa",
                 "control-id": "cis_ocp_1_4_0_1-2.15",
                 "description": "REPLACE_ME",
                 "props": [
@@ -19779,7 +20032,7 @@
                 ]
               },
               {
-                "uuid": "96f34582-258c-4ade-b409-3365ee085bc1",
+                "uuid": "34ee0b1f-0875-4140-838f-71d7c5db24e6",
                 "control-id": "cis_ocp_1_4_0_1-2.16",
                 "description": "REPLACE_ME",
                 "props": [
@@ -19796,7 +20049,7 @@
                 ]
               },
               {
-                "uuid": "6f731d58-bc39-43bd-81ed-539e7e1203e1",
+                "uuid": "0142fbc6-a43e-4a88-bd4f-9bd87e4b9c9e",
                 "control-id": "cis_ocp_1_4_0_1-2.17",
                 "description": "REPLACE_ME",
                 "props": [
@@ -19808,7 +20061,7 @@
                 ]
               },
               {
-                "uuid": "665a52d9-b7f2-419d-a714-6202726b2723",
+                "uuid": "bebba1e9-2a0a-437f-bf47-0f3d0fcdab84",
                 "control-id": "cis_ocp_1_4_0_1-2.18",
                 "description": "REPLACE_ME",
                 "props": [
@@ -19825,7 +20078,7 @@
                 ]
               },
               {
-                "uuid": "d2f1b80a-0d7c-407d-b87b-3ad9543387a4",
+                "uuid": "33abd768-c8e9-42dd-9e20-e09915e21eb1",
                 "control-id": "cis_ocp_1_4_0_1-2.19",
                 "description": "REPLACE_ME",
                 "props": [
@@ -19842,7 +20095,7 @@
                 ]
               },
               {
-                "uuid": "3c205745-5372-4561-8f5d-0a6533464adf",
+                "uuid": "c67e1c55-35ae-48de-ab82-e3430c47448c",
                 "control-id": "cis_ocp_1_4_0_1-2.20",
                 "description": "REPLACE_ME",
                 "props": [
@@ -19864,7 +20117,7 @@
                 ]
               },
               {
-                "uuid": "fb25be3f-32dc-4a81-9235-944091e4cd5e",
+                "uuid": "fc643be5-40fe-42a9-b8aa-56cd19a7c8a1",
                 "control-id": "cis_ocp_1_4_0_1-2.21",
                 "description": "REPLACE_ME",
                 "props": [
@@ -19886,7 +20139,7 @@
                 ]
               },
               {
-                "uuid": "c6e4ac89-3d86-402e-9c0d-2cb943f9dd52",
+                "uuid": "e3c542f3-4871-4bfd-ae76-b8e51e6d26c7",
                 "control-id": "cis_ocp_1_4_0_1-2.22",
                 "description": "REPLACE_ME",
                 "props": [
@@ -19908,7 +20161,7 @@
                 ]
               },
               {
-                "uuid": "1313a361-209b-414d-84b5-f3b27f8b7cad",
+                "uuid": "e5498ed6-f53d-441f-abc5-90a21e57d8e0",
                 "control-id": "cis_ocp_1_4_0_1-2.23",
                 "description": "REPLACE_ME",
                 "props": [
@@ -19930,7 +20183,7 @@
                 ]
               },
               {
-                "uuid": "4a658d73-dbfb-47ac-8064-210589539e4c",
+                "uuid": "bdeed89b-00e8-4d67-bbf4-02e21b7f28d3",
                 "control-id": "cis_ocp_1_4_0_1-2.24",
                 "description": "REPLACE_ME",
                 "props": [
@@ -19947,7 +20200,7 @@
                 ]
               },
               {
-                "uuid": "cb3d1bfb-b126-4bf1-bd3f-84a2d8580fc8",
+                "uuid": "8c040d68-8ffb-4c26-8d36-c72e28afe9b8",
                 "control-id": "cis_ocp_1_4_0_1-2.25",
                 "description": "REPLACE_ME",
                 "props": [
@@ -19964,7 +20217,7 @@
                 ]
               },
               {
-                "uuid": "7e542362-d0cb-4ac7-b6a9-73e0ea50a101",
+                "uuid": "325ab655-ab94-4dc5-8539-4af7809f70ab",
                 "control-id": "cis_ocp_1_4_0_1-2.26",
                 "description": "REPLACE_ME",
                 "props": [
@@ -19981,7 +20234,7 @@
                 ]
               },
               {
-                "uuid": "cdd8c889-85b1-4e4b-9426-05cbf120802b",
+                "uuid": "f77d16a6-0887-41df-bef9-06c17ae7cd13",
                 "control-id": "cis_ocp_1_4_0_1-2.27",
                 "description": "REPLACE_ME",
                 "props": [
@@ -20003,7 +20256,7 @@
                 ]
               },
               {
-                "uuid": "e038e1ac-b096-47bb-adf7-ea9abfa64c8f",
+                "uuid": "98550634-911a-4bbf-b44f-6fbf7dd99c7f",
                 "control-id": "cis_ocp_1_4_0_1-2.28",
                 "description": "REPLACE_ME",
                 "props": [
@@ -20025,7 +20278,7 @@
                 ]
               },
               {
-                "uuid": "22dbabf7-bb76-494f-a81f-b0d4fbf9d1dd",
+                "uuid": "a45a24ba-aab5-48c2-afad-80613627b403",
                 "control-id": "cis_ocp_1_4_0_1-2.29",
                 "description": "REPLACE_ME",
                 "props": [
@@ -20042,7 +20295,7 @@
                 ]
               },
               {
-                "uuid": "b178ce98-a7fc-4823-9705-a18b0f01c113",
+                "uuid": "bd2a04a7-52c5-41f8-bbfc-69345e949faa",
                 "control-id": "cis_ocp_1_4_0_1-2.30",
                 "description": "REPLACE_ME",
                 "props": [
@@ -20059,7 +20312,7 @@
                 ]
               },
               {
-                "uuid": "ae5b87ad-3bc3-4d2e-95b8-c6a6b5ca6097",
+                "uuid": "f0324c07-5030-48f0-b399-1fd958ef5e0c",
                 "control-id": "cis_ocp_1_4_0_1-2.31",
                 "description": "REPLACE_ME",
                 "props": [
@@ -20076,7 +20329,7 @@
                 ]
               },
               {
-                "uuid": "58ff28b3-10b5-4815-99c8-74992b39e315",
+                "uuid": "23045d7c-74e4-4dc4-a87f-f3fe56d956a2",
                 "control-id": "cis_ocp_1_4_0_1-2.32",
                 "description": "REPLACE_ME",
                 "props": [
@@ -20098,7 +20351,7 @@
                 ]
               },
               {
-                "uuid": "7a8cca9e-f589-46fd-aedc-1fb11be673a8",
+                "uuid": "eb1006d8-dbec-4227-89d6-10c8e466bbf4",
                 "control-id": "cis_ocp_1_4_0_1-2.33",
                 "description": "REPLACE_ME",
                 "props": [
@@ -20111,7 +20364,7 @@
                 ]
               },
               {
-                "uuid": "f26816a1-754d-4093-883a-af21b6065157",
+                "uuid": "11de9747-faa1-4da1-bcd4-df9a9ef0d3a7",
                 "control-id": "cis_ocp_1_4_0_1-3.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -20128,7 +20381,7 @@
                 ]
               },
               {
-                "uuid": "149edaae-fe54-42dd-bb17-1b19749efd60",
+                "uuid": "43d5f763-533f-4d4a-9277-2118f3717025",
                 "control-id": "cis_ocp_1_4_0_1-3.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -20145,7 +20398,7 @@
                 ]
               },
               {
-                "uuid": "a595cd43-90a3-42cb-95c5-4bb1eb164c65",
+                "uuid": "0dd139d0-d202-4223-873a-c99c408b9aa2",
                 "control-id": "cis_ocp_1_4_0_1-3.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -20162,7 +20415,7 @@
                 ]
               },
               {
-                "uuid": "f4027cd3-a885-45ed-a3d7-9a6c69a064e3",
+                "uuid": "03e6f1d6-4048-42ae-8577-2eea647bf031",
                 "control-id": "cis_ocp_1_4_0_1-3.4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -20179,7 +20432,7 @@
                 ]
               },
               {
-                "uuid": "f8b972a3-aeff-46cd-b819-e61415f4ef0a",
+                "uuid": "26ff6a35-876f-44e6-87c8-d9a0853e7138",
                 "control-id": "cis_ocp_1_4_0_1-3.5",
                 "description": "REPLACE_ME",
                 "props": [
@@ -20201,7 +20454,7 @@
                 ]
               },
               {
-                "uuid": "f0cf692d-9c97-4bfe-aeb0-08d4c6d7a69c",
+                "uuid": "bf137f7c-d56f-409d-b063-09b74c5cf144",
                 "control-id": "cis_ocp_1_4_0_1-4.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -20218,7 +20471,7 @@
                 ]
               },
               {
-                "uuid": "73bad396-c2c7-4ecc-a6e5-d3f9abc230a1",
+                "uuid": "1251c215-2284-43be-8ebb-ac226aed1c04",
                 "control-id": "cis_ocp_1_4_0_1-4.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -20235,7 +20488,7 @@
                 ]
               },
               {
-                "uuid": "270ccc83-25ce-4c05-9fd6-82dee083e8b9",
+                "uuid": "7a576ac9-8bad-4ee5-b3d9-8572bdb095b7",
                 "control-id": "cis_ocp_1_4_0_1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -20248,7 +20501,7 @@
                 ]
               },
               {
-                "uuid": "84803d93-84ff-49a9-b829-5d22923885e4",
+                "uuid": "ee6a671e-2fc6-44c0-8823-b13b13fb4805",
                 "control-id": "cis_ocp_1_4_0_2-1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -20270,7 +20523,7 @@
                 ]
               },
               {
-                "uuid": "63a0d40e-24c4-4639-ae6a-23d65951e5cd",
+                "uuid": "c0d2cefa-5b1f-424e-8321-e8fcc2fe0d3e",
                 "control-id": "cis_ocp_1_4_0_2-2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -20287,7 +20540,7 @@
                 ]
               },
               {
-                "uuid": "6f07f115-15dd-446b-8756-9d2847826bee",
+                "uuid": "a59b07fa-b8ee-44f4-ab6f-00c53e783b58",
                 "control-id": "cis_ocp_1_4_0_2-3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -20304,7 +20557,7 @@
                 ]
               },
               {
-                "uuid": "22c457d6-c1d0-40ba-89d5-bdc58d56a98c",
+                "uuid": "e39604b8-d140-49c0-8727-c011a7188dcf",
                 "control-id": "cis_ocp_1_4_0_2-4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -20326,7 +20579,7 @@
                 ]
               },
               {
-                "uuid": "2baa3682-3d0a-4721-af46-bc1b314bdf97",
+                "uuid": "c08b0f5a-e2f4-44c4-a4a4-67dad34cd59d",
                 "control-id": "cis_ocp_1_4_0_2-5",
                 "description": "REPLACE_ME",
                 "props": [
@@ -20343,7 +20596,7 @@
                 ]
               },
               {
-                "uuid": "bfaf2a58-9ce4-4633-aea7-5bcd93aba9e1",
+                "uuid": "cd45a971-182d-4849-9fa3-3cee45826c2b",
                 "control-id": "cis_ocp_1_4_0_2-6",
                 "description": "REPLACE_ME",
                 "props": [
@@ -20360,7 +20613,7 @@
                 ]
               },
               {
-                "uuid": "b734a7f5-cd38-4c41-a873-4420af5923f6",
+                "uuid": "0cef696a-8a4f-4a9c-a5a3-c88c22e4185e",
                 "control-id": "cis_ocp_1_4_0_2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -20373,7 +20626,7 @@
                 ]
               },
               {
-                "uuid": "eb4ea0b7-7bc9-4d73-a083-f43b9dfa0bfa",
+                "uuid": "ea4fb63b-4b5c-4470-aa49-35608f143b67",
                 "control-id": "cis_ocp_1_4_0_3-2.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -20390,7 +20643,7 @@
                 ]
               },
               {
-                "uuid": "a231e988-e312-4e89-943a-18cefa3b57bf",
+                "uuid": "81a1ef33-3e01-46e1-bb15-86e205b10646",
                 "control-id": "cis_ocp_1_4_0_3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -20403,7 +20656,7 @@
                 ]
               },
               {
-                "uuid": "8e695989-89ef-4759-a6e6-22c6b9534e5d",
+                "uuid": "5c2b9aa7-222f-401f-b820-e495e5d83980",
                 "control-id": "cis_ocp_1_4_0_4-1.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -20420,7 +20673,7 @@
                 ]
               },
               {
-                "uuid": "5b3d18ac-4d5d-4477-9f9e-56f8a054d489",
+                "uuid": "0ea56455-554e-4785-9156-b5bf7292375c",
                 "control-id": "cis_ocp_1_4_0_4-1.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -20442,7 +20695,7 @@
                 ]
               },
               {
-                "uuid": "afe88604-8928-424e-8074-5c2d1d24e8e6",
+                "uuid": "635b5361-e506-40e5-a2c9-7ee8de012ba6",
                 "control-id": "cis_ocp_1_4_0_4-1.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -20459,7 +20712,7 @@
                 ]
               },
               {
-                "uuid": "b541a5eb-4ba5-4e0c-8a65-b0c1f9a36ebb",
+                "uuid": "8fd5df80-6d9c-418a-afed-9d0f7f596a3a",
                 "control-id": "cis_ocp_1_4_0_4-1.4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -20481,7 +20734,7 @@
                 ]
               },
               {
-                "uuid": "b4af26bd-09b4-42c5-b403-d38d5250a07e",
+                "uuid": "7acbf140-d4f1-4d0f-aed7-2fcff50c3ec5",
                 "control-id": "cis_ocp_1_4_0_4-1.5",
                 "description": "REPLACE_ME",
                 "props": [
@@ -20498,7 +20751,7 @@
                 ]
               },
               {
-                "uuid": "d97ca941-771a-4013-a287-78e9fb3fc140",
+                "uuid": "79b6b315-73e4-4aa2-821f-8356b0576b6d",
                 "control-id": "cis_ocp_1_4_0_4-1.6",
                 "description": "REPLACE_ME",
                 "props": [
@@ -20525,7 +20778,7 @@
                 ]
               },
               {
-                "uuid": "71f37754-1aea-42bb-9997-3a78aea9b67b",
+                "uuid": "af865615-9aa2-4bac-8817-7cc350023ef8",
                 "control-id": "cis_ocp_1_4_0_4-1.7",
                 "description": "REPLACE_ME",
                 "props": [
@@ -20542,7 +20795,7 @@
                 ]
               },
               {
-                "uuid": "42ce81b1-7ec3-417a-a6e4-70928ea072e1",
+                "uuid": "f1964c82-1834-4cf0-8642-81d919889d59",
                 "control-id": "cis_ocp_1_4_0_4-1.8",
                 "description": "REPLACE_ME",
                 "props": [
@@ -20564,7 +20817,7 @@
                 ]
               },
               {
-                "uuid": "2b76c4dd-1c5c-474e-8159-c539d3cfe8c7",
+                "uuid": "c572f20f-cb94-46d2-8cca-95b149f3b8ed",
                 "control-id": "cis_ocp_1_4_0_4-1.9",
                 "description": "REPLACE_ME",
                 "props": [
@@ -20581,7 +20834,7 @@
                 ]
               },
               {
-                "uuid": "ebfe3b39-bf02-4ecf-809f-0145307c2aef",
+                "uuid": "3f551142-af9e-4c6d-87ef-1c45c240a35b",
                 "control-id": "cis_ocp_1_4_0_4-1.10",
                 "description": "REPLACE_ME",
                 "props": [
@@ -20603,7 +20856,7 @@
                 ]
               },
               {
-                "uuid": "e21ad950-f21a-4c2e-87e6-cdc8e44ced0b",
+                "uuid": "74a40e31-a326-46bb-8bad-07900910e9ef",
                 "control-id": "cis_ocp_1_4_0_4-2.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -20635,7 +20888,7 @@
                 ]
               },
               {
-                "uuid": "56538387-a8d5-4b88-beb0-761f71a8d2ae",
+                "uuid": "80c662e6-4187-4455-ad90-90748762d363",
                 "control-id": "cis_ocp_1_4_0_4-2.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -20652,7 +20905,7 @@
                 ]
               },
               {
-                "uuid": "bb913c96-128a-4aa7-bbbc-387979f1b747",
+                "uuid": "8115ff29-04db-4d0b-97e8-183ce28d7dd4",
                 "control-id": "cis_ocp_1_4_0_4-2.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -20669,7 +20922,7 @@
                 ]
               },
               {
-                "uuid": "f2db78ed-1bf8-49a4-996d-c2a89302fdb0",
+                "uuid": "cf361878-dac7-4328-a71f-2648f52dbe3c",
                 "control-id": "cis_ocp_1_4_0_4-2.4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -20686,7 +20939,7 @@
                 ]
               },
               {
-                "uuid": "40484014-5a64-4819-a241-531f928b18ae",
+                "uuid": "a2a8fe39-735a-4e7b-a67e-5d568db265dc",
                 "control-id": "cis_ocp_1_4_0_4-2.5",
                 "description": "REPLACE_ME",
                 "props": [
@@ -20703,7 +20956,7 @@
                 ]
               },
               {
-                "uuid": "bd43cc84-6fb2-4552-b18d-477834cdb1bd",
+                "uuid": "a04cb045-cfff-415a-aaac-c8721b51c5c9",
                 "control-id": "cis_ocp_1_4_0_4-2.6",
                 "description": "REPLACE_ME",
                 "props": [
@@ -20720,7 +20973,7 @@
                 ]
               },
               {
-                "uuid": "3b04ef7d-535b-44e5-a459-579de29111f1",
+                "uuid": "cf199efa-4df4-4880-aa22-85bfe3f9d824",
                 "control-id": "cis_ocp_1_4_0_4-2.7",
                 "description": "REPLACE_ME",
                 "props": [
@@ -20737,7 +20990,7 @@
                 ]
               },
               {
-                "uuid": "4a7934b3-e303-40a0-b63b-54c4de399998",
+                "uuid": "1bfa9ccd-3536-4c70-b6f9-076b7cd94336",
                 "control-id": "cis_ocp_1_4_0_4-2.9",
                 "description": "REPLACE_ME",
                 "props": [
@@ -20759,7 +21012,7 @@
                 ]
               },
               {
-                "uuid": "49b54f43-8338-4793-a2ec-5c9b5ac0ecaf",
+                "uuid": "136095da-b249-446b-b7a4-0b67ec67cc35",
                 "control-id": "cis_ocp_1_4_0_4-2.10",
                 "description": "REPLACE_ME",
                 "props": [
@@ -20781,7 +21034,7 @@
                 ]
               },
               {
-                "uuid": "4b8d3cfc-2f80-4fbb-941a-51bc3ed296ad",
+                "uuid": "8bc493df-edae-4abb-b204-e90e6adbe875",
                 "control-id": "cis_ocp_1_4_0_4-2.11",
                 "description": "REPLACE_ME",
                 "props": [
@@ -20798,7 +21051,7 @@
                 ]
               },
               {
-                "uuid": "c500cead-79d6-403c-9387-e1523325bf5f",
+                "uuid": "eecde253-ff55-433d-812d-09a52a290670",
                 "control-id": "cis_ocp_1_4_0_4-2.12",
                 "description": "REPLACE_ME",
                 "props": [
@@ -20820,7 +21073,7 @@
                 ]
               },
               {
-                "uuid": "cad44738-5c7f-4f2b-a9e6-4ebc90f12ed6",
+                "uuid": "eb03deca-6f0f-497e-85ba-765196bed7b2",
                 "control-id": "cis_ocp_1_4_0_4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -20833,7 +21086,7 @@
                 ]
               },
               {
-                "uuid": "6d6ee5bc-838e-4ce4-9974-f8feaee4d42d",
+                "uuid": "d91ef581-a965-45b3-9627-f66c9d934687",
                 "control-id": "cis_ocp_1_4_0_5-1.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -20851,7 +21104,7 @@
                 ]
               },
               {
-                "uuid": "46f1e0f8-cc5f-4944-99b8-fd380a53e6d0",
+                "uuid": "ef1a2793-f999-44b8-82cc-3005c1132667",
                 "control-id": "cis_ocp_1_4_0_5-1.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -20869,7 +21122,7 @@
                 ]
               },
               {
-                "uuid": "c0ff451c-0c6d-4cf3-b471-2618d8c10721",
+                "uuid": "ca1ce28d-9aba-42bf-9ea7-fb5207938aec",
                 "control-id": "cis_ocp_1_4_0_5-1.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -20887,7 +21140,7 @@
                 ]
               },
               {
-                "uuid": "e2bc8047-f14b-48d6-b26a-fb826556b44d",
+                "uuid": "8aa909db-249e-425e-845d-186b944d26bf",
                 "control-id": "cis_ocp_1_4_0_5-1.4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -20905,7 +21158,7 @@
                 ]
               },
               {
-                "uuid": "e3f82d6e-56b6-4bae-926b-fac96b6416df",
+                "uuid": "b35c138c-f140-4c1d-a795-c26bd7980fcf",
                 "control-id": "cis_ocp_1_4_0_5-1.5",
                 "description": "REPLACE_ME",
                 "props": [
@@ -20923,7 +21176,7 @@
                 ]
               },
               {
-                "uuid": "ccbe13d2-031d-4559-9899-cc37afe5545f",
+                "uuid": "ce034915-3e51-4a2e-809e-3e6c562d908d",
                 "control-id": "cis_ocp_1_4_0_5-1.6",
                 "description": "REPLACE_ME",
                 "props": [
@@ -20941,7 +21194,7 @@
                 ]
               },
               {
-                "uuid": "06f8faa8-2e0b-43a3-be6d-d976bc4fe46d",
+                "uuid": "106639aa-37a8-4f6d-9fe1-8c39f484e6bf",
                 "control-id": "cis_ocp_1_4_0_5-2.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -20959,7 +21212,7 @@
                 ]
               },
               {
-                "uuid": "0e4a31ac-84eb-4f08-aeb0-73221095b0e2",
+                "uuid": "1b2bb0a6-fbe2-40cc-82d8-588a424fe425",
                 "control-id": "cis_ocp_1_4_0_5-2.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -20977,7 +21230,7 @@
                 ]
               },
               {
-                "uuid": "5a390cbb-1ce1-4247-ad7a-c2f661e18df7",
+                "uuid": "4899d02f-9b8b-4a8c-bf29-5a012cbd5f46",
                 "control-id": "cis_ocp_1_4_0_5-2.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -20995,7 +21248,7 @@
                 ]
               },
               {
-                "uuid": "b3402dab-eab2-4e49-8c4f-c83ee1126061",
+                "uuid": "613584e6-aa6f-431e-9e23-5459d9600cbf",
                 "control-id": "cis_ocp_1_4_0_5-2.4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -21013,7 +21266,7 @@
                 ]
               },
               {
-                "uuid": "ec4882d0-b417-4c76-a232-680459825eb6",
+                "uuid": "78641b73-c6fa-47a8-99eb-2198ca3c982d",
                 "control-id": "cis_ocp_1_4_0_5-2.5",
                 "description": "REPLACE_ME",
                 "props": [
@@ -21031,7 +21284,7 @@
                 ]
               },
               {
-                "uuid": "0f081966-f815-4d62-8e72-e14ff7d9f0a6",
+                "uuid": "9d13cc2a-c2f1-4ed6-97bb-d6675690f56f",
                 "control-id": "cis_ocp_1_4_0_5-2.7",
                 "description": "REPLACE_ME",
                 "props": [
@@ -21049,7 +21302,7 @@
                 ]
               },
               {
-                "uuid": "23a25ed4-9257-4078-9ceb-db61cb37c484",
+                "uuid": "30b1637d-4aa7-4679-a2b7-9e9d66f932af",
                 "control-id": "cis_ocp_1_4_0_5-2.8",
                 "description": "REPLACE_ME",
                 "props": [
@@ -21066,7 +21319,7 @@
                 ]
               },
               {
-                "uuid": "bb47eaf0-73e4-4211-b7a6-c366b6f914ab",
+                "uuid": "0ea33a28-1fe5-434e-b1f1-adbdaca2fb4b",
                 "control-id": "cis_ocp_1_4_0_5-3.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -21083,7 +21336,7 @@
                 ]
               },
               {
-                "uuid": "fc046a72-f0aa-41e6-8d7b-3789b3724475",
+                "uuid": "bf3b24b1-0568-4387-98f0-d04a942344f3",
                 "control-id": "cis_ocp_1_4_0_5-4.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -21101,7 +21354,7 @@
                 ]
               },
               {
-                "uuid": "bc7fba9a-2f6e-4595-9fc5-ffb7f500495a",
+                "uuid": "1518b944-5cbd-4f39-8e20-85b0a63bcb41",
                 "control-id": "cis_ocp_1_4_0_5-7.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -21119,7 +21372,7 @@
                 ]
               },
               {
-                "uuid": "c82bd613-fcc0-44ac-96e9-32977d61df98",
+                "uuid": "7f4a785f-0414-4895-bd06-9108ab1b57c0",
                 "control-id": "cis_ocp_1_4_0_5",
                 "description": "REPLACE_ME",
                 "props": [
@@ -21132,7 +21385,260 @@
                 ]
               },
               {
-                "uuid": "e0b8abe2-f6be-449a-9586-2970966cda79",
+                "uuid": "ec241659-5ca5-4511-99fa-a1eac1a67b44",
+                "control-id": "cis_ocp_1_4_0_2-7",
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "implemented"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "etcd_unique_ca"
+                  }
+                ]
+              },
+              {
+                "uuid": "a36e131c-726d-42ab-817a-aa70778aa8f8",
+                "control-id": "cis_ocp_1_4_0_3-1.1",
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "implemented"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "idp_is_configured"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "kubeadmin_removed"
+                  }
+                ]
+              },
+              {
+                "uuid": "67033e37-3654-407f-838b-651da536b0dc",
+                "control-id": "cis_ocp_1_4_0_3-2.2",
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "implemented"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "audit_profile_set"
+                  }
+                ]
+              },
+              {
+                "uuid": "d4b315b2-6fb1-45c4-af06-f6076935d9ff",
+                "control-id": "cis_ocp_1_4_0_4-2.8",
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "implemented"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "kubelet_configure_event_creation"
+                  }
+                ]
+              },
+              {
+                "uuid": "14dcaeaa-7f73-4480-8e86-b9df8f2278d0",
+                "control-id": "cis_ocp_1_4_0_5-2.6",
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "alternative",
+                    "remarks": "REPLACE_ME"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_limit_root_containers"
+                  }
+                ]
+              },
+              {
+                "uuid": "c3303cae-e2b8-4969-aa25-66a4b62ffc60",
+                "control-id": "cis_ocp_1_4_0_5-2.9",
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "alternative",
+                    "remarks": "REPLACE_ME"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "scc_drop_container_capabilities"
+                  }
+                ]
+              },
+              {
+                "uuid": "cbfea2fa-7cd9-427d-bd29-f35ce905c086",
+                "control-id": "cis_ocp_1_4_0_5-2.10",
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "alternative",
+                    "remarks": "REPLACE_ME"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "rbac_least_privilege"
+                  }
+                ]
+              },
+              {
+                "uuid": "1b5fb2bb-0c8e-46f2-9d10-f11bb65eb001",
+                "control-id": "cis_ocp_1_4_0_5-3.2",
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "partial"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "configure_network_policies_namespaces"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "configure_network_policies_hypershift_hosted"
+                  }
+                ]
+              },
+              {
+                "uuid": "599ae653-bb9a-438f-918c-e3b1fdd735c0",
+                "control-id": "cis_ocp_1_4_0_5-4.2",
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "alternative",
+                    "remarks": "REPLACE_ME"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "secrets_consider_external_storage"
+                  }
+                ]
+              },
+              {
+                "uuid": "755ccc9e-c3cc-480b-a409-2fc47a65c663",
+                "control-id": "cis_ocp_1_4_0_5-5.1",
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "implemented"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "ocp_allowed_registries"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "ocp_allowed_registries_for_import"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "ocp_insecure_registries"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "ocp_insecure_allowed_registries_for_import"
+                  }
+                ]
+              },
+              {
+                "uuid": "7791c6cc-58cb-4a79-88b5-208beff11610",
+                "control-id": "cis_ocp_1_4_0_5-7.2",
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "alternative",
+                    "remarks": "REPLACE_ME"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "general_default_seccomp_profile"
+                  }
+                ]
+              },
+              {
+                "uuid": "2ce28054-c12f-4bee-bb02-0df8435e1e48",
+                "control-id": "cis_ocp_1_4_0_5-7.3",
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "alternative",
+                    "remarks": "REPLACE_ME"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "general_apply_scc"
+                  }
+                ]
+              },
+              {
+                "uuid": "5bdef464-d2fd-43bd-b4cd-d238a129e279",
+                "control-id": "cis_ocp_1_4_0_5-7.4",
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "alternative",
+                    "remarks": "REPLACE_ME"
+                  },
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "general_default_namespace_use"
+                  }
+                ]
+              },
+              {
+                "uuid": "82c9fd7b-ef27-4b86-b22f-0c6829ad8a5c",
                 "control-id": "cis_ocp_1_4_0_1-1.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -21149,7 +21655,7 @@
                 ]
               },
               {
-                "uuid": "1778817f-63b0-4be1-8a81-bf9cc74e9746",
+                "uuid": "67306f54-9a8b-45a2-8c22-e328d3241032",
                 "control-id": "cis_ocp_1_4_0_1-1.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -21171,7 +21677,7 @@
                 ]
               },
               {
-                "uuid": "9c09f5f7-e007-4e25-9757-c39594764524",
+                "uuid": "341aa286-842e-400f-a2f6-bf3f81fb2a8a",
                 "control-id": "cis_ocp_1_4_0_1-1.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -21188,7 +21694,7 @@
                 ]
               },
               {
-                "uuid": "0fd21ceb-acd8-4d8c-8eb1-6e62b5a320cd",
+                "uuid": "075f22e8-be0c-4853-91bf-09cf8686d024",
                 "control-id": "cis_ocp_1_4_0_1-1.4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -21210,7 +21716,7 @@
                 ]
               },
               {
-                "uuid": "bf7c43a9-6f49-44a0-a87b-e1b2f8391cfc",
+                "uuid": "8e536bc3-5641-440a-92af-bbb8b1da39e3",
                 "control-id": "cis_ocp_1_4_0_1-1.5",
                 "description": "REPLACE_ME",
                 "props": [
@@ -21227,7 +21733,7 @@
                 ]
               },
               {
-                "uuid": "4fe8a37d-fed8-45f3-be98-74b790078143",
+                "uuid": "9e07d54a-4818-4548-abd4-44f57664c0b7",
                 "control-id": "cis_ocp_1_4_0_1-1.6",
                 "description": "REPLACE_ME",
                 "props": [
@@ -21249,7 +21755,7 @@
                 ]
               },
               {
-                "uuid": "d5493ba7-a4b8-4cf3-8b41-34b58f525206",
+                "uuid": "5a984101-ad2d-4fc1-87d3-a688eaac2c31",
                 "control-id": "cis_ocp_1_4_0_1-1.7",
                 "description": "REPLACE_ME",
                 "props": [
@@ -21266,7 +21772,7 @@
                 ]
               },
               {
-                "uuid": "4afee7c4-cefa-4acb-b357-58ba3350bb5a",
+                "uuid": "401f4bbd-5b62-4675-bb84-520618676c43",
                 "control-id": "cis_ocp_1_4_0_1-1.8",
                 "description": "REPLACE_ME",
                 "props": [
@@ -21288,7 +21794,7 @@
                 ]
               },
               {
-                "uuid": "396700fd-0c55-449c-8a0c-ef1cb7af723e",
+                "uuid": "350b07d1-6ae1-4150-a13f-a0ac56f985d2",
                 "control-id": "cis_ocp_1_4_0_1-1.9",
                 "description": "REPLACE_ME",
                 "props": [
@@ -21360,7 +21866,7 @@
                 ]
               },
               {
-                "uuid": "093b1192-9321-4db4-88fe-6c4f7f7a5159",
+                "uuid": "e2ed1f6e-eda5-4582-b622-74072ee59c16",
                 "control-id": "cis_ocp_1_4_0_1-1.10",
                 "description": "REPLACE_ME",
                 "props": [
@@ -21507,7 +22013,7 @@
                 ]
               },
               {
-                "uuid": "6028dffc-ab7a-496d-a66b-55e8b280747c",
+                "uuid": "af834334-befb-4f6c-b5a9-4f18f624a0b0",
                 "control-id": "cis_ocp_1_4_0_1-1.11",
                 "description": "REPLACE_ME",
                 "props": [
@@ -21529,7 +22035,7 @@
                 ]
               },
               {
-                "uuid": "848701ca-49f3-4b65-89d6-f5924e734c8c",
+                "uuid": "1817742c-1d70-4185-bb11-3b625650d9b1",
                 "control-id": "cis_ocp_1_4_0_1-1.12",
                 "description": "REPLACE_ME",
                 "props": [
@@ -21561,7 +22067,7 @@
                 ]
               },
               {
-                "uuid": "83af2dad-5fa2-40cd-8366-adafa2745389",
+                "uuid": "b0b55f9a-5e69-4ec4-a142-34c6a53100ba",
                 "control-id": "cis_ocp_1_4_0_1-1.13",
                 "description": "REPLACE_ME",
                 "props": [
@@ -21578,7 +22084,7 @@
                 ]
               },
               {
-                "uuid": "53d38cba-2ee5-4e26-ae73-671f9f920ee4",
+                "uuid": "6dbcefce-d2a3-4bd2-ad86-366e2ce1900a",
                 "control-id": "cis_ocp_1_4_0_1-1.14",
                 "description": "REPLACE_ME",
                 "props": [
@@ -21600,7 +22106,7 @@
                 ]
               },
               {
-                "uuid": "8f447bf4-dde0-4afb-bf88-e0f668b4ffb1",
+                "uuid": "7edab873-ec72-460c-bfab-78dc9c9730f2",
                 "control-id": "cis_ocp_1_4_0_1-1.15",
                 "description": "REPLACE_ME",
                 "props": [
@@ -21617,7 +22123,7 @@
                 ]
               },
               {
-                "uuid": "b0fd12d6-8d7d-4fc8-9d95-5d535f7d1008",
+                "uuid": "eab1f5a1-0de5-4e86-95f2-ca36ed648521",
                 "control-id": "cis_ocp_1_4_0_1-1.16",
                 "description": "REPLACE_ME",
                 "props": [
@@ -21639,7 +22145,7 @@
                 ]
               },
               {
-                "uuid": "c2d5a29c-aaa2-40cc-a00f-11b5b8f3c2ad",
+                "uuid": "584f8ca2-e349-4a08-84cf-646b17b637ba",
                 "control-id": "cis_ocp_1_4_0_1-1.17",
                 "description": "REPLACE_ME",
                 "props": [
@@ -21656,7 +22162,7 @@
                 ]
               },
               {
-                "uuid": "9de1c321-efe3-49e9-bc01-54b29427100c",
+                "uuid": "c725bd8d-a2ab-4dbb-b580-124b33f9bb79",
                 "control-id": "cis_ocp_1_4_0_1-1.18",
                 "description": "REPLACE_ME",
                 "props": [
@@ -21678,7 +22184,7 @@
                 ]
               },
               {
-                "uuid": "ef191379-5cc1-4334-b77a-31a93436b7a5",
+                "uuid": "3c0a9adf-c2db-4aa0-a170-7fd0fcc9fecc",
                 "control-id": "cis_ocp_1_4_0_1-1.19",
                 "description": "REPLACE_ME",
                 "props": [
@@ -21720,7 +22226,7 @@
                 ]
               },
               {
-                "uuid": "9905bfc7-9bc2-4405-9e72-1de42608cd58",
+                "uuid": "416dd790-7188-45fb-ae38-498a35951c61",
                 "control-id": "cis_ocp_1_4_0_1-1.20",
                 "description": "REPLACE_ME",
                 "props": [
@@ -21742,7 +22248,7 @@
                 ]
               },
               {
-                "uuid": "6197d19a-73c8-48af-b5f4-cffcbd1d88dd",
+                "uuid": "85a72398-017b-490b-818c-d09cdcfba2e2",
                 "control-id": "cis_ocp_1_4_0_1-1.21",
                 "description": "REPLACE_ME",
                 "props": [
@@ -21759,7 +22265,7 @@
                 ]
               },
               {
-                "uuid": "62f78c63-f946-4d88-9a70-0ed630e971f4",
+                "uuid": "15fe2de2-41a0-4cbb-8082-27f2ed5ee53c",
                 "control-id": "cis_ocp_1_4_0_1-2.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -21776,7 +22282,7 @@
                 ]
               },
               {
-                "uuid": "0e4cc061-0b6a-4696-84e2-a05c5d63efe1",
+                "uuid": "611cf4ff-d502-4b45-a196-6b1f1fa69db9",
                 "control-id": "cis_ocp_1_4_0_1-2.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -21793,7 +22299,7 @@
                 ]
               },
               {
-                "uuid": "8a06aead-1369-4a54-9fb3-42728808b1c7",
+                "uuid": "17037910-0449-46f8-b55d-5efd637f5a73",
                 "control-id": "cis_ocp_1_4_0_1-2.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -21810,7 +22316,7 @@
                 ]
               },
               {
-                "uuid": "16f0b9bd-f725-409b-9aad-2c772cc23083",
+                "uuid": "9b5665b9-d3c8-4810-8d94-59a6f8438412",
                 "control-id": "cis_ocp_1_4_0_1-2.4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -21837,7 +22343,7 @@
                 ]
               },
               {
-                "uuid": "8df2f00a-01c3-4efb-890d-0cfa40711cc1",
+                "uuid": "5fd4587a-0254-4729-a893-2faaaf07d503",
                 "control-id": "cis_ocp_1_4_0_1-2.5",
                 "description": "REPLACE_ME",
                 "props": [
@@ -21859,7 +22365,7 @@
                 ]
               },
               {
-                "uuid": "bb3c7608-5e5b-48f7-a2a6-70a28d118fa9",
+                "uuid": "9a34c181-6049-43bf-a639-873a434297a0",
                 "control-id": "cis_ocp_1_4_0_1-2.6",
                 "description": "REPLACE_ME",
                 "props": [
@@ -21876,7 +22382,7 @@
                 ]
               },
               {
-                "uuid": "d95d5c5b-372c-4634-80a6-1088fea7dd38",
+                "uuid": "ab8ec33b-8482-475e-b43c-5e27fc95c0ce",
                 "control-id": "cis_ocp_1_4_0_1-2.7",
                 "description": "REPLACE_ME",
                 "props": [
@@ -21893,7 +22399,7 @@
                 ]
               },
               {
-                "uuid": "1016c40f-8046-4317-862d-d4b48cd4f28f",
+                "uuid": "c833b7b8-22a8-444a-b80f-7c673629d72d",
                 "control-id": "cis_ocp_1_4_0_1-2.8",
                 "description": "REPLACE_ME",
                 "props": [
@@ -21910,7 +22416,7 @@
                 ]
               },
               {
-                "uuid": "562c5dbf-75b1-428b-baef-27cbc7ce2785",
+                "uuid": "11c6782a-de77-442f-8eff-ef784e429ffe",
                 "control-id": "cis_ocp_1_4_0_1-2.9",
                 "description": "REPLACE_ME",
                 "props": [
@@ -21922,7 +22428,7 @@
                 ]
               },
               {
-                "uuid": "332cfdff-0958-42ea-9311-dc816dc50313",
+                "uuid": "08d0769d-885c-4280-b389-4caf86c77c21",
                 "control-id": "cis_ocp_1_4_0_1-2.10",
                 "description": "REPLACE_ME",
                 "props": [
@@ -21939,7 +22445,7 @@
                 ]
               },
               {
-                "uuid": "af700d70-27c6-472d-8b86-b10b48efb5b6",
+                "uuid": "deda0971-8e17-4ed3-a6fc-008c9e942eed",
                 "control-id": "cis_ocp_1_4_0_1-2.11",
                 "description": "REPLACE_ME",
                 "props": [
@@ -21956,7 +22462,7 @@
                 ]
               },
               {
-                "uuid": "dbb1af1a-8b1a-4ea2-a1fd-ee55d30c8258",
+                "uuid": "25cf83b7-48a8-4760-a927-2401ec54dc44",
                 "control-id": "cis_ocp_1_4_0_1-2.12",
                 "description": "REPLACE_ME",
                 "props": [
@@ -21973,7 +22479,7 @@
                 ]
               },
               {
-                "uuid": "14524243-81ca-4ba3-9d72-240e8eace71a",
+                "uuid": "dac0fc92-04f0-462c-bd60-e01b8c1681bc",
                 "control-id": "cis_ocp_1_4_0_1-2.13",
                 "description": "REPLACE_ME",
                 "props": [
@@ -21990,7 +22496,7 @@
                 ]
               },
               {
-                "uuid": "44fc4bb4-6aad-4d26-a2bf-53453fb47e42",
+                "uuid": "478b9100-dc4e-44e9-9c17-585840b5a95f",
                 "control-id": "cis_ocp_1_4_0_1-2.14",
                 "description": "REPLACE_ME",
                 "props": [
@@ -22007,7 +22513,7 @@
                 ]
               },
               {
-                "uuid": "a34e56a5-f0c6-4bf4-98bb-61a16b887b6e",
+                "uuid": "164e51c0-2616-48d1-8d06-a17721849d47",
                 "control-id": "cis_ocp_1_4_0_1-2.15",
                 "description": "REPLACE_ME",
                 "props": [
@@ -22024,7 +22530,7 @@
                 ]
               },
               {
-                "uuid": "621fa9da-2379-4582-a0a5-48ad7b456d13",
+                "uuid": "4d12d036-f4ff-4213-83b6-37acc519179e",
                 "control-id": "cis_ocp_1_4_0_1-2.16",
                 "description": "REPLACE_ME",
                 "props": [
@@ -22041,7 +22547,7 @@
                 ]
               },
               {
-                "uuid": "c27b7e1c-be03-4475-8c49-f11245daa444",
+                "uuid": "7da3ac30-5fc5-4db1-8094-bedc19d0c911",
                 "control-id": "cis_ocp_1_4_0_1-2.17",
                 "description": "REPLACE_ME",
                 "props": [
@@ -22053,7 +22559,7 @@
                 ]
               },
               {
-                "uuid": "105de313-2c57-4e86-8712-11ad618cae20",
+                "uuid": "d098340b-c020-4b89-a521-ec64ba92c181",
                 "control-id": "cis_ocp_1_4_0_1-2.18",
                 "description": "REPLACE_ME",
                 "props": [
@@ -22070,7 +22576,7 @@
                 ]
               },
               {
-                "uuid": "fc2846f1-e690-4a73-b8cc-71a124f6be44",
+                "uuid": "f7b03fd6-45e4-4913-866d-38784fe742cf",
                 "control-id": "cis_ocp_1_4_0_1-2.19",
                 "description": "REPLACE_ME",
                 "props": [
@@ -22087,7 +22593,7 @@
                 ]
               },
               {
-                "uuid": "bf7ef371-a189-49dd-8e76-6e3e8dfbdb99",
+                "uuid": "58a2b2f4-7b7d-43f1-b2a6-63c1a0511267",
                 "control-id": "cis_ocp_1_4_0_1-2.20",
                 "description": "REPLACE_ME",
                 "props": [
@@ -22109,7 +22615,7 @@
                 ]
               },
               {
-                "uuid": "30c7bcff-5202-431d-9046-a22da4acd29f",
+                "uuid": "bed82775-c1b7-4f2a-a9fa-98c231632778",
                 "control-id": "cis_ocp_1_4_0_1-2.21",
                 "description": "REPLACE_ME",
                 "props": [
@@ -22131,7 +22637,7 @@
                 ]
               },
               {
-                "uuid": "3b94c2cb-a573-47c8-b920-3915359b2b22",
+                "uuid": "b8b55043-ca9a-4923-8f56-3a5006fb622d",
                 "control-id": "cis_ocp_1_4_0_1-2.22",
                 "description": "REPLACE_ME",
                 "props": [
@@ -22153,7 +22659,7 @@
                 ]
               },
               {
-                "uuid": "8e32a976-ec24-4c03-8837-8773a3f12b11",
+                "uuid": "6abd8f1f-d549-4704-8e4a-4ca7143c65b2",
                 "control-id": "cis_ocp_1_4_0_1-2.23",
                 "description": "REPLACE_ME",
                 "props": [
@@ -22175,7 +22681,7 @@
                 ]
               },
               {
-                "uuid": "5aa99dda-9766-4a11-823e-eeb0c3132333",
+                "uuid": "e9bd7b68-ca60-4ed2-9417-20424d21ca1e",
                 "control-id": "cis_ocp_1_4_0_1-2.24",
                 "description": "REPLACE_ME",
                 "props": [
@@ -22192,7 +22698,7 @@
                 ]
               },
               {
-                "uuid": "342cde4b-1d6b-4afa-9413-beef3aee9429",
+                "uuid": "3b532d67-b62e-4fa1-8a7b-6c01235a4e0e",
                 "control-id": "cis_ocp_1_4_0_1-2.25",
                 "description": "REPLACE_ME",
                 "props": [
@@ -22209,7 +22715,7 @@
                 ]
               },
               {
-                "uuid": "bf9e6b4e-4d70-4fd5-96af-22cddbdfcebb",
+                "uuid": "4b65734a-6500-4cfb-a6c8-b53166fa3af8",
                 "control-id": "cis_ocp_1_4_0_1-2.26",
                 "description": "REPLACE_ME",
                 "props": [
@@ -22226,7 +22732,7 @@
                 ]
               },
               {
-                "uuid": "6922e070-7bc5-4047-8e19-5d553b79dde7",
+                "uuid": "8f772737-b203-4d6b-8d44-8d0e552cf8fc",
                 "control-id": "cis_ocp_1_4_0_1-2.27",
                 "description": "REPLACE_ME",
                 "props": [
@@ -22248,7 +22754,7 @@
                 ]
               },
               {
-                "uuid": "d91d7e98-ce2a-4505-b640-4de647421c8e",
+                "uuid": "e4c9764f-dbb8-44d6-82b7-c122be8044c7",
                 "control-id": "cis_ocp_1_4_0_1-2.28",
                 "description": "REPLACE_ME",
                 "props": [
@@ -22270,7 +22776,7 @@
                 ]
               },
               {
-                "uuid": "cc92fb97-3ade-4bcb-a1f1-6a4bb4e1aa4e",
+                "uuid": "b99157a3-88a4-46ab-9fef-0bc6ed34e4ed",
                 "control-id": "cis_ocp_1_4_0_1-2.29",
                 "description": "REPLACE_ME",
                 "props": [
@@ -22287,7 +22793,7 @@
                 ]
               },
               {
-                "uuid": "530b39df-1f58-4c75-944b-84b78d8c7647",
+                "uuid": "83f4fb17-f165-46cf-b108-394c03924b1d",
                 "control-id": "cis_ocp_1_4_0_1-2.30",
                 "description": "REPLACE_ME",
                 "props": [
@@ -22304,7 +22810,7 @@
                 ]
               },
               {
-                "uuid": "2ed36fae-ea9b-441c-b8ae-cbac811570c2",
+                "uuid": "6e8a2517-d4c2-48a4-9fb7-6d8146a658b7",
                 "control-id": "cis_ocp_1_4_0_1-2.31",
                 "description": "REPLACE_ME",
                 "props": [
@@ -22321,7 +22827,7 @@
                 ]
               },
               {
-                "uuid": "ce3168b4-71f7-484a-85c2-a25b57100a2a",
+                "uuid": "94a9564f-a3e8-47a7-8970-04c61e21c408",
                 "control-id": "cis_ocp_1_4_0_1-2.32",
                 "description": "REPLACE_ME",
                 "props": [
@@ -22343,7 +22849,7 @@
                 ]
               },
               {
-                "uuid": "fab670e9-1b46-473a-9b5b-1040809fc1de",
+                "uuid": "e2846334-02f9-4bec-b976-1bbea3a14c80",
                 "control-id": "cis_ocp_1_4_0_1-2.33",
                 "description": "REPLACE_ME",
                 "props": [
@@ -22356,7 +22862,7 @@
                 ]
               },
               {
-                "uuid": "8bd0b499-90ab-4391-a20a-04becd5f9e1a",
+                "uuid": "e6d4fc26-4e98-4b2d-8551-1cd693c57321",
                 "control-id": "cis_ocp_1_4_0_1-3.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -22373,7 +22879,7 @@
                 ]
               },
               {
-                "uuid": "c9d07d23-cf45-4b9b-a77c-d4e7c7b85ce8",
+                "uuid": "3bfde53a-086f-461c-a18b-5330bbba3329",
                 "control-id": "cis_ocp_1_4_0_1-3.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -22390,7 +22896,7 @@
                 ]
               },
               {
-                "uuid": "c2538f63-d637-495a-8de5-f95e83ed1044",
+                "uuid": "2ac96585-5a2a-485f-9abf-892a383289b0",
                 "control-id": "cis_ocp_1_4_0_1-3.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -22407,7 +22913,7 @@
                 ]
               },
               {
-                "uuid": "7074f3db-ef4c-42f7-a537-7e2549dce257",
+                "uuid": "e020aac3-b63c-48d0-ab3b-0ac226a59d98",
                 "control-id": "cis_ocp_1_4_0_1-3.4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -22424,7 +22930,7 @@
                 ]
               },
               {
-                "uuid": "f8da6f85-77b4-4c5b-b112-d864cdf2ade4",
+                "uuid": "a5efa714-16ef-4450-b111-b60713ee01ae",
                 "control-id": "cis_ocp_1_4_0_1-3.5",
                 "description": "REPLACE_ME",
                 "props": [
@@ -22446,7 +22952,7 @@
                 ]
               },
               {
-                "uuid": "e63b414f-3255-4027-b55f-c93a4d34d7e3",
+                "uuid": "8a0f9fec-4268-46c8-a354-cb5d917ab9ff",
                 "control-id": "cis_ocp_1_4_0_1-4.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -22463,7 +22969,7 @@
                 ]
               },
               {
-                "uuid": "c084d1c7-6ccb-4e60-b164-1e56ac8fcfc8",
+                "uuid": "c86682cd-0e19-4802-be6c-b42783df2f0e",
                 "control-id": "cis_ocp_1_4_0_1-4.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -22480,7 +22986,7 @@
                 ]
               },
               {
-                "uuid": "c822bea9-7af4-455e-8b09-6e52c1d9817c",
+                "uuid": "1b2ac841-f22b-47ca-838f-8e8a8152326e",
                 "control-id": "cis_ocp_1_4_0_1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -22493,7 +22999,7 @@
                 ]
               },
               {
-                "uuid": "4aebbe21-5c5a-41e4-bda4-46ce258edcb6",
+                "uuid": "e262846c-290a-4df4-b0a2-8344fcf05441",
                 "control-id": "cis_ocp_1_4_0_2-1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -22515,7 +23021,7 @@
                 ]
               },
               {
-                "uuid": "f1a579e1-d9d2-4aab-b898-3ae6568cf7f6",
+                "uuid": "052dfa44-d0c1-4ed4-8155-d8a2fbe6d401",
                 "control-id": "cis_ocp_1_4_0_2-2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -22532,7 +23038,7 @@
                 ]
               },
               {
-                "uuid": "a4e75b92-20bd-4156-a911-c326e852f902",
+                "uuid": "c6f552cb-1cf6-402d-b6f8-357bbfbdea99",
                 "control-id": "cis_ocp_1_4_0_2-3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -22549,7 +23055,7 @@
                 ]
               },
               {
-                "uuid": "f73d5177-be76-40fc-97c9-e34a30f756ab",
+                "uuid": "eb4c8851-0673-4f01-a66f-865c5ec27118",
                 "control-id": "cis_ocp_1_4_0_2-4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -22571,7 +23077,7 @@
                 ]
               },
               {
-                "uuid": "6c156711-6706-4595-8707-c5aa5dcf0dd7",
+                "uuid": "eb25e67c-f494-4f80-8490-ae1a2e1fc777",
                 "control-id": "cis_ocp_1_4_0_2-5",
                 "description": "REPLACE_ME",
                 "props": [
@@ -22588,7 +23094,7 @@
                 ]
               },
               {
-                "uuid": "bea5db7a-1932-43ea-a6b7-adc7ddb57dc8",
+                "uuid": "58de921e-d4ae-4c50-b635-eaa9fd6f572e",
                 "control-id": "cis_ocp_1_4_0_2-6",
                 "description": "REPLACE_ME",
                 "props": [
@@ -22605,7 +23111,7 @@
                 ]
               },
               {
-                "uuid": "2a64ed00-d520-4fb4-93f8-4b952ba4bb35",
+                "uuid": "9c7aed1a-efd0-4f08-8e60-a2081ed03215",
                 "control-id": "cis_ocp_1_4_0_2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -22618,7 +23124,7 @@
                 ]
               },
               {
-                "uuid": "817e7826-2260-4548-b775-a1cca5ee1935",
+                "uuid": "23fbbf7e-70a2-4e9e-bd24-0222f7f30467",
                 "control-id": "cis_ocp_1_4_0_3-2.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -22635,7 +23141,7 @@
                 ]
               },
               {
-                "uuid": "6ab70caf-b589-45ef-8795-2d0600056435",
+                "uuid": "d4775248-9eb2-4ece-b093-b52c61f623b1",
                 "control-id": "cis_ocp_1_4_0_3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -22648,7 +23154,7 @@
                 ]
               },
               {
-                "uuid": "9324ccf4-a622-495d-b254-b0f0bfffd91f",
+                "uuid": "cdc0ba1b-badd-4843-a3f8-d9efd5f723ce",
                 "control-id": "cis_ocp_1_4_0_4-1.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -22665,7 +23171,7 @@
                 ]
               },
               {
-                "uuid": "c13ea2e1-87b8-4328-8b60-16d2682c05d1",
+                "uuid": "83a41b7e-1338-4224-9ccb-691aab312cbb",
                 "control-id": "cis_ocp_1_4_0_4-1.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -22687,7 +23193,7 @@
                 ]
               },
               {
-                "uuid": "6a00c45d-0ee8-46fa-8fe5-f8f924976f7a",
+                "uuid": "e3cb8ea3-753f-4f46-9ba6-fcf9eed79ff4",
                 "control-id": "cis_ocp_1_4_0_4-1.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -22704,7 +23210,7 @@
                 ]
               },
               {
-                "uuid": "78f7771c-52ae-480f-aa14-bb07058743e3",
+                "uuid": "f256d035-9d0e-44f5-bf5a-41a489428deb",
                 "control-id": "cis_ocp_1_4_0_4-1.4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -22726,7 +23232,7 @@
                 ]
               },
               {
-                "uuid": "5d8f9063-4508-4d2b-a964-31f15a5840f8",
+                "uuid": "d23f73c1-50a0-4eff-b1e9-44e277b88890",
                 "control-id": "cis_ocp_1_4_0_4-1.5",
                 "description": "REPLACE_ME",
                 "props": [
@@ -22743,7 +23249,7 @@
                 ]
               },
               {
-                "uuid": "55ae8846-eb62-4df7-a6dd-8f5e95ca84d9",
+                "uuid": "a33d870c-81ad-4001-9146-6aeef7610ec3",
                 "control-id": "cis_ocp_1_4_0_4-1.6",
                 "description": "REPLACE_ME",
                 "props": [
@@ -22770,7 +23276,7 @@
                 ]
               },
               {
-                "uuid": "03c7ef39-0462-4bc1-bd0f-634b8bc1326c",
+                "uuid": "e99b6675-88a7-4550-9209-37bcf31ed8d4",
                 "control-id": "cis_ocp_1_4_0_4-1.7",
                 "description": "REPLACE_ME",
                 "props": [
@@ -22787,7 +23293,7 @@
                 ]
               },
               {
-                "uuid": "780c8869-dc61-4329-8fdd-37a83e8ed443",
+                "uuid": "433c6c2d-e498-4b03-851f-2b21ab101983",
                 "control-id": "cis_ocp_1_4_0_4-1.8",
                 "description": "REPLACE_ME",
                 "props": [
@@ -22809,7 +23315,7 @@
                 ]
               },
               {
-                "uuid": "c141fb2e-137a-42db-8218-689cd3d7cf70",
+                "uuid": "8c26752c-f20e-452f-953f-6118964906e2",
                 "control-id": "cis_ocp_1_4_0_4-1.9",
                 "description": "REPLACE_ME",
                 "props": [
@@ -22826,7 +23332,7 @@
                 ]
               },
               {
-                "uuid": "ce6949d6-d991-43a4-934f-873b9dc92838",
+                "uuid": "ff42e9bd-63ef-4ccc-93a7-5e110ee6e8dc",
                 "control-id": "cis_ocp_1_4_0_4-1.10",
                 "description": "REPLACE_ME",
                 "props": [
@@ -22848,7 +23354,7 @@
                 ]
               },
               {
-                "uuid": "16e99461-5cf6-4511-ab86-35959a5f799a",
+                "uuid": "cb858a68-0444-4fdd-9d99-77e9064d8504",
                 "control-id": "cis_ocp_1_4_0_4-2.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -22880,7 +23386,7 @@
                 ]
               },
               {
-                "uuid": "a00ffdf5-e2f8-4fd5-9abc-1ab1e0aa68f6",
+                "uuid": "df83e826-690d-49c1-be74-93ee90e76e1d",
                 "control-id": "cis_ocp_1_4_0_4-2.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -22897,7 +23403,7 @@
                 ]
               },
               {
-                "uuid": "28db5710-480a-44fc-bd3d-5872a9d120ca",
+                "uuid": "5d4419b7-90ca-40df-a459-b782ba268c66",
                 "control-id": "cis_ocp_1_4_0_4-2.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -22914,7 +23420,7 @@
                 ]
               },
               {
-                "uuid": "70a89fbd-9a2d-43ee-b70f-fa19bfc2713b",
+                "uuid": "d2f8d4dd-fbef-4025-bf10-fc9b5ed901f9",
                 "control-id": "cis_ocp_1_4_0_4-2.4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -22931,7 +23437,7 @@
                 ]
               },
               {
-                "uuid": "7f4a47a5-1996-4eea-ba32-23525c8591db",
+                "uuid": "45ccb6ee-a810-4e84-b855-888b45453627",
                 "control-id": "cis_ocp_1_4_0_4-2.5",
                 "description": "REPLACE_ME",
                 "props": [
@@ -22948,7 +23454,7 @@
                 ]
               },
               {
-                "uuid": "3e4a5c9b-f3f0-48ee-be1b-d91338d173be",
+                "uuid": "156eb836-22e3-47c6-8ae9-059db74643a3",
                 "control-id": "cis_ocp_1_4_0_4-2.6",
                 "description": "REPLACE_ME",
                 "props": [
@@ -22965,7 +23471,7 @@
                 ]
               },
               {
-                "uuid": "37a694d3-2349-4ec7-8f2b-59ee5c8863a2",
+                "uuid": "d4c550e7-8a57-4190-85eb-3ddf22d452a3",
                 "control-id": "cis_ocp_1_4_0_4-2.7",
                 "description": "REPLACE_ME",
                 "props": [
@@ -22982,7 +23488,7 @@
                 ]
               },
               {
-                "uuid": "10e0c78f-d054-4381-ba35-92bfc33c1570",
+                "uuid": "3eb61af7-f60c-4256-ae1b-56383d72bce1",
                 "control-id": "cis_ocp_1_4_0_4-2.9",
                 "description": "REPLACE_ME",
                 "props": [
@@ -23004,7 +23510,7 @@
                 ]
               },
               {
-                "uuid": "72ff918e-9d76-4c63-9d87-4a7585e5a45b",
+                "uuid": "106088cf-4aa7-46c4-afee-183e0e7074c0",
                 "control-id": "cis_ocp_1_4_0_4-2.10",
                 "description": "REPLACE_ME",
                 "props": [
@@ -23026,7 +23532,7 @@
                 ]
               },
               {
-                "uuid": "87ea0092-a4fe-46b7-95b7-c032f4749e1e",
+                "uuid": "1d39d8c2-60c2-4c74-ba5f-53e28ff6cb96",
                 "control-id": "cis_ocp_1_4_0_4-2.11",
                 "description": "REPLACE_ME",
                 "props": [
@@ -23043,7 +23549,7 @@
                 ]
               },
               {
-                "uuid": "bed904e0-4672-4d5f-83d7-be981250259d",
+                "uuid": "d504380e-b76e-490d-a56f-1f36156a577c",
                 "control-id": "cis_ocp_1_4_0_4-2.12",
                 "description": "REPLACE_ME",
                 "props": [
@@ -23065,7 +23571,7 @@
                 ]
               },
               {
-                "uuid": "1a4d911f-4a8e-4863-a4bc-98a6b0e648f4",
+                "uuid": "12bc6587-6659-4570-9704-f49e8e7b5280",
                 "control-id": "cis_ocp_1_4_0_4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -23078,7 +23584,7 @@
                 ]
               },
               {
-                "uuid": "776065d0-4772-4693-add8-a37ecdf69253",
+                "uuid": "d5a5d47f-95eb-4910-ad98-fb419687ed5b",
                 "control-id": "cis_ocp_1_4_0_5-1.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -23096,7 +23602,7 @@
                 ]
               },
               {
-                "uuid": "354d417e-595a-42f4-8206-a4d69ec87615",
+                "uuid": "716a618a-3dd2-458c-b0a7-b7c7ef8f0fa1",
                 "control-id": "cis_ocp_1_4_0_5-1.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -23114,7 +23620,7 @@
                 ]
               },
               {
-                "uuid": "d5234225-ac2b-412d-a29a-12e90575c129",
+                "uuid": "f8541755-d9a7-455a-9fe8-cf04b78ef2f7",
                 "control-id": "cis_ocp_1_4_0_5-1.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -23132,7 +23638,7 @@
                 ]
               },
               {
-                "uuid": "0db918ec-cacf-4cd1-87f1-aed1e16c2499",
+                "uuid": "2cb57edc-bfcb-4ac8-9664-7e780addac40",
                 "control-id": "cis_ocp_1_4_0_5-1.4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -23150,7 +23656,7 @@
                 ]
               },
               {
-                "uuid": "dac41434-30fd-4622-95d1-13804d99630d",
+                "uuid": "62795018-3a46-4615-8a6a-fae40324692a",
                 "control-id": "cis_ocp_1_4_0_5-1.5",
                 "description": "REPLACE_ME",
                 "props": [
@@ -23168,7 +23674,7 @@
                 ]
               },
               {
-                "uuid": "2358c550-64fc-452c-8d4d-0109f9e46b46",
+                "uuid": "70695d88-7b41-41fd-8ca8-6c6c84987f50",
                 "control-id": "cis_ocp_1_4_0_5-1.6",
                 "description": "REPLACE_ME",
                 "props": [
@@ -23186,7 +23692,7 @@
                 ]
               },
               {
-                "uuid": "4cd34057-45e3-4ce6-a383-787131c603da",
+                "uuid": "25d43e61-47fb-4dea-9a11-215247ad1633",
                 "control-id": "cis_ocp_1_4_0_5-2.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -23204,7 +23710,7 @@
                 ]
               },
               {
-                "uuid": "055dea77-1284-49a2-becb-299b17445c88",
+                "uuid": "94c04e1b-0345-4a34-ba6e-7fbe2e0f5420",
                 "control-id": "cis_ocp_1_4_0_5-2.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -23222,7 +23728,7 @@
                 ]
               },
               {
-                "uuid": "35093e5a-c477-4a18-836d-f9edc298a97c",
+                "uuid": "0a448079-ed85-4ba8-b7d3-9c3e19b28477",
                 "control-id": "cis_ocp_1_4_0_5-2.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -23240,7 +23746,7 @@
                 ]
               },
               {
-                "uuid": "72da460d-e9a0-4044-8a63-60d2cddb9afa",
+                "uuid": "adc4c5d7-6687-4a1d-b730-7c7f05b21acf",
                 "control-id": "cis_ocp_1_4_0_5-2.4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -23258,7 +23764,7 @@
                 ]
               },
               {
-                "uuid": "960fe66e-d45c-4a42-813f-817565b11e70",
+                "uuid": "2889c743-8a2b-47b9-896e-844bd78a663b",
                 "control-id": "cis_ocp_1_4_0_5-2.5",
                 "description": "REPLACE_ME",
                 "props": [
@@ -23276,7 +23782,7 @@
                 ]
               },
               {
-                "uuid": "2da6e992-d067-4db0-83ec-2601f85dcc67",
+                "uuid": "9a58fb32-e6c3-49d2-965e-da23b3579424",
                 "control-id": "cis_ocp_1_4_0_5-2.7",
                 "description": "REPLACE_ME",
                 "props": [
@@ -23294,7 +23800,7 @@
                 ]
               },
               {
-                "uuid": "975c3c83-4443-4779-8d26-2fcbaa444dfe",
+                "uuid": "c4bea1c9-6f2f-458f-a45f-f8cc95c03ca5",
                 "control-id": "cis_ocp_1_4_0_5-2.8",
                 "description": "REPLACE_ME",
                 "props": [
@@ -23311,7 +23817,7 @@
                 ]
               },
               {
-                "uuid": "b832dbb0-305a-4173-860e-663ae17086cf",
+                "uuid": "1277c53a-f4de-483e-b61a-2bb50d8f84a6",
                 "control-id": "cis_ocp_1_4_0_5-3.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -23328,7 +23834,7 @@
                 ]
               },
               {
-                "uuid": "9aa99778-4896-4900-b783-07ef3de0c01c",
+                "uuid": "ee4f307b-4f0e-47b6-9cef-026eb910567c",
                 "control-id": "cis_ocp_1_4_0_5-4.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -23346,7 +23852,7 @@
                 ]
               },
               {
-                "uuid": "6b379fb2-750c-49ff-b739-37c9f1552267",
+                "uuid": "9d50c977-ebc5-4ee0-ad33-a837a0bc8199",
                 "control-id": "cis_ocp_1_4_0_5-7.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -23364,7 +23870,7 @@
                 ]
               },
               {
-                "uuid": "cac3c8aa-4778-4fb5-9d5a-ae52a970f921",
+                "uuid": "34775fd6-7adc-415d-9fb2-d4a909ee8380",
                 "control-id": "cis_ocp_1_4_0_5",
                 "description": "REPLACE_ME",
                 "props": [
