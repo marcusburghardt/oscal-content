@@ -20,7 +20,19 @@ The workflow operates in several stages:
 
 - **Propose Updates:** Finally, the workflow automatically creates a pull request with the newly generated OSCAL content, making it available for review and merging.
 
-As a recent example of a successful [run](https://github.com/ComplianceAsCode/content/actions/runs/15688668981/job/44198205023), the merge of ComplianceAsCode/content PR [#13580](https://github.com/ComplianceAsCode/content/pull/13580) triggered this workflow, which in turn automatically created oscal-content PR [#28](https://github.com/ComplianceAsCode/oscal-content/pull/28) to sync the changes.
+As a recent example of a successful [run](https://github.com/ComplianceAsCode/content/actions/runs/15688668981/job/44198205023), the merge of ComplianceAsCode/content PR [#13580](https://github.com/ComplianceAsCode/content/pull/13580)
+triggered this workflow, which in turn automatically created oscal-content PR [#28](https://github.com/ComplianceAsCode/oscal-content/pull/28) to sync the changes.
+
+```mermaid
+graph LR
+    A[ComplianceAsCode PR #13580] --> B[Workflow Triggered]
+    B --> C[Content Transformation]
+    C --> D[OSCAL Content PR #28]
+```
+
+Above, the control file defines the RHEL8 HIPAA profile. The change makes it simpler to reference this [hipaa control file](https://github.com/ComplianceAsCode/content/blob/master/controls/hipaa.yml) in the [RHEL8 HIPAA Profile](https://github.com/ComplianceAsCode/content/blob/master/products/rhel8/profiles/hipaa.profile). The rules associated with the controls are now in the control file and referenced in the RHEL8 Profile.
+
+The control ids are updated in the OSCAL Content PR #28 triggered by the update in ComplianceAsCode/content. The `oscal-content` profiles for RHEL8/HIPAA - [rhel8-hipaa-required](https://github.com/ComplianceAsCode/oscal-content/blob/1bf63ff5e400f1bd4934007e5251a586cbcafa7a/profiles/rhel8-hipaa-required/profile.json)
 
 ### Content Transformation: OSCAL to CAC
 The `sync-oscal-cac` workflow handles the reverse synchronization, ensuring that updates to OSCAL content are reflected back in the ComplianceAsCode/content repository.
@@ -35,6 +47,15 @@ This workflow is triggered upon the merge of a pull request containing OSCAL fil
 
 As a recent example of a successful [run](https://github.com/ComplianceAsCode/oscal-content/actions/runs/16161128581/job/45612912892), the PR [#49](https://github.com/ComplianceAsCode/oscal-content/pull/49) triggered this workflow, generated a ComplianceAsCode/content PR [#13680](https://github.com/ComplianceAsCode/content/pull/13680) to contribute the changes back to CAC.
 
+```mermaid
+graph LR
+    A[OSCAL Content PR #49] --> B[Workflow Triggered]
+    B --> C[Detect OSCAL Updates]
+    C --> D[Content Transformation via Complyscribe]
+    D --> E[ComplianceAsCode PR #13680]
+```
+
+The updates of OSCAL Content PR [#49](https://github.com/ComplianceAsCode/oscal-content/pull/49) automatically trigger the request to propose changes to the `ComplianceAsCode/content` repository content. The deletion of rules from the `component-definition.json` trigger the automatic generation of this PR [13680](https://github.com/ComplianceAsCode/content/pull/13680) in `ComplianceAsCode/content`. The PR proposes changes to the levels applied to the control file [cis_rhel8](https://github.com/ComplianceAsCode/content/pull/13680/files#diff-c97f4c1b44844a9d76570cbbc2bf8fdbceb1dc1076461fc8408870ab612cad9cR33) in `ComplianceAsCode/content`
 ## Tooling
 We utilize ComplyScribe to help author and manage the OSCAL content, ensuring it adheres to the required standards and formats.
 
