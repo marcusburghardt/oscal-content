@@ -3,8 +3,8 @@
     "uuid": "f2b71dff-701c-4d9f-bd0e-10fb1edc74ca",
     "metadata": {
       "title": "Component definition for ocp4",
-      "last-modified": "2025-07-14T11:57:23.890434+08:00",
-      "version": "1.7",
+      "last-modified": "2025-08-14T11:11:25.217144+08:00",
+      "version": "2.1",
       "oscal-version": "1.1.3"
     },
     "components": [
@@ -1301,7 +1301,7 @@
         ],
         "control-implementations": [
           {
-            "uuid": "cc9642e0-a5ae-43df-b198-f5dcea3181ad",
+            "uuid": "fc5a70e7-ddb8-45b5-947e-94cee37fb4f2",
             "source": "trestle://profiles/ocp4-bsi_app_4_4-basic/profile.json",
             "description": "REPLACE_ME",
             "props": [
@@ -1313,7 +1313,7 @@
             ],
             "implemented-requirements": [
               {
-                "uuid": "89be4a67-a02a-4fb0-8591-9aa7956e9bd6",
+                "uuid": "d5866341-af05-4753-a203-b7f8e502e47e",
                 "control-id": "app-4.4.a1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -1331,7 +1331,7 @@
                 ]
               },
               {
-                "uuid": "babb36b5-4ac6-49c1-9c3c-f35650555581",
+                "uuid": "2c3f0b89-46e8-4a09-992e-43bbe2cc6071",
                 "control-id": "app-4.4.a2",
                 "description": "Since this requirement is a plan only, we cannot test this with compliance checks. Section 1: This requirement must be implemented organizationally. The documentation at https://docs.openshift.com/container-platform/latest/cicd/pipelines/understanding-openshift-pipelines.html provides information on the planning Section 2: The protective measure is primarily of an organizational nature. OpenShift fully supports them. With the integrated CI/CD technologies Jenkins, Tekton and OpenShift GitOps, OpenShift already offers preconfigured solutions for automated CI/CD pipelines. Of course, other technologies such as Gitlab CI and GitHub Actions can also be integrated. Section 3: Kubernetes secrets are secured by a Role Based Access Control (RBAC) system. Depending on the protection requirement, Kubernetes secrets can be secured via an (encrypted) etcd metadata store or additionally via an integration of Vault components or \"sealed secrets\" for CD and GitOps mechanisms. Secrets and roles can also be managed centrally using ACM and rolled out consistently to the managed clusters using policies.",
                 "props": [
@@ -1343,7 +1343,7 @@
                 ]
               },
               {
-                "uuid": "97a869c4-30d2-4d49-905e-2033b0f184ea",
+                "uuid": "019cc90b-f156-4934-9b35-ec0b531c1474",
                 "control-id": "app-4.4.a3",
                 "description": "Section 1: In the default configuration, OpenShift restricts the use of the web console and APIs only to authenticated and authorized users.| Connection to external directory services (LDAP, OIDC and others) is possible. Section 2: OpenShift already offers roles for a least privilege concept. The RBAC roles can be adapted or supplemented with new roles. The preconfigured roles enable easy authorization assignment according to the least-privilege and need-to-know principles. User actions can be tracked via the audit log. Section 3: In the default configuration, persistent storage can only be integrated by cluster administrators. For dynamically provisioned storage, the corresponding provisioners have the necessary authorizations. These provisioners must be set up and configured by an admin. Storage requirements are controlled and restricted using quota mechanisms.",
                 "props": [
@@ -1375,7 +1375,7 @@
                 ]
               },
               {
-                "uuid": "dd5baee8-94ef-469d-b3a3-4d229166545b",
+                "uuid": "62bf4196-095c-4ab6-844b-ba094ea8e1f5",
                 "control-id": "app-4.4.a4",
                 "description": "Since these are OS based requirements, they are included in the rhcos4 bsi profile. One of the key mechanisms in OCP4 to separate Workloads is SELinux. Thus this should be enforced. Furthermore a admin should check the SCCs as they might lift some of the separations between workloads and/or hosts.",
                 "props": [
@@ -1437,7 +1437,7 @@
                 ]
               },
               {
-                "uuid": "b13732f5-cd15-46ea-bd3f-2c17f0b22bd2",
+                "uuid": "21ec2798-43c4-45b7-bf35-7a5e420b81db",
                 "control-id": "app-4.4.a5",
                 "description": "The data backup of a cluster must be individually defined as part of the system architecture as part of the operating model. The areas of responsibility for the container platform (cluster administration), the infrastructure services (system administration) and the application management (technical administration) should be considered separately.\nFor data backup as part of cluster administration (Kubernetes configuration, current state of the Kubernetes cluster, configuration database) the integrated functions or methods of OpenShift must be used. System administration and specialist administration must be carried out in accordance with the respective specifications.\nSnapshots for persistent volumes are supported when using OpenShift's Container Storage Interface (CSI) drivers. OpenShift offers an easily configurable backup system with the OpenShift API for Data Protection (OADP).\nAdditional third-party solutions for backup are also available in the OperatorHub.\nThe checks are not checking the requirement in detail. They only setup a foundation to implement the configurations as described. For Section 3,4 and 6 a GitOps approach might achieve the best results. for 2 and 7 a sufficient backup solution is needed. 5 can be achieved with onboard utilities. 8 is dependend on the CSI provider and the available features",
                 "props": [
@@ -1459,7 +1459,7 @@
                 ]
               },
               {
-                "uuid": "77a1e3ca-3fe1-4b09-abe2-4c0d327687ac",
+                "uuid": "3e530263-6aa4-4795-b25a-a480dad1898a",
                 "control-id": "app-4.4.a1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -1477,7 +1477,7 @@
                 ]
               },
               {
-                "uuid": "b0bcc3a6-8b1d-4161-a306-0b1869c983b3",
+                "uuid": "0c1dcfd0-e7c0-40b1-b396-e01f9d024701",
                 "control-id": "app-4.4.a2",
                 "description": "Since this requirement is a plan only, we cannot test this with compliance checks. Section 1: This requirement must be implemented organizationally. The documentation at https://docs.openshift.com/container-platform/latest/cicd/pipelines/understanding-openshift-pipelines.html provides information on the planning Section 2: The protective measure is primarily of an organizational nature. OpenShift fully supports them. With the integrated CI/CD technologies Jenkins, Tekton and OpenShift GitOps, OpenShift already offers preconfigured solutions for automated CI/CD pipelines. Of course, other technologies such as Gitlab CI and GitHub Actions can also be integrated. Section 3: Kubernetes secrets are secured by a Role Based Access Control (RBAC) system. Depending on the protection requirement, Kubernetes secrets can be secured via an (encrypted) etcd metadata store or additionally via an integration of Vault components or \"sealed secrets\" for CD and GitOps mechanisms. Secrets and roles can also be managed centrally using ACM and rolled out consistently to the managed clusters using policies.",
                 "props": [
@@ -1489,7 +1489,7 @@
                 ]
               },
               {
-                "uuid": "2b4c68b0-c4d4-49c5-8f24-83efcda02938",
+                "uuid": "13efd9b5-11ce-4ae6-ad6b-e89fa75a35c2",
                 "control-id": "app-4.4.a3",
                 "description": "Section 1: In the default configuration, OpenShift restricts the use of the web console and APIs only to authenticated and authorized users.| Connection to external directory services (LDAP, OIDC and others) is possible. Section 2: OpenShift already offers roles for a least privilege concept. The RBAC roles can be adapted or supplemented with new roles. The preconfigured roles enable easy authorization assignment according to the least-privilege and need-to-know principles. User actions can be tracked via the audit log. Section 3: In the default configuration, persistent storage can only be integrated by cluster administrators. For dynamically provisioned storage, the corresponding provisioners have the necessary authorizations. These provisioners must be set up and configured by an admin. Storage requirements are controlled and restricted using quota mechanisms.",
                 "props": [
@@ -1521,7 +1521,7 @@
                 ]
               },
               {
-                "uuid": "4ce53779-97f5-4263-9c16-8eae86ac8f1b",
+                "uuid": "1b585faa-9554-440e-9e16-b32e45e4328d",
                 "control-id": "app-4.4.a4",
                 "description": "Since these are OS based requirements, they are included in the rhcos4 bsi profile. One of the key mechanisms in OCP4 to separate Workloads is SELinux. Thus this should be enforced. Furthermore a admin should check the SCCs as they might lift some of the separations between workloads and/or hosts.",
                 "props": [
@@ -1583,7 +1583,7 @@
                 ]
               },
               {
-                "uuid": "8aabed31-066d-49da-a454-dc2421f59b5d",
+                "uuid": "5fdd0f4f-1299-419b-bed9-92bfc38124b4",
                 "control-id": "app-4.4.a5",
                 "description": "The data backup of a cluster must be individually defined as part of the system architecture as part of the operating model. The areas of responsibility for the container platform (cluster administration), the infrastructure services (system administration) and the application management (technical administration) should be considered separately.\nFor data backup as part of cluster administration (Kubernetes configuration, current state of the Kubernetes cluster, configuration database) the integrated functions or methods of OpenShift must be used. System administration and specialist administration must be carried out in accordance with the respective specifications.\nSnapshots for persistent volumes are supported when using OpenShift's Container Storage Interface (CSI) drivers. OpenShift offers an easily configurable backup system with the OpenShift API for Data Protection (OADP).\nAdditional third-party solutions for backup are also available in the OperatorHub.\nThe checks are not checking the requirement in detail. They only setup a foundation to implement the configurations as described. For Section 3,4 and 6 a GitOps approach might achieve the best results. for 2 and 7 a sufficient backup solution is needed. 5 can be achieved with onboard utilities. 8 is dependend on the CSI provider and the available features",
                 "props": [
@@ -1605,7 +1605,7 @@
                 ]
               },
               {
-                "uuid": "d23b2920-4504-4d54-917a-b6fd9782318b",
+                "uuid": "36af3e7e-b98f-49cf-b9c9-5917329ebe01",
                 "control-id": "app-4.4.a1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -1623,7 +1623,7 @@
                 ]
               },
               {
-                "uuid": "3e206d43-604f-4138-9fc0-2e14b09dfbb9",
+                "uuid": "2c0e251d-d259-4385-a941-4719bd2863df",
                 "control-id": "app-4.4.a2",
                 "description": "Since this requirement is a plan only, we cannot test this with compliance checks. Section 1: This requirement must be implemented organizationally. The documentation at https://docs.openshift.com/container-platform/latest/cicd/pipelines/understanding-openshift-pipelines.html provides information on the planning Section 2: The protective measure is primarily of an organizational nature. OpenShift fully supports them. With the integrated CI/CD technologies Jenkins, Tekton and OpenShift GitOps, OpenShift already offers preconfigured solutions for automated CI/CD pipelines. Of course, other technologies such as Gitlab CI and GitHub Actions can also be integrated. Section 3: Kubernetes secrets are secured by a Role Based Access Control (RBAC) system. Depending on the protection requirement, Kubernetes secrets can be secured via an (encrypted) etcd metadata store or additionally via an integration of Vault components or \"sealed secrets\" for CD and GitOps mechanisms. Secrets and roles can also be managed centrally using ACM and rolled out consistently to the managed clusters using policies.",
                 "props": [
@@ -1635,7 +1635,7 @@
                 ]
               },
               {
-                "uuid": "6de27a09-3c31-4a40-b405-42da57eb1768",
+                "uuid": "b6020e63-11d0-4031-aebc-4f4b30fa67af",
                 "control-id": "app-4.4.a3",
                 "description": "Section 1: In the default configuration, OpenShift restricts the use of the web console and APIs only to authenticated and authorized users.| Connection to external directory services (LDAP, OIDC and others) is possible. Section 2: OpenShift already offers roles for a least privilege concept. The RBAC roles can be adapted or supplemented with new roles. The preconfigured roles enable easy authorization assignment according to the least-privilege and need-to-know principles. User actions can be tracked via the audit log. Section 3: In the default configuration, persistent storage can only be integrated by cluster administrators. For dynamically provisioned storage, the corresponding provisioners have the necessary authorizations. These provisioners must be set up and configured by an admin. Storage requirements are controlled and restricted using quota mechanisms.",
                 "props": [
@@ -1667,7 +1667,7 @@
                 ]
               },
               {
-                "uuid": "14037b74-7453-49b6-b45a-84d8ddc853bd",
+                "uuid": "491c6329-2106-43be-90dd-d8ca0e87e3fc",
                 "control-id": "app-4.4.a4",
                 "description": "Since these are OS based requirements, they are included in the rhcos4 bsi profile. One of the key mechanisms in OCP4 to separate Workloads is SELinux. Thus this should be enforced. Furthermore a admin should check the SCCs as they might lift some of the separations between workloads and/or hosts.",
                 "props": [
@@ -1729,7 +1729,7 @@
                 ]
               },
               {
-                "uuid": "018f3484-0567-46ae-bd3f-fbfede74d3b7",
+                "uuid": "8f9aaee0-7433-4176-a5ad-194356b3d6e6",
                 "control-id": "app-4.4.a5",
                 "description": "The data backup of a cluster must be individually defined as part of the system architecture as part of the operating model. The areas of responsibility for the container platform (cluster administration), the infrastructure services (system administration) and the application management (technical administration) should be considered separately.\nFor data backup as part of cluster administration (Kubernetes configuration, current state of the Kubernetes cluster, configuration database) the integrated functions or methods of OpenShift must be used. System administration and specialist administration must be carried out in accordance with the respective specifications.\nSnapshots for persistent volumes are supported when using OpenShift's Container Storage Interface (CSI) drivers. OpenShift offers an easily configurable backup system with the OpenShift API for Data Protection (OADP).\nAdditional third-party solutions for backup are also available in the OperatorHub.\nThe checks are not checking the requirement in detail. They only setup a foundation to implement the configurations as described. For Section 3,4 and 6 a GitOps approach might achieve the best results. for 2 and 7 a sufficient backup solution is needed. 5 can be achieved with onboard utilities. 8 is dependend on the CSI provider and the available features",
                 "props": [
@@ -4331,7 +4331,7 @@
         ],
         "control-implementations": [
           {
-            "uuid": "4324bfb9-f60c-42ab-b53f-a3b050287743",
+            "uuid": "b8a899bb-a0ce-4a71-95c7-5f6417022e08",
             "source": "trestle://profiles/ocp4-bsi_app_4_4-basic/profile.json",
             "description": "REPLACE_ME",
             "props": [
@@ -4343,7 +4343,7 @@
             ],
             "implemented-requirements": [
               {
-                "uuid": "54726fe1-731e-4917-9e65-70a5d6b73748",
+                "uuid": "10c30d7a-04dc-49d7-9155-7c4e7f46abf3",
                 "control-id": "app-4.4.a1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4361,7 +4361,7 @@
                 ]
               },
               {
-                "uuid": "84530543-4294-4f03-8312-7f1339ea8fdf",
+                "uuid": "bd271441-3b6f-4d05-b998-6e578018940e",
                 "control-id": "app-4.4.a2",
                 "description": "Since this requirement is a plan only, we cannot test this with compliance checks. Section 1: This requirement must be implemented organizationally. The documentation at https://docs.openshift.com/container-platform/latest/cicd/pipelines/understanding-openshift-pipelines.html provides information on the planning Section 2: The protective measure is primarily of an organizational nature. OpenShift fully supports them. With the integrated CI/CD technologies Jenkins, Tekton and OpenShift GitOps, OpenShift already offers preconfigured solutions for automated CI/CD pipelines. Of course, other technologies such as Gitlab CI and GitHub Actions can also be integrated. Section 3: Kubernetes secrets are secured by a Role Based Access Control (RBAC) system. Depending on the protection requirement, Kubernetes secrets can be secured via an (encrypted) etcd metadata store or additionally via an integration of Vault components or \"sealed secrets\" for CD and GitOps mechanisms. Secrets and roles can also be managed centrally using ACM and rolled out consistently to the managed clusters using policies.",
                 "props": [
@@ -4373,7 +4373,7 @@
                 ]
               },
               {
-                "uuid": "a9488bdb-7688-45e8-bd74-ced496186ef0",
+                "uuid": "fdbd64a4-c757-4f24-beca-2fb5c56e97b1",
                 "control-id": "app-4.4.a3",
                 "description": "Section 1: In the default configuration, OpenShift restricts the use of the web console and APIs only to authenticated and authorized users.| Connection to external directory services (LDAP, OIDC and others) is possible. Section 2: OpenShift already offers roles for a least privilege concept. The RBAC roles can be adapted or supplemented with new roles. The preconfigured roles enable easy authorization assignment according to the least-privilege and need-to-know principles. User actions can be tracked via the audit log. Section 3: In the default configuration, persistent storage can only be integrated by cluster administrators. For dynamically provisioned storage, the corresponding provisioners have the necessary authorizations. These provisioners must be set up and configured by an admin. Storage requirements are controlled and restricted using quota mechanisms.",
                 "props": [
@@ -4405,7 +4405,7 @@
                 ]
               },
               {
-                "uuid": "ab6b20f8-df3a-4968-8e42-be9c15a6caa4",
+                "uuid": "d5397c77-8685-46e7-b4a2-39d04a9de8e3",
                 "control-id": "app-4.4.a4",
                 "description": "Since these are OS based requirements, they are included in the rhcos4 bsi profile. One of the key mechanisms in OCP4 to separate Workloads is SELinux. Thus this should be enforced. Furthermore a admin should check the SCCs as they might lift some of the separations between workloads and/or hosts.",
                 "props": [
@@ -4467,7 +4467,7 @@
                 ]
               },
               {
-                "uuid": "f71e43f5-f97b-41be-ac07-d718b72710d6",
+                "uuid": "e3a5db92-721c-4a46-ad98-0e0e7e616dae",
                 "control-id": "app-4.4.a5",
                 "description": "The data backup of a cluster must be individually defined as part of the system architecture as part of the operating model. The areas of responsibility for the container platform (cluster administration), the infrastructure services (system administration) and the application management (technical administration) should be considered separately.\nFor data backup as part of cluster administration (Kubernetes configuration, current state of the Kubernetes cluster, configuration database) the integrated functions or methods of OpenShift must be used. System administration and specialist administration must be carried out in accordance with the respective specifications.\nSnapshots for persistent volumes are supported when using OpenShift's Container Storage Interface (CSI) drivers. OpenShift offers an easily configurable backup system with the OpenShift API for Data Protection (OADP).\nAdditional third-party solutions for backup are also available in the OperatorHub.\nThe checks are not checking the requirement in detail. They only setup a foundation to implement the configurations as described. For Section 3,4 and 6 a GitOps approach might achieve the best results. for 2 and 7 a sufficient backup solution is needed. 5 can be achieved with onboard utilities. 8 is dependend on the CSI provider and the available features",
                 "props": [
@@ -4489,7 +4489,7 @@
                 ]
               },
               {
-                "uuid": "9600a488-8c17-4521-89c8-2d44f7b05498",
+                "uuid": "d02b1fa3-ad1d-420c-a71e-745be92c8898",
                 "control-id": "app-4.4.a1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4507,7 +4507,7 @@
                 ]
               },
               {
-                "uuid": "0c853bc5-513d-4840-a750-704f1f245a26",
+                "uuid": "a05dfbfd-27a4-45c6-8f20-dc2783f4bf14",
                 "control-id": "app-4.4.a2",
                 "description": "Since this requirement is a plan only, we cannot test this with compliance checks. Section 1: This requirement must be implemented organizationally. The documentation at https://docs.openshift.com/container-platform/latest/cicd/pipelines/understanding-openshift-pipelines.html provides information on the planning Section 2: The protective measure is primarily of an organizational nature. OpenShift fully supports them. With the integrated CI/CD technologies Jenkins, Tekton and OpenShift GitOps, OpenShift already offers preconfigured solutions for automated CI/CD pipelines. Of course, other technologies such as Gitlab CI and GitHub Actions can also be integrated. Section 3: Kubernetes secrets are secured by a Role Based Access Control (RBAC) system. Depending on the protection requirement, Kubernetes secrets can be secured via an (encrypted) etcd metadata store or additionally via an integration of Vault components or \"sealed secrets\" for CD and GitOps mechanisms. Secrets and roles can also be managed centrally using ACM and rolled out consistently to the managed clusters using policies.",
                 "props": [
@@ -4519,7 +4519,7 @@
                 ]
               },
               {
-                "uuid": "d3ee0770-3a1c-4c42-bd4a-1c465a821f51",
+                "uuid": "a28b9b06-f61f-45be-820e-89c9a4313816",
                 "control-id": "app-4.4.a3",
                 "description": "Section 1: In the default configuration, OpenShift restricts the use of the web console and APIs only to authenticated and authorized users.| Connection to external directory services (LDAP, OIDC and others) is possible. Section 2: OpenShift already offers roles for a least privilege concept. The RBAC roles can be adapted or supplemented with new roles. The preconfigured roles enable easy authorization assignment according to the least-privilege and need-to-know principles. User actions can be tracked via the audit log. Section 3: In the default configuration, persistent storage can only be integrated by cluster administrators. For dynamically provisioned storage, the corresponding provisioners have the necessary authorizations. These provisioners must be set up and configured by an admin. Storage requirements are controlled and restricted using quota mechanisms.",
                 "props": [
@@ -4551,7 +4551,7 @@
                 ]
               },
               {
-                "uuid": "6fb57418-c2c8-4d11-86b4-d9e7a6556f38",
+                "uuid": "07660b34-e7c2-474a-b5df-dd38d09079f3",
                 "control-id": "app-4.4.a4",
                 "description": "Since these are OS based requirements, they are included in the rhcos4 bsi profile. One of the key mechanisms in OCP4 to separate Workloads is SELinux. Thus this should be enforced. Furthermore a admin should check the SCCs as they might lift some of the separations between workloads and/or hosts.",
                 "props": [
@@ -4613,7 +4613,7 @@
                 ]
               },
               {
-                "uuid": "a5369bbe-ca4d-4454-80f5-2fa061e88c48",
+                "uuid": "ae41cf8b-9af3-481c-975a-e2fe0c4e612b",
                 "control-id": "app-4.4.a5",
                 "description": "The data backup of a cluster must be individually defined as part of the system architecture as part of the operating model. The areas of responsibility for the container platform (cluster administration), the infrastructure services (system administration) and the application management (technical administration) should be considered separately.\nFor data backup as part of cluster administration (Kubernetes configuration, current state of the Kubernetes cluster, configuration database) the integrated functions or methods of OpenShift must be used. System administration and specialist administration must be carried out in accordance with the respective specifications.\nSnapshots for persistent volumes are supported when using OpenShift's Container Storage Interface (CSI) drivers. OpenShift offers an easily configurable backup system with the OpenShift API for Data Protection (OADP).\nAdditional third-party solutions for backup are also available in the OperatorHub.\nThe checks are not checking the requirement in detail. They only setup a foundation to implement the configurations as described. For Section 3,4 and 6 a GitOps approach might achieve the best results. for 2 and 7 a sufficient backup solution is needed. 5 can be achieved with onboard utilities. 8 is dependend on the CSI provider and the available features",
                 "props": [
@@ -4635,7 +4635,7 @@
                 ]
               },
               {
-                "uuid": "ae8178e2-6f61-44e7-b20d-bfb66f0bad7a",
+                "uuid": "f1a03f9b-5126-4c1b-a506-6dc9f80a6616",
                 "control-id": "app-4.4.a1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4653,7 +4653,7 @@
                 ]
               },
               {
-                "uuid": "a4c8ae78-a37a-4d42-9ebc-56aca3c31c27",
+                "uuid": "5869f987-3f5f-45ce-b7fe-ae8374232300",
                 "control-id": "app-4.4.a2",
                 "description": "Since this requirement is a plan only, we cannot test this with compliance checks. Section 1: This requirement must be implemented organizationally. The documentation at https://docs.openshift.com/container-platform/latest/cicd/pipelines/understanding-openshift-pipelines.html provides information on the planning Section 2: The protective measure is primarily of an organizational nature. OpenShift fully supports them. With the integrated CI/CD technologies Jenkins, Tekton and OpenShift GitOps, OpenShift already offers preconfigured solutions for automated CI/CD pipelines. Of course, other technologies such as Gitlab CI and GitHub Actions can also be integrated. Section 3: Kubernetes secrets are secured by a Role Based Access Control (RBAC) system. Depending on the protection requirement, Kubernetes secrets can be secured via an (encrypted) etcd metadata store or additionally via an integration of Vault components or \"sealed secrets\" for CD and GitOps mechanisms. Secrets and roles can also be managed centrally using ACM and rolled out consistently to the managed clusters using policies.",
                 "props": [
@@ -4665,7 +4665,7 @@
                 ]
               },
               {
-                "uuid": "8a880f85-c62f-433a-be4b-bab39ab511b4",
+                "uuid": "4da04815-1b11-4e29-9f42-7ade41af74d4",
                 "control-id": "app-4.4.a3",
                 "description": "Section 1: In the default configuration, OpenShift restricts the use of the web console and APIs only to authenticated and authorized users.| Connection to external directory services (LDAP, OIDC and others) is possible. Section 2: OpenShift already offers roles for a least privilege concept. The RBAC roles can be adapted or supplemented with new roles. The preconfigured roles enable easy authorization assignment according to the least-privilege and need-to-know principles. User actions can be tracked via the audit log. Section 3: In the default configuration, persistent storage can only be integrated by cluster administrators. For dynamically provisioned storage, the corresponding provisioners have the necessary authorizations. These provisioners must be set up and configured by an admin. Storage requirements are controlled and restricted using quota mechanisms.",
                 "props": [
@@ -4697,7 +4697,7 @@
                 ]
               },
               {
-                "uuid": "271f8df0-2a63-480a-8236-d721b1a6a9a9",
+                "uuid": "5dfc096f-31b5-4484-a8a9-6147e270cbe3",
                 "control-id": "app-4.4.a4",
                 "description": "Since these are OS based requirements, they are included in the rhcos4 bsi profile. One of the key mechanisms in OCP4 to separate Workloads is SELinux. Thus this should be enforced. Furthermore a admin should check the SCCs as they might lift some of the separations between workloads and/or hosts.",
                 "props": [
@@ -4759,7 +4759,7 @@
                 ]
               },
               {
-                "uuid": "0057e895-07bd-435a-9664-590c0a3051f1",
+                "uuid": "df6d39ce-b556-4900-af51-31b3619d32b5",
                 "control-id": "app-4.4.a5",
                 "description": "The data backup of a cluster must be individually defined as part of the system architecture as part of the operating model. The areas of responsibility for the container platform (cluster administration), the infrastructure services (system administration) and the application management (technical administration) should be considered separately.\nFor data backup as part of cluster administration (Kubernetes configuration, current state of the Kubernetes cluster, configuration database) the integrated functions or methods of OpenShift must be used. System administration and specialist administration must be carried out in accordance with the respective specifications.\nSnapshots for persistent volumes are supported when using OpenShift's Container Storage Interface (CSI) drivers. OpenShift offers an easily configurable backup system with the OpenShift API for Data Protection (OADP).\nAdditional third-party solutions for backup are also available in the OperatorHub.\nThe checks are not checking the requirement in detail. They only setup a foundation to implement the configurations as described. For Section 3,4 and 6 a GitOps approach might achieve the best results. for 2 and 7 a sufficient backup solution is needed. 5 can be achieved with onboard utilities. 8 is dependend on the CSI provider and the available features",
                 "props": [
