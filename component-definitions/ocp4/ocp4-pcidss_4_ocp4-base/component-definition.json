@@ -3,8 +3,8 @@
     "uuid": "1ced8b80-af6e-46f3-b3f7-1f41a0f33333",
     "metadata": {
       "title": "Component definition for ocp4",
-      "last-modified": "2025-08-14T11:20:13.207562+08:00",
-      "version": "3.7",
+      "last-modified": "2025-08-26T14:57:51.402807+00:00",
+      "version": "4.1",
       "oscal-version": "1.1.3"
     },
     "components": [
@@ -3233,7 +3233,7 @@
         ],
         "control-implementations": [
           {
-            "uuid": "24330eb5-0932-4570-9741-16f65c7d493d",
+            "uuid": "a1fdd320-743d-4c27-b936-aedff74ca67c",
             "source": "trestle://profiles/ocp4-pcidss_4_ocp4-base/profile.json",
             "description": "REPLACE_ME",
             "props": [
@@ -3259,7 +3259,7 @@
             ],
             "implemented-requirements": [
               {
-                "uuid": "45f4015b-1c61-4250-b01c-4b02e50cb25c",
+                "uuid": "4d39db08-e43b-4686-ac0d-04e2c89676b0",
                 "control-id": "pcidss_4_ocp4_1-1.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -3272,7 +3272,7 @@
                 ]
               },
               {
-                "uuid": "42a07d21-ab9c-44b6-b67f-a9f110e4f8be",
+                "uuid": "166be079-a9d9-444e-a4c6-a75f76b69b9f",
                 "control-id": "pcidss_4_ocp4_1-1.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -3285,7 +3285,7 @@
                 ]
               },
               {
-                "uuid": "f0761206-b0d7-485c-a9e5-abdd0d42f79b",
+                "uuid": "a35fb134-c114-4176-a43f-f9ca503afebc",
                 "control-id": "pcidss_4_ocp4_1-2.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -3298,7 +3298,7 @@
                 ]
               },
               {
-                "uuid": "c6f41499-152b-4170-931e-6f4001390bd7",
+                "uuid": "94c907d4-72ef-45c3-b7e0-db0b52768233",
                 "control-id": "pcidss_4_ocp4_1-2.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -3311,7 +3311,7 @@
                 ]
               },
               {
-                "uuid": "feb4188b-cb64-4ed5-bfd1-15c83ff14133",
+                "uuid": "7bff0804-b848-4329-8112-ce91e6c71b08",
                 "control-id": "pcidss_4_ocp4_1-2.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -3324,7 +3324,7 @@
                 ]
               },
               {
-                "uuid": "8ef731ef-d926-4b9c-b18d-6afb893b48b7",
+                "uuid": "e9b1bf5d-8c91-4e2d-bbaf-0cd81566a3dc",
                 "control-id": "pcidss_4_ocp4_1-2.4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -3337,7 +3337,7 @@
                 ]
               },
               {
-                "uuid": "2b686540-4dcb-4596-888c-a3868e76f576",
+                "uuid": "38e3e93c-0162-44c9-a4a3-4616bf2a1c87",
                 "control-id": "pcidss_4_ocp4_1-2.5",
                 "description": "REPLACE_ME",
                 "props": [
@@ -3350,7 +3350,7 @@
                 ]
               },
               {
-                "uuid": "3bbac603-dc37-4f8f-87a5-ca16fbeb4055",
+                "uuid": "bccea4be-021e-43f5-88b1-3a805c2f0ce0",
                 "control-id": "pcidss_4_ocp4_1-2.6",
                 "description": "The specific risks associated with the use of insecure services,\nprotocols, and ports are understood, assessed, and appropriately\nmitigated.",
                 "props": [
@@ -3372,7 +3372,7 @@
                 ]
               },
               {
-                "uuid": "3d2c6455-2647-4238-b987-7bd218ba71e8",
+                "uuid": "d79a3ca2-afda-4cbf-a0ac-b337d575b0af",
                 "control-id": "pcidss_4_ocp4_1-2.7",
                 "description": "REPLACE_ME",
                 "props": [
@@ -3385,7 +3385,7 @@
                 ]
               },
               {
-                "uuid": "834e5939-8859-4d2b-8a44-88ed940d3c47",
+                "uuid": "abf1b500-6b93-472e-8de9-ed2bf33cc578",
                 "control-id": "pcidss_4_ocp4_1-2.8",
                 "description": "REPLACE_ME",
                 "props": [
@@ -3398,7 +3398,7 @@
                 ]
               },
               {
-                "uuid": "bf6053eb-4f73-426a-9911-ae9a744c8c67",
+                "uuid": "6987e3de-0d80-4b69-be24-dc75157b7867",
                 "control-id": "pcidss_4_ocp4_1-3.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -3420,7 +3420,7 @@
                 ]
               },
               {
-                "uuid": "e7039989-2d6a-48a1-aac2-8c61693ba5d5",
+                "uuid": "fe6e3cad-3bc4-4a28-92ad-83cadb2797d7",
                 "control-id": "pcidss_4_ocp4_1-3.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -3433,7 +3433,7 @@
                 ]
               },
               {
-                "uuid": "2de82cae-8f72-4896-809d-8eef4a7e2c26",
+                "uuid": "e18a8e01-ff92-46f3-9741-bd7d8dc369a4",
                 "control-id": "pcidss_4_ocp4_1-3.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -3446,7 +3446,7 @@
                 ]
               },
               {
-                "uuid": "5830a22c-7f13-4de6-abc7-26a1c64a499a",
+                "uuid": "679e3deb-7c34-4ba3-bcc0-a7a7333bfe41",
                 "control-id": "pcidss_4_ocp4_1-4.1",
                 "description": "Trusted and untrusted networks are expected to be different for each environment.\nBut loopback traffic is assumed to be trusted and even necessary for some services.\nThis requirement is complements 1.2.1 and 1.3.1 requirements.",
                 "props": [
@@ -3473,7 +3473,7 @@
                 ]
               },
               {
-                "uuid": "82214ace-6004-454f-96aa-61177669cbb0",
+                "uuid": "54bd6b19-5b4c-42e1-98f7-8240f06fb92a",
                 "control-id": "pcidss_4_ocp4_1-4.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -3486,7 +3486,7 @@
                 ]
               },
               {
-                "uuid": "06afda2e-72e9-42d0-a646-c6c8e04b80e7",
+                "uuid": "afaa8cb1-c0f3-4086-840c-7a1d0569a6db",
                 "control-id": "pcidss_4_ocp4_1-4.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -3499,7 +3499,7 @@
                 ]
               },
               {
-                "uuid": "4d24cf22-79f2-4e40-9abe-c35e1adbd859",
+                "uuid": "9b00508b-fe16-40af-b572-262a49eb4d68",
                 "control-id": "pcidss_4_ocp4_1-4.4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -3512,7 +3512,7 @@
                 ]
               },
               {
-                "uuid": "f42cd20e-fd30-4db6-8f75-5ce9eb7496c0",
+                "uuid": "d8bea82f-7024-4800-9ace-edb6d25732f5",
                 "control-id": "pcidss_4_ocp4_1-4.5",
                 "description": "REPLACE_ME",
                 "props": [
@@ -3525,7 +3525,7 @@
                 ]
               },
               {
-                "uuid": "64bba4c5-cb15-4e6e-8620-839d0a9e19fe",
+                "uuid": "a80095a6-1e9d-4924-a44e-8cc205334e4e",
                 "control-id": "pcidss_4_ocp4_1-5.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -3538,7 +3538,7 @@
                 ]
               },
               {
-                "uuid": "cc51623e-dc31-47ce-badf-f08365c926e6",
+                "uuid": "7548f1c7-2412-4a77-bc8e-0580c6cecf35",
                 "control-id": "pcidss_4_ocp4_2-1.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -3551,7 +3551,7 @@
                 ]
               },
               {
-                "uuid": "2279a65c-b669-4ebc-a026-6f44fbf88871",
+                "uuid": "6762e6da-a07a-402a-94ea-9cb2cb4fceae",
                 "control-id": "pcidss_4_ocp4_2-1.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -3564,7 +3564,7 @@
                 ]
               },
               {
-                "uuid": "8514ecb9-fccc-4672-b7c1-c6dfe4f1933c",
+                "uuid": "fa4d052a-651c-4e14-b283-ebb031c8dd0e",
                 "control-id": "pcidss_4_ocp4_2-2.1",
                 "description": "The Compliance Operator provides an automated way of checking for a secure configuration\nof OpenShift according to known security standards, as well as automatically remediating\ndeviations from the target configuration.\nIts usage is recommended to ensure appropriate configuration and is set and prevent drift.\n\nSystem components outside of OpenShift cannot be checked by the Compliance Operator.\n\nThis control is also addressed by applying the OpenShift CIS recommendations.",
                 "props": [
@@ -3581,7 +3581,7 @@
                 ]
               },
               {
-                "uuid": "1e4e8c5b-f362-402b-9009-687d380f9258",
+                "uuid": "e842e80e-ea50-4cc9-bdd4-8c8e90b7aebe",
                 "control-id": "pcidss_4_ocp4_2-2.2",
                 "description": "The Openshift Platform doesn't come with any hardcoded credentials or passwords.\nAuthenticators are uniquely created at deployment-time, including credentials\nfor an admin user (called `kubeadmin`) which is meant for bootstrapping purposes.\nIt is recommended for deployers to delete this account in favor of using an IdP\nand setting up appropriate permissions via RBAC roles.",
                 "props": [
@@ -3598,7 +3598,7 @@
                 ]
               },
               {
-                "uuid": "1d10550a-686c-419e-adbd-2ee090b01c5a",
+                "uuid": "bb015098-d022-469a-b061-16750d499916",
                 "control-id": "pcidss_4_ocp4_2-2.3",
                 "description": "OpenShift nodes run RHEL CoreOS by default, which contains only the\nnecessary services, protocols and daemons needed to run OpenShift and\ncontainers. OpenShift provides the means to separate application\nworkloads within the cluster onto separate hosts and containers. It\nis the responsibility of the organization to appropriately separate\ntheir applications into relevant containers to meet this control.",
                 "props": [
@@ -3610,7 +3610,7 @@
                 ]
               },
               {
-                "uuid": "3e61baee-9c54-457d-b9bc-1645b9ee4dbd",
+                "uuid": "ec183d0c-3265-4043-8009-1f096b9ffb2c",
                 "control-id": "pcidss_4_ocp4_2-2.4",
                 "description": "The OpenShift Container Platform uses RHEL CoreOS by default. In itself, it's\na minimal operating system with the sole purpose of running OpenShift. Therefore\nit doesn't contain extra packages or functionality; only the minimal that's meant\nto run OpenShift. RHCOS is the recommended operating system for OpenShift.",
                 "props": [
@@ -3622,7 +3622,7 @@
                 ]
               },
               {
-                "uuid": "78ae1671-8118-439d-8e6d-286c6eb18de3",
+                "uuid": "cbbf162b-126e-4329-b928-8275cb558dc4",
                 "control-id": "pcidss_4_ocp4_2-2.5",
                 "description": "OpenShift does not require any insecure services, protocols or daemons for\nproper functioning. The deployment comes with TLS enabled by default with\nstrong ciphers and an appropriate version enabled.",
                 "props": [
@@ -3739,7 +3739,7 @@
                 ]
               },
               {
-                "uuid": "acafec36-df0e-40c4-b1ad-5bc0a8b4a0e2",
+                "uuid": "9e0a1eae-eef6-4dde-8154-e060b70a7327",
                 "control-id": "pcidss_4_ocp4_2-2.6",
                 "description": "While it's possible to manually configure the security settings\nin the Openshift Container Platform, the Compliance Operator provides\nan automated way of checking for a secure configuration and automatically\nremediating issues according to known security standards. Its usage\nis recommended to ensure appropriate configuration is set and prevent\ndrift.\n\nAdditionaly, as part of 2.2.1, the CIS recommendations for OpenShift are applied in order\nto prevent system misconfiguration and misuse.",
                 "props": [
@@ -3756,7 +3756,7 @@
                 ]
               },
               {
-                "uuid": "e18d3e09-b1d0-4a57-ad63-c58d741e2901",
+                "uuid": "f8ee5de4-a82b-4bf4-8bb2-73d156043f41",
                 "control-id": "pcidss_4_ocp4_2-2.7",
                 "description": "Related to requirement 12.3.3.",
                 "props": [
@@ -3883,7 +3883,7 @@
                 ]
               },
               {
-                "uuid": "29052629-bae3-4adf-9e78-372ac53cd114",
+                "uuid": "db1335c7-6dbb-4752-898c-c096af0f9388",
                 "control-id": "pcidss_4_ocp4_2-3.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -3896,7 +3896,7 @@
                 ]
               },
               {
-                "uuid": "26a307d2-e700-416c-973c-66d394d1f621",
+                "uuid": "ed953261-db69-4da8-9b40-dd3d9d6d9ac9",
                 "control-id": "pcidss_4_ocp4_2-3.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -3909,7 +3909,7 @@
                 ]
               },
               {
-                "uuid": "e107a859-4e95-49fa-a5ee-1e9879afc88f",
+                "uuid": "4ff535e2-28f9-4707-954b-e3421718f9c9",
                 "control-id": "pcidss_4_ocp4_3-1.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -3922,7 +3922,7 @@
                 ]
               },
               {
-                "uuid": "f74cdb4a-7c95-435e-9ef2-8ed9164fae81",
+                "uuid": "2bf8c7d1-8a07-454c-90d5-6e2da498580d",
                 "control-id": "pcidss_4_ocp4_3-1.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -3935,7 +3935,7 @@
                 ]
               },
               {
-                "uuid": "458e35bf-8532-4c4a-ab6d-f347bd895a22",
+                "uuid": "f7f0c6db-3556-452c-87db-29ff71107788",
                 "control-id": "pcidss_4_ocp4_3-2.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -3948,7 +3948,7 @@
                 ]
               },
               {
-                "uuid": "a49e185e-4583-4804-8b31-fb58731b04bf",
+                "uuid": "1649eb0f-36b1-4087-8f45-65897cc1815d",
                 "control-id": "pcidss_4_ocp4_3-3.1.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -3961,7 +3961,7 @@
                 ]
               },
               {
-                "uuid": "62987f7d-77b7-4448-a3a3-a2a99d54587b",
+                "uuid": "a0678c8a-c0e9-471a-af54-5125bb55dc72",
                 "control-id": "pcidss_4_ocp4_3-3.1.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -3974,7 +3974,7 @@
                 ]
               },
               {
-                "uuid": "a6323a6b-5ae2-4177-a912-8f4c4bbfd1d1",
+                "uuid": "dc6c2398-013e-4b41-8128-9010a7f573cb",
                 "control-id": "pcidss_4_ocp4_3-3.1.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -3987,7 +3987,7 @@
                 ]
               },
               {
-                "uuid": "5fc30581-d8f8-46ae-b499-6504d85a3f44",
+                "uuid": "b3e3e337-4a25-4e06-8a11-c6b75c24d6e2",
                 "control-id": "pcidss_4_ocp4_3-3.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4000,7 +4000,7 @@
                 ]
               },
               {
-                "uuid": "6409285a-c3dd-44ad-96c9-9c83a41e6649",
+                "uuid": "1e7943ea-37f7-44bc-8b7b-4d29becc194e",
                 "control-id": "pcidss_4_ocp4_3-3.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4013,7 +4013,7 @@
                 ]
               },
               {
-                "uuid": "4c812932-97f1-4aa8-90fd-8593b31d08fc",
+                "uuid": "c9662e9a-ebef-4799-be21-0c9c0ecec3dd",
                 "control-id": "pcidss_4_ocp4_3-4.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4026,7 +4026,7 @@
                 ]
               },
               {
-                "uuid": "749a8c1d-2d77-4d01-9523-bc8b6a937235",
+                "uuid": "0841fcbc-56c1-4522-ba42-ded2549bb9da",
                 "control-id": "pcidss_4_ocp4_3-4.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4039,7 +4039,7 @@
                 ]
               },
               {
-                "uuid": "b588d637-3e90-4c2d-8f3d-b76c73881ec6",
+                "uuid": "2893108a-c0be-4bf3-914a-97fde1433f62",
                 "control-id": "pcidss_4_ocp4_3-5.1.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4052,7 +4052,7 @@
                 ]
               },
               {
-                "uuid": "135cf8fd-9f12-483a-84b9-cabc8547477b",
+                "uuid": "5dfe6802-5a30-4fc8-8e1e-dcb8fa2f4e30",
                 "control-id": "pcidss_4_ocp4_3-5.1.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4065,7 +4065,7 @@
                 ]
               },
               {
-                "uuid": "389fc01b-f186-42dc-97f7-3fe7da51fba6",
+                "uuid": "8e9874b9-8a9d-449b-9a48-ef08ddafdec3",
                 "control-id": "pcidss_4_ocp4_3-5.1.3",
                 "description": "Disk-level encryption is a node configuration, but it can be managed by the NBDE\nTang Server Operator to automatically unlock LUKS-encrypted volumes and rotate keys.\n\nIn case where card holder data may be stored on worker nodes disks, OpenShift Container\nPlatform can help to partially\ncomply with this requirement by providing several means of fully encrypting disks.\n* Using RHEL core crypto components which are FIPS certified\n* Or using cloud provider techniques, such as EBS encryption for AWS case.\nFor this requirement, we also check etcd is encrypted, so that secrets, but also routes\nand oauth configurations are secured.\n\nConcerning Full Disk Encryption:\nFull Disk Encryption can be enabled on OpenShift by installing the cluster with FIPS mode\nenabled.\nOpenShift Container Platform uses certain FIPS Validated / Modules in Process modules\nwithin RHEL and RHCOS for the operating system components that it uses.\nSee RHEL core crypto components and\nhttps://docs.openshift.com/container-platform/latest/installing/installing-fips.html for\nfurther information.\nWhen installing the cluster, The public ssh key is passed to the Red Hat Enterprise Linux\nCoreOS (RHCOS) nodes through their Ignition config files and is used to authenticate SSH\naccess to the nodes. The key is added to the ~/.ssh/authorized_keys list for the core user\non each node, which enables password-less authentication.\n\nThe management of the private key is up to the customer.\nLUKS/dm-crypt (used by the FIPS mode) provides full-disk encryption that fulfills\nrequirement 3.4.1.\nAccess to the stored data is only possible via a decryption password that must be entered\nwhen the disk is mounted .\nThe disk can be encrypted using a TPM v2, a secure cryptoprocessor contained\nwithin a server; or a Tang server, a network-bound disk encryption (NBDE).\n\nThe NBDE Tang Server Operator can provide automatic unlocking of LUKS-encrypted volumes\nand key rotation.",
                 "props": [
@@ -4092,7 +4092,7 @@
                 ]
               },
               {
-                "uuid": "f549d9f4-b4a7-4066-a30b-41cfb9a80d54",
+                "uuid": "3e4c2b96-bd81-49e2-bc10-83f4de4ea3a0",
                 "control-id": "pcidss_4_ocp4_3-6.1.1",
                 "description": "This requirement largely depends on the solution chosen by the customer to protect card\nholder data at rest.\n* When Full Disk Encryption is done using AWS EBS encryption, the algorithm used is\n  AES-256.\n  Your data key is stored on disk with your encrypted data, but not before EBS encrypts it\n  with your KMS key.\n  Your data key never appears on disk in plaintext.\n  The same data key is shared by snapshots of the volume and any subsequent volumes\n  created from those snapshots.\n  See https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSEncryption.html\n* When Full Disk Encryption is done using LUKS with TPM2, full disk encryption utilities\n  such as dm-crypt and\n  BitLocker encrypt disks with a TPM bind key, and then store the TPM bind key in the TPM\n  (Trusted Platform Module),\n  which is a secure element attached to the motherboard of the node.\n  The main benefit of this method is that there is no external dependency, and the node is\n  able to decrypt its own\n  disks at boot time without any external interaction.\n* When Full Disk Encryption is done using LUKS with Tang, the booting node attempts to\n  contact a predefined set\n  of Tang servers by performing a cryptographic handshake. If it can reach the required\n  number of Tang servers,\n  the node can construct its disk decryption key and unlock the disks to continue booting.\nSee https://docs.openshift.com/container-platform/4.9/security/network_bound_disk_encryption/nbde-about-disk-encryption-technology.html",
                 "props": [
@@ -4104,7 +4104,7 @@
                 ]
               },
               {
-                "uuid": "b15dc7ad-44ea-4f6b-a5ef-135bc4eb23c8",
+                "uuid": "527e5d17-ae18-4e75-adf3-165f0d61ab6e",
                 "control-id": "pcidss_4_ocp4_3-6.1.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4116,7 +4116,7 @@
                 ]
               },
               {
-                "uuid": "dae31d43-6622-4b85-b573-4a477a335eb1",
+                "uuid": "7eedbb12-7bbf-4ca6-91a1-36f9b9608c1a",
                 "control-id": "pcidss_4_ocp4_3-6.1.3",
                 "description": "This requirement largely depends on the solution chosen by the customer to protect card\nholder data at rest.\n* When Full Disk Encryption is done using AWS EBS encryption, the data key, used for\n  volume encryption, is generated\n  by AWS KMS, encrypted with the Key Encryption Key that lies in the KMS and stored with\n  the volume metadata, by EBS.\n  It is the payment entity's responsibility to limit the access to this key by ensuring\n  that Grant requests to decrypt\n  the data key using the KEK (Key Encryption Key) is given only to the need to know users\n  or AWS resources.\n  See https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSEncryption.html\n* When Full Disk Encryption is done using LUKS with TPM2, the TPM bind key, which is used\nto decrypt the data key is\n  stored in the TPM (Trusted Platform Module), on the motherboard of the node.\n  It is therefore not shared with anyone.\n* When Full Disk Encryption is done using LUKS with Tang, Tang server does not store the\nencryption key directly,\n  and never interacts with it. The metadata needed to decrypt the volume is stored on the\n  disk but can only be\n  unlocked and used when the node can correctly establish the handshake with the Tang\n  server. The data key is therefore not shared with anyone.",
                 "props": [
@@ -4128,7 +4128,7 @@
                 ]
               },
               {
-                "uuid": "9870bac3-44eb-4e86-8cfc-4dbc4aa4b029",
+                "uuid": "6bc7ed4f-ad1c-482f-81da-cd4718e40874",
                 "control-id": "pcidss_4_ocp4_3-6.1.4",
                 "description": "This requirement depends on the solution chosen by the customer to protect card holder\ndata at rest:\n* When Full Disk Encryption is done using AWS EBS encryption, the data key is stored in\n  the volume's metadata only.\n  The KEK is stored in the AWS KMS only.\n* When Full Disk Encryption is done using LUKS with TPM2, the TPM bind key is stored in\n  the TPM (Trusted Platform Module) only.\n  The encrypted data key is stored on the MBR of the disk only.\n* When Full Disk Encryption is done using LUKS with Tang, the encryption key is not stored\n  to disk. Only the provisioning metadata is. A POST to the Tang server would allow the\n  node to recompute the encryption key from this metadata.\n  See https://github.com/latchset/tang",
                 "props": [
@@ -4140,7 +4140,7 @@
                 ]
               },
               {
-                "uuid": "431a3490-16b9-4771-993e-1dbc24d03058",
+                "uuid": "6e51f0b9-08ab-4c27-a35d-2f8031e4c4fd",
                 "control-id": "pcidss_4_ocp4_3-7.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4153,7 +4153,7 @@
                 ]
               },
               {
-                "uuid": "e9da90eb-af95-4a38-b29f-2f87f706b2f3",
+                "uuid": "dc908701-633c-4071-ae73-b1bf591f6bd8",
                 "control-id": "pcidss_4_ocp4_3-7.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4166,7 +4166,7 @@
                 ]
               },
               {
-                "uuid": "9e7c5b5d-7566-4c32-9214-5981742fa6a1",
+                "uuid": "f4e9a85f-52c1-46b7-b2b8-a7b84dfac629",
                 "control-id": "pcidss_4_ocp4_3-7.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4179,7 +4179,7 @@
                 ]
               },
               {
-                "uuid": "f5339cd5-dce3-416e-9b77-048d40ece292",
+                "uuid": "dc0e2ed8-6495-488d-9137-9fab49e0958f",
                 "control-id": "pcidss_4_ocp4_3-7.4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4192,7 +4192,7 @@
                 ]
               },
               {
-                "uuid": "ea70bf97-b2d9-4830-ba69-8ad990f07fdc",
+                "uuid": "51baa0aa-3954-46e4-892d-1e04247f4dba",
                 "control-id": "pcidss_4_ocp4_3-7.5",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4205,7 +4205,7 @@
                 ]
               },
               {
-                "uuid": "b88ca23a-fbab-4ec2-b89f-154e5d546abe",
+                "uuid": "681088a8-b787-456d-abd8-209017d07733",
                 "control-id": "pcidss_4_ocp4_3-7.6",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4218,7 +4218,7 @@
                 ]
               },
               {
-                "uuid": "79f46616-b6dd-4f21-983d-d4e68e2d824b",
+                "uuid": "21e67105-1060-41ea-af5c-2b41a2d4b764",
                 "control-id": "pcidss_4_ocp4_3-7.7",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4231,7 +4231,7 @@
                 ]
               },
               {
-                "uuid": "b58c5478-66b6-42e2-9ea8-9f8fbd3f5780",
+                "uuid": "b0040479-227b-4d93-98c8-1e4a6e06debb",
                 "control-id": "pcidss_4_ocp4_3-7.8",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4244,7 +4244,7 @@
                 ]
               },
               {
-                "uuid": "14e5af1f-cc45-429f-81f9-5cfdae91e2cc",
+                "uuid": "2630c7d1-dc1d-41cb-851d-19962338d922",
                 "control-id": "pcidss_4_ocp4_3-7.9",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4257,7 +4257,7 @@
                 ]
               },
               {
-                "uuid": "fd050ef0-6b12-41d1-bcd6-09dd6b5e686f",
+                "uuid": "f8775d5a-0a32-4eba-9247-9a4754eab69c",
                 "control-id": "pcidss_4_ocp4_4-1.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4270,7 +4270,7 @@
                 ]
               },
               {
-                "uuid": "8bd16570-2fc9-4b38-86c8-4e8022767a14",
+                "uuid": "cb3676cc-c120-484a-bcb0-5b4d17fea20e",
                 "control-id": "pcidss_4_ocp4_4-1.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4283,7 +4283,7 @@
                 ]
               },
               {
-                "uuid": "89304a56-3eec-4b91-923d-e2aaa0e13592",
+                "uuid": "7fe89ea8-887a-4713-b8e1-6d1622654bcb",
                 "control-id": "pcidss_4_ocp4_4-2.1.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4296,7 +4296,7 @@
                 ]
               },
               {
-                "uuid": "83411ec0-9dec-4015-a8a2-c96ceb45611f",
+                "uuid": "efe7c0be-b857-475c-ad7d-61a17d662224",
                 "control-id": "pcidss_4_ocp4_4-2.1.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4309,7 +4309,7 @@
                 ]
               },
               {
-                "uuid": "bef4785f-c38d-46d6-8c64-dc6fceb432f3",
+                "uuid": "0eaf3ac5-0829-4515-a382-5b5f7a80caba",
                 "control-id": "pcidss_4_ocp4_4-2.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4322,7 +4322,7 @@
                 ]
               },
               {
-                "uuid": "52ce23b4-9f52-4806-83af-172f4d30b260",
+                "uuid": "5e7981be-448e-4bb3-b4c0-cb89f010ff96",
                 "control-id": "pcidss_4_ocp4_5-1.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4335,7 +4335,7 @@
                 ]
               },
               {
-                "uuid": "deba9055-f458-4e86-9e33-1575b8ff5b9f",
+                "uuid": "6d040a59-d03d-4fad-8a42-35a9c8710313",
                 "control-id": "pcidss_4_ocp4_5-1.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4348,7 +4348,7 @@
                 ]
               },
               {
-                "uuid": "06cd55da-3cd8-4b98-831e-1c6064b6e279",
+                "uuid": "34b02ec0-4f4f-45a8-bf0b-3ad6a13ef34a",
                 "control-id": "pcidss_4_ocp4_5-2.1",
                 "description": "There are many options of anti-malware and the criteria for any adopted solution or\napproach relies on each site policy. Technologies are supported but manual assessment is\nrequired.\n\nOpenShift container platforms may install the OpenShift File\nIntegrity Operator [1] which monitors file system integrity on the host.\nThis may allow for the detection of threats on the hosts which attempt\nto modify the file system in malicious ways. Additionally, there exist\nseveral solutions to scan for container vulnerabilities which are indispensible\nfrom any deployment. One such example is Red Hat Quay [2] which supports\nimage verification and continuous security scanning of container images.\nAnother option is Red Hat Advanced Cluster Security [3] which provides a complete solution\nto build, deploy, and run containerized workloads with more security.\n\n[1] https://docs.openshift.com/container-platform/latest/security/file_integrity_operator/file-integrity-operator-understanding.html\n[2] https://docs.openshift.com/container-platform/latest/security/container_security/security-registries.html\n[3] https://www.redhat.com/en/resources/advanced-cluster-security-for-kubernetes-datasheet",
                 "props": [
@@ -4360,7 +4360,7 @@
                 ]
               },
               {
-                "uuid": "f25849a5-68a0-405e-8f46-e712b8b35ede",
+                "uuid": "19cc9faf-f762-4737-89a3-1fee13425970",
                 "control-id": "pcidss_4_ocp4_5-2.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4373,7 +4373,7 @@
                 ]
               },
               {
-                "uuid": "1e4093d2-b919-48e6-98ef-256c18a46260",
+                "uuid": "eca2ef86-dfd3-435f-86d0-021e35ff71ae",
                 "control-id": "pcidss_4_ocp4_5-2.3.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4386,7 +4386,7 @@
                 ]
               },
               {
-                "uuid": "89c182da-c8e7-4180-93c1-ab07e7054b17",
+                "uuid": "70bc6332-912d-4cd0-b639-64a950bd2d16",
                 "control-id": "pcidss_4_ocp4_5-3.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4399,7 +4399,7 @@
                 ]
               },
               {
-                "uuid": "f195d531-96f7-4e32-9c19-2d8714b5e62d",
+                "uuid": "54b08b7a-8d26-4ef7-b077-0bd60e5f54a7",
                 "control-id": "pcidss_4_ocp4_5-3.2.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4412,7 +4412,7 @@
                 ]
               },
               {
-                "uuid": "4dc26cdb-d2c0-4f37-bbff-a16cc45a2b8e",
+                "uuid": "6d844eab-e17c-4335-afce-16b97c597c18",
                 "control-id": "pcidss_4_ocp4_5-3.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4425,7 +4425,7 @@
                 ]
               },
               {
-                "uuid": "14b98cf8-b8d0-42ef-ae3c-11908b07378f",
+                "uuid": "1f20d769-ce60-45bd-938e-7807cb5420c4",
                 "control-id": "pcidss_4_ocp4_5-3.4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4438,7 +4438,7 @@
                 ]
               },
               {
-                "uuid": "7656863b-028a-451f-9210-414edc9fd53f",
+                "uuid": "e0262846-c65b-4b1c-aabb-33bfe4e66d53",
                 "control-id": "pcidss_4_ocp4_5-3.5",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4451,7 +4451,7 @@
                 ]
               },
               {
-                "uuid": "46db15a0-66f4-4052-9acb-23f40af38341",
+                "uuid": "12c78634-79df-45db-b36b-feddb7035439",
                 "control-id": "pcidss_4_ocp4_5-4.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4464,7 +4464,7 @@
                 ]
               },
               {
-                "uuid": "50f84ca3-dec0-4563-b78c-c0568538129e",
+                "uuid": "cf2418d9-61e6-4157-a204-1a98d905b2e4",
                 "control-id": "pcidss_4_ocp4_6-1.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4477,7 +4477,7 @@
                 ]
               },
               {
-                "uuid": "eaa7961c-2604-438b-8fa9-96a65854306e",
+                "uuid": "835b5f5b-7870-477f-b404-6f3440c8e787",
                 "control-id": "pcidss_4_ocp4_6-1.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4490,7 +4490,7 @@
                 ]
               },
               {
-                "uuid": "bf0305c2-314b-45ba-8b89-f81bce7ff5dc",
+                "uuid": "e1c6779b-f05b-4b9a-82e4-6441551e2155",
                 "control-id": "pcidss_4_ocp4_6-2.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4503,7 +4503,7 @@
                 ]
               },
               {
-                "uuid": "a645d7d7-6078-41b5-b81e-b801b14af08a",
+                "uuid": "c3784781-a74f-48d3-8579-72556df801ce",
                 "control-id": "pcidss_4_ocp4_6-2.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4516,7 +4516,7 @@
                 ]
               },
               {
-                "uuid": "342d2073-5ba5-4932-9862-65a16e9419cd",
+                "uuid": "49e0ce94-e827-458c-8032-361e2e326454",
                 "control-id": "pcidss_4_ocp4_6-2.3.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4529,7 +4529,7 @@
                 ]
               },
               {
-                "uuid": "11eda1a3-6c30-4842-a2ff-f4866654204c",
+                "uuid": "71e3bee4-c447-4bf9-837e-fe49f5a3af1d",
                 "control-id": "pcidss_4_ocp4_6-2.4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4542,7 +4542,7 @@
                 ]
               },
               {
-                "uuid": "7e44aecb-ba71-456c-a06e-217e587f2a39",
+                "uuid": "b630703e-28cd-4a76-8237-6a1f22d40090",
                 "control-id": "pcidss_4_ocp4_6-3.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4555,7 +4555,7 @@
                 ]
               },
               {
-                "uuid": "ddcf70e2-006a-4839-9b45-673b1546b695",
+                "uuid": "23a7638f-2ff9-43d4-a19c-375de49c991f",
                 "control-id": "pcidss_4_ocp4_6-3.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4568,7 +4568,7 @@
                 ]
               },
               {
-                "uuid": "6a4b0ddc-1a4c-4bbd-b037-beae260e78c3",
+                "uuid": "5448ab0c-2c09-422a-b5e9-82e0583cb21b",
                 "control-id": "pcidss_4_ocp4_6-3.3",
                 "description": "The OpenShift Container Platform provides the capability of updating\nboth the Kubernetes/OCP layer, as well as the Operating System (Red Hat\nCoreOS) layer in an ubiquitous manner with over-the-air updates using\nthe OpenShift Update Service (OSUS) [1]. This service can also be installed\nin clusters without internet connectivity [2].\n\n[1] https://access.redhat.com/documentation/en-us/openshift_container_platform/4.15/html/updating_clusters/understanding-openshift-updates-1#update-service-about_understanding-openshift-updates\n[2] https://access.redhat.com/documentation/en-us/openshift_container_platform/4.15/html/updating_clusters/performing-a-cluster-update#updating-restricted-network-cluster-OSUS",
                 "props": [
@@ -4580,7 +4580,7 @@
                 ]
               },
               {
-                "uuid": "bc5b214c-5ea8-4f7f-87bb-8c48c87c4881",
+                "uuid": "914c86cd-5ca6-4fc7-b323-10d7009d29f8",
                 "control-id": "pcidss_4_ocp4_6-4.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4593,7 +4593,7 @@
                 ]
               },
               {
-                "uuid": "48ae1911-6eb7-4576-af27-33ecf7a860aa",
+                "uuid": "153c8ae9-9e60-40af-b499-e0a80ecd826a",
                 "control-id": "pcidss_4_ocp4_6-4.2",
                 "description": "Support for Web Application Firewall in OCP is still in development:\nhttps://www.redhat.com/en/blog/creating-web-application-firewall-red-hat-openshift\n\nWhile Container Security Operator (CSO) is not focused on protecting web-applications it\ncan scan installed workflows and applications for known vulnerabilities.\nhttps://access.redhat.com/documentation/en-us/red_hat_quay/3/html/red_hat_quay_operator_features/container-security-operator-setup\n\nSecurity Profiles Operators can also be used to contain an attack when an application\nis compromised.\nhttps://docs.openshift.com/container-platform/latest/security/security_profiles_operator/spo-overview.html",
                 "props": [
@@ -4615,7 +4615,7 @@
                 ]
               },
               {
-                "uuid": "08fec864-1dc5-455f-8e9d-f0906cbb24a3",
+                "uuid": "836cd4b8-bf3c-4a04-a021-29c08a3fdcf3",
                 "control-id": "pcidss_4_ocp4_6-4.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4628,7 +4628,7 @@
                 ]
               },
               {
-                "uuid": "2e5b52cc-deeb-4a4a-9a78-59090209e7b1",
+                "uuid": "9937fc79-361a-4c67-9b33-ca775569e3b2",
                 "control-id": "pcidss_4_ocp4_6-5.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4641,7 +4641,7 @@
                 ]
               },
               {
-                "uuid": "787c3ffe-5d91-423c-bdbe-8d920f9106b1",
+                "uuid": "891fe3d9-85fa-4480-a977-afe1267a9d2d",
                 "control-id": "pcidss_4_ocp4_6-5.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4654,7 +4654,7 @@
                 ]
               },
               {
-                "uuid": "273b637b-a596-4b65-8ca2-10606eadace0",
+                "uuid": "be4633e4-b8e6-42d2-8e89-887f6bf3e7e8",
                 "control-id": "pcidss_4_ocp4_6-5.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4667,7 +4667,7 @@
                 ]
               },
               {
-                "uuid": "6dd2758d-61a5-4304-a91a-102e8c56cd23",
+                "uuid": "fc177e6f-a6dc-47ed-82b8-358c92cd626c",
                 "control-id": "pcidss_4_ocp4_6-5.4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4680,7 +4680,7 @@
                 ]
               },
               {
-                "uuid": "3ec6b13b-619b-43c2-828a-b663c32372bc",
+                "uuid": "14f7bb00-324b-4da1-a6ef-5e0a23c8c396",
                 "control-id": "pcidss_4_ocp4_6-5.5",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4693,7 +4693,7 @@
                 ]
               },
               {
-                "uuid": "24bbf239-160d-4cfc-876a-4e5820882dac",
+                "uuid": "7c55f744-f7ac-4dd6-badd-b274b80d8555",
                 "control-id": "pcidss_4_ocp4_6-5.6",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4706,7 +4706,7 @@
                 ]
               },
               {
-                "uuid": "c77a0f2f-17d7-45c7-abe3-77080a306d9a",
+                "uuid": "6702ea45-c960-4e6b-9fe7-bf8952b9c761",
                 "control-id": "pcidss_4_ocp4_7-1.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4719,7 +4719,7 @@
                 ]
               },
               {
-                "uuid": "34667898-c0c5-4fc4-84cf-9fa060800191",
+                "uuid": "58ac8a71-d968-4e2a-ace0-b931156271c9",
                 "control-id": "pcidss_4_ocp4_7-1.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4732,7 +4732,7 @@
                 ]
               },
               {
-                "uuid": "651e27b9-718c-4fad-9a6c-3dc1cb36442e",
+                "uuid": "0e6e4a6d-99d9-4614-aa21-6eb745a82ce8",
                 "control-id": "pcidss_4_ocp4_7-2.1",
                 "description": "The OpenShift Container Platform comes with the Kubernetes RBAC\nfeature enabled by default. This feature ensures that only if a\nuser or a system account has the appropriate permission, it's able\nto operate on specific system objects. By reviewing the existing\nRole and ClusterRole objects, one is able to see the resources\nthat are accessible for a certain role, as well as the \"verbs\" or\noperations that the role can execute on that resource.",
                 "props": [
@@ -4754,7 +4754,7 @@
                 ]
               },
               {
-                "uuid": "0138c71f-0ebd-4fb4-a6a9-85fee8ffdaef",
+                "uuid": "32537581-8abe-402b-8855-3cf0a7a50e36",
                 "control-id": "pcidss_4_ocp4_7-2.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4767,7 +4767,7 @@
                 ]
               },
               {
-                "uuid": "c27919fd-d453-43cd-96df-24c60b76d1bd",
+                "uuid": "40699bf8-2eeb-4436-ac6d-ace70163c2ca",
                 "control-id": "pcidss_4_ocp4_7-2.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4780,7 +4780,7 @@
                 ]
               },
               {
-                "uuid": "77931a96-6747-4481-b489-6db2d8366c6e",
+                "uuid": "818962cc-75cb-4af8-9a39-b663e716b954",
                 "control-id": "pcidss_4_ocp4_7-2.4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4793,7 +4793,7 @@
                 ]
               },
               {
-                "uuid": "cf35f6ab-5ea9-4458-86d3-96b4273704c0",
+                "uuid": "5642d1a0-5257-451f-96d1-b3068ab79d52",
                 "control-id": "pcidss_4_ocp4_7-2.5.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4806,7 +4806,7 @@
                 ]
               },
               {
-                "uuid": "387b82fc-63f2-4cd2-a65d-6b44b6bad8d0",
+                "uuid": "b8240bb4-27a9-48be-9fe5-ff49ac69fa5c",
                 "control-id": "pcidss_4_ocp4_7-2.6",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4819,7 +4819,7 @@
                 ]
               },
               {
-                "uuid": "2f997878-dbed-4c3c-83f2-7bcc516e287d",
+                "uuid": "8d84cda6-bd55-4b8d-8ead-3a12a6d42020",
                 "control-id": "pcidss_4_ocp4_7-3.1",
                 "description": "The OpenShift Container Platform has RBAC enabled by default. With this\nfeature, any requests to the API is denied unless an explicit\nRole or ClusterRule is bound to the entity making the request.\n\nAll objects in Kubernetes/OpenShift are bound to RBAC permissions.",
                 "props": [
@@ -4831,7 +4831,7 @@
                 ]
               },
               {
-                "uuid": "24002199-3ff1-4ccd-9933-3024a7ea576a",
+                "uuid": "4347079f-ce3b-4957-b0a2-4ee8c34a027a",
                 "control-id": "pcidss_4_ocp4_7-3.2",
                 "description": "The OpenShift Container Platform has RBAC enabled by default,\nand it is enforced at all times.\nThere is no permissive mode for Openshift RBAC.",
                 "props": [
@@ -4843,7 +4843,7 @@
                 ]
               },
               {
-                "uuid": "243bd460-bdad-43aa-ad8c-c82ea9c16c53",
+                "uuid": "c39cd368-e950-48de-add2-0047b3a19277",
                 "control-id": "pcidss_4_ocp4_7-3.3",
                 "description": "The OpenShift Container Platform has RBAC enabled by default. With this\nfeature, any requests to the API is denied unless an explicit\nRole or ClusterRule is bound to the entity making the request.",
                 "props": [
@@ -4855,7 +4855,7 @@
                 ]
               },
               {
-                "uuid": "b482cec0-ee97-4a6f-b6db-cc339c30062a",
+                "uuid": "d53b4f79-312c-4dba-bb4c-b01e57333a00",
                 "control-id": "pcidss_4_ocp4_8-1.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4868,7 +4868,7 @@
                 ]
               },
               {
-                "uuid": "2298bf4c-1b54-4bb2-928f-bf87f86926d4",
+                "uuid": "3de22dd4-9354-437e-9aa7-eb2fa1477c57",
                 "control-id": "pcidss_4_ocp4_8-1.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4881,7 +4881,7 @@
                 ]
               },
               {
-                "uuid": "f75c3fe1-08f2-472c-8579-11cc967d29e8",
+                "uuid": "2b1f2c07-a72d-4cce-9c3b-fc8db1f27587",
                 "control-id": "pcidss_4_ocp4_8-2.1",
                 "description": "Openshift should be configured to work with an external third-party identity provider.\nThrough the chosen identity provider, unique identifiers can be setup for each user.\nSee more at https://docs.openshift.com/container-platform/latest/authentication/understanding-identity-provider.html\n\nHowever, the payment entity's processes and responsible personal still need to be examined\nto check whether each user is uniquely associated with an individual.",
                 "props": [
@@ -4898,7 +4898,7 @@
                 ]
               },
               {
-                "uuid": "f689f7fc-d891-4e3e-a2c5-ea961c8eae23",
+                "uuid": "30faf831-c2b2-4113-8722-43088d9de65a",
                 "control-id": "pcidss_4_ocp4_8-2.2",
                 "description": "Access tokens that are issued by OpenShift upon authentication should only be used by the\nperson for whom it was issued.",
                 "props": [
@@ -4915,7 +4915,7 @@
                 ]
               },
               {
-                "uuid": "2e5f4a79-f3eb-43d2-9fd4-6c6ac6a7a2d1",
+                "uuid": "83d6efdb-3bbb-4589-bd5f-ed0be3a20b5c",
                 "control-id": "pcidss_4_ocp4_8-2.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4928,7 +4928,7 @@
                 ]
               },
               {
-                "uuid": "a0aeabe1-2e79-420e-be64-4fa634fe858a",
+                "uuid": "2312fb75-c2e9-4751-8a5c-a592fe86dd43",
                 "control-id": "pcidss_4_ocp4_8-2.4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4941,7 +4941,7 @@
                 ]
               },
               {
-                "uuid": "69ddebed-3515-42f9-ba2f-a3fa3eae90e2",
+                "uuid": "78499822-63a2-4809-b019-24a8bc920376",
                 "control-id": "pcidss_4_ocp4_8-2.5",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4954,7 +4954,7 @@
                 ]
               },
               {
-                "uuid": "06ed8696-ff27-4b04-92cc-2367eef58436",
+                "uuid": "8367b7df-d778-415b-b2da-52221f550d13",
                 "control-id": "pcidss_4_ocp4_8-2.6",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4967,7 +4967,7 @@
                 ]
               },
               {
-                "uuid": "0bbf35c9-871d-436c-8f43-c6c68a5b5797",
+                "uuid": "1b563ab3-4d05-4512-a175-ea0ad16e85b2",
                 "control-id": "pcidss_4_ocp4_8-2.7",
                 "description": "REPLACE_ME",
                 "props": [
@@ -4980,7 +4980,7 @@
                 ]
               },
               {
-                "uuid": "dad60d09-e4a0-4519-ad26-ef6702755af0",
+                "uuid": "43304b78-5ddf-4998-8f55-73aaa2ceecd8",
                 "control-id": "pcidss_4_ocp4_8-2.8",
                 "description": "Session timeouts can be enabled with OpenShift to limit the amount of\ntime that a session can be active. However, the payment entity also needs to control the\nuser's and administrator's idle session timeouts on their payment applications as well.",
                 "props": [
@@ -4997,7 +4997,7 @@
                 ]
               },
               {
-                "uuid": "2e673f26-0e17-4148-b343-14afc38d9e2b",
+                "uuid": "92b60412-ab97-4cef-b4b9-3263a44f59b1",
                 "control-id": "pcidss_4_ocp4_8-3.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -5010,7 +5010,7 @@
                 ]
               },
               {
-                "uuid": "a62d5400-6fd6-471a-8e73-bfe2644b9564",
+                "uuid": "0f5ff8f0-9bee-404d-8567-24347b61a0f9",
                 "control-id": "pcidss_4_ocp4_8-3.2",
                 "description": "The protection of the authentication credentials such as rendering the passwords and\npassphrases unreadable during transmission and the storage of credentials on system\ncomponents is the responsibility of the third-party identity provider.\n\nIf LDAP is used as the identity provider, we do not allow it to run with the\n'insecure' flag on.",
                 "props": [
@@ -5027,7 +5027,7 @@
                 ]
               },
               {
-                "uuid": "569a858e-f443-409f-b01a-d3bed550dae2",
+                "uuid": "8e055974-3e0b-48f3-b922-55b086a8dfda",
                 "control-id": "pcidss_4_ocp4_8-3.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -5040,7 +5040,7 @@
                 ]
               },
               {
-                "uuid": "0fdd37d8-a754-4c91-b777-62934cb37f21",
+                "uuid": "e8924ae9-c2e9-4ce1-b185-6bdeae5d09fa",
                 "control-id": "pcidss_4_ocp4_8-3.4",
                 "description": "Account lockout for failed attempts are managed by the identity provider as all\nauthentication attempts that occur prior to granting access from OpenShift.\nEstablishing a threshold for limiting repeated failed attempts are configured with\nthe chosen identity provider.\n\nIn this control we do not allow usage of htpasswd as the identity provider, as it\ndoesn't provide user lockout feature.",
                 "props": [
@@ -5057,7 +5057,7 @@
                 ]
               },
               {
-                "uuid": "1966862f-b0fc-42bd-b380-63e6b2764073",
+                "uuid": "dc5eb2be-bda9-450f-8865-b14c34b54866",
                 "control-id": "pcidss_4_ocp4_8-3.5",
                 "description": "REPLACE_ME",
                 "props": [
@@ -5070,7 +5070,7 @@
                 ]
               },
               {
-                "uuid": "23e79370-e3e8-4c96-a370-58c5f20b8bf8",
+                "uuid": "9c4bdd00-628e-4282-8ef2-2f53d955b11f",
                 "control-id": "pcidss_4_ocp4_8-3.6",
                 "description": "REPLACE_ME",
                 "props": [
@@ -5083,7 +5083,7 @@
                 ]
               },
               {
-                "uuid": "132f071e-737c-40b6-b8ba-e6f9f05f6117",
+                "uuid": "3249c985-0d54-4268-a174-39d28b3620a4",
                 "control-id": "pcidss_4_ocp4_8-3.7",
                 "description": "REPLACE_ME",
                 "props": [
@@ -5096,7 +5096,7 @@
                 ]
               },
               {
-                "uuid": "14bd9004-ffaf-4fca-87d9-e23d4cd1c933",
+                "uuid": "43d53930-0787-4a69-9c30-ebe57c42c752",
                 "control-id": "pcidss_4_ocp4_8-3.8",
                 "description": "REPLACE_ME",
                 "props": [
@@ -5109,7 +5109,7 @@
                 ]
               },
               {
-                "uuid": "9f99f59d-93c6-4fcd-aabc-e4e7ff0d29f0",
+                "uuid": "9d9a4842-3f4d-4fc3-bc45-0d75d684a65e",
                 "control-id": "pcidss_4_ocp4_8-3.9",
                 "description": "REPLACE_ME",
                 "props": [
@@ -5122,7 +5122,7 @@
                 ]
               },
               {
-                "uuid": "6def5a76-c970-48e2-b334-07cefab2bf4b",
+                "uuid": "5d7f16a1-665b-494d-b9a5-f25a5b2a2205",
                 "control-id": "pcidss_4_ocp4_8-3.10.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -5135,7 +5135,7 @@
                 ]
               },
               {
-                "uuid": "f1301804-4641-4241-8097-8a65dfbb1dac",
+                "uuid": "ed70ff8c-09b1-4433-bb32-511bf4d2d324",
                 "control-id": "pcidss_4_ocp4_8-3.11",
                 "description": "REPLACE_ME",
                 "props": [
@@ -5148,7 +5148,7 @@
                 ]
               },
               {
-                "uuid": "40aa2e1e-94a8-4734-a658-bac48f5cd7ea",
+                "uuid": "58344a56-9a41-4354-9c1a-aaaeab0c0f6b",
                 "control-id": "pcidss_4_ocp4_8-4.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -5161,7 +5161,7 @@
                 ]
               },
               {
-                "uuid": "9431a180-3a1c-41d9-bc60-2219b4742880",
+                "uuid": "99044f30-37f4-4163-8356-3fc5fc748c4c",
                 "control-id": "pcidss_4_ocp4_8-4.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -5174,7 +5174,7 @@
                 ]
               },
               {
-                "uuid": "2a4a3927-6c4f-48d9-a888-890f181a284a",
+                "uuid": "8407a739-5781-4399-922d-534fc32d99bb",
                 "control-id": "pcidss_4_ocp4_8-4.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -5187,7 +5187,7 @@
                 ]
               },
               {
-                "uuid": "5a4c26c8-a3c9-4e3e-b102-7b0482b833db",
+                "uuid": "07ae0162-6f3b-4606-bbb2-ccfee31df2cf",
                 "control-id": "pcidss_4_ocp4_8-5.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -5200,7 +5200,7 @@
                 ]
               },
               {
-                "uuid": "d6e00e00-82fc-4a64-a320-f182a678ba35",
+                "uuid": "3976421a-acae-4cd0-9e3f-e2e7e9d2f05c",
                 "control-id": "pcidss_4_ocp4_8-6.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -5213,7 +5213,7 @@
                 ]
               },
               {
-                "uuid": "bf2bdf09-fcb3-4c95-9e5f-91fd91106ea0",
+                "uuid": "f10faa44-2804-4b05-8b21-f8e7bd620d59",
                 "control-id": "pcidss_4_ocp4_8-6.2",
                 "description": "OpenShift can be integrated with a Vault to manage secrets.",
                 "props": [
@@ -5225,7 +5225,7 @@
                 ]
               },
               {
-                "uuid": "0c944c5d-3b14-4764-a90c-579a311b0acd",
+                "uuid": "74ddfdc5-3898-47d7-80ab-e3b8d1a1bd16",
                 "control-id": "pcidss_4_ocp4_8-6.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -5238,7 +5238,7 @@
                 ]
               },
               {
-                "uuid": "5cb81629-9daf-498b-b639-3f301c6a5cf2",
+                "uuid": "9f70d522-d2c1-49a7-8e1d-e7e217377879",
                 "control-id": "pcidss_4_ocp4_9-1.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -5251,7 +5251,7 @@
                 ]
               },
               {
-                "uuid": "3f091a2c-7a14-4091-8fe1-fcf3cfdfddfb",
+                "uuid": "63632b5d-e51f-45f9-b9d5-fd66ac61feca",
                 "control-id": "pcidss_4_ocp4_9-1.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -5264,7 +5264,7 @@
                 ]
               },
               {
-                "uuid": "43f4c77c-f9c2-4e86-a9af-2cfc7e3f5a8a",
+                "uuid": "da99a51e-2670-46e5-8873-e6938630d115",
                 "control-id": "pcidss_4_ocp4_9-2.1.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -5277,7 +5277,7 @@
                 ]
               },
               {
-                "uuid": "c5a09d2f-bd27-4061-ab5e-2b6dcd38ce25",
+                "uuid": "774c8de3-3852-4c62-8672-4d63407b7b5a",
                 "control-id": "pcidss_4_ocp4_9-2.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -5290,7 +5290,7 @@
                 ]
               },
               {
-                "uuid": "8290e68c-6aca-4296-814d-bdbbc7b21aff",
+                "uuid": "93487b7f-cecd-435f-91d8-f16b2c50c4fa",
                 "control-id": "pcidss_4_ocp4_9-2.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -5303,7 +5303,7 @@
                 ]
               },
               {
-                "uuid": "dcbee298-18eb-45a9-a57b-180eef3a4e43",
+                "uuid": "63f13105-f85d-47b5-a784-aac11b5152b6",
                 "control-id": "pcidss_4_ocp4_9-2.4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -5316,7 +5316,7 @@
                 ]
               },
               {
-                "uuid": "1584a881-9f75-41a8-8da8-4f3a65000a8a",
+                "uuid": "2eb51ac0-9802-4538-b42a-2362f592d8a0",
                 "control-id": "pcidss_4_ocp4_9-3.1.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -5329,7 +5329,7 @@
                 ]
               },
               {
-                "uuid": "88bad1e4-1a0b-43b9-9d68-cfb2b4188cfe",
+                "uuid": "ccdf3f0f-3c55-479a-bb0a-e9e58398a029",
                 "control-id": "pcidss_4_ocp4_9-3.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -5342,7 +5342,7 @@
                 ]
               },
               {
-                "uuid": "9505a595-0483-4a4e-9e7f-c25c87bb24c6",
+                "uuid": "28821d97-3a3e-4d35-9a4f-2706743eae2e",
                 "control-id": "pcidss_4_ocp4_9-3.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -5355,7 +5355,7 @@
                 ]
               },
               {
-                "uuid": "98e0808a-965c-443b-9853-cb3dba09a8b2",
+                "uuid": "2472ff14-2e60-4d2c-9a4d-aea4a713a6d3",
                 "control-id": "pcidss_4_ocp4_9-3.4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -5368,7 +5368,7 @@
                 ]
               },
               {
-                "uuid": "5b121335-b9df-403f-8fc1-b715e0a9bfd3",
+                "uuid": "94864a81-c84b-4c12-b263-83569fb4bfa3",
                 "control-id": "pcidss_4_ocp4_9-4.1.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -5381,7 +5381,7 @@
                 ]
               },
               {
-                "uuid": "87f95225-99b2-47ba-a599-8622917ef369",
+                "uuid": "79aa74e7-872d-47ff-a6ef-09e2cb1cc6b0",
                 "control-id": "pcidss_4_ocp4_9-4.1.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -5394,7 +5394,7 @@
                 ]
               },
               {
-                "uuid": "6d924f47-269f-4ff7-9527-03382e28acf8",
+                "uuid": "ae7ae2b1-baca-4293-8403-224e1bbb7508",
                 "control-id": "pcidss_4_ocp4_9-4.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -5407,7 +5407,7 @@
                 ]
               },
               {
-                "uuid": "cb864cf9-cd90-4186-add3-bf7cd3b1451e",
+                "uuid": "0974e168-e174-400f-a068-b24c8f489a3a",
                 "control-id": "pcidss_4_ocp4_9-4.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -5420,7 +5420,7 @@
                 ]
               },
               {
-                "uuid": "6590212d-ec1b-4bbb-bb22-eaaafeeaa954",
+                "uuid": "c05ba46f-7d26-4c85-a986-e2e61e4fd3bc",
                 "control-id": "pcidss_4_ocp4_9-4.4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -5433,7 +5433,7 @@
                 ]
               },
               {
-                "uuid": "b319c5d7-50cc-42ee-9d3e-0797de2a2ec6",
+                "uuid": "d1c63b95-3817-441a-a115-5bea18b6af88",
                 "control-id": "pcidss_4_ocp4_9-4.5.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -5446,7 +5446,7 @@
                 ]
               },
               {
-                "uuid": "6605ea45-7595-4edc-ad17-5d81845b066c",
+                "uuid": "1ed548aa-f13e-4e11-a14d-a953ad5132e2",
                 "control-id": "pcidss_4_ocp4_9-4.6",
                 "description": "REPLACE_ME",
                 "props": [
@@ -5459,7 +5459,7 @@
                 ]
               },
               {
-                "uuid": "4d77f0a2-df7e-493b-90c4-f99f847bebf1",
+                "uuid": "a73ebed5-32d9-4d8f-ac17-e3f862706b26",
                 "control-id": "pcidss_4_ocp4_9-4.7",
                 "description": "REPLACE_ME",
                 "props": [
@@ -5472,7 +5472,7 @@
                 ]
               },
               {
-                "uuid": "cf13ad7a-2273-492a-b6b2-cef93be1daab",
+                "uuid": "d3a02efe-b2f5-4d29-99ea-046fa02cd0a7",
                 "control-id": "pcidss_4_ocp4_9-5.1.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -5485,7 +5485,7 @@
                 ]
               },
               {
-                "uuid": "be96f45f-b88b-462b-bf12-db24c7734b4b",
+                "uuid": "086b8371-3d78-4aaa-a58d-7564d4f9fd32",
                 "control-id": "pcidss_4_ocp4_9-5.1.2.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -5498,7 +5498,7 @@
                 ]
               },
               {
-                "uuid": "4ab68896-6c3b-448a-8422-2a53128ef91f",
+                "uuid": "2f7cd3c0-e4c1-4ce1-b806-753d770e867d",
                 "control-id": "pcidss_4_ocp4_9-5.1.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -5511,7 +5511,7 @@
                 ]
               },
               {
-                "uuid": "18a1342a-2629-436e-bdd7-b532e5e209ed",
+                "uuid": "a777bc70-7ec0-483c-b512-897f9fc3c2d0",
                 "control-id": "pcidss_4_ocp4_10-1.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -5524,7 +5524,7 @@
                 ]
               },
               {
-                "uuid": "60f796a0-d7ad-4b70-a19f-5dea150a3598",
+                "uuid": "638bc556-00fb-41ea-b70e-882a7ac98594",
                 "control-id": "pcidss_4_ocp4_10-1.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -5537,7 +5537,7 @@
                 ]
               },
               {
-                "uuid": "9cab305f-3e1f-4226-a58a-bdbbb5bdbd0e",
+                "uuid": "0ce8fd73-7c21-4155-a401-983027044242",
                 "control-id": "pcidss_4_ocp4_10-2.1.1",
                 "description": "All user and/or service account accesses to OpenShift components are logged. However, the payment entity still is responsible for logging events for access to applications within workloads hosted in containers in OpenShift.",
                 "props": [
@@ -5549,7 +5549,7 @@
                 ]
               },
               {
-                "uuid": "67a6793c-4603-4446-b805-c696a3af82b8",
+                "uuid": "d6949e8c-b45f-42a9-aac5-2315dcd6d620",
                 "control-id": "pcidss_4_ocp4_10-2.1.2",
                 "description": "All actions taken by individual with root or administrative privileges to OpenShift and Red Hat CoreOS are logged. However, the payment entity still is responsible for logging events for access to applications within workloads hosted in containers in OpenShift.",
                 "props": [
@@ -5561,7 +5561,7 @@
                 ]
               },
               {
-                "uuid": "a4270fad-5a35-454f-977b-ca0702fac74b",
+                "uuid": "a5d940d3-446d-4571-b784-abee7e60714f",
                 "control-id": "pcidss_4_ocp4_10-2.1.3",
                 "description": "Access to audit trails relative to OpenShift are made available at the OS level with administrator accounts. Red Hat CoreOS can be configured to log access to the journal or log file. For better protection of audit trails, including improved access controls, it is recommended to direct logs to an external log server or Security Information Event Management (SIEM) solution.",
                 "props": [
@@ -5578,7 +5578,7 @@
                 ]
               },
               {
-                "uuid": "2b744d35-63a4-40dc-91f6-0c2896a82daa",
+                "uuid": "61e4dd52-1407-4c93-9d82-cba3c3368eac",
                 "control-id": "pcidss_4_ocp4_10-2.1.4",
                 "description": "Unauthorized attempts to access system components or run unauthorized commands against\nOpenShift are logged.",
                 "props": [
@@ -5590,7 +5590,7 @@
                 ]
               },
               {
-                "uuid": "178f4321-f0e1-4ab3-acb7-d2b2b68c70ca",
+                "uuid": "7e0e4e69-0573-4d11-b439-9dc9b4b5831c",
                 "control-id": "pcidss_4_ocp4_10-2.1.5",
                 "description": "REPLACE_ME",
                 "props": [
@@ -5602,7 +5602,7 @@
                 ]
               },
               {
-                "uuid": "7891390e-38f2-4921-b86a-e30c9629ff53",
+                "uuid": "610742df-c593-4859-b136-083aab51595d",
                 "control-id": "pcidss_4_ocp4_10-2.1.6",
                 "description": "Stopping the mechanisms for log creation in OpenShift requires stopping the OpenShift\nControl Plane itself, which would have the effect of preventing any further access for\nany users to the API, CLI, or Web UI.\nAuditing within OpenShift cannot be reconfigured or stopped without reconfiguring\nOpenShift.\nAny attempt to reconfigure OpenShift will be logged.",
                 "props": [
@@ -5614,7 +5614,7 @@
                 ]
               },
               {
-                "uuid": "be75faa0-81c1-4135-a59e-6dceeb071f07",
+                "uuid": "64df5eec-2545-4a6a-8dba-4f7325cba5bd",
                 "control-id": "pcidss_4_ocp4_10-2.1.7",
                 "description": "Creation and deletion of system levels objects is logged by OpenShift and by Red Hat CoreOS.",
                 "props": [
@@ -5626,7 +5626,7 @@
                 ]
               },
               {
-                "uuid": "03bccb83-2c5e-4c5e-9365-1f3342f8927c",
+                "uuid": "f33568a4-d945-4d30-a355-558b7e7515a3",
                 "control-id": "pcidss_4_ocp4_10-2.2",
                 "description": "The logs generated by OpenShift and Red Hat CoreOS include all the data required.",
                 "props": [
@@ -5643,7 +5643,7 @@
                 ]
               },
               {
-                "uuid": "9c74bf50-ee12-4193-9e82-1a09b49901d2",
+                "uuid": "656ec662-247b-4cfb-9456-cdaa2fb0bdd7",
                 "control-id": "pcidss_4_ocp4_10-3.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -5661,7 +5661,7 @@
                 ]
               },
               {
-                "uuid": "f936968a-fd20-43f1-b5fc-575badd0cb4e",
+                "uuid": "6597e220-a09d-4473-af3e-4b93c30d4ca8",
                 "control-id": "pcidss_4_ocp4_10-3.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -5734,7 +5734,7 @@
                 ]
               },
               {
-                "uuid": "4eea5503-7d2e-414e-a577-71eefa975b75",
+                "uuid": "73654f1f-01df-4190-ae2c-8eaea4811bec",
                 "control-id": "pcidss_4_ocp4_10-3.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -5747,7 +5747,7 @@
                 ]
               },
               {
-                "uuid": "69f532c4-69d7-4de5-9778-29c839c7e29d",
+                "uuid": "f56ff22f-d96b-4fa7-9824-20c68d7aa9ea",
                 "control-id": "pcidss_4_ocp4_10-3.4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -5764,7 +5764,7 @@
                 ]
               },
               {
-                "uuid": "552d5ed9-0fdd-4a28-8968-202442c1c373",
+                "uuid": "b1c176f7-b47b-4447-bfd0-37ebf5860579",
                 "control-id": "pcidss_4_ocp4_10-4.1.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -5777,7 +5777,7 @@
                 ]
               },
               {
-                "uuid": "b2f2f611-5b1f-47f0-b93a-fe88fd1da422",
+                "uuid": "f932f692-710b-445d-b184-9de91b6b86d4",
                 "control-id": "pcidss_4_ocp4_10-4.2.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -5790,7 +5790,7 @@
                 ]
               },
               {
-                "uuid": "fa2f8604-524d-4d8f-8383-334955139cca",
+                "uuid": "fc66a966-9d1d-4fa9-88a3-45184731502f",
                 "control-id": "pcidss_4_ocp4_10-4.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -5803,7 +5803,7 @@
                 ]
               },
               {
-                "uuid": "294ab550-75df-496b-ba65-dadfe12c5c1a",
+                "uuid": "c9493cb6-2be5-4d47-b124-d787ec51daba",
                 "control-id": "pcidss_4_ocp4_10-5.1",
                 "description": "Log retention in OpenShift is not time based, the default configuration rotates 10 log\nfiles of 100 MB each, allowing up to 1GB of retention.\n\nTo implement time based audit log retention configure log forwarding to a third party\nstorage, for example Elasticsearch or LokiStack.",
                 "props": [
@@ -5815,7 +5815,7 @@
                 ]
               },
               {
-                "uuid": "e04cbd5c-0533-45b6-ac87-6e39991d5a28",
+                "uuid": "ebc512d2-eaf8-4619-a9f4-8e1f0f6c8d02",
                 "control-id": "pcidss_4_ocp4_10-6.1",
                 "description": "By default OpenShift uses a public Network Time Protocol (NTP) server.\nHowever, additional configuration is needed to use a local enterprise NTP server,\nor in disconnected environments.",
                 "props": [
@@ -5827,7 +5827,7 @@
                 ]
               },
               {
-                "uuid": "0ad64940-1072-47f4-9ca5-de0be8d5a746",
+                "uuid": "45c8d845-bd2d-44df-930d-466429982e0e",
                 "control-id": "pcidss_4_ocp4_10-6.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -5840,7 +5840,7 @@
                 ]
               },
               {
-                "uuid": "8a92ff45-d6ff-40d8-a116-878c254d9e22",
+                "uuid": "4bfb7ec4-c09a-4c33-b022-1325f86d9664",
                 "control-id": "pcidss_4_ocp4_10-6.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -5853,7 +5853,7 @@
                 ]
               },
               {
-                "uuid": "ff4b9b53-f7b7-4f3f-9a1e-b318fe5df69e",
+                "uuid": "ca8bbfc4-4e19-4686-8be5-9f09a41e2a93",
                 "control-id": "pcidss_4_ocp4_10-7.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -5866,7 +5866,7 @@
                 ]
               },
               {
-                "uuid": "85595cdb-d00d-400c-a563-d66664d32802",
+                "uuid": "8a784729-1fc7-4832-9d48-4c661d413f3a",
                 "control-id": "pcidss_4_ocp4_10-7.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -5888,7 +5888,7 @@
                 ]
               },
               {
-                "uuid": "68dfdf92-1181-47cb-86c0-59f56437456f",
+                "uuid": "ae7dfe65-84de-488b-895a-6a51ccbdba28",
                 "control-id": "pcidss_4_ocp4_10-7.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -5901,7 +5901,7 @@
                 ]
               },
               {
-                "uuid": "50d20adf-8e8f-4543-b364-9392d6ed7e23",
+                "uuid": "7ca260f7-15ee-4cb0-9718-2a3eaa5a1e89",
                 "control-id": "pcidss_4_ocp4_11-1.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -5914,7 +5914,7 @@
                 ]
               },
               {
-                "uuid": "443e1efc-b7b1-403c-b728-62406bbbcc7c",
+                "uuid": "13e45f5a-4fd8-4ea4-b527-33dbd621bb8a",
                 "control-id": "pcidss_4_ocp4_11-1.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -5927,7 +5927,7 @@
                 ]
               },
               {
-                "uuid": "d4a8a52b-f6e8-4752-9dda-8c5de5468b26",
+                "uuid": "f3166090-5785-4fe7-8af0-29cae6ca3eff",
                 "control-id": "pcidss_4_ocp4_11-2.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -5940,7 +5940,7 @@
                 ]
               },
               {
-                "uuid": "c543ddb1-49ab-4eb4-aa25-1c8467ba62cb",
+                "uuid": "0c317fa5-8402-4137-93ba-9487d1ecba7e",
                 "control-id": "pcidss_4_ocp4_11-2.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -5953,7 +5953,7 @@
                 ]
               },
               {
-                "uuid": "a4b38e15-db16-47d9-9658-4a51dd8d6680",
+                "uuid": "3d0ab224-915b-4a43-85e5-5f969651f2b0",
                 "control-id": "pcidss_4_ocp4_11-3.1.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -5966,7 +5966,7 @@
                 ]
               },
               {
-                "uuid": "85790e5e-3a9d-4dbc-8d34-51e0454439c8",
+                "uuid": "09c46e6a-0627-4dc2-8846-28efc3bada5f",
                 "control-id": "pcidss_4_ocp4_11-3.1.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -5979,7 +5979,7 @@
                 ]
               },
               {
-                "uuid": "ef859bce-6b6e-40bd-9015-749450b3df04",
+                "uuid": "e12b4839-4baf-4b1d-a531-45b2dbecadd5",
                 "control-id": "pcidss_4_ocp4_11-3.1.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -5992,7 +5992,7 @@
                 ]
               },
               {
-                "uuid": "deef3e4d-bb38-4465-9d9a-a231b1fb94c1",
+                "uuid": "e058790b-eebb-4aad-a2af-d87481c9173f",
                 "control-id": "pcidss_4_ocp4_11-3.2.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6005,7 +6005,7 @@
                 ]
               },
               {
-                "uuid": "1924fa1e-550e-4cca-9040-be7e4148966d",
+                "uuid": "8ff6b73d-9194-4450-9250-36c7cbf47e6a",
                 "control-id": "pcidss_4_ocp4_11-4.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6018,7 +6018,7 @@
                 ]
               },
               {
-                "uuid": "95988408-36be-432e-b3de-bc1b95859980",
+                "uuid": "fb5299c4-cf79-48d8-9019-f9c1c657aed8",
                 "control-id": "pcidss_4_ocp4_11-4.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6031,7 +6031,7 @@
                 ]
               },
               {
-                "uuid": "e8f9afd6-9138-442a-b583-89d9891b75d2",
+                "uuid": "b7e0f8da-5e16-40de-8dd8-237c85526849",
                 "control-id": "pcidss_4_ocp4_11-4.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6044,7 +6044,7 @@
                 ]
               },
               {
-                "uuid": "b7a51077-f64b-4a84-b9d1-961e8a539e16",
+                "uuid": "f5f5aee8-0f6f-415c-9a2f-811351c91b71",
                 "control-id": "pcidss_4_ocp4_11-4.4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6057,7 +6057,7 @@
                 ]
               },
               {
-                "uuid": "c022fa24-92ed-41dc-a62d-51cf8c75a5b3",
+                "uuid": "1aff460d-c59e-412b-94cd-7b4ce9c7c364",
                 "control-id": "pcidss_4_ocp4_11-4.5",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6070,7 +6070,7 @@
                 ]
               },
               {
-                "uuid": "0877433b-00ea-44d1-ba12-2e6f05160c23",
+                "uuid": "95770dfd-852e-42d2-9170-484ffa58bd57",
                 "control-id": "pcidss_4_ocp4_11-4.6",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6083,7 +6083,7 @@
                 ]
               },
               {
-                "uuid": "628000dd-4291-4c1c-9972-2c4b1f9d6d1a",
+                "uuid": "9812de29-6712-4007-a902-2813756d947c",
                 "control-id": "pcidss_4_ocp4_11-4.7",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6096,7 +6096,7 @@
                 ]
               },
               {
-                "uuid": "b53c62d5-15e3-46ba-93cc-f0fd1d8861d5",
+                "uuid": "97778dcd-e0a4-45d6-b6ec-76fcc791e31d",
                 "control-id": "pcidss_4_ocp4_11-5.1.1",
                 "description": "The policy is not explicit about any specific solution. The solution might vary\ndepending on site policies.",
                 "props": [
@@ -6113,7 +6113,7 @@
                 ]
               },
               {
-                "uuid": "79595ba1-9b5f-4440-a538-cb4f0b04ce50",
+                "uuid": "d8b1a058-aa89-43f0-8c37-63d1f31397eb",
                 "control-id": "pcidss_4_ocp4_11-5.2",
                 "description": "Once configured the File Integrity Operator (FIO) can detect unexpected changes in the node\nfilesystem.",
                 "props": [
@@ -6135,7 +6135,7 @@
                 ]
               },
               {
-                "uuid": "82326310-4bac-40b0-b349-8cafcd7e4286",
+                "uuid": "e2971635-b524-4f1f-86e4-d3500a679076",
                 "control-id": "pcidss_4_ocp4_11-6.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6148,7 +6148,7 @@
                 ]
               },
               {
-                "uuid": "cf8cfc40-e25c-4dc9-8594-a126f3b00fd5",
+                "uuid": "43e107a0-9d33-4c36-a1cc-277ef4627c28",
                 "control-id": "pcidss_4_ocp4_12-1.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6161,7 +6161,7 @@
                 ]
               },
               {
-                "uuid": "9e949ac3-4751-4aae-97f2-6ea00bb4343b",
+                "uuid": "d1a38a55-e3a0-43aa-bca0-ca61c5ed2f1f",
                 "control-id": "pcidss_4_ocp4_12-1.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6174,7 +6174,7 @@
                 ]
               },
               {
-                "uuid": "2f357309-746e-453d-bc07-26670dee5950",
+                "uuid": "6af2c4e1-c258-4bf2-a962-dded228e17e5",
                 "control-id": "pcidss_4_ocp4_12-1.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6187,7 +6187,7 @@
                 ]
               },
               {
-                "uuid": "60f841c0-c2de-47b2-ae81-a237dd767cc6",
+                "uuid": "9b0f318e-af23-4279-b5f1-c9f8b921ab8d",
                 "control-id": "pcidss_4_ocp4_12-1.4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6200,7 +6200,7 @@
                 ]
               },
               {
-                "uuid": "e5bbf250-0e4b-4383-bb09-ec0b646522e0",
+                "uuid": "258d2165-1947-44cb-ae68-86e5701be30e",
                 "control-id": "pcidss_4_ocp4_12-2.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6213,7 +6213,7 @@
                 ]
               },
               {
-                "uuid": "7592c3f0-0be7-4978-a234-087bdf16fa02",
+                "uuid": "b66bcc00-ad95-40c8-81df-c1592d3546ca",
                 "control-id": "pcidss_4_ocp4_12-3.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6226,7 +6226,7 @@
                 ]
               },
               {
-                "uuid": "f08dcb5c-b73c-4539-abbe-33f57fabc7d0",
+                "uuid": "2af5929c-8c1f-4862-b6ff-fcbfb98ddcf1",
                 "control-id": "pcidss_4_ocp4_12-3.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6239,7 +6239,7 @@
                 ]
               },
               {
-                "uuid": "e226d14e-a35b-488a-aa64-a4824c80a93d",
+                "uuid": "00b92313-92ba-4840-ba8b-95c49711b7f9",
                 "control-id": "pcidss_4_ocp4_12-3.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6252,7 +6252,7 @@
                 ]
               },
               {
-                "uuid": "7a083dbb-5fd9-4f61-bc81-0272ed37a6fd",
+                "uuid": "810fc573-7e10-469a-a7bf-35de3d816a9d",
                 "control-id": "pcidss_4_ocp4_12-3.4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6265,7 +6265,7 @@
                 ]
               },
               {
-                "uuid": "89259aed-c23e-43b1-b7b2-1e5e25511a64",
+                "uuid": "91bc5664-a0aa-492a-a7e6-76d006435bd2",
                 "control-id": "pcidss_4_ocp4_12-4.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6278,7 +6278,7 @@
                 ]
               },
               {
-                "uuid": "668c95fb-6555-4a4c-be11-63314df2c7e0",
+                "uuid": "ce50d33a-2315-4562-bb5f-e73f07047278",
                 "control-id": "pcidss_4_ocp4_12-4.2.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6291,7 +6291,7 @@
                 ]
               },
               {
-                "uuid": "19495e8c-b1ac-4c09-b2cb-d22b581dd67f",
+                "uuid": "b5cb62f9-74cc-43c1-89a7-35cd5138d836",
                 "control-id": "pcidss_4_ocp4_12-5.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6304,7 +6304,7 @@
                 ]
               },
               {
-                "uuid": "22ffbd3a-cd9e-4920-9b38-9b6f1c3e3018",
+                "uuid": "7686971d-9b26-4d74-8b9a-25c04ca701ca",
                 "control-id": "pcidss_4_ocp4_12-5.2.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6317,7 +6317,7 @@
                 ]
               },
               {
-                "uuid": "203857d8-4fa5-4411-99b9-0b5f341274da",
+                "uuid": "cbed28b1-e9bb-4040-ac87-0ef098a4d779",
                 "control-id": "pcidss_4_ocp4_12-5.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6330,7 +6330,7 @@
                 ]
               },
               {
-                "uuid": "033d5e33-1d30-41ac-8457-68c3a6c81916",
+                "uuid": "50f28e42-077b-4b8a-95d2-cfbe7b4fe8c3",
                 "control-id": "pcidss_4_ocp4_12-6.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6343,7 +6343,7 @@
                 ]
               },
               {
-                "uuid": "7b49a5c1-1dc2-4a83-b1b8-7913561d3afb",
+                "uuid": "ae2d0f99-631c-4671-970c-d1c4a4130dac",
                 "control-id": "pcidss_4_ocp4_12-6.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6356,7 +6356,7 @@
                 ]
               },
               {
-                "uuid": "513b9e53-807d-49db-95cf-2273cc4e960a",
+                "uuid": "699b9638-d4ed-4147-bdbb-2fbe6b69a521",
                 "control-id": "pcidss_4_ocp4_12-6.3.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6369,7 +6369,7 @@
                 ]
               },
               {
-                "uuid": "758c7d38-ce40-486a-97aa-a3814d8627af",
+                "uuid": "a00567fb-11f2-4535-a9e3-f7b3748881cc",
                 "control-id": "pcidss_4_ocp4_12-6.3.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6382,7 +6382,7 @@
                 ]
               },
               {
-                "uuid": "e11d39fa-7a19-4eb8-865c-3b251aac7f18",
+                "uuid": "21e9063a-acbb-47d3-b31d-5a78ad3ff45a",
                 "control-id": "pcidss_4_ocp4_12-7.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6395,7 +6395,7 @@
                 ]
               },
               {
-                "uuid": "a701c1d4-8135-492a-8809-a5bfe5430fa9",
+                "uuid": "470b3c77-ab07-44f1-b931-bb08855e50d1",
                 "control-id": "pcidss_4_ocp4_12-8.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6408,7 +6408,7 @@
                 ]
               },
               {
-                "uuid": "ea119371-a00a-48d6-b47d-f73b8e467b8d",
+                "uuid": "8487ec41-4447-4980-b05b-7e4bba68e3fd",
                 "control-id": "pcidss_4_ocp4_12-8.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6421,7 +6421,7 @@
                 ]
               },
               {
-                "uuid": "c7f1d2b6-0de1-4630-9d2d-da8b36d8f4cf",
+                "uuid": "527cfc6b-e8bf-45af-b4b5-97c53a08c19b",
                 "control-id": "pcidss_4_ocp4_12-8.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6434,7 +6434,7 @@
                 ]
               },
               {
-                "uuid": "cf332fdd-7050-49f2-93e3-2cf484a39ee8",
+                "uuid": "c932d3e5-abb8-432a-982d-0c7a09aad521",
                 "control-id": "pcidss_4_ocp4_12-8.4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6447,7 +6447,7 @@
                 ]
               },
               {
-                "uuid": "d1840acd-48f2-487e-9f6b-d738c1e7e0a6",
+                "uuid": "488fc7d2-9ca4-4647-a1e1-75e1805687ab",
                 "control-id": "pcidss_4_ocp4_12-8.5",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6460,7 +6460,7 @@
                 ]
               },
               {
-                "uuid": "1e07576b-99bf-41e8-8f49-f149bc754706",
+                "uuid": "76234716-3853-464c-b9e9-b20d2d3a79f9",
                 "control-id": "pcidss_4_ocp4_12-9.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6473,7 +6473,7 @@
                 ]
               },
               {
-                "uuid": "a55e8a02-8e82-46ee-b27e-5647cb0bef99",
+                "uuid": "5187a386-6ffb-441f-9af7-36826e31bc81",
                 "control-id": "pcidss_4_ocp4_12-9.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6486,7 +6486,7 @@
                 ]
               },
               {
-                "uuid": "d2637e15-bc59-4c8b-9a19-68e5c0c51c27",
+                "uuid": "0361c61f-3014-4495-9929-15403390b56b",
                 "control-id": "pcidss_4_ocp4_12-10.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6499,7 +6499,7 @@
                 ]
               },
               {
-                "uuid": "dd60db60-9f49-4ba2-ba88-4a5f13af69a7",
+                "uuid": "cabe6ccc-af5b-4592-b77e-dd5b2cbcf7c0",
                 "control-id": "pcidss_4_ocp4_12-10.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6512,7 +6512,7 @@
                 ]
               },
               {
-                "uuid": "b99da30e-dacf-4b53-94da-415d3fa7a62b",
+                "uuid": "77d02e56-bc2a-4997-9179-0e300f519fdd",
                 "control-id": "pcidss_4_ocp4_12-10.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6525,7 +6525,7 @@
                 ]
               },
               {
-                "uuid": "be0d57bd-20ab-4f44-8a8f-1a5f571f247b",
+                "uuid": "7761ca25-a23f-4003-bdbc-0e5d66b57c86",
                 "control-id": "pcidss_4_ocp4_12-10.4.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6538,7 +6538,7 @@
                 ]
               },
               {
-                "uuid": "abb42f81-4143-4cca-b9a7-d47ae59bc406",
+                "uuid": "24ce1dac-a93a-44e3-a201-0eeb9353d0bf",
                 "control-id": "pcidss_4_ocp4_12-10.5",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6551,7 +6551,7 @@
                 ]
               },
               {
-                "uuid": "69ad597f-cadb-4616-a3c4-5d915d289151",
+                "uuid": "581bb4a0-1701-46ec-925b-ddf41f63f753",
                 "control-id": "pcidss_4_ocp4_12-10.6",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6564,7 +6564,7 @@
                 ]
               },
               {
-                "uuid": "5e050d45-56e0-48c0-9026-7cef7c6a1b0c",
+                "uuid": "f94a9bbe-13cb-49e8-956b-bade52e762ea",
                 "control-id": "pcidss_4_ocp4_12-10.7",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6577,7 +6577,7 @@
                 ]
               },
               {
-                "uuid": "cdb3769e-d52a-4d45-9d2d-1b9e93608ec4",
+                "uuid": "ce1ace52-29a6-499b-8fd5-c48a15045536",
                 "control-id": "a1-1.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6590,7 +6590,7 @@
                 ]
               },
               {
-                "uuid": "3c77f94a-a84a-4a18-9c67-e4226a8ec7dc",
+                "uuid": "c16535aa-c73c-423f-98de-ebb5e9d23002",
                 "control-id": "a1-1.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6603,7 +6603,7 @@
                 ]
               },
               {
-                "uuid": "6ff091ee-a956-4754-82f2-669bdd5a5c51",
+                "uuid": "845cf04a-67ae-421c-854f-b644912ef24e",
                 "control-id": "a1-1.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6616,7 +6616,7 @@
                 ]
               },
               {
-                "uuid": "f0fdb754-b276-49b2-b4a9-16689c45f505",
+                "uuid": "f9d5ffa7-dbf0-48f9-806b-671edfe4f327",
                 "control-id": "a1-1.4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6629,7 +6629,7 @@
                 ]
               },
               {
-                "uuid": "e4c79259-768a-4373-b734-45b4902e1457",
+                "uuid": "9190aaaa-5fdf-4198-b867-e149456ceb19",
                 "control-id": "a1-2.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6642,7 +6642,7 @@
                 ]
               },
               {
-                "uuid": "6fdb68de-de7b-45e9-b470-33ea8eca434a",
+                "uuid": "99f838d0-6c7d-4dbf-9a5b-62aa180d82e6",
                 "control-id": "a1-2.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6655,7 +6655,7 @@
                 ]
               },
               {
-                "uuid": "30e066ad-ac53-4d40-a2c2-741f1c34289d",
+                "uuid": "0002dab4-cbba-49c4-817e-0971f8c431e9",
                 "control-id": "a1-2.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6668,7 +6668,7 @@
                 ]
               },
               {
-                "uuid": "de3d93de-5b80-4699-981f-9cd74e313380",
+                "uuid": "1809bf06-bbee-476a-b7de-f076ab498451",
                 "control-id": "a2-1.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6681,7 +6681,7 @@
                 ]
               },
               {
-                "uuid": "b6169bd3-ce4e-421e-94cb-85e7c80dfb8f",
+                "uuid": "8b708acd-6d14-4e75-a724-f4c6d58377ad",
                 "control-id": "a2-1.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6694,7 +6694,7 @@
                 ]
               },
               {
-                "uuid": "eae63b4d-2dc5-4b47-8d2e-b7f5acd17633",
+                "uuid": "28d14453-58d8-484b-a5c2-7c1de0b517da",
                 "control-id": "a2-1.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6707,7 +6707,7 @@
                 ]
               },
               {
-                "uuid": "90580d17-5640-4fd0-afd9-0d2c135a5c83",
+                "uuid": "2d9307c8-ea5b-48ad-b58f-88d7e78f9422",
                 "control-id": "a3-1.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6720,7 +6720,7 @@
                 ]
               },
               {
-                "uuid": "e1836f57-0afd-4a15-93da-3ffcf6792a39",
+                "uuid": "228bb1f7-5839-4ca9-8eb2-1d141d220aab",
                 "control-id": "a3-1.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6733,7 +6733,7 @@
                 ]
               },
               {
-                "uuid": "63671666-5f78-4fe0-bed2-7fb20567a697",
+                "uuid": "0021c71d-be54-4ee4-b98f-5f805f2d22b5",
                 "control-id": "a3-1.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6746,7 +6746,7 @@
                 ]
               },
               {
-                "uuid": "bad4883c-a05a-47b5-9da9-a452f2fbe8ac",
+                "uuid": "00adab83-fe17-4754-abb9-51c1bb88f87c",
                 "control-id": "a3-1.4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6759,7 +6759,7 @@
                 ]
               },
               {
-                "uuid": "aaa943aa-3d6c-4e7f-9882-2ad97cb31442",
+                "uuid": "48ad0d67-c36f-48ed-8420-33a96062937d",
                 "control-id": "a3-2.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6772,7 +6772,7 @@
                 ]
               },
               {
-                "uuid": "f9d562c2-0aad-43e2-812a-aeb3efd7afb7",
+                "uuid": "d70d7604-8dd1-405e-9777-2f6d1e524b2e",
                 "control-id": "a3-2.2.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6785,7 +6785,7 @@
                 ]
               },
               {
-                "uuid": "9a291c95-f66c-4d82-aa79-17e6ffe4b7f0",
+                "uuid": "530fd5c6-8277-4eb9-807b-1bf59f0a4723",
                 "control-id": "a3-2.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6798,7 +6798,7 @@
                 ]
               },
               {
-                "uuid": "53a7f7ea-6e97-4368-9916-b5d9b0de0f1c",
+                "uuid": "9650d767-26d2-4ec3-aa6d-dff8a2f953d6",
                 "control-id": "a3-2.4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6811,7 +6811,7 @@
                 ]
               },
               {
-                "uuid": "e929dd4a-aea1-4055-8ef0-a0da027798dc",
+                "uuid": "cff5ec00-9bed-48fc-9874-6ca77245a796",
                 "control-id": "a3-2.5.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6824,7 +6824,7 @@
                 ]
               },
               {
-                "uuid": "eeabfb95-129d-41da-953d-b6c4cca204d3",
+                "uuid": "1801402d-512c-4cd4-a3f1-54556188428d",
                 "control-id": "a3-2.5.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6837,7 +6837,7 @@
                 ]
               },
               {
-                "uuid": "efc0f366-e4a4-4154-bf65-a1b9332236bd",
+                "uuid": "cd131d71-8694-45b1-8066-cdb030451969",
                 "control-id": "a3-2.6.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6850,7 +6850,7 @@
                 ]
               },
               {
-                "uuid": "403a24e2-5949-442e-9d71-b2d3d964bece",
+                "uuid": "2f8d58c2-9db2-4eef-9219-81d2987d04c0",
                 "control-id": "a3-3.1.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6863,7 +6863,7 @@
                 ]
               },
               {
-                "uuid": "17d3356c-53c4-4bd9-b739-21b944cac908",
+                "uuid": "ae1dba40-18de-42ba-9ff1-3cba5a24f363",
                 "control-id": "a3-3.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6876,7 +6876,7 @@
                 ]
               },
               {
-                "uuid": "ebdef8ec-e6df-4769-bc74-1dd27c90ff51",
+                "uuid": "a813d328-c610-4328-a14c-b6b3f6e2c186",
                 "control-id": "a3-3.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6889,7 +6889,7 @@
                 ]
               },
               {
-                "uuid": "0916b0f7-4383-445e-8671-1ae508b08ab0",
+                "uuid": "147be661-d421-4e5c-80d2-7379b5e28c21",
                 "control-id": "a3-4.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -6902,7 +6902,7 @@
                 ]
               },
               {
-                "uuid": "9b583b0e-94ab-4706-8675-c80497e311b9",
+                "uuid": "e1a6fcf6-aec4-4ab5-9861-9662461f11c6",
                 "control-id": "a3-5.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -10947,7 +10947,7 @@
         ],
         "control-implementations": [
           {
-            "uuid": "7ac58ca5-061d-4965-b93d-d0f0ebe7a94c",
+            "uuid": "672fe5fd-cb53-4531-b4a3-fd0aeb74bd54",
             "source": "trestle://profiles/ocp4-pcidss_4_ocp4-base/profile.json",
             "description": "REPLACE_ME",
             "props": [
@@ -10973,7 +10973,7 @@
             ],
             "implemented-requirements": [
               {
-                "uuid": "9ec78227-5789-4fda-836a-9a818773cca3",
+                "uuid": "c243dd6f-07e2-48a1-8c9c-6ee24c721d32",
                 "control-id": "pcidss_4_ocp4_1-1.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -10986,7 +10986,7 @@
                 ]
               },
               {
-                "uuid": "81a4ce47-d04d-40dc-8963-b596bc1648e5",
+                "uuid": "b1064a31-15c1-42ea-a8a1-2c948eae7a9c",
                 "control-id": "pcidss_4_ocp4_1-1.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -10999,7 +10999,7 @@
                 ]
               },
               {
-                "uuid": "149bada9-bd84-4e09-84e0-7743b46398bc",
+                "uuid": "56878c2c-603b-42d2-90bb-6744aaa78cbd",
                 "control-id": "pcidss_4_ocp4_1-2.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -11012,7 +11012,7 @@
                 ]
               },
               {
-                "uuid": "79da569f-af8c-4d53-9340-1c9b0ecdf39e",
+                "uuid": "94588e25-9e38-4e25-890b-6a2e5b32acb2",
                 "control-id": "pcidss_4_ocp4_1-2.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -11025,7 +11025,7 @@
                 ]
               },
               {
-                "uuid": "35a6f8ce-ff82-4566-887e-711c7bbc49ba",
+                "uuid": "2c0cd43b-d89a-49d3-a85d-7b5812c4a5d0",
                 "control-id": "pcidss_4_ocp4_1-2.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -11038,7 +11038,7 @@
                 ]
               },
               {
-                "uuid": "5382f205-2bb8-4d6f-a23a-0805333e01ba",
+                "uuid": "c525996c-17c6-489a-b4b0-b036aff8aaed",
                 "control-id": "pcidss_4_ocp4_1-2.4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -11051,7 +11051,7 @@
                 ]
               },
               {
-                "uuid": "c07b405a-afb3-4a0f-a106-551955c4fceb",
+                "uuid": "1d1d5f1b-8c54-43e5-9a2a-7027ad93e909",
                 "control-id": "pcidss_4_ocp4_1-2.5",
                 "description": "REPLACE_ME",
                 "props": [
@@ -11064,7 +11064,7 @@
                 ]
               },
               {
-                "uuid": "6eed1b46-8824-464a-8bc0-0ae31e07d6ff",
+                "uuid": "98af6379-0655-4ccd-b0ca-79f8427f85f9",
                 "control-id": "pcidss_4_ocp4_1-2.6",
                 "description": "The specific risks associated with the use of insecure services,\nprotocols, and ports are understood, assessed, and appropriately\nmitigated.",
                 "props": [
@@ -11086,7 +11086,7 @@
                 ]
               },
               {
-                "uuid": "1dc5059a-740d-4dab-b59d-b2b3355efa8b",
+                "uuid": "68fd511f-044c-42d3-9cb0-849469a17459",
                 "control-id": "pcidss_4_ocp4_1-2.7",
                 "description": "REPLACE_ME",
                 "props": [
@@ -11099,7 +11099,7 @@
                 ]
               },
               {
-                "uuid": "b6b057f9-e734-405a-8635-80a3256f7148",
+                "uuid": "46d149ba-e213-4867-81bc-2e198b7683be",
                 "control-id": "pcidss_4_ocp4_1-2.8",
                 "description": "REPLACE_ME",
                 "props": [
@@ -11112,7 +11112,7 @@
                 ]
               },
               {
-                "uuid": "18d26e4e-2530-4fc2-8885-59606efa5bee",
+                "uuid": "1a297f96-fac4-48a0-98ed-b5aa99b3000e",
                 "control-id": "pcidss_4_ocp4_1-3.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -11134,7 +11134,7 @@
                 ]
               },
               {
-                "uuid": "ba33e582-2a0f-4429-ac13-dfd6fbf06af9",
+                "uuid": "d1331fb7-05c9-4669-8ff0-e7539c0fed39",
                 "control-id": "pcidss_4_ocp4_1-3.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -11147,7 +11147,7 @@
                 ]
               },
               {
-                "uuid": "255d4b8e-a5ca-4e5f-b108-caf1fc258872",
+                "uuid": "a8d608d9-c704-4025-8655-50cbc861b9d4",
                 "control-id": "pcidss_4_ocp4_1-3.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -11160,7 +11160,7 @@
                 ]
               },
               {
-                "uuid": "32a90bd8-0161-421c-b4b7-c184ac20a703",
+                "uuid": "399fe77d-e09c-4ae4-902b-17bc372bcfa2",
                 "control-id": "pcidss_4_ocp4_1-4.1",
                 "description": "Trusted and untrusted networks are expected to be different for each environment.\nBut loopback traffic is assumed to be trusted and even necessary for some services.\nThis requirement is complements 1.2.1 and 1.3.1 requirements.",
                 "props": [
@@ -11187,7 +11187,7 @@
                 ]
               },
               {
-                "uuid": "ac488323-e684-41cb-8ba6-b2ccb9358493",
+                "uuid": "7d2d3a2b-419a-45e1-a550-9ea19a4c71cc",
                 "control-id": "pcidss_4_ocp4_1-4.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -11200,7 +11200,7 @@
                 ]
               },
               {
-                "uuid": "1538a523-8c26-46f1-af2f-135d906fa03d",
+                "uuid": "23e97b94-bf1c-4782-9c84-42fe1ea4cb0c",
                 "control-id": "pcidss_4_ocp4_1-4.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -11213,7 +11213,7 @@
                 ]
               },
               {
-                "uuid": "ac4455f9-fa07-4c06-8ed3-65a5083a97b6",
+                "uuid": "ff5ab213-23c7-438e-8a18-239455f8bf85",
                 "control-id": "pcidss_4_ocp4_1-4.4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -11226,7 +11226,7 @@
                 ]
               },
               {
-                "uuid": "ace2f91c-513b-405a-8327-d3998d70a6e4",
+                "uuid": "2251a6f4-4812-4828-960f-0ef2a1061472",
                 "control-id": "pcidss_4_ocp4_1-4.5",
                 "description": "REPLACE_ME",
                 "props": [
@@ -11239,7 +11239,7 @@
                 ]
               },
               {
-                "uuid": "52a0a93e-b4ae-44c4-8bdd-1136eda6e746",
+                "uuid": "e692105a-b21b-48dc-9612-dc9bfdc995b0",
                 "control-id": "pcidss_4_ocp4_1-5.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -11252,7 +11252,7 @@
                 ]
               },
               {
-                "uuid": "2eb2f685-17d0-4d02-84e8-71ebd91ebc0b",
+                "uuid": "190fe73f-abfb-4260-9e23-ac2b12f454fe",
                 "control-id": "pcidss_4_ocp4_2-1.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -11265,7 +11265,7 @@
                 ]
               },
               {
-                "uuid": "7c469fc3-541b-423e-8228-2c4ab51b1447",
+                "uuid": "511b8516-24c3-45db-a000-38898ba938f6",
                 "control-id": "pcidss_4_ocp4_2-1.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -11278,7 +11278,7 @@
                 ]
               },
               {
-                "uuid": "3c4e9d8c-c233-4b38-8caa-452d695eb648",
+                "uuid": "9b7568c1-a5e6-4858-b168-a1e50923ce34",
                 "control-id": "pcidss_4_ocp4_2-2.1",
                 "description": "The Compliance Operator provides an automated way of checking for a secure configuration\nof OpenShift according to known security standards, as well as automatically remediating\ndeviations from the target configuration.\nIts usage is recommended to ensure appropriate configuration and is set and prevent drift.\n\nSystem components outside of OpenShift cannot be checked by the Compliance Operator.\n\nThis control is also addressed by applying the OpenShift CIS recommendations.",
                 "props": [
@@ -11295,7 +11295,7 @@
                 ]
               },
               {
-                "uuid": "4f3aeb4d-80f1-4194-a231-42282d7d1542",
+                "uuid": "7c45c66f-bfae-4987-8968-4b0d9724412c",
                 "control-id": "pcidss_4_ocp4_2-2.2",
                 "description": "The Openshift Platform doesn't come with any hardcoded credentials or passwords.\nAuthenticators are uniquely created at deployment-time, including credentials\nfor an admin user (called `kubeadmin`) which is meant for bootstrapping purposes.\nIt is recommended for deployers to delete this account in favor of using an IdP\nand setting up appropriate permissions via RBAC roles.",
                 "props": [
@@ -11312,7 +11312,7 @@
                 ]
               },
               {
-                "uuid": "8ac1db4f-05fa-47fa-9cc1-e09e8727e594",
+                "uuid": "275ade8c-025e-4a16-b823-c5c9042aa40a",
                 "control-id": "pcidss_4_ocp4_2-2.3",
                 "description": "OpenShift nodes run RHEL CoreOS by default, which contains only the\nnecessary services, protocols and daemons needed to run OpenShift and\ncontainers. OpenShift provides the means to separate application\nworkloads within the cluster onto separate hosts and containers. It\nis the responsibility of the organization to appropriately separate\ntheir applications into relevant containers to meet this control.",
                 "props": [
@@ -11324,7 +11324,7 @@
                 ]
               },
               {
-                "uuid": "fc455d44-29d9-499a-9193-05b165511752",
+                "uuid": "f65258a6-7dcb-40a9-a41a-e86579e43a64",
                 "control-id": "pcidss_4_ocp4_2-2.4",
                 "description": "The OpenShift Container Platform uses RHEL CoreOS by default. In itself, it's\na minimal operating system with the sole purpose of running OpenShift. Therefore\nit doesn't contain extra packages or functionality; only the minimal that's meant\nto run OpenShift. RHCOS is the recommended operating system for OpenShift.",
                 "props": [
@@ -11336,7 +11336,7 @@
                 ]
               },
               {
-                "uuid": "43b0a7d7-12cf-4dcb-a1e3-52b515acf656",
+                "uuid": "61856e6e-deae-4802-a3e0-673acb100570",
                 "control-id": "pcidss_4_ocp4_2-2.5",
                 "description": "OpenShift does not require any insecure services, protocols or daemons for\nproper functioning. The deployment comes with TLS enabled by default with\nstrong ciphers and an appropriate version enabled.",
                 "props": [
@@ -11453,7 +11453,7 @@
                 ]
               },
               {
-                "uuid": "082e02db-fd53-4315-b28c-184015159f90",
+                "uuid": "25285cf1-8602-4468-8346-0d2ddbb4e029",
                 "control-id": "pcidss_4_ocp4_2-2.6",
                 "description": "While it's possible to manually configure the security settings\nin the Openshift Container Platform, the Compliance Operator provides\nan automated way of checking for a secure configuration and automatically\nremediating issues according to known security standards. Its usage\nis recommended to ensure appropriate configuration is set and prevent\ndrift.\n\nAdditionaly, as part of 2.2.1, the CIS recommendations for OpenShift are applied in order\nto prevent system misconfiguration and misuse.",
                 "props": [
@@ -11470,7 +11470,7 @@
                 ]
               },
               {
-                "uuid": "c63adee3-4045-4b75-b026-906ed4659f21",
+                "uuid": "2d4b7808-580e-429b-879d-620efae13bcf",
                 "control-id": "pcidss_4_ocp4_2-2.7",
                 "description": "Related to requirement 12.3.3.",
                 "props": [
@@ -11597,7 +11597,7 @@
                 ]
               },
               {
-                "uuid": "804d0389-1d9a-4044-aecb-44ff15a96ec6",
+                "uuid": "a0ac8939-ca34-4dfe-880c-8c154da0b569",
                 "control-id": "pcidss_4_ocp4_2-3.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -11610,7 +11610,7 @@
                 ]
               },
               {
-                "uuid": "8d3e7cb7-4c9a-41f3-8676-056c78242bb3",
+                "uuid": "329db4cf-67e8-4730-a491-ee83bbc8ea50",
                 "control-id": "pcidss_4_ocp4_2-3.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -11623,7 +11623,7 @@
                 ]
               },
               {
-                "uuid": "62e95047-4d73-468e-ac0c-89b22bc827ca",
+                "uuid": "f29f176a-5408-414d-973a-fab22f7d12df",
                 "control-id": "pcidss_4_ocp4_3-1.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -11636,7 +11636,7 @@
                 ]
               },
               {
-                "uuid": "a0297ac2-ff28-4186-915e-3a7f61f4451a",
+                "uuid": "f99a8926-3598-4d2f-a6d3-142fab4b8012",
                 "control-id": "pcidss_4_ocp4_3-1.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -11649,7 +11649,7 @@
                 ]
               },
               {
-                "uuid": "6856cbeb-30cd-4a8a-9fea-5075ae8987f0",
+                "uuid": "4c6bcdd1-18a7-4a33-a12a-d7c122b7bc9b",
                 "control-id": "pcidss_4_ocp4_3-2.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -11662,7 +11662,7 @@
                 ]
               },
               {
-                "uuid": "d45f64b5-fba5-46ad-9471-19218a876db1",
+                "uuid": "d5b20c3f-6865-42bf-82d7-b6829cdc9e9a",
                 "control-id": "pcidss_4_ocp4_3-3.1.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -11675,7 +11675,7 @@
                 ]
               },
               {
-                "uuid": "a75e0c03-3972-4dea-adba-a232e0b6bb3e",
+                "uuid": "7460953c-6c7b-4bc7-becf-61a50e4259f3",
                 "control-id": "pcidss_4_ocp4_3-3.1.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -11688,7 +11688,7 @@
                 ]
               },
               {
-                "uuid": "927d1202-d014-4449-ad56-c5cac3c5ba3e",
+                "uuid": "bfe04bc3-b21e-4b87-9142-fd60ef50ea80",
                 "control-id": "pcidss_4_ocp4_3-3.1.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -11701,7 +11701,7 @@
                 ]
               },
               {
-                "uuid": "9ca09b41-e18c-4f89-9a0b-26b51f839c85",
+                "uuid": "e9d1d12f-3566-4644-89c9-190a2dcdf267",
                 "control-id": "pcidss_4_ocp4_3-3.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -11714,7 +11714,7 @@
                 ]
               },
               {
-                "uuid": "8ade5636-b99a-4c9e-b4b7-d8aeebdf4dab",
+                "uuid": "36470bfb-a6a6-4e80-9d8b-aa3d98408f55",
                 "control-id": "pcidss_4_ocp4_3-3.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -11727,7 +11727,7 @@
                 ]
               },
               {
-                "uuid": "ae483e33-88d0-4654-9190-35a10688d932",
+                "uuid": "1858fde7-023b-4afd-944e-42f0a05213d0",
                 "control-id": "pcidss_4_ocp4_3-4.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -11740,7 +11740,7 @@
                 ]
               },
               {
-                "uuid": "ca50034a-e3f3-4c07-9972-975fbe2ba116",
+                "uuid": "a37e9965-8a53-4472-aba9-4214dbc24864",
                 "control-id": "pcidss_4_ocp4_3-4.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -11753,7 +11753,7 @@
                 ]
               },
               {
-                "uuid": "dd561c78-6df4-4c61-ae88-5f96c58883ae",
+                "uuid": "38d27a41-e297-48f3-a2cd-b2d0b47cc28b",
                 "control-id": "pcidss_4_ocp4_3-5.1.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -11766,7 +11766,7 @@
                 ]
               },
               {
-                "uuid": "b1f76bb3-0b53-4076-aa06-e79f5e0c70ea",
+                "uuid": "ae844ff2-1384-4210-be81-63d7ccd58f88",
                 "control-id": "pcidss_4_ocp4_3-5.1.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -11779,7 +11779,7 @@
                 ]
               },
               {
-                "uuid": "75ff705b-3c06-46a6-b18e-d9a5ba803b25",
+                "uuid": "32ec4956-0562-4a47-a2b7-418936c5cece",
                 "control-id": "pcidss_4_ocp4_3-5.1.3",
                 "description": "Disk-level encryption is a node configuration, but it can be managed by the NBDE\nTang Server Operator to automatically unlock LUKS-encrypted volumes and rotate keys.\n\nIn case where card holder data may be stored on worker nodes disks, OpenShift Container\nPlatform can help to partially\ncomply with this requirement by providing several means of fully encrypting disks.\n* Using RHEL core crypto components which are FIPS certified\n* Or using cloud provider techniques, such as EBS encryption for AWS case.\nFor this requirement, we also check etcd is encrypted, so that secrets, but also routes\nand oauth configurations are secured.\n\nConcerning Full Disk Encryption:\nFull Disk Encryption can be enabled on OpenShift by installing the cluster with FIPS mode\nenabled.\nOpenShift Container Platform uses certain FIPS Validated / Modules in Process modules\nwithin RHEL and RHCOS for the operating system components that it uses.\nSee RHEL core crypto components and\nhttps://docs.openshift.com/container-platform/latest/installing/installing-fips.html for\nfurther information.\nWhen installing the cluster, The public ssh key is passed to the Red Hat Enterprise Linux\nCoreOS (RHCOS) nodes through their Ignition config files and is used to authenticate SSH\naccess to the nodes. The key is added to the ~/.ssh/authorized_keys list for the core user\non each node, which enables password-less authentication.\n\nThe management of the private key is up to the customer.\nLUKS/dm-crypt (used by the FIPS mode) provides full-disk encryption that fulfills\nrequirement 3.4.1.\nAccess to the stored data is only possible via a decryption password that must be entered\nwhen the disk is mounted .\nThe disk can be encrypted using a TPM v2, a secure cryptoprocessor contained\nwithin a server; or a Tang server, a network-bound disk encryption (NBDE).\n\nThe NBDE Tang Server Operator can provide automatic unlocking of LUKS-encrypted volumes\nand key rotation.",
                 "props": [
@@ -11806,7 +11806,7 @@
                 ]
               },
               {
-                "uuid": "a3d5a2b5-7609-4628-a1c7-d1f81817657a",
+                "uuid": "31ddd22c-f062-49aa-b4f5-85ddb00a8c2f",
                 "control-id": "pcidss_4_ocp4_3-6.1.1",
                 "description": "This requirement largely depends on the solution chosen by the customer to protect card\nholder data at rest.\n* When Full Disk Encryption is done using AWS EBS encryption, the algorithm used is\n  AES-256.\n  Your data key is stored on disk with your encrypted data, but not before EBS encrypts it\n  with your KMS key.\n  Your data key never appears on disk in plaintext.\n  The same data key is shared by snapshots of the volume and any subsequent volumes\n  created from those snapshots.\n  See https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSEncryption.html\n* When Full Disk Encryption is done using LUKS with TPM2, full disk encryption utilities\n  such as dm-crypt and\n  BitLocker encrypt disks with a TPM bind key, and then store the TPM bind key in the TPM\n  (Trusted Platform Module),\n  which is a secure element attached to the motherboard of the node.\n  The main benefit of this method is that there is no external dependency, and the node is\n  able to decrypt its own\n  disks at boot time without any external interaction.\n* When Full Disk Encryption is done using LUKS with Tang, the booting node attempts to\n  contact a predefined set\n  of Tang servers by performing a cryptographic handshake. If it can reach the required\n  number of Tang servers,\n  the node can construct its disk decryption key and unlock the disks to continue booting.\nSee https://docs.openshift.com/container-platform/4.9/security/network_bound_disk_encryption/nbde-about-disk-encryption-technology.html",
                 "props": [
@@ -11818,7 +11818,7 @@
                 ]
               },
               {
-                "uuid": "c1a47161-1071-4fc1-af08-b92f791b3c20",
+                "uuid": "80b4564e-83cb-4afb-a2d3-d199ffbb4b19",
                 "control-id": "pcidss_4_ocp4_3-6.1.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -11830,7 +11830,7 @@
                 ]
               },
               {
-                "uuid": "4c2992fd-7a14-481b-95fe-1c86ec41c456",
+                "uuid": "ee47e724-8912-41e0-9e64-760f530d2292",
                 "control-id": "pcidss_4_ocp4_3-6.1.3",
                 "description": "This requirement largely depends on the solution chosen by the customer to protect card\nholder data at rest.\n* When Full Disk Encryption is done using AWS EBS encryption, the data key, used for\n  volume encryption, is generated\n  by AWS KMS, encrypted with the Key Encryption Key that lies in the KMS and stored with\n  the volume metadata, by EBS.\n  It is the payment entity's responsibility to limit the access to this key by ensuring\n  that Grant requests to decrypt\n  the data key using the KEK (Key Encryption Key) is given only to the need to know users\n  or AWS resources.\n  See https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSEncryption.html\n* When Full Disk Encryption is done using LUKS with TPM2, the TPM bind key, which is used\nto decrypt the data key is\n  stored in the TPM (Trusted Platform Module), on the motherboard of the node.\n  It is therefore not shared with anyone.\n* When Full Disk Encryption is done using LUKS with Tang, Tang server does not store the\nencryption key directly,\n  and never interacts with it. The metadata needed to decrypt the volume is stored on the\n  disk but can only be\n  unlocked and used when the node can correctly establish the handshake with the Tang\n  server. The data key is therefore not shared with anyone.",
                 "props": [
@@ -11842,7 +11842,7 @@
                 ]
               },
               {
-                "uuid": "0a153b30-ea38-4dad-a374-5680fbb18933",
+                "uuid": "76d74f43-d9ea-4042-a1a9-25665c616e31",
                 "control-id": "pcidss_4_ocp4_3-6.1.4",
                 "description": "This requirement depends on the solution chosen by the customer to protect card holder\ndata at rest:\n* When Full Disk Encryption is done using AWS EBS encryption, the data key is stored in\n  the volume's metadata only.\n  The KEK is stored in the AWS KMS only.\n* When Full Disk Encryption is done using LUKS with TPM2, the TPM bind key is stored in\n  the TPM (Trusted Platform Module) only.\n  The encrypted data key is stored on the MBR of the disk only.\n* When Full Disk Encryption is done using LUKS with Tang, the encryption key is not stored\n  to disk. Only the provisioning metadata is. A POST to the Tang server would allow the\n  node to recompute the encryption key from this metadata.\n  See https://github.com/latchset/tang",
                 "props": [
@@ -11854,7 +11854,7 @@
                 ]
               },
               {
-                "uuid": "7a9a2d6c-c28d-4da0-9d8a-a2445a7b2c87",
+                "uuid": "8fbd5f3a-11de-4928-9239-ff9d82710413",
                 "control-id": "pcidss_4_ocp4_3-7.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -11867,7 +11867,7 @@
                 ]
               },
               {
-                "uuid": "0d3fccd7-846f-49eb-89dd-7afe16cb92fa",
+                "uuid": "b97f41cf-b4ac-4566-89ee-7ec21008a950",
                 "control-id": "pcidss_4_ocp4_3-7.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -11880,7 +11880,7 @@
                 ]
               },
               {
-                "uuid": "ec70e8f2-e9c2-4e09-9ff8-7dbc3c63e959",
+                "uuid": "fcc749e1-2eea-4c5d-b726-d469a8d549db",
                 "control-id": "pcidss_4_ocp4_3-7.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -11893,7 +11893,7 @@
                 ]
               },
               {
-                "uuid": "4870d3b2-50e4-4633-a9ea-eb2227c163c6",
+                "uuid": "ba1feaee-db66-4e92-bf41-18fd911d5fba",
                 "control-id": "pcidss_4_ocp4_3-7.4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -11906,7 +11906,7 @@
                 ]
               },
               {
-                "uuid": "2460c015-fbcb-4287-819a-a05b785ae886",
+                "uuid": "6987f0e2-bdae-4128-8726-9d04aa6bd1eb",
                 "control-id": "pcidss_4_ocp4_3-7.5",
                 "description": "REPLACE_ME",
                 "props": [
@@ -11919,7 +11919,7 @@
                 ]
               },
               {
-                "uuid": "f3bae0ec-1253-4731-bfe7-73f3834c82cc",
+                "uuid": "597bb55f-a16b-4021-9ee2-55f5b7a7b2cb",
                 "control-id": "pcidss_4_ocp4_3-7.6",
                 "description": "REPLACE_ME",
                 "props": [
@@ -11932,7 +11932,7 @@
                 ]
               },
               {
-                "uuid": "d3810878-ff7e-48d7-bd1a-f72e95f79979",
+                "uuid": "92b39bbe-a124-4331-97ab-8cc3e668dd06",
                 "control-id": "pcidss_4_ocp4_3-7.7",
                 "description": "REPLACE_ME",
                 "props": [
@@ -11945,7 +11945,7 @@
                 ]
               },
               {
-                "uuid": "21d41e51-397a-4754-be49-1239373c1e23",
+                "uuid": "55985059-e442-48cb-8bc4-2a3ede0ca761",
                 "control-id": "pcidss_4_ocp4_3-7.8",
                 "description": "REPLACE_ME",
                 "props": [
@@ -11958,7 +11958,7 @@
                 ]
               },
               {
-                "uuid": "62c5a7dd-5ab1-417a-8200-3b5130b5bcea",
+                "uuid": "5475ba86-4e6b-4c84-ace4-b2a9ce00dac8",
                 "control-id": "pcidss_4_ocp4_3-7.9",
                 "description": "REPLACE_ME",
                 "props": [
@@ -11971,7 +11971,7 @@
                 ]
               },
               {
-                "uuid": "dcf5d8ef-0a9e-434b-994b-bda60fb61763",
+                "uuid": "4030a88e-2a9b-4552-825a-45d79788c010",
                 "control-id": "pcidss_4_ocp4_4-1.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -11984,7 +11984,7 @@
                 ]
               },
               {
-                "uuid": "bf464271-1630-43dd-8821-db8b66b984f7",
+                "uuid": "b106cbd1-ebf0-434d-94c7-dc93f63a4970",
                 "control-id": "pcidss_4_ocp4_4-1.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -11997,7 +11997,7 @@
                 ]
               },
               {
-                "uuid": "cb72731f-92d9-40b2-88fb-b7c9e4a72d92",
+                "uuid": "4d81b65b-8c27-4078-af75-533eb8560576",
                 "control-id": "pcidss_4_ocp4_4-2.1.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -12010,7 +12010,7 @@
                 ]
               },
               {
-                "uuid": "9c7a14e4-c637-4ffb-b0e3-00f4c2869fc3",
+                "uuid": "102513b1-c99a-4ccf-838d-877e004100a0",
                 "control-id": "pcidss_4_ocp4_4-2.1.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -12023,7 +12023,7 @@
                 ]
               },
               {
-                "uuid": "a3d97862-6001-445c-ac16-ce9b9ee2de36",
+                "uuid": "fd738b00-c336-4aa0-9744-b436ac12f72d",
                 "control-id": "pcidss_4_ocp4_4-2.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -12036,7 +12036,7 @@
                 ]
               },
               {
-                "uuid": "2b993826-d9ed-450e-ab13-08a30030c22e",
+                "uuid": "5853e7a1-ab27-49ea-9a2f-8e4546822564",
                 "control-id": "pcidss_4_ocp4_5-1.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -12049,7 +12049,7 @@
                 ]
               },
               {
-                "uuid": "a06c852a-5524-41bb-93bc-2a7d9c107074",
+                "uuid": "03960ad9-f7e0-4464-944d-db2bd48dd1f5",
                 "control-id": "pcidss_4_ocp4_5-1.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -12062,7 +12062,7 @@
                 ]
               },
               {
-                "uuid": "f9635a15-4138-480b-b024-e91d5e335245",
+                "uuid": "61f8b09b-8c74-494d-8b9f-a88fff1023b8",
                 "control-id": "pcidss_4_ocp4_5-2.1",
                 "description": "There are many options of anti-malware and the criteria for any adopted solution or\napproach relies on each site policy. Technologies are supported but manual assessment is\nrequired.\n\nOpenShift container platforms may install the OpenShift File\nIntegrity Operator [1] which monitors file system integrity on the host.\nThis may allow for the detection of threats on the hosts which attempt\nto modify the file system in malicious ways. Additionally, there exist\nseveral solutions to scan for container vulnerabilities which are indispensible\nfrom any deployment. One such example is Red Hat Quay [2] which supports\nimage verification and continuous security scanning of container images.\nAnother option is Red Hat Advanced Cluster Security [3] which provides a complete solution\nto build, deploy, and run containerized workloads with more security.\n\n[1] https://docs.openshift.com/container-platform/latest/security/file_integrity_operator/file-integrity-operator-understanding.html\n[2] https://docs.openshift.com/container-platform/latest/security/container_security/security-registries.html\n[3] https://www.redhat.com/en/resources/advanced-cluster-security-for-kubernetes-datasheet",
                 "props": [
@@ -12074,7 +12074,7 @@
                 ]
               },
               {
-                "uuid": "6a17d468-1dab-48a0-b1fd-1a75f41eb5d2",
+                "uuid": "9d458836-1022-4ad7-96b2-3b8a22cd4690",
                 "control-id": "pcidss_4_ocp4_5-2.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -12087,7 +12087,7 @@
                 ]
               },
               {
-                "uuid": "9f63e382-82e8-47b7-ae80-e4bbd9004bf4",
+                "uuid": "90880edd-0d45-44d3-bd7a-b4cbe377fae2",
                 "control-id": "pcidss_4_ocp4_5-2.3.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -12100,7 +12100,7 @@
                 ]
               },
               {
-                "uuid": "790aea13-325f-4ecc-9be2-8697a3f43e94",
+                "uuid": "87c5eca1-49cf-4fb8-8bc0-49e9dedf71a2",
                 "control-id": "pcidss_4_ocp4_5-3.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -12113,7 +12113,7 @@
                 ]
               },
               {
-                "uuid": "aae49541-c147-4a64-be41-56cf19395b49",
+                "uuid": "26ae5811-d65a-4a06-b3e2-c53e1e03cb23",
                 "control-id": "pcidss_4_ocp4_5-3.2.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -12126,7 +12126,7 @@
                 ]
               },
               {
-                "uuid": "9e2af063-44f4-4fcf-89a0-ee5dc271bfff",
+                "uuid": "e84d9ed2-e53e-46d5-afa7-a18c1543840f",
                 "control-id": "pcidss_4_ocp4_5-3.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -12139,7 +12139,7 @@
                 ]
               },
               {
-                "uuid": "86311ebe-5423-4d7e-bcf2-595745e8658c",
+                "uuid": "99012112-5ee6-4f3b-a246-a9b5a380c300",
                 "control-id": "pcidss_4_ocp4_5-3.4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -12152,7 +12152,7 @@
                 ]
               },
               {
-                "uuid": "4e208a52-23a4-4c0f-a0a2-d4abce83db59",
+                "uuid": "264625c7-e4be-45db-af97-164121c59f8a",
                 "control-id": "pcidss_4_ocp4_5-3.5",
                 "description": "REPLACE_ME",
                 "props": [
@@ -12165,7 +12165,7 @@
                 ]
               },
               {
-                "uuid": "3b3959a1-9beb-4f8c-8e60-1f584829a47f",
+                "uuid": "cd2b40c3-4f0c-4851-aec7-4e842aff25ec",
                 "control-id": "pcidss_4_ocp4_5-4.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -12178,7 +12178,7 @@
                 ]
               },
               {
-                "uuid": "c0ec06f6-9734-4653-a49b-cc165376de1c",
+                "uuid": "9b1e99b6-2739-407d-b6a3-1b2b4a4b5f6d",
                 "control-id": "pcidss_4_ocp4_6-1.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -12191,7 +12191,7 @@
                 ]
               },
               {
-                "uuid": "58fab047-7e66-41f2-ad20-9dac9be3c060",
+                "uuid": "5c880172-8b63-4103-adc5-ca26209062da",
                 "control-id": "pcidss_4_ocp4_6-1.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -12204,7 +12204,7 @@
                 ]
               },
               {
-                "uuid": "00b26e5d-ed0e-44df-8c67-77cefccecdd2",
+                "uuid": "39de85df-3c01-4c28-9cf4-b75bc5f1c06c",
                 "control-id": "pcidss_4_ocp4_6-2.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -12217,7 +12217,7 @@
                 ]
               },
               {
-                "uuid": "60a92a65-02ba-44ee-9432-9ebdacec7a22",
+                "uuid": "5dfa0d3c-6579-456c-816e-02f0c95ddbc8",
                 "control-id": "pcidss_4_ocp4_6-2.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -12230,7 +12230,7 @@
                 ]
               },
               {
-                "uuid": "0bfa27ee-fc88-4f77-8f17-75256ecf59ef",
+                "uuid": "5ecb164c-50f0-442d-8894-8582914d8bc8",
                 "control-id": "pcidss_4_ocp4_6-2.3.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -12243,7 +12243,7 @@
                 ]
               },
               {
-                "uuid": "9b7e6ae6-9a56-4f70-aee5-2793330e1c98",
+                "uuid": "9a008b1d-b49a-4931-8ac7-5524999df437",
                 "control-id": "pcidss_4_ocp4_6-2.4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -12256,7 +12256,7 @@
                 ]
               },
               {
-                "uuid": "ddfaf978-0e06-4181-af02-906641b5680a",
+                "uuid": "597e6799-aacc-4d44-a48c-5a04f0294a07",
                 "control-id": "pcidss_4_ocp4_6-3.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -12269,7 +12269,7 @@
                 ]
               },
               {
-                "uuid": "29dd4f2b-2f58-4886-92f0-2ca7e45d2509",
+                "uuid": "039c48c4-31c2-4795-a21e-57fd267ce5bb",
                 "control-id": "pcidss_4_ocp4_6-3.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -12282,7 +12282,7 @@
                 ]
               },
               {
-                "uuid": "6e366c02-08c0-44e6-a37c-9aa97a3d3ce4",
+                "uuid": "0de56c40-170b-44a5-aebb-1afb55251db5",
                 "control-id": "pcidss_4_ocp4_6-3.3",
                 "description": "The OpenShift Container Platform provides the capability of updating\nboth the Kubernetes/OCP layer, as well as the Operating System (Red Hat\nCoreOS) layer in an ubiquitous manner with over-the-air updates using\nthe OpenShift Update Service (OSUS) [1]. This service can also be installed\nin clusters without internet connectivity [2].\n\n[1] https://access.redhat.com/documentation/en-us/openshift_container_platform/4.15/html/updating_clusters/understanding-openshift-updates-1#update-service-about_understanding-openshift-updates\n[2] https://access.redhat.com/documentation/en-us/openshift_container_platform/4.15/html/updating_clusters/performing-a-cluster-update#updating-restricted-network-cluster-OSUS",
                 "props": [
@@ -12294,7 +12294,7 @@
                 ]
               },
               {
-                "uuid": "0a254de2-18d8-42ae-862e-3b62dd16fdfc",
+                "uuid": "c5e68028-dfb6-461b-9afa-334e9018b1c4",
                 "control-id": "pcidss_4_ocp4_6-4.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -12307,7 +12307,7 @@
                 ]
               },
               {
-                "uuid": "f2a03271-9534-4f7d-ad5b-87ac1c8a9510",
+                "uuid": "da3312c1-6f91-4ba6-85c9-7c42490e0fb7",
                 "control-id": "pcidss_4_ocp4_6-4.2",
                 "description": "Support for Web Application Firewall in OCP is still in development:\nhttps://www.redhat.com/en/blog/creating-web-application-firewall-red-hat-openshift\n\nWhile Container Security Operator (CSO) is not focused on protecting web-applications it\ncan scan installed workflows and applications for known vulnerabilities.\nhttps://access.redhat.com/documentation/en-us/red_hat_quay/3/html/red_hat_quay_operator_features/container-security-operator-setup\n\nSecurity Profiles Operators can also be used to contain an attack when an application\nis compromised.\nhttps://docs.openshift.com/container-platform/latest/security/security_profiles_operator/spo-overview.html",
                 "props": [
@@ -12329,7 +12329,7 @@
                 ]
               },
               {
-                "uuid": "63018efc-f841-43fb-b8d7-f499ed43542b",
+                "uuid": "4165cb77-adc3-4953-b16f-439d4d8f236a",
                 "control-id": "pcidss_4_ocp4_6-4.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -12342,7 +12342,7 @@
                 ]
               },
               {
-                "uuid": "920441e3-642c-4964-a614-1c0532101367",
+                "uuid": "27737437-38be-4ad5-8425-2b5ef7a54646",
                 "control-id": "pcidss_4_ocp4_6-5.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -12355,7 +12355,7 @@
                 ]
               },
               {
-                "uuid": "8605e6b5-70cb-4521-8a99-53fffccc4f12",
+                "uuid": "7f1ef063-12d6-416c-86ae-ad295ade957d",
                 "control-id": "pcidss_4_ocp4_6-5.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -12368,7 +12368,7 @@
                 ]
               },
               {
-                "uuid": "2dbecc4c-e73b-40e1-9679-654b55635545",
+                "uuid": "5710fe36-5f55-41bd-bfdd-3f871a3cae6e",
                 "control-id": "pcidss_4_ocp4_6-5.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -12381,7 +12381,7 @@
                 ]
               },
               {
-                "uuid": "d029ab10-9a4f-4e34-a63b-1ef9d36ba730",
+                "uuid": "818dc77f-dc82-4863-9b4d-6bd814bcc957",
                 "control-id": "pcidss_4_ocp4_6-5.4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -12394,7 +12394,7 @@
                 ]
               },
               {
-                "uuid": "72a87d6d-46b6-4586-ad8a-42f957baf425",
+                "uuid": "5d85d4c5-a04b-4f99-ad70-cbb7753e65f7",
                 "control-id": "pcidss_4_ocp4_6-5.5",
                 "description": "REPLACE_ME",
                 "props": [
@@ -12407,7 +12407,7 @@
                 ]
               },
               {
-                "uuid": "f9aebaae-450f-4218-a309-d9de14fb0749",
+                "uuid": "3ca679a4-d6ef-444a-bae9-a59d05401d21",
                 "control-id": "pcidss_4_ocp4_6-5.6",
                 "description": "REPLACE_ME",
                 "props": [
@@ -12420,7 +12420,7 @@
                 ]
               },
               {
-                "uuid": "10c805a7-2a31-4c51-acb2-428af0ab556a",
+                "uuid": "f79c4155-035c-4d6f-a51e-63803f2c5ac5",
                 "control-id": "pcidss_4_ocp4_7-1.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -12433,7 +12433,7 @@
                 ]
               },
               {
-                "uuid": "2110289b-5fe0-415a-886e-d9619d8fd326",
+                "uuid": "36e3ad65-abe9-4ccc-96cf-6c0206455f86",
                 "control-id": "pcidss_4_ocp4_7-1.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -12446,7 +12446,7 @@
                 ]
               },
               {
-                "uuid": "d7599a1d-c935-4caf-9960-325f9d51bac1",
+                "uuid": "a2f7eea3-67d5-413d-af2b-e8a97541be32",
                 "control-id": "pcidss_4_ocp4_7-2.1",
                 "description": "The OpenShift Container Platform comes with the Kubernetes RBAC\nfeature enabled by default. This feature ensures that only if a\nuser or a system account has the appropriate permission, it's able\nto operate on specific system objects. By reviewing the existing\nRole and ClusterRole objects, one is able to see the resources\nthat are accessible for a certain role, as well as the \"verbs\" or\noperations that the role can execute on that resource.",
                 "props": [
@@ -12468,7 +12468,7 @@
                 ]
               },
               {
-                "uuid": "19978e92-280d-4355-bc6b-be725eee1154",
+                "uuid": "cc33e93d-7a49-485f-91d0-2c3cb1cb7e1e",
                 "control-id": "pcidss_4_ocp4_7-2.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -12481,7 +12481,7 @@
                 ]
               },
               {
-                "uuid": "deab7a98-0b44-49c9-80de-50160b929b0b",
+                "uuid": "3230858c-0154-43b2-a6f0-759fd5832a8a",
                 "control-id": "pcidss_4_ocp4_7-2.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -12494,7 +12494,7 @@
                 ]
               },
               {
-                "uuid": "a813f3d6-912d-4770-a899-f4b5631fc3f9",
+                "uuid": "532c71c9-b389-4bf4-a0c7-875e7086315f",
                 "control-id": "pcidss_4_ocp4_7-2.4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -12507,7 +12507,7 @@
                 ]
               },
               {
-                "uuid": "03683520-68e6-40f8-8f27-d398828008bf",
+                "uuid": "f7aecbcd-fdc8-451c-bb56-c6f65e67fea7",
                 "control-id": "pcidss_4_ocp4_7-2.5.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -12520,7 +12520,7 @@
                 ]
               },
               {
-                "uuid": "8f7cb865-3e81-44cb-9dfb-30b62b77927b",
+                "uuid": "08cebb34-cb36-49a9-b678-6c79b6940670",
                 "control-id": "pcidss_4_ocp4_7-2.6",
                 "description": "REPLACE_ME",
                 "props": [
@@ -12533,7 +12533,7 @@
                 ]
               },
               {
-                "uuid": "86407e4c-49f7-4075-9a37-8afeafeaa8c7",
+                "uuid": "f80fb208-f296-4f2c-a3dd-e15a05000136",
                 "control-id": "pcidss_4_ocp4_7-3.1",
                 "description": "The OpenShift Container Platform has RBAC enabled by default. With this\nfeature, any requests to the API is denied unless an explicit\nRole or ClusterRule is bound to the entity making the request.\n\nAll objects in Kubernetes/OpenShift are bound to RBAC permissions.",
                 "props": [
@@ -12545,7 +12545,7 @@
                 ]
               },
               {
-                "uuid": "369b0776-fa41-40f9-a30a-e2ce5d2bd93f",
+                "uuid": "23525b62-2f19-4ae2-86c4-5e865bc91022",
                 "control-id": "pcidss_4_ocp4_7-3.2",
                 "description": "The OpenShift Container Platform has RBAC enabled by default,\nand it is enforced at all times.\nThere is no permissive mode for Openshift RBAC.",
                 "props": [
@@ -12557,7 +12557,7 @@
                 ]
               },
               {
-                "uuid": "3a9ef604-a2d4-4780-a448-7230ba9edb5b",
+                "uuid": "6b78aeb8-abb0-410a-af4f-610f81809d41",
                 "control-id": "pcidss_4_ocp4_7-3.3",
                 "description": "The OpenShift Container Platform has RBAC enabled by default. With this\nfeature, any requests to the API is denied unless an explicit\nRole or ClusterRule is bound to the entity making the request.",
                 "props": [
@@ -12569,7 +12569,7 @@
                 ]
               },
               {
-                "uuid": "087e0c98-fedf-4278-8d25-c86bc101a170",
+                "uuid": "939a68ff-eff1-4d8e-8ba6-dc2d060b1743",
                 "control-id": "pcidss_4_ocp4_8-1.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -12582,7 +12582,7 @@
                 ]
               },
               {
-                "uuid": "46302b8c-5c76-4ece-949f-d505fed05066",
+                "uuid": "eeedc314-1d76-4984-917e-5631fc1cde88",
                 "control-id": "pcidss_4_ocp4_8-1.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -12595,7 +12595,7 @@
                 ]
               },
               {
-                "uuid": "3fba4e5d-e617-467c-9fe6-486230b96f5b",
+                "uuid": "b204324f-657f-49dd-bfb8-6c4503f2bed4",
                 "control-id": "pcidss_4_ocp4_8-2.1",
                 "description": "Openshift should be configured to work with an external third-party identity provider.\nThrough the chosen identity provider, unique identifiers can be setup for each user.\nSee more at https://docs.openshift.com/container-platform/latest/authentication/understanding-identity-provider.html\n\nHowever, the payment entity's processes and responsible personal still need to be examined\nto check whether each user is uniquely associated with an individual.",
                 "props": [
@@ -12612,7 +12612,7 @@
                 ]
               },
               {
-                "uuid": "50ad77d9-cfb2-49c2-b111-22272870133f",
+                "uuid": "7157dda3-4b06-4c20-a553-97bdae99dcf4",
                 "control-id": "pcidss_4_ocp4_8-2.2",
                 "description": "Access tokens that are issued by OpenShift upon authentication should only be used by the\nperson for whom it was issued.",
                 "props": [
@@ -12629,7 +12629,7 @@
                 ]
               },
               {
-                "uuid": "db88ce7a-c638-4e8e-91a0-b7c58dc4c1c1",
+                "uuid": "cfb5eadf-e502-4bc2-832c-3c6c9ee8eac1",
                 "control-id": "pcidss_4_ocp4_8-2.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -12642,7 +12642,7 @@
                 ]
               },
               {
-                "uuid": "fdd7e31d-4c52-43da-a7ca-f216d3e2aa41",
+                "uuid": "63adbc85-0ce8-4e4a-9c48-8be5f8459790",
                 "control-id": "pcidss_4_ocp4_8-2.4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -12655,7 +12655,7 @@
                 ]
               },
               {
-                "uuid": "721f5e92-4367-4be4-bd4b-02d3f51645e7",
+                "uuid": "72b33541-5f3b-496c-9f9d-0ec548c2a11d",
                 "control-id": "pcidss_4_ocp4_8-2.5",
                 "description": "REPLACE_ME",
                 "props": [
@@ -12668,7 +12668,7 @@
                 ]
               },
               {
-                "uuid": "64f948cc-2817-4b97-a506-82562db724db",
+                "uuid": "de84fbf3-a316-4343-bced-b9391fe920e6",
                 "control-id": "pcidss_4_ocp4_8-2.6",
                 "description": "REPLACE_ME",
                 "props": [
@@ -12681,7 +12681,7 @@
                 ]
               },
               {
-                "uuid": "77944f06-7c8e-48bd-9268-a9e5dc552865",
+                "uuid": "e9988853-d1a1-4bf4-af70-74b15ed73362",
                 "control-id": "pcidss_4_ocp4_8-2.7",
                 "description": "REPLACE_ME",
                 "props": [
@@ -12694,7 +12694,7 @@
                 ]
               },
               {
-                "uuid": "8f175619-944d-4c01-8944-2f04efde81cd",
+                "uuid": "f2d459b6-e192-4b04-9af6-86f02df38e98",
                 "control-id": "pcidss_4_ocp4_8-2.8",
                 "description": "Session timeouts can be enabled with OpenShift to limit the amount of\ntime that a session can be active. However, the payment entity also needs to control the\nuser's and administrator's idle session timeouts on their payment applications as well.",
                 "props": [
@@ -12711,7 +12711,7 @@
                 ]
               },
               {
-                "uuid": "c6eb7ee0-d85f-4341-a943-0edac4d1e54e",
+                "uuid": "2eeef2f8-6305-4e60-973a-f83f8de65c21",
                 "control-id": "pcidss_4_ocp4_8-3.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -12724,7 +12724,7 @@
                 ]
               },
               {
-                "uuid": "acc67dbc-0a09-40a7-ad60-cc95b04c5ba0",
+                "uuid": "6e66308a-5bf8-4be0-99ba-484d8595c90c",
                 "control-id": "pcidss_4_ocp4_8-3.2",
                 "description": "The protection of the authentication credentials such as rendering the passwords and\npassphrases unreadable during transmission and the storage of credentials on system\ncomponents is the responsibility of the third-party identity provider.\n\nIf LDAP is used as the identity provider, we do not allow it to run with the\n'insecure' flag on.",
                 "props": [
@@ -12741,7 +12741,7 @@
                 ]
               },
               {
-                "uuid": "ce6d1f9e-6e43-41bf-aeb2-0911944e1ace",
+                "uuid": "30c1f2d5-b354-442d-b7e3-9b9c6df7f8a3",
                 "control-id": "pcidss_4_ocp4_8-3.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -12754,7 +12754,7 @@
                 ]
               },
               {
-                "uuid": "912b8754-e590-4aa2-9b28-f51fb3475897",
+                "uuid": "67d7663a-e131-4df5-9498-584ba729f821",
                 "control-id": "pcidss_4_ocp4_8-3.4",
                 "description": "Account lockout for failed attempts are managed by the identity provider as all\nauthentication attempts that occur prior to granting access from OpenShift.\nEstablishing a threshold for limiting repeated failed attempts are configured with\nthe chosen identity provider.\n\nIn this control we do not allow usage of htpasswd as the identity provider, as it\ndoesn't provide user lockout feature.",
                 "props": [
@@ -12771,7 +12771,7 @@
                 ]
               },
               {
-                "uuid": "da0f6f29-7e33-49a6-9a93-2ae2ec00bb7d",
+                "uuid": "80065352-a54a-4564-9001-948d13109392",
                 "control-id": "pcidss_4_ocp4_8-3.5",
                 "description": "REPLACE_ME",
                 "props": [
@@ -12784,7 +12784,7 @@
                 ]
               },
               {
-                "uuid": "b67d8615-413d-44b4-a993-79aef9bd090a",
+                "uuid": "2dde8b6f-0748-4cb2-af77-4f1589aeff73",
                 "control-id": "pcidss_4_ocp4_8-3.6",
                 "description": "REPLACE_ME",
                 "props": [
@@ -12797,7 +12797,7 @@
                 ]
               },
               {
-                "uuid": "8f3a1191-5e97-4b93-8cfa-328a81b536d2",
+                "uuid": "6b91ee35-f2c0-402e-a38b-559d5f7d931f",
                 "control-id": "pcidss_4_ocp4_8-3.7",
                 "description": "REPLACE_ME",
                 "props": [
@@ -12810,7 +12810,7 @@
                 ]
               },
               {
-                "uuid": "06c7e6c4-769a-4271-bbb8-2903df9028bc",
+                "uuid": "548ca87e-f3da-4ed2-a2fa-46f766a44e2d",
                 "control-id": "pcidss_4_ocp4_8-3.8",
                 "description": "REPLACE_ME",
                 "props": [
@@ -12823,7 +12823,7 @@
                 ]
               },
               {
-                "uuid": "0d4481f2-9b37-4349-9c9f-a8e9fd71d44d",
+                "uuid": "263a9a8d-36d2-4dfd-9d18-b3205c96ac1e",
                 "control-id": "pcidss_4_ocp4_8-3.9",
                 "description": "REPLACE_ME",
                 "props": [
@@ -12836,7 +12836,7 @@
                 ]
               },
               {
-                "uuid": "0248b620-bac1-46f8-9615-499f02c8bfac",
+                "uuid": "0f6af6ca-44e3-4f1b-8b42-2fc8c9b53c1a",
                 "control-id": "pcidss_4_ocp4_8-3.10.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -12849,7 +12849,7 @@
                 ]
               },
               {
-                "uuid": "fc2c57bb-302e-4585-9f04-75c12bfbde77",
+                "uuid": "fa9d5f4a-a1ce-49a4-a509-d942250694fb",
                 "control-id": "pcidss_4_ocp4_8-3.11",
                 "description": "REPLACE_ME",
                 "props": [
@@ -12862,7 +12862,7 @@
                 ]
               },
               {
-                "uuid": "d009da46-eb00-4469-b0a5-cd0cbc0a733f",
+                "uuid": "a400a32e-b550-4260-9987-d0f0195c1b6c",
                 "control-id": "pcidss_4_ocp4_8-4.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -12875,7 +12875,7 @@
                 ]
               },
               {
-                "uuid": "b58dd0ef-a324-48c5-a2d5-f716e68103d9",
+                "uuid": "3b193da4-6591-4977-99ce-c2d6b5f0ebe4",
                 "control-id": "pcidss_4_ocp4_8-4.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -12888,7 +12888,7 @@
                 ]
               },
               {
-                "uuid": "50e53f35-7a6b-4af3-af9d-f28aaed02468",
+                "uuid": "427cc169-6f8b-4b2e-93fd-7e6e4d5016e3",
                 "control-id": "pcidss_4_ocp4_8-4.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -12901,7 +12901,7 @@
                 ]
               },
               {
-                "uuid": "2b012403-bcba-410b-b14c-63d2d3d48e72",
+                "uuid": "8af64a75-a7c1-427e-9d6b-184835da7281",
                 "control-id": "pcidss_4_ocp4_8-5.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -12914,7 +12914,7 @@
                 ]
               },
               {
-                "uuid": "0a16aeaf-4425-4163-9496-f0db31b30af6",
+                "uuid": "376f785d-d254-44bd-9fa6-57f87988cc29",
                 "control-id": "pcidss_4_ocp4_8-6.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -12927,7 +12927,7 @@
                 ]
               },
               {
-                "uuid": "f2c7016d-9691-4cfe-af0d-08d595e77942",
+                "uuid": "5ebbef9d-a992-412d-b681-39c0b9568642",
                 "control-id": "pcidss_4_ocp4_8-6.2",
                 "description": "OpenShift can be integrated with a Vault to manage secrets.",
                 "props": [
@@ -12939,7 +12939,7 @@
                 ]
               },
               {
-                "uuid": "7aba347d-cfd4-464a-82a2-4b52ac7ec925",
+                "uuid": "f3b078e3-2b85-4437-8eac-b0834dffa20f",
                 "control-id": "pcidss_4_ocp4_8-6.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -12952,7 +12952,7 @@
                 ]
               },
               {
-                "uuid": "1d8ab368-9cbe-4f81-afaa-15d0d96bdaba",
+                "uuid": "ce0dd578-f525-428f-9e7e-748e6a2ddb10",
                 "control-id": "pcidss_4_ocp4_9-1.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -12965,7 +12965,7 @@
                 ]
               },
               {
-                "uuid": "07aa4521-3738-4e4a-9bc1-fc64eaa45c53",
+                "uuid": "c91464cd-5c74-4740-8177-861cbcfdb68c",
                 "control-id": "pcidss_4_ocp4_9-1.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -12978,7 +12978,7 @@
                 ]
               },
               {
-                "uuid": "39d61e7c-2709-4864-a1be-9e0f867f989e",
+                "uuid": "6cc95f3b-b55a-4ac4-8f21-3c8b50024363",
                 "control-id": "pcidss_4_ocp4_9-2.1.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -12991,7 +12991,7 @@
                 ]
               },
               {
-                "uuid": "a2168b24-b5c1-4361-8a08-e425715fad52",
+                "uuid": "13c112be-1793-4742-8a68-e2dc9f5765c2",
                 "control-id": "pcidss_4_ocp4_9-2.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -13004,7 +13004,7 @@
                 ]
               },
               {
-                "uuid": "b2a03fcc-aea2-4abf-a6d5-4ce061b5d873",
+                "uuid": "995b87de-cdd0-4e8c-80c9-5257467deb1e",
                 "control-id": "pcidss_4_ocp4_9-2.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -13017,7 +13017,7 @@
                 ]
               },
               {
-                "uuid": "af620b62-8165-4b60-858a-9a20245d66ed",
+                "uuid": "6d5e367c-63c9-4463-9e27-889b28c81009",
                 "control-id": "pcidss_4_ocp4_9-2.4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -13030,7 +13030,7 @@
                 ]
               },
               {
-                "uuid": "a42d1a4e-dcf9-4e27-aef0-e56ed8005711",
+                "uuid": "2f05e1a0-dc3f-4fc1-9aa2-4686ba97743e",
                 "control-id": "pcidss_4_ocp4_9-3.1.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -13043,7 +13043,7 @@
                 ]
               },
               {
-                "uuid": "619f9421-96c6-4f45-865e-b894061e7d1f",
+                "uuid": "0bc52d54-90d1-4507-8eb7-c40f7b4f016b",
                 "control-id": "pcidss_4_ocp4_9-3.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -13056,7 +13056,7 @@
                 ]
               },
               {
-                "uuid": "4da5ed02-5944-447d-b4e3-4b6968e58697",
+                "uuid": "77a2011d-f43a-438d-b5ae-fb4bbabf1f2c",
                 "control-id": "pcidss_4_ocp4_9-3.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -13069,7 +13069,7 @@
                 ]
               },
               {
-                "uuid": "eb53bdcb-638e-404c-a136-6c6abd55daec",
+                "uuid": "706fdf71-9e38-4942-b02c-cc0beae2422f",
                 "control-id": "pcidss_4_ocp4_9-3.4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -13082,7 +13082,7 @@
                 ]
               },
               {
-                "uuid": "460bff8a-e3e5-4418-a959-25b2c923d0c6",
+                "uuid": "e84a959d-ca91-433e-856a-0b6afcc18096",
                 "control-id": "pcidss_4_ocp4_9-4.1.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -13095,7 +13095,7 @@
                 ]
               },
               {
-                "uuid": "ec6cc310-d781-4f4f-b7c2-6dd2f3eae014",
+                "uuid": "424f586f-084a-497e-b642-7c11d37af8b1",
                 "control-id": "pcidss_4_ocp4_9-4.1.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -13108,7 +13108,7 @@
                 ]
               },
               {
-                "uuid": "8b615462-3231-4ffb-ac99-d48c9c35e0f3",
+                "uuid": "cff05dd9-01da-49db-8aa5-bd23c7ebb7dc",
                 "control-id": "pcidss_4_ocp4_9-4.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -13121,7 +13121,7 @@
                 ]
               },
               {
-                "uuid": "72f0fb70-2966-44db-a185-924c12004852",
+                "uuid": "bb1a691d-6b2a-4c72-a6e0-dbc3a8d43240",
                 "control-id": "pcidss_4_ocp4_9-4.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -13134,7 +13134,7 @@
                 ]
               },
               {
-                "uuid": "1641b852-4ba9-421a-a8c6-bd6c2d0f6647",
+                "uuid": "ec75324e-1e7f-40e1-8191-31aac50ca9d7",
                 "control-id": "pcidss_4_ocp4_9-4.4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -13147,7 +13147,7 @@
                 ]
               },
               {
-                "uuid": "e659ee85-d8f1-49da-b5a0-4ab26e932f9e",
+                "uuid": "060c95d2-58cb-4f1f-83f4-dc0847e0ff5a",
                 "control-id": "pcidss_4_ocp4_9-4.5.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -13160,7 +13160,7 @@
                 ]
               },
               {
-                "uuid": "cf6fb14e-8cd8-4970-84b3-5ad82e4d5985",
+                "uuid": "66f38a35-2b41-4d3f-bd2a-f265af52fb32",
                 "control-id": "pcidss_4_ocp4_9-4.6",
                 "description": "REPLACE_ME",
                 "props": [
@@ -13173,7 +13173,7 @@
                 ]
               },
               {
-                "uuid": "38e2ea73-6917-4dd9-affd-e4d83f321c6f",
+                "uuid": "4d8bb722-a4f3-4270-bce4-2fab640d3161",
                 "control-id": "pcidss_4_ocp4_9-4.7",
                 "description": "REPLACE_ME",
                 "props": [
@@ -13186,7 +13186,7 @@
                 ]
               },
               {
-                "uuid": "318ec548-232b-4926-9ca4-8005a4f91a37",
+                "uuid": "d9c756ae-bcca-422c-9b98-853bcafea74a",
                 "control-id": "pcidss_4_ocp4_9-5.1.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -13199,7 +13199,7 @@
                 ]
               },
               {
-                "uuid": "19b8b7d0-8a0d-42cf-9fbf-446d593a8d55",
+                "uuid": "00e6b9c7-04e7-45d7-844b-d40d428f3db3",
                 "control-id": "pcidss_4_ocp4_9-5.1.2.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -13212,7 +13212,7 @@
                 ]
               },
               {
-                "uuid": "42d1b376-0f22-4266-8b0a-fd58faab0219",
+                "uuid": "e9cb7cdd-f35c-4d65-bcdf-952bd36cb1fa",
                 "control-id": "pcidss_4_ocp4_9-5.1.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -13225,7 +13225,7 @@
                 ]
               },
               {
-                "uuid": "78226bd8-581a-4a7a-b1a5-004ed97b6fb8",
+                "uuid": "131955b8-af4d-48dc-abd7-700de69425a1",
                 "control-id": "pcidss_4_ocp4_10-1.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -13238,7 +13238,7 @@
                 ]
               },
               {
-                "uuid": "c202bbaf-6c0e-465c-95fd-7c3809e2d032",
+                "uuid": "ff7152b5-ce04-4782-8b34-34e21832ebe5",
                 "control-id": "pcidss_4_ocp4_10-1.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -13251,7 +13251,7 @@
                 ]
               },
               {
-                "uuid": "75e19505-c104-4fd3-8c21-3314e4871297",
+                "uuid": "afd13dbc-723f-4fd2-bad5-9a17410bb297",
                 "control-id": "pcidss_4_ocp4_10-2.1.1",
                 "description": "All user and/or service account accesses to OpenShift components are logged. However, the payment entity still is responsible for logging events for access to applications within workloads hosted in containers in OpenShift.",
                 "props": [
@@ -13263,7 +13263,7 @@
                 ]
               },
               {
-                "uuid": "c54957fa-a7da-47c4-ad53-357c49a246d8",
+                "uuid": "cab204c9-ec74-4f9a-8e72-8c0dbf11c603",
                 "control-id": "pcidss_4_ocp4_10-2.1.2",
                 "description": "All actions taken by individual with root or administrative privileges to OpenShift and Red Hat CoreOS are logged. However, the payment entity still is responsible for logging events for access to applications within workloads hosted in containers in OpenShift.",
                 "props": [
@@ -13275,7 +13275,7 @@
                 ]
               },
               {
-                "uuid": "610de448-e3af-445e-9cdf-25a637906313",
+                "uuid": "57bdf5dd-5992-4b38-b73d-a5b47ac42674",
                 "control-id": "pcidss_4_ocp4_10-2.1.3",
                 "description": "Access to audit trails relative to OpenShift are made available at the OS level with administrator accounts. Red Hat CoreOS can be configured to log access to the journal or log file. For better protection of audit trails, including improved access controls, it is recommended to direct logs to an external log server or Security Information Event Management (SIEM) solution.",
                 "props": [
@@ -13292,7 +13292,7 @@
                 ]
               },
               {
-                "uuid": "2ab0fee6-ab95-4884-86e5-f86b8b9a42fb",
+                "uuid": "37911d38-0550-4e5b-ab4d-ba29dd4843e8",
                 "control-id": "pcidss_4_ocp4_10-2.1.4",
                 "description": "Unauthorized attempts to access system components or run unauthorized commands against\nOpenShift are logged.",
                 "props": [
@@ -13304,7 +13304,7 @@
                 ]
               },
               {
-                "uuid": "88302c7e-9f87-4311-b58a-d7116323395c",
+                "uuid": "237dacec-4b22-4cf2-a303-e316a64f44db",
                 "control-id": "pcidss_4_ocp4_10-2.1.5",
                 "description": "REPLACE_ME",
                 "props": [
@@ -13316,7 +13316,7 @@
                 ]
               },
               {
-                "uuid": "e13235f3-0593-4bba-8d12-30b316801a6b",
+                "uuid": "8d0f0292-a9a6-4c45-94e7-a28a64001f9c",
                 "control-id": "pcidss_4_ocp4_10-2.1.6",
                 "description": "Stopping the mechanisms for log creation in OpenShift requires stopping the OpenShift\nControl Plane itself, which would have the effect of preventing any further access for\nany users to the API, CLI, or Web UI.\nAuditing within OpenShift cannot be reconfigured or stopped without reconfiguring\nOpenShift.\nAny attempt to reconfigure OpenShift will be logged.",
                 "props": [
@@ -13328,7 +13328,7 @@
                 ]
               },
               {
-                "uuid": "b761dcd5-8776-49b3-8a29-2450c185da0d",
+                "uuid": "c1838ba5-fb30-4644-9a49-1be343e782cf",
                 "control-id": "pcidss_4_ocp4_10-2.1.7",
                 "description": "Creation and deletion of system levels objects is logged by OpenShift and by Red Hat CoreOS.",
                 "props": [
@@ -13340,7 +13340,7 @@
                 ]
               },
               {
-                "uuid": "c2bc7df0-6ae4-4722-96e8-f2f18142413a",
+                "uuid": "9d75ace6-d115-4aa3-835f-c08792960626",
                 "control-id": "pcidss_4_ocp4_10-2.2",
                 "description": "The logs generated by OpenShift and Red Hat CoreOS include all the data required.",
                 "props": [
@@ -13357,7 +13357,7 @@
                 ]
               },
               {
-                "uuid": "b027847c-2635-4298-b053-30e1b7ef10ab",
+                "uuid": "4459e7ab-fa67-4fa0-8649-45029e70a38c",
                 "control-id": "pcidss_4_ocp4_10-3.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -13375,7 +13375,7 @@
                 ]
               },
               {
-                "uuid": "2edba00b-814c-41d7-ae1a-4ecd42f0510a",
+                "uuid": "83bd5119-bc62-497c-aa04-5cd34fd853c3",
                 "control-id": "pcidss_4_ocp4_10-3.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -13448,7 +13448,7 @@
                 ]
               },
               {
-                "uuid": "493bfa65-eaf0-4739-af4a-39dcef5bc5fa",
+                "uuid": "7fa8e4cc-ca87-4c45-b50d-6000a9a7a255",
                 "control-id": "pcidss_4_ocp4_10-3.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -13461,7 +13461,7 @@
                 ]
               },
               {
-                "uuid": "422af711-4cc7-4b6d-ae9c-6ea33351c877",
+                "uuid": "1ed9985e-6abe-428e-955f-dc4c5f2bb74d",
                 "control-id": "pcidss_4_ocp4_10-3.4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -13478,7 +13478,7 @@
                 ]
               },
               {
-                "uuid": "7789c97a-4a2b-4e65-9995-42315f607306",
+                "uuid": "fb2acc83-92bc-4747-9013-23172db1a18a",
                 "control-id": "pcidss_4_ocp4_10-4.1.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -13491,7 +13491,7 @@
                 ]
               },
               {
-                "uuid": "9ac5b072-6739-4cc7-b92f-b89bec1a86fc",
+                "uuid": "730630d7-aa04-4669-9338-ca4ee4575efe",
                 "control-id": "pcidss_4_ocp4_10-4.2.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -13504,7 +13504,7 @@
                 ]
               },
               {
-                "uuid": "2d48813f-bf59-4b5c-9cda-c06bc59a8557",
+                "uuid": "0a65fd07-f7b2-46fd-b7bc-8b3983ebe1f9",
                 "control-id": "pcidss_4_ocp4_10-4.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -13517,7 +13517,7 @@
                 ]
               },
               {
-                "uuid": "d92aae3e-be62-464d-87d3-5ead2a6027ab",
+                "uuid": "58b40b7f-2a83-45ba-9500-6fd7077c2c36",
                 "control-id": "pcidss_4_ocp4_10-5.1",
                 "description": "Log retention in OpenShift is not time based, the default configuration rotates 10 log\nfiles of 100 MB each, allowing up to 1GB of retention.\n\nTo implement time based audit log retention configure log forwarding to a third party\nstorage, for example Elasticsearch or LokiStack.",
                 "props": [
@@ -13529,7 +13529,7 @@
                 ]
               },
               {
-                "uuid": "00036ac1-3d98-4ff0-97a1-7fcf16eb5665",
+                "uuid": "d818ad8a-d46f-43ee-ba82-9548e7811db8",
                 "control-id": "pcidss_4_ocp4_10-6.1",
                 "description": "By default OpenShift uses a public Network Time Protocol (NTP) server.\nHowever, additional configuration is needed to use a local enterprise NTP server,\nor in disconnected environments.",
                 "props": [
@@ -13541,7 +13541,7 @@
                 ]
               },
               {
-                "uuid": "f03134f6-65a2-476a-8d9d-747964e49b31",
+                "uuid": "739289b8-17c3-4dcf-adaa-5d9bfe9b735c",
                 "control-id": "pcidss_4_ocp4_10-6.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -13554,7 +13554,7 @@
                 ]
               },
               {
-                "uuid": "36e17807-14d8-49ab-b17c-bd9bbfdd3100",
+                "uuid": "f03cdda2-2bf8-448c-93b7-87b63a53c4cf",
                 "control-id": "pcidss_4_ocp4_10-6.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -13567,7 +13567,7 @@
                 ]
               },
               {
-                "uuid": "328ba8e4-6a5d-40f1-9c05-c5cf8c845b67",
+                "uuid": "f360afe3-5cb2-4d58-bb4d-82dc6377284c",
                 "control-id": "pcidss_4_ocp4_10-7.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -13580,7 +13580,7 @@
                 ]
               },
               {
-                "uuid": "de271ba9-5ffc-4e9f-9c3d-20fb68cc2073",
+                "uuid": "c2e66822-93aa-4a87-a576-fd77213adad6",
                 "control-id": "pcidss_4_ocp4_10-7.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -13602,7 +13602,7 @@
                 ]
               },
               {
-                "uuid": "f4f8246a-e8f8-4d68-bd4a-d36edb8de74b",
+                "uuid": "083d59e0-ac04-43c8-8e5f-0d045d513d1b",
                 "control-id": "pcidss_4_ocp4_10-7.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -13615,7 +13615,7 @@
                 ]
               },
               {
-                "uuid": "2a5b9ec8-7693-4332-a0f2-8df9fee1ca14",
+                "uuid": "b9e41ce4-ea77-4801-9519-671dbbff15d0",
                 "control-id": "pcidss_4_ocp4_11-1.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -13628,7 +13628,7 @@
                 ]
               },
               {
-                "uuid": "1ea0efc9-8925-4488-b249-ebb223de5cfe",
+                "uuid": "f947cfca-2960-4ed6-a055-87fe505da4fe",
                 "control-id": "pcidss_4_ocp4_11-1.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -13641,7 +13641,7 @@
                 ]
               },
               {
-                "uuid": "857268b9-b325-4572-a297-5d9273adcaa4",
+                "uuid": "e843168d-7e31-46e6-879e-452fdd78070c",
                 "control-id": "pcidss_4_ocp4_11-2.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -13654,7 +13654,7 @@
                 ]
               },
               {
-                "uuid": "4aef46ec-44d4-42d1-b892-2fa1be7dc22b",
+                "uuid": "06597323-1e8f-4600-9624-6dba232ffbd4",
                 "control-id": "pcidss_4_ocp4_11-2.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -13667,7 +13667,7 @@
                 ]
               },
               {
-                "uuid": "092ae041-049f-43a3-a818-7114089a1c2f",
+                "uuid": "38658e87-861c-4ed8-83a6-c89a53804f5f",
                 "control-id": "pcidss_4_ocp4_11-3.1.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -13680,7 +13680,7 @@
                 ]
               },
               {
-                "uuid": "c7030157-c137-478c-8f63-c6b071d066cc",
+                "uuid": "33fee745-5e96-4613-9f12-b0c4b9012145",
                 "control-id": "pcidss_4_ocp4_11-3.1.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -13693,7 +13693,7 @@
                 ]
               },
               {
-                "uuid": "82e7d3fb-fcf3-4400-8902-453368bfa5ed",
+                "uuid": "e02117a7-4a8e-42d0-bac4-23c061e5ccfe",
                 "control-id": "pcidss_4_ocp4_11-3.1.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -13706,7 +13706,7 @@
                 ]
               },
               {
-                "uuid": "6401b659-5807-4cd5-bc84-f6e732310ad9",
+                "uuid": "4d4335d9-7cb7-45aa-974b-966d8047afec",
                 "control-id": "pcidss_4_ocp4_11-3.2.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -13719,7 +13719,7 @@
                 ]
               },
               {
-                "uuid": "566f3492-e3df-4e0f-9e56-da73d88d4108",
+                "uuid": "c4fa0e20-591e-4a9a-ab7d-66c72ae1bcf0",
                 "control-id": "pcidss_4_ocp4_11-4.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -13732,7 +13732,7 @@
                 ]
               },
               {
-                "uuid": "dde56da5-af9b-4798-ac37-f489c582bc19",
+                "uuid": "f4128cb7-6d1c-4ba2-b853-af8f586a9220",
                 "control-id": "pcidss_4_ocp4_11-4.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -13745,7 +13745,7 @@
                 ]
               },
               {
-                "uuid": "21a3ec21-5d20-4ed8-9af7-a1944639a931",
+                "uuid": "deb4ee59-f2a2-4d5b-b095-ed548a0f86c1",
                 "control-id": "pcidss_4_ocp4_11-4.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -13758,7 +13758,7 @@
                 ]
               },
               {
-                "uuid": "d432b948-fc82-47b6-9db5-40a474e52b75",
+                "uuid": "775959ae-7066-4acc-ae97-6489ee632c27",
                 "control-id": "pcidss_4_ocp4_11-4.4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -13771,7 +13771,7 @@
                 ]
               },
               {
-                "uuid": "3a5af660-cac7-4f61-a3ca-844d3b8d0b43",
+                "uuid": "0b1bcaa1-bb27-43dd-8a91-8a80c8a40e1d",
                 "control-id": "pcidss_4_ocp4_11-4.5",
                 "description": "REPLACE_ME",
                 "props": [
@@ -13784,7 +13784,7 @@
                 ]
               },
               {
-                "uuid": "6b05be87-e078-4bf0-b626-94cad5a83829",
+                "uuid": "9e28716f-6f2b-4ce7-90a7-7a464138d3d2",
                 "control-id": "pcidss_4_ocp4_11-4.6",
                 "description": "REPLACE_ME",
                 "props": [
@@ -13797,7 +13797,7 @@
                 ]
               },
               {
-                "uuid": "6c6802f2-7cc0-4402-ba89-1f141716ef33",
+                "uuid": "daca108b-11bd-4d94-bbcd-eb18cdd16092",
                 "control-id": "pcidss_4_ocp4_11-4.7",
                 "description": "REPLACE_ME",
                 "props": [
@@ -13810,7 +13810,7 @@
                 ]
               },
               {
-                "uuid": "2696d4c2-e34c-4325-ba61-47b81070f39d",
+                "uuid": "b5619368-992a-44ff-8ab2-4d305335a4b0",
                 "control-id": "pcidss_4_ocp4_11-5.1.1",
                 "description": "The policy is not explicit about any specific solution. The solution might vary\ndepending on site policies.",
                 "props": [
@@ -13827,7 +13827,7 @@
                 ]
               },
               {
-                "uuid": "f3edd6a3-b921-4ca7-986b-4352a22c62ed",
+                "uuid": "5db3a818-4647-4c88-80a1-e96250720665",
                 "control-id": "pcidss_4_ocp4_11-5.2",
                 "description": "Once configured the File Integrity Operator (FIO) can detect unexpected changes in the node\nfilesystem.",
                 "props": [
@@ -13849,7 +13849,7 @@
                 ]
               },
               {
-                "uuid": "9184a3f0-4b07-4f48-a707-8abf14468b72",
+                "uuid": "3d9f6e1d-b7c0-4a12-81b1-1efc88ec930f",
                 "control-id": "pcidss_4_ocp4_11-6.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -13862,7 +13862,7 @@
                 ]
               },
               {
-                "uuid": "403e603b-da9f-42a7-8c9f-d99a062c7d38",
+                "uuid": "8e24670c-4d28-4ca3-960a-72b8665d760b",
                 "control-id": "pcidss_4_ocp4_12-1.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -13875,7 +13875,7 @@
                 ]
               },
               {
-                "uuid": "1598d866-112e-49ab-821b-4e0a73f71245",
+                "uuid": "db7b0fb4-6754-4f09-a460-3d9dd44c0a2f",
                 "control-id": "pcidss_4_ocp4_12-1.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -13888,7 +13888,7 @@
                 ]
               },
               {
-                "uuid": "c7ed9c0a-259d-4ab3-8921-5b6719c0fc70",
+                "uuid": "161782e8-ff08-449b-b0a3-8ed6c9979862",
                 "control-id": "pcidss_4_ocp4_12-1.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -13901,7 +13901,7 @@
                 ]
               },
               {
-                "uuid": "1f3df252-26c3-4fd4-9b96-4cecf50898db",
+                "uuid": "8e50ba18-0b0b-4c0a-b68a-f8da57af8183",
                 "control-id": "pcidss_4_ocp4_12-1.4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -13914,7 +13914,7 @@
                 ]
               },
               {
-                "uuid": "739fbc29-9fd9-4a59-bb05-b6d678223668",
+                "uuid": "ddf6d737-2a06-4160-9921-b86fd6eb5c2c",
                 "control-id": "pcidss_4_ocp4_12-2.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -13927,7 +13927,7 @@
                 ]
               },
               {
-                "uuid": "c0895449-9f00-40ea-b734-f23fa56ada9b",
+                "uuid": "f2e0f82b-b88c-4749-8617-ed831543e42a",
                 "control-id": "pcidss_4_ocp4_12-3.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -13940,7 +13940,7 @@
                 ]
               },
               {
-                "uuid": "638634f7-5b35-4e2b-8090-567ba3934a78",
+                "uuid": "eb16af79-537b-46c3-98af-14222fc0422e",
                 "control-id": "pcidss_4_ocp4_12-3.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -13953,7 +13953,7 @@
                 ]
               },
               {
-                "uuid": "783a2da7-6caa-4673-a26d-ac9ec8af94d1",
+                "uuid": "384f152e-0f61-4873-99ad-486cfdb97f8e",
                 "control-id": "pcidss_4_ocp4_12-3.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -13966,7 +13966,7 @@
                 ]
               },
               {
-                "uuid": "b493bb53-ed26-4072-ab4d-c73f95ef6e85",
+                "uuid": "8d42e704-ea27-4971-a075-e3e748ba7e68",
                 "control-id": "pcidss_4_ocp4_12-3.4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -13979,7 +13979,7 @@
                 ]
               },
               {
-                "uuid": "6e15d675-b3a0-42d5-9455-6c3d927f3fc4",
+                "uuid": "abfb8c61-ccc1-41e5-9d5f-bbd6bc7c32f0",
                 "control-id": "pcidss_4_ocp4_12-4.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -13992,7 +13992,7 @@
                 ]
               },
               {
-                "uuid": "c3febc08-734c-4d7e-9d7c-ca05450a68b8",
+                "uuid": "fa5f8888-53c7-4b69-a478-a79fcd2fbf50",
                 "control-id": "pcidss_4_ocp4_12-4.2.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -14005,7 +14005,7 @@
                 ]
               },
               {
-                "uuid": "d1cc4181-5b57-4883-838e-6ea97418379d",
+                "uuid": "e313cca0-99f5-495f-8c96-904dd71253ac",
                 "control-id": "pcidss_4_ocp4_12-5.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -14018,7 +14018,7 @@
                 ]
               },
               {
-                "uuid": "b595bb2c-c153-4468-8c33-32f91ccb2f92",
+                "uuid": "138b065e-3b30-4973-87a2-b59d5cfe9594",
                 "control-id": "pcidss_4_ocp4_12-5.2.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -14031,7 +14031,7 @@
                 ]
               },
               {
-                "uuid": "49581f8d-5853-4cb5-aec4-c81a6245ccbd",
+                "uuid": "8e69f97b-3f33-4201-aa65-8ecbe28fc617",
                 "control-id": "pcidss_4_ocp4_12-5.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -14044,7 +14044,7 @@
                 ]
               },
               {
-                "uuid": "bebd01ac-966f-4e68-b527-b43c5e88857b",
+                "uuid": "de1e1171-32a5-4e98-b3a4-ee2e31553961",
                 "control-id": "pcidss_4_ocp4_12-6.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -14057,7 +14057,7 @@
                 ]
               },
               {
-                "uuid": "e17d82a7-6c8a-432c-a8a9-f9fb4b43b2e1",
+                "uuid": "1c08df82-2941-4929-bb0c-cdf799251e97",
                 "control-id": "pcidss_4_ocp4_12-6.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -14070,7 +14070,7 @@
                 ]
               },
               {
-                "uuid": "bca2090d-572d-4042-86a4-868e57f5c517",
+                "uuid": "94f02173-46fa-44e4-843a-92f7ed4b5d31",
                 "control-id": "pcidss_4_ocp4_12-6.3.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -14083,7 +14083,7 @@
                 ]
               },
               {
-                "uuid": "fe7994b3-21ac-4475-8d65-96274a73dd83",
+                "uuid": "c8073244-6307-4cdc-94ce-19c7918a9e4d",
                 "control-id": "pcidss_4_ocp4_12-6.3.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -14096,7 +14096,7 @@
                 ]
               },
               {
-                "uuid": "335f192e-df12-4a76-828f-869370124f16",
+                "uuid": "489baed0-47b4-4318-97ea-6a41b64dad2d",
                 "control-id": "pcidss_4_ocp4_12-7.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -14109,7 +14109,7 @@
                 ]
               },
               {
-                "uuid": "62489973-e079-494e-bcaa-192116ea7719",
+                "uuid": "802e0665-5f3a-4004-9719-975d0660d2d8",
                 "control-id": "pcidss_4_ocp4_12-8.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -14122,7 +14122,7 @@
                 ]
               },
               {
-                "uuid": "0cd134d4-57af-4da9-b437-9b20bf738bb8",
+                "uuid": "680a32dc-b8e2-4f26-b7eb-e06efe646255",
                 "control-id": "pcidss_4_ocp4_12-8.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -14135,7 +14135,7 @@
                 ]
               },
               {
-                "uuid": "1e6bba39-693d-41aa-acf0-7c4ddf010072",
+                "uuid": "f45628ca-8fe9-4374-a6e1-aadaaa976a57",
                 "control-id": "pcidss_4_ocp4_12-8.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -14148,7 +14148,7 @@
                 ]
               },
               {
-                "uuid": "55afae5c-6bbb-4925-b218-748e0f059859",
+                "uuid": "74ae4f12-0d6a-4f13-a6e0-8b1c0d5d2b40",
                 "control-id": "pcidss_4_ocp4_12-8.4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -14161,7 +14161,7 @@
                 ]
               },
               {
-                "uuid": "0de95ef8-935d-4b9f-88c3-2c82bd903180",
+                "uuid": "99fde76f-585b-4123-a9f3-55abb3562ebb",
                 "control-id": "pcidss_4_ocp4_12-8.5",
                 "description": "REPLACE_ME",
                 "props": [
@@ -14174,7 +14174,7 @@
                 ]
               },
               {
-                "uuid": "72c5c91f-2e60-46c4-8a3a-27ff40191ab8",
+                "uuid": "29e95bbe-6ec8-4c40-9d31-5c93280ed8db",
                 "control-id": "pcidss_4_ocp4_12-9.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -14187,7 +14187,7 @@
                 ]
               },
               {
-                "uuid": "087e2654-999d-41dc-95be-25da58fa5c94",
+                "uuid": "b8331ac7-b007-423a-b790-66a415a3df61",
                 "control-id": "pcidss_4_ocp4_12-9.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -14200,7 +14200,7 @@
                 ]
               },
               {
-                "uuid": "69f2e233-b921-437d-9f6b-60c8ed9cf027",
+                "uuid": "404be9ea-e8ac-4450-b540-a396f4ab170c",
                 "control-id": "pcidss_4_ocp4_12-10.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -14213,7 +14213,7 @@
                 ]
               },
               {
-                "uuid": "047d9502-81dd-4037-bdcb-57a77f03216a",
+                "uuid": "fe19f915-23ec-4e39-a3dc-05dd72f73f03",
                 "control-id": "pcidss_4_ocp4_12-10.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -14226,7 +14226,7 @@
                 ]
               },
               {
-                "uuid": "088b3998-0070-446c-84d0-62663f06989a",
+                "uuid": "7dcb03dd-6f6c-4940-b3cf-ff9a6c4ef167",
                 "control-id": "pcidss_4_ocp4_12-10.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -14239,7 +14239,7 @@
                 ]
               },
               {
-                "uuid": "783b1803-ff54-45b4-9fc1-b40d30abeb5d",
+                "uuid": "96709bba-b681-4527-8fa3-e5a91adde60f",
                 "control-id": "pcidss_4_ocp4_12-10.4.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -14252,7 +14252,7 @@
                 ]
               },
               {
-                "uuid": "18a610ed-3844-4ed4-afc1-63ce981d845a",
+                "uuid": "4e35b9f4-23a1-4359-b2b1-b0dce181db90",
                 "control-id": "pcidss_4_ocp4_12-10.5",
                 "description": "REPLACE_ME",
                 "props": [
@@ -14265,7 +14265,7 @@
                 ]
               },
               {
-                "uuid": "9fd338aa-6f46-4c4a-87e6-9507c6b51f9f",
+                "uuid": "61311fd7-2a9b-447d-a682-06cd19378974",
                 "control-id": "pcidss_4_ocp4_12-10.6",
                 "description": "REPLACE_ME",
                 "props": [
@@ -14278,7 +14278,7 @@
                 ]
               },
               {
-                "uuid": "801b278d-ed5b-414e-9a3e-e5991c01da12",
+                "uuid": "1bbad6b1-a8ed-4bd5-84d7-96be4909a2d6",
                 "control-id": "pcidss_4_ocp4_12-10.7",
                 "description": "REPLACE_ME",
                 "props": [
@@ -14291,7 +14291,7 @@
                 ]
               },
               {
-                "uuid": "4e7e0acd-f491-46d5-b6c1-06109cc72eca",
+                "uuid": "58a9ab3d-c7be-4e33-a693-7462afbce7d8",
                 "control-id": "a1-1.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -14304,7 +14304,7 @@
                 ]
               },
               {
-                "uuid": "e1cebac5-380b-46e2-9894-7760a92cd7ca",
+                "uuid": "dde411ec-c2fe-407f-8be0-16a2e1d865fc",
                 "control-id": "a1-1.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -14317,7 +14317,7 @@
                 ]
               },
               {
-                "uuid": "c1803584-c4d1-4f97-946f-66d318e1284d",
+                "uuid": "9a0d40b5-a59c-453a-890a-e5bdcf3d6601",
                 "control-id": "a1-1.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -14330,7 +14330,7 @@
                 ]
               },
               {
-                "uuid": "4d47e577-4e3d-4290-98eb-75f9c61181dc",
+                "uuid": "fb333812-06f3-464b-979e-0fbd38d8a83d",
                 "control-id": "a1-1.4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -14343,7 +14343,7 @@
                 ]
               },
               {
-                "uuid": "edefa96e-2ff8-4040-b7e0-93bbfccb3f59",
+                "uuid": "50190870-4b9f-4301-b0ea-464121eaad81",
                 "control-id": "a1-2.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -14356,7 +14356,7 @@
                 ]
               },
               {
-                "uuid": "b4ca04dd-8417-4221-a0c0-1bb23c1bb0e4",
+                "uuid": "af02ee47-3e9b-45e0-946e-e57fd44fcff9",
                 "control-id": "a1-2.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -14369,7 +14369,7 @@
                 ]
               },
               {
-                "uuid": "3ffa8eef-cf7d-42ef-8f58-a7244d130793",
+                "uuid": "87fbf94a-8699-42ba-8b6b-e9d3e6e52320",
                 "control-id": "a1-2.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -14382,7 +14382,7 @@
                 ]
               },
               {
-                "uuid": "1091d88c-2816-4c4c-9d43-85b42a76b8d5",
+                "uuid": "27d02b04-2e91-4f0c-beeb-26b99edf0bd1",
                 "control-id": "a2-1.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -14395,7 +14395,7 @@
                 ]
               },
               {
-                "uuid": "ae4f9025-ccba-4d05-b3cb-522320bd18b4",
+                "uuid": "bbd662c6-5212-4b31-a73d-f2ce83a1d2dd",
                 "control-id": "a2-1.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -14408,7 +14408,7 @@
                 ]
               },
               {
-                "uuid": "cc53fd75-b338-4d6e-bde0-940832ddeff5",
+                "uuid": "6bb3ac82-aabc-46ce-8551-8e2fa333df63",
                 "control-id": "a2-1.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -14421,7 +14421,7 @@
                 ]
               },
               {
-                "uuid": "e9409a69-13b0-4c70-9292-db7ac328f56b",
+                "uuid": "8a6eb0f7-1904-4858-9f2f-7197d67fc7c2",
                 "control-id": "a3-1.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -14434,7 +14434,7 @@
                 ]
               },
               {
-                "uuid": "4224a67b-8464-4766-a431-046762cb3587",
+                "uuid": "a96e6560-d4bc-4c4c-960b-ea28e7ff5c0d",
                 "control-id": "a3-1.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -14447,7 +14447,7 @@
                 ]
               },
               {
-                "uuid": "0e9dd88e-760a-4f4f-b6ea-d41173f90faa",
+                "uuid": "8e35caf6-6c66-445d-9627-e0d56d168cf9",
                 "control-id": "a3-1.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -14460,7 +14460,7 @@
                 ]
               },
               {
-                "uuid": "7f47b932-c6f3-4aa5-853e-0670efb00d43",
+                "uuid": "c9f2f86d-3e11-4ec1-94a5-907c415958e6",
                 "control-id": "a3-1.4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -14473,7 +14473,7 @@
                 ]
               },
               {
-                "uuid": "87fb3b6f-1a59-4c2d-88f7-4e756f6c662b",
+                "uuid": "2f21805a-f7ca-4112-a700-6cce8de21c8b",
                 "control-id": "a3-2.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -14486,7 +14486,7 @@
                 ]
               },
               {
-                "uuid": "f0e5d534-7b66-49b5-b30a-ab6ce68f302c",
+                "uuid": "a0a02f60-1c50-4d72-b58d-984493f74efa",
                 "control-id": "a3-2.2.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -14499,7 +14499,7 @@
                 ]
               },
               {
-                "uuid": "7913b70e-f9f1-40f5-a856-dbe7b55ee6a3",
+                "uuid": "7b894618-0ccc-4ba7-b124-7407a73ef2a0",
                 "control-id": "a3-2.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -14512,7 +14512,7 @@
                 ]
               },
               {
-                "uuid": "c0b6e086-2b7a-46e6-ac22-58d8dfe58c0b",
+                "uuid": "c8d8a2c9-c5cb-4917-a360-594b3b1b68e3",
                 "control-id": "a3-2.4",
                 "description": "REPLACE_ME",
                 "props": [
@@ -14525,7 +14525,7 @@
                 ]
               },
               {
-                "uuid": "1f731121-4726-4315-8150-e19a01e4c174",
+                "uuid": "33f22d64-053d-4deb-a9ad-e54168339412",
                 "control-id": "a3-2.5.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -14538,7 +14538,7 @@
                 ]
               },
               {
-                "uuid": "857a6bdf-10f3-4287-82c0-a8e72d3f39b0",
+                "uuid": "228fac4b-096e-46e8-a78f-7a2eaf75c5e4",
                 "control-id": "a3-2.5.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -14551,7 +14551,7 @@
                 ]
               },
               {
-                "uuid": "7f852e5e-1c93-4f05-85d6-883f1773a44a",
+                "uuid": "fae0cee5-42a9-4be9-885a-9b11e3cfa620",
                 "control-id": "a3-2.6.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -14564,7 +14564,7 @@
                 ]
               },
               {
-                "uuid": "b955fa14-7242-42a9-ab6e-94b71cd18283",
+                "uuid": "719f39d3-9a15-4720-a574-a0df44629a6f",
                 "control-id": "a3-3.1.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -14577,7 +14577,7 @@
                 ]
               },
               {
-                "uuid": "ab04411d-1c57-4cbd-b922-d09bc0ec1aa9",
+                "uuid": "700c5e43-90d1-4843-8494-84b4e1fcddc5",
                 "control-id": "a3-3.2",
                 "description": "REPLACE_ME",
                 "props": [
@@ -14590,7 +14590,7 @@
                 ]
               },
               {
-                "uuid": "aaa2bc00-af46-435a-883a-f37cf7d9966e",
+                "uuid": "92c81e16-f78b-466c-a1b3-7586eb2f59dd",
                 "control-id": "a3-3.3",
                 "description": "REPLACE_ME",
                 "props": [
@@ -14603,7 +14603,7 @@
                 ]
               },
               {
-                "uuid": "db5016f7-c321-470e-938d-38e7b6e4bc30",
+                "uuid": "bed7600a-04fd-4d00-b54d-78397937cf3e",
                 "control-id": "a3-4.1",
                 "description": "REPLACE_ME",
                 "props": [
@@ -14616,7 +14616,7 @@
                 ]
               },
               {
-                "uuid": "17c2dd9a-a367-47e9-b6ac-0d2d72b82e29",
+                "uuid": "2940ebab-b2ce-4326-a320-023116ce4a1d",
                 "control-id": "a3-5.1",
                 "description": "REPLACE_ME",
                 "props": [
