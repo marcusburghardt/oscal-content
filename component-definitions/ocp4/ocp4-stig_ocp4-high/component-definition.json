@@ -3,8 +3,8 @@
     "uuid": "665ab49d-fd64-42d9-80c2-ff66695d6fa5",
     "metadata": {
       "title": "Component definition for ocp4",
-      "last-modified": "2025-08-14T11:25:30.502765+08:00",
-      "version": "4.5",
+      "last-modified": "2025-09-02T16:54:49.940146+00:00",
+      "version": "4.6",
       "oscal-version": "1.1.3"
     },
     "components": [
@@ -8225,7 +8225,7 @@
         ],
         "control-implementations": [
           {
-            "uuid": "91363205-5dfc-4e4d-b1cf-48f701d6b2e0",
+            "uuid": "23cd71a1-d3e8-4e5b-9190-efbc26a7fb02",
             "source": "trestle://profiles/ocp4-stig_ocp4-high/profile.json",
             "description": "REPLACE_ME",
             "props": [
@@ -8251,7 +8251,7 @@
             ],
             "implemented-requirements": [
               {
-                "uuid": "25e8e772-fa7e-4db3-9498-541f31de3581",
+                "uuid": "1b077065-3f69-484e-b0db-abeaf8e5d429",
                 "control-id": "cntr-os.000090",
                 "description": "REPLACE_ME",
                 "props": [
@@ -8268,7 +8268,7 @@
                 ]
               },
               {
-                "uuid": "58011769-d92e-42fd-aa17-dfb9325ff56f",
+                "uuid": "0cb4c958-bfd5-4e64-9c55-0cb278b2732a",
                 "control-id": "cntr-os.000170",
                 "description": "REPLACE_ME",
                 "props": [
@@ -8300,7 +8300,7 @@
                 ]
               },
               {
-                "uuid": "8f695405-421f-4d33-9e78-09e1a3fe650c",
+                "uuid": "ce07fada-fbf4-4eca-ba31-4e666ad4cd06",
                 "control-id": "cntr-os.000400",
                 "description": "REPLACE_ME",
                 "props": [
@@ -8322,7 +8322,7 @@
                 ]
               },
               {
-                "uuid": "e1325b65-2f72-4ad8-9341-d7ac08880964",
+                "uuid": "667efc35-e3c5-4bc8-bf75-9d55fbd97b48",
                 "control-id": "cntr-os.000460",
                 "description": "REPLACE_ME",
                 "props": [
@@ -8335,7 +8335,7 @@
                 ]
               },
               {
-                "uuid": "6ee4264c-90d4-4656-84f3-7f90bc7fb2b4",
+                "uuid": "ae617ff4-d245-4eaf-81ba-497d802bc023",
                 "control-id": "cntr-os.000510",
                 "description": "REPLACE_ME",
                 "props": [
@@ -8357,7 +8357,7 @@
                 ]
               },
               {
-                "uuid": "c19535cc-133b-4ea8-8d38-8d1e89a3049f",
+                "uuid": "2a74aa45-6194-4767-8898-38d0db2e004a",
                 "control-id": "cntr-os.000660",
                 "description": "REPLACE_ME",
                 "props": [
@@ -8404,7 +8404,7 @@
                 ]
               },
               {
-                "uuid": "33826635-db85-4669-96e1-92cd3b164b90",
+                "uuid": "2139c71c-9045-4268-9057-8507540a18fa",
                 "control-id": "cntr-os.001010",
                 "description": "REPLACE_ME",
                 "props": [
@@ -18718,7 +18718,7 @@
         ],
         "control-implementations": [
           {
-            "uuid": "1a81001d-0e5c-4c9d-8833-5408fa111725",
+            "uuid": "47b2ab65-dca6-49be-83be-0b7ad0fb18f8",
             "source": "trestle://profiles/ocp4-stig_ocp4-high/profile.json",
             "description": "REPLACE_ME",
             "props": [
@@ -18744,7 +18744,7 @@
             ],
             "implemented-requirements": [
               {
-                "uuid": "b0bb420b-9d3b-495b-a769-d71333c7149f",
+                "uuid": "ef64b4a8-d83f-4c82-9ef3-a7b6c8861eb1",
                 "control-id": "cntr-os.000090",
                 "description": "REPLACE_ME",
                 "props": [
@@ -18761,7 +18761,7 @@
                 ]
               },
               {
-                "uuid": "bee7fb30-15e4-411d-b11f-27789ad92d62",
+                "uuid": "ff07f065-9035-4630-8fca-3af706b7fa7d",
                 "control-id": "cntr-os.000170",
                 "description": "REPLACE_ME",
                 "props": [
@@ -18793,7 +18793,7 @@
                 ]
               },
               {
-                "uuid": "6d379663-0617-49a1-b24f-36dd89b172f7",
+                "uuid": "99d2f780-40e5-4858-8ba4-176a9a0ff48d",
                 "control-id": "cntr-os.000400",
                 "description": "REPLACE_ME",
                 "props": [
@@ -18815,7 +18815,7 @@
                 ]
               },
               {
-                "uuid": "fc8be528-1f53-40c5-a52f-62002a337305",
+                "uuid": "a9a04389-75cd-4726-b9d3-e31faab338aa",
                 "control-id": "cntr-os.000460",
                 "description": "REPLACE_ME",
                 "props": [
@@ -18828,7 +18828,7 @@
                 ]
               },
               {
-                "uuid": "52a16ba7-94ad-4a56-92d6-18049f1aa5cb",
+                "uuid": "b206370f-8b71-4f4c-828e-87d2107f16af",
                 "control-id": "cntr-os.000510",
                 "description": "REPLACE_ME",
                 "props": [
@@ -18850,7 +18850,7 @@
                 ]
               },
               {
-                "uuid": "5a353b21-f76a-45e0-8fa3-4facd00b7313",
+                "uuid": "b0a4f3cb-45f5-40bf-b494-62db71eb5683",
                 "control-id": "cntr-os.000660",
                 "description": "REPLACE_ME",
                 "props": [
@@ -18897,7 +18897,7 @@
                 ]
               },
               {
-                "uuid": "eac74125-981d-4e19-8f8b-fb1912f9079a",
+                "uuid": "16185fac-ce3d-42ec-bb0f-edbd3d99c887",
                 "control-id": "cntr-os.001010",
                 "description": "REPLACE_ME",
                 "props": [
